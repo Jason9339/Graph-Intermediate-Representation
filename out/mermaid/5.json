@@ -1,0 +1,459 @@
+{
+  "graph": {
+    "title": "MermaidDiagramPipeline_horizontal_1-58",
+    "directed": true,
+    "orientation": "LR",
+    "layout": "hierarchical",
+    "metadata": {
+      "source_id": "MermaidDiagramPipeline_horizontal_1-58",
+      "parser": "mermaid",
+      "original_code": "flowchart LR\n    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px,font-family:Arial,font-size:14px\n    classDef processNode fill:#e1f3d8,stroke:#82c366,stroke-width:2px\n    \n    A[Supplier Identification]:::processNode\n    B[Supplier Evaluation]:::processNode\n    C[Contract Negotiation]:::processNode\n    D[Material Procurement]:::processNode\n    E[Quality Assurance]:::processNode\n    F[Feedback and Improvement]:::processNode\n\n    A -->|Evaluate| B\n    B -->|Negotiate| C\n    C -->|Procure| D\n    D -->|Verify| E\n    E -->|Improve| F\n    F -.->|Continuous Improvement| A\n\n    subgraph Supplier Identification\n        A1[Research eco-friendly suppliers]\n        A2[Check certifications]\n        A3[Evaluate compliance]\n    end\n\n    subgraph Supplier Evaluation\n        B1[Assess sustainability policies]\n        B2[Conduct audits]\n        B3[Review performance]\n    end\n\n    subgraph Contract Negotiation\n        C1[Include sustainability clauses]\n        C2[Agree on waste reduction]\n        C3[Set carbon footprint targets]\n    end\n\n    subgraph Material Procurement\n        D1[Order from approved suppliers]\n        D2[Track supply chain]\n        D3[Use eco-friendly transport]\n    end\n\n    subgraph Quality Assurance\n        E1[Conduct quality inspections]\n        E2[Test for sustainability]\n        E3[Ensure eco-friendly packaging]\n    end\n\n    subgraph Feedback and Improvement\n        F1[Gather production feedback]\n        F2[Hold supplier reviews]\n        F3[Implement improvements]\n    end\n\n    linkStyle default stroke:#2ecc71,stroke-width:2px",
+      "diagram_type": "flowchart",
+      "class_defs": [
+        "classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px,font-family:Arial,font-size:14px",
+        "classDef processNode fill:#e1f3d8,stroke:#82c366,stroke-width:2px"
+      ],
+      "link_styles": [
+        "linkStyle default stroke:#2ecc71,stroke-width:2px"
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "id": "A",
+      "label": "Supplier Identification",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "classes": [
+          "processNode"
+        ]
+      }
+    },
+    {
+      "id": "B",
+      "label": "Supplier Evaluation",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "classes": [
+          "processNode"
+        ]
+      }
+    },
+    {
+      "id": "C",
+      "label": "Contract Negotiation",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "classes": [
+          "processNode"
+        ]
+      }
+    },
+    {
+      "id": "D",
+      "label": "Material Procurement",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "classes": [
+          "processNode"
+        ]
+      }
+    },
+    {
+      "id": "E",
+      "label": "Quality Assurance",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "classes": [
+          "processNode"
+        ]
+      }
+    },
+    {
+      "id": "F",
+      "label": "Feedback and Improvement",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "classes": [
+          "processNode"
+        ]
+      }
+    },
+    {
+      "id": "A1",
+      "label": "Research eco-friendly suppliers",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "A2",
+      "label": "Check certifications",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "A3",
+      "label": "Evaluate compliance",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "B1",
+      "label": "Assess sustainability policies",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "B2",
+      "label": "Conduct audits",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "B3",
+      "label": "Review performance",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "C1",
+      "label": "Include sustainability clauses",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "C2",
+      "label": "Agree on waste reduction",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "C3",
+      "label": "Set carbon footprint targets",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "D1",
+      "label": "Order from approved suppliers",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "D2",
+      "label": "Track supply chain",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "D3",
+      "label": "Use eco-friendly transport",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "E1",
+      "label": "Conduct quality inspections",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "E2",
+      "label": "Test for sustainability",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "E3",
+      "label": "Ensure eco-friendly packaging",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "F1",
+      "label": "Gather production feedback",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "F2",
+      "label": "Hold supplier reviews",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "F3",
+      "label": "Implement improvements",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "A",
+      "target": "B",
+      "directed": true,
+      "label": "Evaluate",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "B",
+      "target": "C",
+      "directed": true,
+      "label": "Negotiate",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "C",
+      "target": "D",
+      "directed": true,
+      "label": "Procure",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "D",
+      "target": "E",
+      "directed": true,
+      "label": "Verify",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "E",
+      "target": "F",
+      "directed": true,
+      "label": "Improve",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "F",
+      "target": "A",
+      "directed": true,
+      "label": "Continuous Improvement",
+      "style": "dashed",
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    }
+  ],
+  "groups": [
+    {
+      "id": "supplier_identification",
+      "label": "Supplier Identification",
+      "nodes": [
+        "A1",
+        "A2",
+        "A3"
+      ],
+      "groups": [],
+      "style": null,
+      "color": null,
+      "metadata": {}
+    },
+    {
+      "id": "supplier_evaluation",
+      "label": "Supplier Evaluation",
+      "nodes": [
+        "B1",
+        "B2",
+        "B3"
+      ],
+      "groups": [],
+      "style": null,
+      "color": null,
+      "metadata": {}
+    },
+    {
+      "id": "contract_negotiation",
+      "label": "Contract Negotiation",
+      "nodes": [
+        "C1",
+        "C2",
+        "C3"
+      ],
+      "groups": [],
+      "style": null,
+      "color": null,
+      "metadata": {}
+    },
+    {
+      "id": "material_procurement",
+      "label": "Material Procurement",
+      "nodes": [
+        "D1",
+        "D2",
+        "D3"
+      ],
+      "groups": [],
+      "style": null,
+      "color": null,
+      "metadata": {}
+    },
+    {
+      "id": "quality_assurance",
+      "label": "Quality Assurance",
+      "nodes": [
+        "E1",
+        "E2",
+        "E3"
+      ],
+      "groups": [],
+      "style": null,
+      "color": null,
+      "metadata": {}
+    },
+    {
+      "id": "feedback_and_improvement",
+      "label": "Feedback and Improvement",
+      "nodes": [
+        "F1",
+        "F2",
+        "F3"
+      ],
+      "groups": [],
+      "style": null,
+      "color": null,
+      "metadata": {}
+    }
+  ]
+}

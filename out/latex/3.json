@@ -1,0 +1,314 @@
+{
+  "graph": {
+    "title": "LaTeXDiagramPipeline_textbook_1-75",
+    "directed": true,
+    "orientation": "LR",
+    "layout": "hierarchical",
+    "metadata": {
+      "source_id": "LaTeXDiagramPipeline_textbook_1-75",
+      "parser": "tikz",
+      "original_code": "\\documentclass[border=10pt]{standalone}\n\\usepackage{tikz}\n\\usetikzlibrary{shapes.geometric, arrows, positioning, calc}\n\n\\begin{document}\n\n\\begin{tikzpicture}[\n    node distance = 2cm and 4cm,\n    box/.style = {\n        rectangle,\n        rounded corners,\n        draw=red!80,\n        fill=red!10,\n        text width=5cm,\n        minimum height=2cm,\n        align=center,\n        font=\\sffamily\\small\n    },\n    arrow/.style = {\n        ->,\n        thick,\n        red!50,\n        >=stealth\n    }\n]\n\n% Nodes\n\\node[box] (onboarding) {Onboarding\\\\\\small\\textit{Introduction to Red Cross Mission and Values}};\n\\node[box, below=of onboarding] (basicFirstAid) {Basic First Aid\\\\\\small\\textit{Basic lifesaving techniques and CPR}};\n\\node[box, below=of basicFirstAid] (volunteerCodeOfConduct) {Volunteer Code of Conduct\\\\\\small\\textit{Understanding roles, responsibilities, and ethical guidelines}};\n\\node[box, below=of volunteerCodeOfConduct] (emergencyResponseTraining) {Emergency Response Training\\\\\\small\\textit{Disaster response and safety procedures}};\n\\node[box, below=of emergencyResponseTraining] (psychologicalFirstAid) {Psychological First Aid\\\\\\small\\textit{Providing emotional support in crises}};\n\n\\node[box, right=of $(onboarding.east)!0.5!(basicFirstAid.east)$] (specializedTraining) {Specialized Training\\\\\\small\\textit{Specific training based on volunteer's role}};\n\\node[box, below=of specializedTraining] (continuingEducation) {Continuing Education\\\\\\small\\textit{Ongoing learning and skill enhancement}};\n\\node[box, below=of continuingEducation] (advancedCertifications) {Advanced Certifications\\\\\\small\\textit{Specialized certifications}};\n\\node[box, below=of advancedCertifications] (leadershipTraining) {Leadership Training\\\\\\small\\textit{Cultivating leadership and team management skills}};\n\\node[box, below=of leadershipTraining] (communityEngagement) {Community Engagement\\\\\\small\\textit{Building relationships and outreach activities}};\n\n% Arrows\n\\draw[arrow] (onboarding) -- (basicFirstAid);\n\\draw[arrow] (basicFirstAid) -- (volunteerCodeOfConduct);\n\\draw[arrow] (volunteerCodeOfConduct) -- (emergencyResponseTraining);\n\\draw[arrow] (emergencyResponseTraining) -- (psychologicalFirstAid);\n\\draw[arrow] (psychologicalFirstAid) -- (specializedTraining);\n\\draw[arrow] (specializedTraining) -- (continuingEducation);\n\\draw[arrow] (continuingEducation) -- (advancedCertifications);\n\\draw[arrow] (advancedCertifications) -- (leadershipTraining);\n\\draw[arrow] (leadershipTraining) -- (communityEngagement);\n\n% Title\n\\node[font=\\Large\\bfseries\\sffamily, text=red!80, above=1cm of onboarding] {Red Cross Volunteer Training Pathway};\n\n\\end{tikzpicture}\n\n\\end{document}",
+      "libraries": [
+        "shapes.geometric",
+        "arrows",
+        "positioning",
+        "calc"
+      ],
+      "preamble": "\\documentclass[border=10pt]{standalone}\n\\usepackage{tikz}\n\\usetikzlibrary{shapes.geometric, arrows, positioning, calc}",
+      "tikz_options": "\n    node distance = 2cm and 4cm,\n    box/.style = {\n        rectangle,\n        rounded corners,\n        draw=red!80,\n        fill=red!10,\n        text width=5cm,\n        minimum height=2cm,\n        align=center,\n        font=\\sffamily\\small\n    },\n    arrow/.style = {\n        ->,\n        thick,\n        red!50,\n        >=stealth\n    }\n",
+      "tikzpicture": "[\n    node distance = 2cm and 4cm,\n    box/.style = {\n        rectangle,\n        rounded corners,\n        draw=red!80,\n        fill=red!10,\n        text width=5cm,\n        minimum height=2cm,\n        align=center,\n        font=\\sffamily\\small\n    },\n    arrow/.style = {\n        ->,\n        thick,\n        red!50,\n        >=stealth\n    }\n]\n\n% Nodes\n\\node[box] (onboarding) {Onboarding\\\\\\small\\textit{Introduction to Red Cross Mission and Values}};\n\\node[box, below=of onboarding] (basicFirstAid) {Basic First Aid\\\\\\small\\textit{Basic lifesaving techniques and CPR}};\n\\node[box, below=of basicFirstAid] (volunteerCodeOfConduct) {Volunteer Code of Conduct\\\\\\small\\textit{Understanding roles, responsibilities, and ethical guidelines}};\n\\node[box, below=of volunteerCodeOfConduct] (emergencyResponseTraining) {Emergency Response Training\\\\\\small\\textit{Disaster response and safety procedures}};\n\\node[box, below=of emergencyResponseTraining] (psychologicalFirstAid) {Psychological First Aid\\\\\\small\\textit{Providing emotional support in crises}};\n\n\\node[box, right=of $(onboarding.east)!0.5!(basicFirstAid.east)$] (specializedTraining) {Specialized Training\\\\\\small\\textit{Specific training based on volunteer's role}};\n\\node[box, below=of specializedTraining] (continuingEducation) {Continuing Education\\\\\\small\\textit{Ongoing learning and skill enhancement}};\n\\node[box, below=of continuingEducation] (advancedCertifications) {Advanced Certifications\\\\\\small\\textit{Specialized certifications}};\n\\node[box, below=of advancedCertifications] (leadershipTraining) {Leadership Training\\\\\\small\\textit{Cultivating leadership and team management skills}};\n\\node[box, below=of leadershipTraining] (communityEngagement) {Community Engagement\\\\\\small\\textit{Building relationships and outreach activities}};\n\n% Arrows\n\\draw[arrow] (onboarding) -- (basicFirstAid);\n\\draw[arrow] (basicFirstAid) -- (volunteerCodeOfConduct);\n\\draw[arrow] (volunteerCodeOfConduct) -- (emergencyResponseTraining);\n\\draw[arrow] (emergencyResponseTraining) -- (psychologicalFirstAid);\n\\draw[arrow] (psychologicalFirstAid) -- (specializedTraining);\n\\draw[arrow] (specializedTraining) -- (continuingEducation);\n\\draw[arrow] (continuingEducation) -- (advancedCertifications);\n\\draw[arrow] (advancedCertifications) -- (leadershipTraining);\n\\draw[arrow] (leadershipTraining) -- (communityEngagement);\n\n% Title\n\\node[font=\\Large\\bfseries\\sffamily, text=red!80, above=1cm of onboarding] {Red Cross Volunteer Training Pathway};"
+    }
+  },
+  "nodes": [
+    {
+      "id": "onboarding",
+      "label": "Onboarding\\\\\\small\\textit{Introduction to Red Cross Mission and Values",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "box"
+        ]
+      }
+    },
+    {
+      "id": "basicFirstAid",
+      "label": "Basic First Aid\\\\\\small\\textit{Basic lifesaving techniques and CPR",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "box"
+        ],
+        "options": {
+          "below": "of onboarding"
+        }
+      }
+    },
+    {
+      "id": "volunteerCodeOfConduct",
+      "label": "Volunteer Code of Conduct\\\\\\small\\textit{Understanding roles, responsibilities, and ethical guidelines",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "box"
+        ],
+        "options": {
+          "below": "of basicFirstAid"
+        }
+      }
+    },
+    {
+      "id": "emergencyResponseTraining",
+      "label": "Emergency Response Training\\\\\\small\\textit{Disaster response and safety procedures",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "box"
+        ],
+        "options": {
+          "below": "of volunteerCodeOfConduct"
+        }
+      }
+    },
+    {
+      "id": "psychologicalFirstAid",
+      "label": "Psychological First Aid\\\\\\small\\textit{Providing emotional support in crises",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "box"
+        ],
+        "options": {
+          "below": "of emergencyResponseTraining"
+        }
+      }
+    },
+    {
+      "id": "onboarding.east",
+      "label": "Specialized Training\\\\\\small\\textit{Specific training based on volunteer's role",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "box"
+        ],
+        "options": {
+          "right": "of $(onboarding.east)!0.5!(basicFirstAid.east)$"
+        }
+      }
+    },
+    {
+      "id": "continuingEducation",
+      "label": "Continuing Education\\\\\\small\\textit{Ongoing learning and skill enhancement",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "box"
+        ],
+        "options": {
+          "below": "of specializedTraining"
+        }
+      }
+    },
+    {
+      "id": "advancedCertifications",
+      "label": "Advanced Certifications\\\\\\small\\textit{Specialized certifications",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "box"
+        ],
+        "options": {
+          "below": "of continuingEducation"
+        }
+      }
+    },
+    {
+      "id": "leadershipTraining",
+      "label": "Leadership Training\\\\\\small\\textit{Cultivating leadership and team management skills",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "box"
+        ],
+        "options": {
+          "below": "of advancedCertifications"
+        }
+      }
+    },
+    {
+      "id": "communityEngagement",
+      "label": "Community Engagement\\\\\\small\\textit{Building relationships and outreach activities",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "box"
+        ],
+        "options": {
+          "below": "of leadershipTraining"
+        }
+      }
+    },
+    {
+      "id": "specializedTraining",
+      "label": "specializedTraining",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "onboarding",
+      "target": "basicFirstAid",
+      "directed": true,
+      "label": "",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "basicFirstAid",
+      "target": "volunteerCodeOfConduct",
+      "directed": true,
+      "label": "",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "volunteerCodeOfConduct",
+      "target": "emergencyResponseTraining",
+      "directed": true,
+      "label": "",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "emergencyResponseTraining",
+      "target": "psychologicalFirstAid",
+      "directed": true,
+      "label": "",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "psychologicalFirstAid",
+      "target": "specializedTraining",
+      "directed": true,
+      "label": "",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "specializedTraining",
+      "target": "continuingEducation",
+      "directed": true,
+      "label": "",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "continuingEducation",
+      "target": "advancedCertifications",
+      "directed": true,
+      "label": "",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "advancedCertifications",
+      "target": "leadershipTraining",
+      "directed": true,
+      "label": "",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "leadershipTraining",
+      "target": "communityEngagement",
+      "directed": true,
+      "label": "",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    }
+  ],
+  "groups": []
+}

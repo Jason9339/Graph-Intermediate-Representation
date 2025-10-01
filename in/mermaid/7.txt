@@ -1,0 +1,35 @@
+flowchart TB
+    classDef default fill:#f9f,stroke:#333,stroke-width:2px
+    classDef ancient fill:#d4af37,stroke:#000,stroke-width:2px
+    classDef classical fill:#87ceeb,stroke:#000,stroke-width:2px
+    classDef modern fill:#98fb98,stroke:#000,stroke-width:2px
+    classDef artist fill:#ffa07a,stroke:#000,stroke-width:2px
+
+    1[Ancient Egyptian Music<br>Religious and ceremonial music]:::ancient
+    2[Coptic Music<br>Christian liturgical music]:::ancient
+    3[Arab Classical Music<br>Influenced by Islamic traditions]:::classical
+    4[Shaabi<br>Popular folk music]:::classical
+    5[Takht Ensemble<br>Traditional instrumental ensemble]:::classical
+    6[Baligh Hamdi<br>Influential composer]:::artist
+    7[Umm Kulthum<br>Legendary singer of the 20th century]:::artist
+    8[Modern Pop<br>Contemporary popular music]:::modern
+    9[Amr Diab<br>Popular modern pop artist]:::artist
+    10[Sherine Abdelwahab<br>Renowned contemporary singer]:::artist
+
+    1 -->|Transition to| 2
+    2 -->|Influence on| 3
+    3 -->|Evolution into| 4
+    3 -->|Development of| 5
+    5 -->|Influenced by| 6
+    3 -->|Root of| 7
+    4 -->|Basis for| 8
+    7 -->|Foundation for| 8
+    8 -->|Pioneered by| 9
+    8 -->|Popularized by| 10
+
+    linkStyle default stroke-width:2px,fill:none,stroke:#ff3e00
+    
+    style 1 font-weight:bold
+    style 3 font-weight:bold
+    style 8 font-weight:bold
+    style 10 font-weight:bold

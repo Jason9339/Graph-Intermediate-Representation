@@ -1,0 +1,33 @@
+import graphviz
+from PIL import Image
+import io
+
+def generate_diagram(data):
+    # Create a new directed graph
+    dot = graphviz.Digraph(comment='Poetic Devices and Emotional Response')
+    dot.attr(rankdir='TB', size='12,8', dpi='300', bgcolor='lightgray')
+    
+    # Define node styles
+    dot.attr('node', shape='rectangle', style='filled', fontname='Arial', fontsize='14')
+    
+    # Add nodes
+    for node in data['nodes']:
+        if node['id'] in ['poetic_devices', 'emotional_response']:
+            dot.node(node['id'], node['label'], fillcolor='lightblue', penwidth='2')
+        elif node['id'] in ['reader_empathy', 'emotional_intensity']:
+            dot.node(node['id'], node['label'], fillcolor='lightsalmon', penwidth='1.5')
+        else:
+            dot.node(node['id'], node['label'], fillcolor='lightgreen', penwidth='1')
+    
+    # Add edges
+    dot.attr('edge', fontname='Arial', fontsize='12', len='1.5')
+    for edge in data['edges']:
+        dot.edge(edge['from'], edge['to'], edge['label'], color='darkgray', penwidth='1.5')
+    
+    # Render the graph to a PNG image
+    png_data = dot.pipe(format='png')
+    
+    # Convert to PIL Image
+    image = Image.open(io.BytesIO(png_data))
+    
+    return image

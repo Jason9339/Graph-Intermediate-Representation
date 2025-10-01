@@ -1,0 +1,203 @@
+{
+  "graph": {
+    "title": "MermaidDiagramPipeline_social_2-149",
+    "directed": true,
+    "orientation": "LR",
+    "layout": "hierarchical",
+    "metadata": {
+      "source_id": "MermaidDiagramPipeline_social_2-149",
+      "parser": "mermaid",
+      "original_code": "flowchart LR\n    classDef default fill:#f9f,stroke:#333,stroke-width:2px\n    classDef emphasis fill:#ff9,stroke:#f66,stroke-width:3px\n    \n    1[\"Avatar Customization\"]:::emphasis\n    2[\"Team Cohesion\"]\n    3[\"Player Communication\"]\n    4[\"In-Game Performance\"]:::emphasis\n    5[\"Player Satisfaction\"]\n    6[\"Individual Expression\"]\n    7[\"Team Role Adaptation\"]\n    \n    1 -->|\"Enables\"| 6\n    6 -->|\"Enhances\"| 5\n    1 -->|\"Influences\"| 2\n    2 -->|\"Improves\"| 3\n    3 -->|\"Boosts\"| 4\n    2 -->|\"Facilitates\"| 7\n    7 -->|\"Optimizes\"| 4\n    \n    linkStyle default stroke-width:2px,fill:none,stroke:#606060\n    \n    style 1 font-weight:bold\n    style 4 font-weight:bold\n    style 5 font-style:italic",
+      "diagram_type": "flowchart",
+      "class_defs": [
+        "classDef default fill:#f9f,stroke:#333,stroke-width:2px",
+        "classDef emphasis fill:#ff9,stroke:#f66,stroke-width:3px"
+      ],
+      "link_styles": [
+        "linkStyle default stroke-width:2px,fill:none,stroke:#606060"
+      ],
+      "style_statements": [
+        "style 1 font-weight:bold",
+        "style 4 font-weight:bold",
+        "style 5 font-style:italic"
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "id": "1",
+      "label": "Avatar Customization",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "classes": [
+          "emphasis"
+        ],
+        "style_overrides": [
+          "font-weight:bold"
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Team Cohesion",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "3",
+      "label": "Player Communication",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "4",
+      "label": "In-Game Performance",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "classes": [
+          "emphasis"
+        ],
+        "style_overrides": [
+          "font-weight:bold"
+        ]
+      }
+    },
+    {
+      "id": "5",
+      "label": "Player Satisfaction",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "style_overrides": [
+          "font-style:italic"
+        ]
+      }
+    },
+    {
+      "id": "6",
+      "label": "Individual Expression",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "7",
+      "label": "Team Role Adaptation",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "target": "6",
+      "directed": true,
+      "label": "Enables",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "6",
+      "target": "5",
+      "directed": true,
+      "label": "Enhances",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "1",
+      "target": "2",
+      "directed": true,
+      "label": "Influences",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "2",
+      "target": "3",
+      "directed": true,
+      "label": "Improves",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "3",
+      "target": "4",
+      "directed": true,
+      "label": "Boosts",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "2",
+      "target": "7",
+      "directed": true,
+      "label": "Facilitates",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "7",
+      "target": "4",
+      "directed": true,
+      "label": "Optimizes",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    }
+  ],
+  "groups": []
+}

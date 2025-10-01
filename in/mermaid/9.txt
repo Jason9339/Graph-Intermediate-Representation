@@ -1,0 +1,20 @@
+%%{init: {"theme": "dark", "themeVariables": {"primaryColor": "#2E86C1", "secondaryColor": "#F39C12", "tertiaryColor": "#E74C3C"}}}%%
+gantt
+    title Discrepancy in Financial Reporting
+    dateFormat  YYYY-Q
+    axisFormat %Y-Q%q
+    section Reported
+    Q1 2022 : 2022-01, 200
+    Q2 2022 : 2022-02, 220
+    Q3 2022 : 2022-03, 240
+    Q4 2022 : 2022-04, 260
+    section Actual
+    Q1 2022 : 2022-01, 170
+    Q2 2022 : 2022-02, 180
+    Q3 2022 : 2022-03, 200
+    Q4 2022 : 2022-04, 210
+    section Annotations
+    Overstated revenue : milestone, m1, 2022-01, 0d
+    Unrecorded liabilities : milestone, m2, 2022-02, 0d
+    Inflated asset values : milestone, m3, 2022-03, 0d
+    Unrealistic profit margins : milestone, m4, 2022-04, 0d

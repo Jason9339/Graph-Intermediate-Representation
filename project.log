@@ -1,0 +1,14 @@
+2025-09-30 00:00 Initialized change log; noted prior setup of directory skeleton and schema/ir.schema.json.
+2025-09-30 00:10 Added schema/mapping.md with initial IR-to-format correspondence tables.
+2025-09-30 00:25 Added parser scaffolds in parsers/ for TikZ, DOT, and Mermaid with CSV loaders and placeholder IR generation.
+2025-09-30 00:35 Added generators/ scaffolding for TikZ, DOT, and Mermaid with placeholder renderers.
+2025-09-30 00:45 Created CLI skeletons (cli/code2ir.py, cli/ir2code.py) with argparse handling and sys.path bootstrapping; verified help output.
+2025-09-30 00:55 Added minimal examples for TikZ, DOT, and Mermaid under examples/ to support parser testing.
+2025-09-30 01:05 Reviewed first five entries of cosyn_id_code_{graphviz,latex,mermaid}.csv to understand code structures for upcoming parser work.
+2025-09-30 01:15 Documented parser targets in docs/parser_targets.md outlining extraction goals for TikZ, DOT, and Mermaid samples.
+2025-09-30 01:25 Drafted parser implementation strategy in docs/parser_strategy.md outlining phased milestones across formats.
+2025-09-30 01:35 Captured helper utility requirements in docs/parser_utilities.md and introduced parsers/utils.py with IR dataclasses.
+2025-09-30 01:55 Implemented Phase 1 preprocessing: enhanced parsers/utils.py with helpers, updated parsers for TikZ/DOT/Mermaid to capture metadata, and verified CLI outputs on sample files.
+2025-09-30 02:20 Implemented Mermaid flowchart node/edge extraction with group handling; updated metadata logging and verified on CSV samples.
+2025-09-30 02:50 Expanded Mermaid parser to cover sequence diagrams and mindmaps; enhanced TikZ parser to extract nodes/edges (including path-based edges); added DOT parser AST pass to capture node/edge calls; generated first-five IR samples per format via tools/generate_ir_samples.py.
+2025-09-30 03:30 Replaced generator placeholders with full conversions (Mermaid/DOT/TikZ) via shared utilities; aligned standalone ir2code.py with generators; improved Mermaid sequence parsing; updated sample generator to skip Graphviz outputs.

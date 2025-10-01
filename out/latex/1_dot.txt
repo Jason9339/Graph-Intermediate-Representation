@@ -1,0 +1,30 @@
+graph G {
+  rankdir=LR;
+  labelloc="t"; label="LaTeXDiagramPipeline_natural_1-24";
+  "sawmill" [shape="box", label="Sawmill Operations"];
+  "raw" [shape="box", label="Raw Material Processing"];
+  "sawing" [shape="box", label="Sawing"];
+  "planing" [shape="box", label="Planing"];
+  "waste" [shape="box", label="Wood Waste"];
+  "emissions" [shape="box", label="Particulate Emissions"];
+  "fine" [shape="box", label="Fine Particulates (PM2.5)"];
+  "coarse" [shape="box", label="Coarse Particulates (PM10)"];
+  "aqi" [shape="box", label="Air Quality Index"];
+  "control" [shape="box", label="Dust Control Measures"];
+  "profile" [shape="box", label="Daily Emission Profile"];
+  "a" [shape="box", label="a"];
+  "b" [shape="box", label="b"];
+  "sawmill" -- "raw" [label="includes"];
+  "sawmill" -- "sawing" [label="includes"];
+  "sawmill" -- "planing" [label="includes"];
+  "raw" -- "waste" [label="produces"];
+  "sawing" -- "waste" [label="produces"];
+  "planing" -- "waste" [label="produces"];
+  "waste" -- "emissions" [label="generates"];
+  "emissions" -- "fine" [label="contains"];
+  "emissions" -- "coarse" [label="contains"];
+  "emissions" -- "aqi" [label="affects"];
+  "control" -- "emissions" [label="reduces"];
+  "emissions" -- "profile" [label="tracked by"];
+  "a" -- "b" [color="black!50", style="dashed"];
+}

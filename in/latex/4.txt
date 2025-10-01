@@ -1,0 +1,59 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, positioning, calc}
+
+\begin{document}
+\begin{tikzpicture}[
+    node distance = 1.5cm and 2cm,
+    every node/.style = {draw, rounded corners, font=\sffamily\small, align=center, fill=blue!10},
+    data/.style = {rectangle, minimum width=2.5cm, minimum height=1cm},
+    process/.style = {rectangle, minimum width=2.5cm, minimum height=1cm, fill=green!10},
+    model/.style = {ellipse, minimum width=2.5cm, minimum height=1cm, fill=red!10},
+    arrow/.style = {-stealth, thick, draw=gray!70}
+]
+
+% Nodes
+\node[data] (data_collection) {Data Collection};
+\node[data, below left=of data_collection] (weather_data) {Weather Data};
+\node[data, below=of data_collection] (topography_data) {Topography Data};
+\node[data, below right=of data_collection] (historical_routes) {Historical Routes};
+\node[data, right=of historical_routes] (tourist_preference_data) {Tourist Preferences};
+
+\node[process, below=2cm of topography_data] (data_preprocessing) {Data Preprocessing};
+\node[process, below=of data_preprocessing] (clean_data) {Clean Data};
+\node[process, below=of clean_data] (feature_engineering) {Feature Engineering};
+\node[process, below=of feature_engineering] (feature_selection) {Feature Selection};
+
+\node[model, below=of feature_selection] (model_training) {Model Training};
+\node[model, below=of model_training] (route_prediction_model) {Route Prediction Model};
+\node[model, below=of route_prediction_model] (model_evaluation) {Model Evaluation};
+
+\node[process, below=of model_evaluation] (optimal_route) {Optimal Route};
+\node[process, below=of optimal_route] (real_time_adjustments) {Real-Time Adjustments};
+
+% Edges
+\draw[arrow] (data_collection) -- (weather_data) node[midway, right, font=\tiny, fill=none] {Collects};
+\draw[arrow] (data_collection) -- (topography_data) node[midway, right, font=\tiny, fill=none] {Collects};
+\draw[arrow] (data_collection) -- (historical_routes) node[midway, left, font=\tiny, fill=none] {Collects};
+\draw[arrow] (data_collection) -- (tourist_preference_data) node[midway, above, font=\tiny, fill=none] {Collects};
+
+\draw[arrow] (weather_data) -- (data_preprocessing);
+\draw[arrow] (topography_data) -- (data_preprocessing);
+\draw[arrow] (historical_routes) -- (data_preprocessing);
+\draw[arrow] (tourist_preference_data) |- (data_preprocessing);
+
+\draw[arrow] (data_preprocessing) -- (clean_data) node[midway, right, font=\tiny, fill=none] {Outputs};
+\draw[arrow] (clean_data) -- (feature_engineering) node[midway, right, font=\tiny, fill=none] {Inputs to};
+\draw[arrow] (feature_engineering) -- (feature_selection) node[midway, right, font=\tiny, fill=none] {Outputs};
+\draw[arrow] (feature_selection) -- (model_training) node[midway, right, font=\tiny, fill=none] {Inputs to};
+\draw[arrow] (model_training) -- (route_prediction_model) node[midway, right, font=\tiny, fill=none] {Trains};
+\draw[arrow] (route_prediction_model) -- (model_evaluation) node[midway, right, font=\tiny, fill=none] {Evaluates};
+\draw[arrow] (model_evaluation) -- (optimal_route) node[midway, right, font=\tiny, fill=none] {Determines};
+\draw[arrow] (optimal_route) -- (real_time_adjustments) node[midway, right, font=\tiny, fill=none] {Feeds};
+
+% Title
+\node[font=\Large\bfseries, above=0.5cm of data_collection, text width=12cm, align=center, fill=none, draw=none] 
+    {Optimal Route Planning for Guided Mountain Treks Using Machine Learning};
+
+\end{tikzpicture}
+\end{document}

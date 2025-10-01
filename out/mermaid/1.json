@@ -1,0 +1,377 @@
+{
+  "graph": {
+    "title": "MermaidDiagramPipeline_sequence_2-102",
+    "directed": true,
+    "orientation": "TB",
+    "layout": "hierarchical",
+    "metadata": {
+      "source_id": "MermaidDiagramPipeline_sequence_2-102",
+      "parser": "mermaid",
+      "original_code": "sequenceDiagram\n    participant D as Director\n    participant S as Screenwriter\n    participant CD as Casting Director\n    participant A as Actors\n    participant LS as Location Scout\n    participant LA as Local Authorities\n    participant PM as Production Manager\n    participant SD as Set Designers\n    participant C as Crew\n    participant CoD as Costume Designer\n    participant E as Editor\n\n    rect rgb(240, 230, 220)\n    S->>D: Develop Script\n    D->>S: Finalize Script\n    S->>D: Revise Script\n    end\n\n    rect rgb(220, 240, 230)\n    D->>CD: Assign Roles\n    CD->>A: Coordinate Auditions\n    CD->>D: Confirm Cast\n    end\n\n    rect rgb(230, 220, 240)\n    LS->>D: Identify Filming Locations\n    LS->>LA: Secure Filming Permits\n    end\n\n    rect rgb(240, 220, 220)\n    PM->>SD: Organize Set Construction\n    PM->>C: Coordinate Daily Shoot Schedule\n    end\n\n    rect rgb(220, 230, 240)\n    CoD->>D: Design Costumes\n    CoD->>A: Fittings & Alterations\n    end\n\n    rect rgb(230, 240, 220)\n    E->>D: Receive Daily Footage\n    D->>E: Review Daily Footage\n    E->>D: Edit Scenes\n    end\n\n    note over D,E: 19th Century Alaska Historical Film Production",
+      "diagram_type": "sequenceDiagram",
+      "notes": [
+        "note over D,E: 19th Century Alaska Historical Film Production"
+      ],
+      "rects": [
+        {
+          "header": "rect rgb(240, 230, 220)",
+          "lines": [
+            "S->>D: Develop Script",
+            "D->>S: Finalize Script",
+            "S->>D: Revise Script"
+          ]
+        },
+        {
+          "header": "rect rgb(220, 240, 230)",
+          "lines": [
+            "D->>CD: Assign Roles",
+            "CD->>A: Coordinate Auditions",
+            "CD->>D: Confirm Cast"
+          ]
+        },
+        {
+          "header": "rect rgb(230, 220, 240)",
+          "lines": [
+            "LS->>D: Identify Filming Locations",
+            "LS->>LA: Secure Filming Permits"
+          ]
+        },
+        {
+          "header": "rect rgb(240, 220, 220)",
+          "lines": [
+            "PM->>SD: Organize Set Construction",
+            "PM->>C: Coordinate Daily Shoot Schedule"
+          ]
+        },
+        {
+          "header": "rect rgb(220, 230, 240)",
+          "lines": [
+            "CoD->>D: Design Costumes",
+            "CoD->>A: Fittings & Alterations"
+          ]
+        },
+        {
+          "header": "rect rgb(230, 240, 220)",
+          "lines": [
+            "E->>D: Receive Daily Footage",
+            "D->>E: Review Daily Footage",
+            "E->>D: Edit Scenes"
+          ]
+        }
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "id": "D",
+      "label": "Director",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "alias": "Director"
+      }
+    },
+    {
+      "id": "S",
+      "label": "Screenwriter",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "alias": "Screenwriter"
+      }
+    },
+    {
+      "id": "CD",
+      "label": "Casting Director",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "alias": "Casting Director"
+      }
+    },
+    {
+      "id": "A",
+      "label": "Actors",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "alias": "Actors"
+      }
+    },
+    {
+      "id": "LS",
+      "label": "Location Scout",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "alias": "Location Scout"
+      }
+    },
+    {
+      "id": "LA",
+      "label": "Local Authorities",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "alias": "Local Authorities"
+      }
+    },
+    {
+      "id": "PM",
+      "label": "Production Manager",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "alias": "Production Manager"
+      }
+    },
+    {
+      "id": "SD",
+      "label": "Set Designers",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "alias": "Set Designers"
+      }
+    },
+    {
+      "id": "C",
+      "label": "Crew",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "alias": "Crew"
+      }
+    },
+    {
+      "id": "CoD",
+      "label": "Costume Designer",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "alias": "Costume Designer"
+      }
+    },
+    {
+      "id": "E",
+      "label": "Editor",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "alias": "Editor"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "S",
+      "target": "D",
+      "directed": true,
+      "label": "Develop Script",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "D",
+      "target": "S",
+      "directed": true,
+      "label": "Finalize Script",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "S",
+      "target": "D",
+      "directed": true,
+      "label": "Revise Script",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "D",
+      "target": "CD",
+      "directed": true,
+      "label": "Assign Roles",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "CD",
+      "target": "A",
+      "directed": true,
+      "label": "Coordinate Auditions",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "CD",
+      "target": "D",
+      "directed": true,
+      "label": "Confirm Cast",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "LS",
+      "target": "D",
+      "directed": true,
+      "label": "Identify Filming Locations",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "LS",
+      "target": "LA",
+      "directed": true,
+      "label": "Secure Filming Permits",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "PM",
+      "target": "SD",
+      "directed": true,
+      "label": "Organize Set Construction",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "PM",
+      "target": "C",
+      "directed": true,
+      "label": "Coordinate Daily Shoot Schedule",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "CoD",
+      "target": "D",
+      "directed": true,
+      "label": "Design Costumes",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "CoD",
+      "target": "A",
+      "directed": true,
+      "label": "Fittings & Alterations",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "E",
+      "target": "D",
+      "directed": true,
+      "label": "Receive Daily Footage",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "D",
+      "target": "E",
+      "directed": true,
+      "label": "Review Daily Footage",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "E",
+      "target": "D",
+      "directed": true,
+      "label": "Edit Scenes",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    }
+  ],
+  "groups": []
+}

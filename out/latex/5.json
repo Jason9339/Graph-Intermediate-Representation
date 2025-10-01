@@ -1,0 +1,349 @@
+{
+  "graph": {
+    "title": "LaTeXDiagramPipeline_fsm_1-405",
+    "directed": true,
+    "orientation": "LR",
+    "layout": "hierarchical",
+    "metadata": {
+      "source_id": "LaTeXDiagramPipeline_fsm_1-405",
+      "parser": "tikz",
+      "original_code": "\\documentclass[border=10pt]{standalone}\n\\usepackage{tikz}\n\\usetikzlibrary{automata,positioning,arrows.meta}\n\n\\begin{document}\n\n\\begin{tikzpicture}[\n    ->,\n    >=stealth,\n    node distance=3cm,\n    every state/.style={\n        draw=teal!50!black,\n        thick,\n        fill=teal!20,\n        minimum size=6mm,\n        font=\\sffamily\\small\n    },\n    every edge/.style={\n        draw=orange!50!black,\n        thick,\n        font=\\tiny\\sffamily\n    }\n]\n\n    \\node[state, initial] (IA) {Initial\\\\Assessment};\n    \\node[state, right=of IA] (BR) {Building\\\\Rapport};\n    \\node[state, below right=of BR] (II) {Identifying\\\\Issues};\n    \\node[state, below=of II] (SG) {Setting\\\\Goals};\n    \\node[state, left=of SG] (IP) {Intervention\\\\Phase};\n    \\node[state, above left=of IP] (PE) {Progress\\\\Evaluation};\n    \\node[state, left=of PE] (AA) {Adjusting\\\\Approach};\n    \\node[state, below left=of AA] (OE) {Outcome\\\\Evaluation};\n    \\node[state, accepting, below=of OE] (T) {Termination};\n\n    \\path\n    (IA) edge node[above] {Begin} (BR)\n    (BR) edge node[right] {Alliance formed} (II)\n    (II) edge node[right] {Issues identified} (SG)\n    (SG) edge node[above] {Goals set} (IP)\n    (IP) edge node[left] {Evaluate} (PE)\n    (PE) edge node[left] {Need adjustment} (AA)\n    (AA) edge[bend right] node[left] {Resume} (IP)\n    (PE) edge[bend left] node[above] {Progress sufficient} (OE)\n    (OE) edge node[left] {Conclude} (T);\n\n\\end{tikzpicture}\n\n\\end{document}",
+      "libraries": [
+        "automata",
+        "positioning",
+        "arrows.meta"
+      ],
+      "preamble": "\\documentclass[border=10pt]{standalone}\n\\usepackage{tikz}\n\\usetikzlibrary{automata,positioning,arrows.meta}",
+      "tikz_options": "\n    ->,\n    >=stealth,\n    node distance=3cm,\n    every state/.style={\n        draw=teal!50!black,\n        thick,\n        fill=teal!20,\n        minimum size=6mm,\n        font=\\sffamily\\small\n    },\n    every edge/.style={\n        draw=orange!50!black,\n        thick,\n        font=\\tiny\\sffamily\n    }\n",
+      "tikzpicture": "[\n    ->,\n    >=stealth,\n    node distance=3cm,\n    every state/.style={\n        draw=teal!50!black,\n        thick,\n        fill=teal!20,\n        minimum size=6mm,\n        font=\\sffamily\\small\n    },\n    every edge/.style={\n        draw=orange!50!black,\n        thick,\n        font=\\tiny\\sffamily\n    }\n]\n\n    \\node[state, initial] (IA) {Initial\\\\Assessment};\n    \\node[state, right=of IA] (BR) {Building\\\\Rapport};\n    \\node[state, below right=of BR] (II) {Identifying\\\\Issues};\n    \\node[state, below=of II] (SG) {Setting\\\\Goals};\n    \\node[state, left=of SG] (IP) {Intervention\\\\Phase};\n    \\node[state, above left=of IP] (PE) {Progress\\\\Evaluation};\n    \\node[state, left=of PE] (AA) {Adjusting\\\\Approach};\n    \\node[state, below left=of AA] (OE) {Outcome\\\\Evaluation};\n    \\node[state, accepting, below=of OE] (T) {Termination};\n\n    \\path\n    (IA) edge node[above] {Begin} (BR)\n    (BR) edge node[right] {Alliance formed} (II)\n    (II) edge node[right] {Issues identified} (SG)\n    (SG) edge node[above] {Goals set} (IP)\n    (IP) edge node[left] {Evaluate} (PE)\n    (PE) edge node[left] {Need adjustment} (AA)\n    (AA) edge[bend right] node[left] {Resume} (IP)\n    (PE) edge[bend left] node[above] {Progress sufficient} (OE)\n    (OE) edge node[left] {Conclude} (T);"
+    }
+  },
+  "nodes": [
+    {
+      "id": "IA",
+      "label": "Initial\\\\Assessment",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "state",
+          "initial"
+        ]
+      }
+    },
+    {
+      "id": "BR",
+      "label": "Building\\\\Rapport",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "state"
+        ],
+        "options": {
+          "right": "of IA"
+        }
+      }
+    },
+    {
+      "id": "II",
+      "label": "Identifying\\\\Issues",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "state"
+        ],
+        "options": {
+          "below right": "of BR"
+        }
+      }
+    },
+    {
+      "id": "SG",
+      "label": "Setting\\\\Goals",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "state"
+        ],
+        "options": {
+          "below": "of II"
+        }
+      }
+    },
+    {
+      "id": "IP",
+      "label": "Intervention\\\\Phase",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "state"
+        ],
+        "options": {
+          "left": "of SG"
+        }
+      }
+    },
+    {
+      "id": "PE",
+      "label": "Progress\\\\Evaluation",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "state"
+        ],
+        "options": {
+          "above left": "of IP"
+        }
+      }
+    },
+    {
+      "id": "AA",
+      "label": "Adjusting\\\\Approach",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "state"
+        ],
+        "options": {
+          "left": "of PE"
+        }
+      }
+    },
+    {
+      "id": "OE",
+      "label": "Outcome\\\\Evaluation",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "state"
+        ],
+        "options": {
+          "below left": "of AA"
+        }
+      }
+    },
+    {
+      "id": "T",
+      "label": "Termination",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "state",
+          "accepting"
+        ],
+        "options": {
+          "below": "of OE"
+        }
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "IA",
+      "target": "BR",
+      "directed": true,
+      "label": "Begin",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {
+        "geometry": [
+          "bend right",
+          "bend left",
+          "bend right",
+          "bend left"
+        ]
+      }
+    },
+    {
+      "source": "BR",
+      "target": "II",
+      "directed": true,
+      "label": "Alliance formed",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {
+        "geometry": [
+          "bend right",
+          "bend left",
+          "bend right",
+          "bend left"
+        ]
+      }
+    },
+    {
+      "source": "II",
+      "target": "SG",
+      "directed": true,
+      "label": "Issues identified",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {
+        "geometry": [
+          "bend right",
+          "bend left",
+          "bend right",
+          "bend left"
+        ]
+      }
+    },
+    {
+      "source": "SG",
+      "target": "IP",
+      "directed": true,
+      "label": "Goals set",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {
+        "geometry": [
+          "bend right",
+          "bend left",
+          "bend right",
+          "bend left"
+        ]
+      }
+    },
+    {
+      "source": "IP",
+      "target": "PE",
+      "directed": true,
+      "label": "Evaluate",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {
+        "geometry": [
+          "bend right",
+          "bend left",
+          "bend right",
+          "bend left"
+        ]
+      }
+    },
+    {
+      "source": "PE",
+      "target": "AA",
+      "directed": true,
+      "label": "Need adjustment",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {
+        "geometry": [
+          "bend right",
+          "bend left",
+          "bend right",
+          "bend left"
+        ]
+      }
+    },
+    {
+      "source": "AA",
+      "target": "IP",
+      "directed": true,
+      "label": "Resume",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {
+        "geometry": [
+          "bend right",
+          "bend left",
+          "bend right",
+          "bend left"
+        ]
+      }
+    },
+    {
+      "source": "PE",
+      "target": "OE",
+      "directed": true,
+      "label": "Progress sufficient",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {
+        "geometry": [
+          "bend right",
+          "bend left",
+          "bend right",
+          "bend left"
+        ]
+      }
+    },
+    {
+      "source": "OE",
+      "target": "T",
+      "directed": true,
+      "label": "Conclude",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {
+        "geometry": [
+          "bend right",
+          "bend left",
+          "bend right",
+          "bend left"
+        ]
+      }
+    }
+  ],
+  "groups": []
+}

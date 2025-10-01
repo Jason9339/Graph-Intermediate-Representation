@@ -1,0 +1,17 @@
+{
+  "graph": {
+    "title": "MermaidDiagramPipeline_gantt_2-14",
+    "directed": true,
+    "orientation": "LR",
+    "layout": "hierarchical",
+    "metadata": {
+      "source_id": "MermaidDiagramPipeline_gantt_2-14",
+      "parser": "mermaid",
+      "original_code": "gantt\n    title Researching U.S. Supreme Court Cases Timeline\n    dateFormat  YYYY-MM-DD\n    axisFormat %b %d\n    todayMarker off\n\n    section Research Tasks\n    Identify Key Supreme Court Cases :a1, 2023-11-01, 7d\n    Gather Case Summaries           :a2, after a1, 7d\n    Review Legal Analyses           :a3, after a2, 7d\n    Understand Historical Context   :a4, after a3, 7d\n    Study Court Opinions            :a5, after a4, 7d\n    Compare with Chinese Legal Context :a6, after a5, 7d\n    Compile Research Findings       :a7, after a6, 8d\n    Prepare Presentation            :a8, after a7, 5d\n\n    section Milestones\n    Research Start :milestone, m1, 2023-11-01, 0d\n    Research Complete :milestone, m2, 2023-12-25, 0d",
+      "diagram_type": "unknown"
+    }
+  },
+  "nodes": [],
+  "edges": [],
+  "groups": []
+}

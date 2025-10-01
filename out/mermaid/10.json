@@ -1,0 +1,280 @@
+{
+  "graph": {
+    "title": "MermaidDiagramPipeline_food_1-52",
+    "directed": true,
+    "orientation": "TB",
+    "layout": "hierarchical",
+    "metadata": {
+      "source_id": "MermaidDiagramPipeline_food_1-52",
+      "parser": "mermaid",
+      "original_code": "flowchart TB\n    classDef primaryNode fill:#e6f3ff,stroke:#4a86e8,stroke-width:2px\n    classDef secondaryNode fill:#fff2cc,stroke:#f1c232,stroke-width:2px\n    classDef tertiaryNode fill:#d9ead3,stroke:#6aa84f,stroke-width:2px\n\n    n1[Phytoplankton]:::primaryNode\n    n2[Zooplankton]:::secondaryNode\n    n3[Arctic Cod]:::tertiaryNode\n    n4[Ringed Seal]:::secondaryNode\n    n5[Polar Bear]:::primaryNode\n    n6[Leopard Seal]:::tertiaryNode\n    n7[Krill]:::secondaryNode\n    n8[Arctic Tern]:::tertiaryNode\n\n    n1 -->|feeds on| n2\n    n1 -->|feeds on| n7\n    n2 -->|feeds on| n3\n    n7 -->|feeds on| n3\n    n3 -->|feeds on| n4\n    n3 -->|feeds on| n8\n    n4 -->|feeds on| n5\n    n6 -->|feeds on| n3\n    n7 -->|feeds on| n8\n\n    linkStyle default stroke-width:2px,fill:none,stroke:#333\n    \n    style n1 font-size:14px,font-weight:bold\n    style n2 font-size:14px,font-weight:bold\n    style n3 font-size:14px,font-weight:bold\n    style n4 font-size:14px,font-weight:bold\n    style n5 font-size:14px,font-weight:bold\n    style n6 font-size:14px,font-weight:bold\n    style n7 font-size:14px,font-weight:bold\n    style n8 font-size:14px,font-weight:bold",
+      "diagram_type": "flowchart",
+      "class_defs": [
+        "classDef primaryNode fill:#e6f3ff,stroke:#4a86e8,stroke-width:2px",
+        "classDef secondaryNode fill:#fff2cc,stroke:#f1c232,stroke-width:2px",
+        "classDef tertiaryNode fill:#d9ead3,stroke:#6aa84f,stroke-width:2px"
+      ],
+      "link_styles": [
+        "linkStyle default stroke-width:2px,fill:none,stroke:#333"
+      ],
+      "style_statements": [
+        "style n1 font-size:14px,font-weight:bold",
+        "style n2 font-size:14px,font-weight:bold",
+        "style n3 font-size:14px,font-weight:bold",
+        "style n4 font-size:14px,font-weight:bold",
+        "style n5 font-size:14px,font-weight:bold",
+        "style n6 font-size:14px,font-weight:bold",
+        "style n7 font-size:14px,font-weight:bold",
+        "style n8 font-size:14px,font-weight:bold"
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "id": "n1",
+      "label": "Phytoplankton",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "classes": [
+          "primaryNode"
+        ],
+        "style_overrides": [
+          "font-size:14px,font-weight:bold"
+        ]
+      }
+    },
+    {
+      "id": "n2",
+      "label": "Zooplankton",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "classes": [
+          "secondaryNode"
+        ],
+        "style_overrides": [
+          "font-size:14px,font-weight:bold"
+        ]
+      }
+    },
+    {
+      "id": "n3",
+      "label": "Arctic Cod",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "classes": [
+          "tertiaryNode"
+        ],
+        "style_overrides": [
+          "font-size:14px,font-weight:bold"
+        ]
+      }
+    },
+    {
+      "id": "n4",
+      "label": "Ringed Seal",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "classes": [
+          "secondaryNode"
+        ],
+        "style_overrides": [
+          "font-size:14px,font-weight:bold"
+        ]
+      }
+    },
+    {
+      "id": "n5",
+      "label": "Polar Bear",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "classes": [
+          "primaryNode"
+        ],
+        "style_overrides": [
+          "font-size:14px,font-weight:bold"
+        ]
+      }
+    },
+    {
+      "id": "n6",
+      "label": "Leopard Seal",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "classes": [
+          "tertiaryNode"
+        ],
+        "style_overrides": [
+          "font-size:14px,font-weight:bold"
+        ]
+      }
+    },
+    {
+      "id": "n7",
+      "label": "Krill",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "classes": [
+          "secondaryNode"
+        ],
+        "style_overrides": [
+          "font-size:14px,font-weight:bold"
+        ]
+      }
+    },
+    {
+      "id": "n8",
+      "label": "Arctic Tern",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "classes": [
+          "tertiaryNode"
+        ],
+        "style_overrides": [
+          "font-size:14px,font-weight:bold"
+        ]
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "n1",
+      "target": "n2",
+      "directed": true,
+      "label": "feeds on",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "n1",
+      "target": "n7",
+      "directed": true,
+      "label": "feeds on",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "n2",
+      "target": "n3",
+      "directed": true,
+      "label": "feeds on",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "n7",
+      "target": "n3",
+      "directed": true,
+      "label": "feeds on",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "n3",
+      "target": "n4",
+      "directed": true,
+      "label": "feeds on",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "n3",
+      "target": "n8",
+      "directed": true,
+      "label": "feeds on",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "n4",
+      "target": "n5",
+      "directed": true,
+      "label": "feeds on",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "n6",
+      "target": "n3",
+      "directed": true,
+      "label": "feeds on",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "n7",
+      "target": "n8",
+      "directed": true,
+      "label": "feeds on",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    }
+  ],
+  "groups": []
+}

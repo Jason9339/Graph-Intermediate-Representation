@@ -1,0 +1,34 @@
+flowchart TB
+    classDef primaryNode fill:#e6f3ff,stroke:#4a86e8,stroke-width:2px
+    classDef secondaryNode fill:#fff2cc,stroke:#f1c232,stroke-width:2px
+    classDef tertiaryNode fill:#d9ead3,stroke:#6aa84f,stroke-width:2px
+
+    n1[Phytoplankton]:::primaryNode
+    n2[Zooplankton]:::secondaryNode
+    n3[Arctic Cod]:::tertiaryNode
+    n4[Ringed Seal]:::secondaryNode
+    n5[Polar Bear]:::primaryNode
+    n6[Leopard Seal]:::tertiaryNode
+    n7[Krill]:::secondaryNode
+    n8[Arctic Tern]:::tertiaryNode
+
+    n1 -->|feeds on| n2
+    n1 -->|feeds on| n7
+    n2 -->|feeds on| n3
+    n7 -->|feeds on| n3
+    n3 -->|feeds on| n4
+    n3 -->|feeds on| n8
+    n4 -->|feeds on| n5
+    n6 -->|feeds on| n3
+    n7 -->|feeds on| n8
+
+    linkStyle default stroke-width:2px,fill:none,stroke:#333
+    
+    style n1 font-size:14px,font-weight:bold
+    style n2 font-size:14px,font-weight:bold
+    style n3 font-size:14px,font-weight:bold
+    style n4 font-size:14px,font-weight:bold
+    style n5 font-size:14px,font-weight:bold
+    style n6 font-size:14px,font-weight:bold
+    style n7 font-size:14px,font-weight:bold
+    style n8 font-size:14px,font-weight:bold

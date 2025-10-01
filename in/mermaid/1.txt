@@ -1,0 +1,47 @@
+sequenceDiagram
+    participant D as Director
+    participant S as Screenwriter
+    participant CD as Casting Director
+    participant A as Actors
+    participant LS as Location Scout
+    participant LA as Local Authorities
+    participant PM as Production Manager
+    participant SD as Set Designers
+    participant C as Crew
+    participant CoD as Costume Designer
+    participant E as Editor
+
+    rect rgb(240, 230, 220)
+    S->>D: Develop Script
+    D->>S: Finalize Script
+    S->>D: Revise Script
+    end
+
+    rect rgb(220, 240, 230)
+    D->>CD: Assign Roles
+    CD->>A: Coordinate Auditions
+    CD->>D: Confirm Cast
+    end
+
+    rect rgb(230, 220, 240)
+    LS->>D: Identify Filming Locations
+    LS->>LA: Secure Filming Permits
+    end
+
+    rect rgb(240, 220, 220)
+    PM->>SD: Organize Set Construction
+    PM->>C: Coordinate Daily Shoot Schedule
+    end
+
+    rect rgb(220, 230, 240)
+    CoD->>D: Design Costumes
+    CoD->>A: Fittings & Alterations
+    end
+
+    rect rgb(230, 240, 220)
+    E->>D: Receive Daily Footage
+    D->>E: Review Daily Footage
+    E->>D: Edit Scenes
+    end
+
+    note over D,E: 19th Century Alaska Historical Film Production

@@ -1,0 +1,55 @@
+flowchart LR
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px,font-family:Arial,font-size:14px
+    classDef processNode fill:#e1f3d8,stroke:#82c366,stroke-width:2px
+    
+    A[Supplier Identification]:::processNode
+    B[Supplier Evaluation]:::processNode
+    C[Contract Negotiation]:::processNode
+    D[Material Procurement]:::processNode
+    E[Quality Assurance]:::processNode
+    F[Feedback and Improvement]:::processNode
+
+    A -->|Evaluate| B
+    B -->|Negotiate| C
+    C -->|Procure| D
+    D -->|Verify| E
+    E -->|Improve| F
+    F -.->|Continuous Improvement| A
+
+    subgraph Supplier Identification
+        A1[Research eco-friendly suppliers]
+        A2[Check certifications]
+        A3[Evaluate compliance]
+    end
+
+    subgraph Supplier Evaluation
+        B1[Assess sustainability policies]
+        B2[Conduct audits]
+        B3[Review performance]
+    end
+
+    subgraph Contract Negotiation
+        C1[Include sustainability clauses]
+        C2[Agree on waste reduction]
+        C3[Set carbon footprint targets]
+    end
+
+    subgraph Material Procurement
+        D1[Order from approved suppliers]
+        D2[Track supply chain]
+        D3[Use eco-friendly transport]
+    end
+
+    subgraph Quality Assurance
+        E1[Conduct quality inspections]
+        E2[Test for sustainability]
+        E3[Ensure eco-friendly packaging]
+    end
+
+    subgraph Feedback and Improvement
+        F1[Gather production feedback]
+        F2[Hold supplier reviews]
+        F3[Implement improvements]
+    end
+
+    linkStyle default stroke:#2ecc71,stroke-width:2px

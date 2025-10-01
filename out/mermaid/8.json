@@ -1,0 +1,214 @@
+{
+  "graph": {
+    "title": "MermaidDiagramPipeline_social_1-28",
+    "directed": true,
+    "orientation": "LR",
+    "layout": "hierarchical",
+    "metadata": {
+      "source_id": "MermaidDiagramPipeline_social_1-28",
+      "parser": "mermaid",
+      "original_code": "flowchart LR\n    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px\n    classDef highlight fill:#e1f3f8,stroke:#0077be,stroke-width:3px\n    \n    1[Income Level]:::highlight\n    2[Gender]\n    3[Age Group]\n    4[Education Level]\n    5[Geographic Location]\n    6[Cultural Interests]:::highlight\n    7[Price of Equipment]\n    8[Social Media Influence]\n    9[Technological Literacy]\n\n    1 -->|affects| 7\n    2 -->|correlates with| 6\n    3 -->|influences| 6\n    4 -->|correlates with| 6\n    5 -->|affects availability| 7\n    6 -->|drives| 8\n    8 -->|correlates with| 9\n\n    linkStyle default stroke-width:2px,fill:none,stroke:#999\n    linkStyle 1 stroke:#0077be,stroke-width:3px\n    linkStyle 2 stroke:#0077be,stroke-width:3px\n    linkStyle 3 stroke:#0077be,stroke-width:3px\n    linkStyle 5 stroke:#ff6347,stroke-width:3px",
+      "diagram_type": "flowchart",
+      "class_defs": [
+        "classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px",
+        "classDef highlight fill:#e1f3f8,stroke:#0077be,stroke-width:3px"
+      ],
+      "link_styles": [
+        "linkStyle default stroke-width:2px,fill:none,stroke:#999",
+        "linkStyle 1 stroke:#0077be,stroke-width:3px",
+        "linkStyle 2 stroke:#0077be,stroke-width:3px",
+        "linkStyle 3 stroke:#0077be,stroke-width:3px",
+        "linkStyle 5 stroke:#ff6347,stroke-width:3px"
+      ]
+    }
+  },
+  "nodes": [
+    {
+      "id": "1",
+      "label": "Income Level",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "classes": [
+          "highlight"
+        ]
+      }
+    },
+    {
+      "id": "2",
+      "label": "Gender",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "3",
+      "label": "Age Group",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "4",
+      "label": "Education Level",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "5",
+      "label": "Geographic Location",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "6",
+      "label": "Cultural Interests",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "classes": [
+          "highlight"
+        ]
+      }
+    },
+    {
+      "id": "7",
+      "label": "Price of Equipment",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "8",
+      "label": "Social Media Influence",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "9",
+      "label": "Technological Literacy",
+      "shape": "rect",
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "1",
+      "target": "7",
+      "directed": true,
+      "label": "affects",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "2",
+      "target": "6",
+      "directed": true,
+      "label": "correlates with",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "3",
+      "target": "6",
+      "directed": true,
+      "label": "influences",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "4",
+      "target": "6",
+      "directed": true,
+      "label": "correlates with",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "5",
+      "target": "7",
+      "directed": true,
+      "label": "affects availability",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "6",
+      "target": "8",
+      "directed": true,
+      "label": "drives",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "8",
+      "target": "9",
+      "directed": true,
+      "label": "correlates with",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    }
+  ],
+  "groups": []
+}

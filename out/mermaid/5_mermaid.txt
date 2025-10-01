@@ -1,0 +1,70 @@
+flowchart LR
+  classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px,font-family:Arial,font-size:14px
+  classDef processNode fill:#e1f3d8,stroke:#82c366,stroke-width:2px
+  A["Supplier Identification"]
+  class A processNode
+  B["Supplier Evaluation"]
+  class B processNode
+  C["Contract Negotiation"]
+  class C processNode
+  D["Material Procurement"]
+  class D processNode
+  E["Quality Assurance"]
+  class E processNode
+  F["Feedback and Improvement"]
+  class F processNode
+  A1["Research eco-friendly suppliers"]
+  A2["Check certifications"]
+  A3["Evaluate compliance"]
+  B1["Assess sustainability policies"]
+  B2["Conduct audits"]
+  B3["Review performance"]
+  C1["Include sustainability clauses"]
+  C2["Agree on waste reduction"]
+  C3["Set carbon footprint targets"]
+  D1["Order from approved suppliers"]
+  D2["Track supply chain"]
+  D3["Use eco-friendly transport"]
+  E1["Conduct quality inspections"]
+  E2["Test for sustainability"]
+  E3["Ensure eco-friendly packaging"]
+  F1["Gather production feedback"]
+  F2["Hold supplier reviews"]
+  F3["Implement improvements"]
+  subgraph Supplier Identification
+    A1
+    A2
+    A3
+  end
+  subgraph Supplier Evaluation
+    B1
+    B2
+    B3
+  end
+  subgraph Contract Negotiation
+    C1
+    C2
+    C3
+  end
+  subgraph Material Procurement
+    D1
+    D2
+    D3
+  end
+  subgraph Quality Assurance
+    E1
+    E2
+    E3
+  end
+  subgraph Feedback and Improvement
+    F1
+    F2
+    F3
+  end
+  A -->|Evaluate| B
+  B -->|Negotiate| C
+  C -->|Procure| D
+  D -->|Verify| E
+  E -->|Improve| F
+  F -->|Continuous Improvement| A
+  linkStyle default stroke:#2ecc71,stroke-width:2px

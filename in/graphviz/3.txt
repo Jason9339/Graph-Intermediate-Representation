@@ -1,0 +1,37 @@
+import graphviz
+from io import BytesIO
+from PIL import Image
+
+def generate_diagram(data):
+    # Create a new directed graph
+    dot = graphviz.Digraph(comment='Farrelly Brothers Family Tree', format='png')
+    dot.attr(rankdir='TB', size='12,8', dpi='300', bgcolor='lightgray')
+
+    # Define node styles
+    dot.attr('node', shape='box', style='filled,rounded', fontname='Arial', fontsize='10')
+
+    # Add nodes
+    for node in data['nodes']:
+        if 'film' in node['details'].lower():
+            color = '#FFD700'  # Gold for films
+        elif 'director' in node['details'].lower():
+            color = '#98FB98'  # Pale green for directors
+        elif 'cumberland' in node['details'].lower():
+            color = '#87CEFA'  # Light sky blue for Cumberland, RI
+        else:
+            color = '#FFFFFF'  # White for others
+
+        dot.node(node['id'], f"{node['name']}\n{node['details']}", fillcolor=color)
+
+    # Add edges
+    for edge in data['edges']:
+        dot.edge(edge['from'], edge['to'], edge['label'], fontname='Arial', fontsize='8', color='#4169E1')
+
+    # Render the graph to a PNG image
+    png_data = dot.pipe(format='png')
+    
+    # Convert to PIL Image
+    img_data = BytesIO(png_data)
+    img = Image.open(img_data)
+    
+    return img

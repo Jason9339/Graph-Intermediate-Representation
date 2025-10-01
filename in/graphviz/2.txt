@@ -1,0 +1,36 @@
+import graphviz
+from PIL import Image
+import io
+
+def generate_diagram(data):
+    # Create a new directed graph
+    dot = graphviz.Digraph(comment='Data Flow Diagram', format='png')
+    dot.attr(rankdir='TB', size='12,12', dpi='300', fontname='Helvetica', fontsize='14')
+
+    # Define node styles
+    dot.attr('node', shape='rectangle', style='filled', color='#2C3E50', fontcolor='white', fontname='Helvetica', fontsize='12')
+    dot.attr('edge', fontname='Helvetica', fontsize='10', fontcolor='#34495E', color='#34495E')
+
+    # Add processes
+    for process in data['processes']:
+        dot.node(process['id'], process['name'], shape='ellipse', fillcolor='#3498DB')
+
+    # Add data stores
+    for store in data['dataStores']:
+        dot.node(store['id'], store['name'], shape='cylinder', fillcolor='#E67E22')
+
+    # Add external entities
+    for entity in data['externalEntities']:
+        dot.node(entity['id'], entity['name'], shape='rectangle', fillcolor='#27AE60')
+
+    # Add data flows
+    for flow in data['dataFlows']:
+        source = next((item['id'] for item in data['processes'] + data['dataStores'] + data['externalEntities'] if item['name'] == flow['source']), flow['source'])
+        destination = next((item['id'] for item in data['processes'] + data['dataStores'] + data['externalEntities'] if item['name'] == flow['destination']), flow['destination'])
+        dot.edge(source, destination, label=flow['content'], fontsize='8')
+
+    # Render the graph
+    img_data = dot.pipe(format='png')
+    img = Image.open(io.BytesIO(img_data))
+
+    return img

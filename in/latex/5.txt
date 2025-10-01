@@ -1,0 +1,48 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{automata,positioning,arrows.meta}
+
+\begin{document}
+
+\begin{tikzpicture}[
+    ->,
+    >=stealth,
+    node distance=3cm,
+    every state/.style={
+        draw=teal!50!black,
+        thick,
+        fill=teal!20,
+        minimum size=6mm,
+        font=\sffamily\small
+    },
+    every edge/.style={
+        draw=orange!50!black,
+        thick,
+        font=\tiny\sffamily
+    }
+]
+
+    \node[state, initial] (IA) {Initial\\Assessment};
+    \node[state, right=of IA] (BR) {Building\\Rapport};
+    \node[state, below right=of BR] (II) {Identifying\\Issues};
+    \node[state, below=of II] (SG) {Setting\\Goals};
+    \node[state, left=of SG] (IP) {Intervention\\Phase};
+    \node[state, above left=of IP] (PE) {Progress\\Evaluation};
+    \node[state, left=of PE] (AA) {Adjusting\\Approach};
+    \node[state, below left=of AA] (OE) {Outcome\\Evaluation};
+    \node[state, accepting, below=of OE] (T) {Termination};
+
+    \path
+    (IA) edge node[above] {Begin} (BR)
+    (BR) edge node[right] {Alliance formed} (II)
+    (II) edge node[right] {Issues identified} (SG)
+    (SG) edge node[above] {Goals set} (IP)
+    (IP) edge node[left] {Evaluate} (PE)
+    (PE) edge node[left] {Need adjustment} (AA)
+    (AA) edge[bend right] node[left] {Resume} (IP)
+    (PE) edge[bend left] node[above] {Progress sufficient} (OE)
+    (OE) edge node[left] {Conclude} (T);
+
+\end{tikzpicture}
+
+\end{document}

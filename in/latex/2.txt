@@ -1,0 +1,74 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, positioning, fit, backgrounds}
+
+\definecolor{preprocesscolor}{RGB}{255, 230, 230}
+\definecolor{trainingcolor}{RGB}{230, 255, 230}
+\definecolor{evaluationcolor}{RGB}{230, 230, 255}
+
+\begin{document}
+\begin{tikzpicture}[
+    node distance=1.5cm and 2cm,
+    every node/.style={font=\sffamily\small},
+    input/.style={rectangle, draw, fill=white, minimum width=2cm, minimum height=1cm},
+    process/.style={rectangle, rounded corners, draw, fill=white, minimum width=2cm, minimum height=1cm},
+    output/.style={ellipse, draw, fill=white, minimum width=2cm, minimum height=1cm},
+    arrow/.style={->, >=stealth, thick},
+    label/.style={font=\sffamily\bfseries\small, align=center}
+]
+
+% Data Preprocessing Layer
+\node[label] (preprocess) at (0,10) {Data Preprocessing};
+\begin{scope}[local bounding box=preprocessing]
+\node[input] (raw) at (0,8) {Raw Data};
+\node[process, below=of raw] (clean) {Data Cleaning};
+\node[process, below=of clean] (extract) {Feature Extraction};
+\node[process, below=of extract] (normalize) {Data Normalization};
+\node[output, below=of normalize] (preprocessed) {Preprocessed Data};
+
+\draw[arrow] (raw) -- (clean);
+\draw[arrow] (clean) -- (extract);
+\draw[arrow] (extract) -- (normalize);
+\draw[arrow] (normalize) -- (preprocessed);
+\end{scope}
+
+% Model Training Layer
+\node[label] (training) at (6,10) {Model Training};
+\begin{scope}[local bounding box=modeltraining]
+\node[input, right=4cm of raw] (traindata) {Training Data};
+\node[process, below=of traindata] (init) {Model Initialization};
+\node[process, below=of init] (train) {Training Process};
+\node[output, below=of train] (model) {Trained Model};
+
+\draw[arrow] (traindata) -- (init);
+\draw[arrow] (init) -- (train);
+\draw[arrow] (train) -- (model);
+\end{scope}
+
+% Error Evaluation Layer
+\node[label] (evaluation) at (12,10) {Error Evaluation};
+\begin{scope}[local bounding box=errorevaluation]
+\node[input, right=4cm of traindata] (valdata) {Validation Data};
+\node[process, below=of valdata] (predict) {Predictive Analysis};
+\node[process, below=of predict] (error) {Error Calculation};
+\node[output, below=of error] (report) {Evaluation Report};
+
+\draw[arrow] (valdata) -- (predict);
+\draw[arrow] (predict) -- (error);
+\draw[arrow] (error) -- (report);
+\end{scope}
+
+% Inter-layer connections
+\draw[arrow, dashed] (preprocessed) -- (traindata);
+\draw[arrow, dashed] (model) -- (predict);
+\draw[arrow, dashed] (valdata) to[out=180,in=0] (predict);
+
+% Background coloring
+\begin{scope}[on background layer]
+\node[fit=(preprocessing), fill=preprocesscolor, rounded corners, inner sep=10pt] {};
+\node[fit=(modeltraining), fill=trainingcolor, rounded corners, inner sep=10pt] {};
+\node[fit=(errorevaluation), fill=evaluationcolor, rounded corners, inner sep=10pt] {};
+\end{scope}
+
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,22 @@
+sequenceDiagram
+    participant Player as 👤 Player
+    participant NPC as 🤖 NPC
+    participant DialogueManager as 💬 DialogueManager
+    participant GameServer as 🖥️ GameServer
+
+    Player->>+NPC: Initiate Conversation
+    NPC->>+DialogueManager: Load Dialogue Tree
+    DialogueManager->>+GameServer: Fetch Dialogue Data
+    GameServer-->>-DialogueManager: Return Dialogue Data
+    DialogueManager-->>-NPC: Send Dialogue Options
+    NPC-->>-Player: Present Dialogue Options
+    Player->>+NPC: Select Dialogue Option
+    NPC->>+DialogueManager: Process Player Selection
+    DialogueManager->>+GameServer: Log Player Choice
+    GameServer-->>-DialogueManager: Acknowledge and Update State
+    DialogueManager-->>-NPC: Provide Next Dialogue or Action
+    NPC-->>-Player: Continue Dialogue or Execute Action
+
+    rect rgb(240, 240, 240)
+        note over Player,GameServer: NPC Dialogue Tree Navigation
+    end

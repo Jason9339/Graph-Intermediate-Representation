@@ -1,0 +1,387 @@
+{
+  "graph": {
+    "title": "LaTeXDiagramPipeline_natural_1-24",
+    "directed": false,
+    "orientation": "LR",
+    "layout": "hierarchical",
+    "metadata": {
+      "source_id": "LaTeXDiagramPipeline_natural_1-24",
+      "parser": "tikz",
+      "original_code": "\\documentclass[border=10pt]{standalone}\n\\usepackage{tikz}\n\\usetikzlibrary{shapes,arrows,positioning,backgrounds}\n\n\\begin{document}\n\n\\tikzstyle{process} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=orange, fill=orange!30]\n\\tikzstyle{material} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=green, fill=green!30]\n\\tikzstyle{emission} = [ellipse, minimum width=3cm, minimum height=1cm, text centered, draw=red, fill=red!30]\n\\tikzstyle{metric} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=blue, fill=blue!30]\n\\tikzstyle{prevention} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=purple, fill=purple!30]\n\\tikzstyle{profile} = [regular polygon,regular polygon sides=6, minimum width=3cm, minimum height=1cm, text centered, draw=brown, fill=brown!30]\n\\tikzstyle{arrow} = [thick,->,>=stealth]\n\n\\begin{tikzpicture}[node distance=2cm]\n\n\\node (sawmill) [process] {Sawmill Operations};\n\\node (raw) [process, below left=of sawmill] {Raw Material Processing};\n\\node (sawing) [process, below=of sawmill] {Sawing};\n\\node (planing) [process, below right=of sawmill] {Planing};\n\\node (waste) [material, below=of sawing] {Wood Waste};\n\\node (emissions) [emission, below=of waste] {Particulate Emissions};\n\\node (fine) [emission, below left=of emissions] {Fine Particulates (PM2.5)};\n\\node (coarse) [emission, below right=of emissions] {Coarse Particulates (PM10)};\n\\node (aqi) [metric, left=of emissions] {Air Quality Index};\n\\node (control) [prevention, right=of emissions] {Dust Control Measures};\n\\node (profile) [profile, below=of emissions] {Daily Emission Profile};\n\n\\draw [arrow] (sawmill) -- node[anchor=east] {includes} (raw);\n\\draw [arrow] (sawmill) -- node[anchor=west] {includes} (sawing);\n\\draw [arrow] (sawmill) -- node[anchor=west] {includes} (planing);\n\\draw [arrow] (raw) -- node[anchor=east] {produces} (waste);\n\\draw [arrow] (sawing) -- node[anchor=west] {produces} (waste);\n\\draw [arrow] (planing) -- node[anchor=west] {produces} (waste);\n\\draw [arrow] (waste) -- node[anchor=west] {generates} (emissions);\n\\draw [arrow] (emissions) -- node[anchor=east] {contains} (fine);\n\\draw [arrow] (emissions) -- node[anchor=west] {contains} (coarse);\n\\draw [arrow] (emissions) -- node[anchor=south] {affects} (aqi);\n\\draw [arrow] (control) -- node[anchor=south] {reduces} (emissions);\n\\draw [arrow] (emissions) -- node[anchor=west] {tracked by} (profile);\n\n\\begin{pgfonlayer}{background}\n\\path (sawmill.west |- sawmill.north)+(-0.5,0.5) node (a) {};\n\\path (profile.south -| profile.east)+(0.5,-0.5) node (b) {};\n\\path[fill=yellow!20,rounded corners, draw=black!50, dashed]\n    (a) rectangle (b);\n\\end{pgfonlayer}\n\n\\end{tikzpicture}\n\n\\end{document}",
+      "libraries": [
+        "shapes",
+        "arrows",
+        "positioning",
+        "backgrounds"
+      ],
+      "preamble": "\\documentclass[border=10pt]{standalone}\n\\usepackage{tikz}\n\\usetikzlibrary{shapes,arrows,positioning,backgrounds}",
+      "tikz_options": "node distance=2cm",
+      "tikzpicture": "[node distance=2cm]\n\n\\node (sawmill) [process] {Sawmill Operations};\n\\node (raw) [process, below left=of sawmill] {Raw Material Processing};\n\\node (sawing) [process, below=of sawmill] {Sawing};\n\\node (planing) [process, below right=of sawmill] {Planing};\n\\node (waste) [material, below=of sawing] {Wood Waste};\n\\node (emissions) [emission, below=of waste] {Particulate Emissions};\n\\node (fine) [emission, below left=of emissions] {Fine Particulates (PM2.5)};\n\\node (coarse) [emission, below right=of emissions] {Coarse Particulates (PM10)};\n\\node (aqi) [metric, left=of emissions] {Air Quality Index};\n\\node (control) [prevention, right=of emissions] {Dust Control Measures};\n\\node (profile) [profile, below=of emissions] {Daily Emission Profile};\n\n\\draw [arrow] (sawmill) -- node[anchor=east] {includes} (raw);\n\\draw [arrow] (sawmill) -- node[anchor=west] {includes} (sawing);\n\\draw [arrow] (sawmill) -- node[anchor=west] {includes} (planing);\n\\draw [arrow] (raw) -- node[anchor=east] {produces} (waste);\n\\draw [arrow] (sawing) -- node[anchor=west] {produces} (waste);\n\\draw [arrow] (planing) -- node[anchor=west] {produces} (waste);\n\\draw [arrow] (waste) -- node[anchor=west] {generates} (emissions);\n\\draw [arrow] (emissions) -- node[anchor=east] {contains} (fine);\n\\draw [arrow] (emissions) -- node[anchor=west] {contains} (coarse);\n\\draw [arrow] (emissions) -- node[anchor=south] {affects} (aqi);\n\\draw [arrow] (control) -- node[anchor=south] {reduces} (emissions);\n\\draw [arrow] (emissions) -- node[anchor=west] {tracked by} (profile);\n\n\\begin{pgfonlayer}{background}\n\\path (sawmill.west |- sawmill.north)+(-0.5,0.5) node (a) {};\n\\path (profile.south -| profile.east)+(0.5,-0.5) node (b) {};\n\\path[fill=yellow!20,rounded corners, draw=black!50, dashed]\n    (a) rectangle (b);\n\\end{pgfonlayer}"
+    }
+  },
+  "nodes": [
+    {
+      "id": "sawmill",
+      "label": "Sawmill Operations",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "process"
+        ]
+      }
+    },
+    {
+      "id": "raw",
+      "label": "Raw Material Processing",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "process"
+        ],
+        "options": {
+          "below left": "of sawmill"
+        }
+      }
+    },
+    {
+      "id": "sawing",
+      "label": "Sawing",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "process"
+        ],
+        "options": {
+          "below": "of sawmill"
+        }
+      }
+    },
+    {
+      "id": "planing",
+      "label": "Planing",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "process"
+        ],
+        "options": {
+          "below right": "of sawmill"
+        }
+      }
+    },
+    {
+      "id": "waste",
+      "label": "Wood Waste",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "material"
+        ],
+        "options": {
+          "below": "of sawing"
+        }
+      }
+    },
+    {
+      "id": "emissions",
+      "label": "Particulate Emissions",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "emission"
+        ],
+        "options": {
+          "below": "of waste"
+        }
+      }
+    },
+    {
+      "id": "fine",
+      "label": "Fine Particulates (PM2.5)",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "emission"
+        ],
+        "options": {
+          "below left": "of emissions"
+        }
+      }
+    },
+    {
+      "id": "coarse",
+      "label": "Coarse Particulates (PM10)",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "emission"
+        ],
+        "options": {
+          "below right": "of emissions"
+        }
+      }
+    },
+    {
+      "id": "aqi",
+      "label": "Air Quality Index",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "metric"
+        ],
+        "options": {
+          "left": "of emissions"
+        }
+      }
+    },
+    {
+      "id": "control",
+      "label": "Dust Control Measures",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "prevention"
+        ],
+        "options": {
+          "right": "of emissions"
+        }
+      }
+    },
+    {
+      "id": "profile",
+      "label": "Daily Emission Profile",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {
+        "flags": [
+          "profile"
+        ],
+        "options": {
+          "below": "of emissions"
+        }
+      }
+    },
+    {
+      "id": "a",
+      "label": "a",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    },
+    {
+      "id": "b",
+      "label": "b",
+      "shape": null,
+      "color": null,
+      "fillColor": null,
+      "style": null,
+      "width": null,
+      "height": null,
+      "metadata": {}
+    }
+  ],
+  "edges": [
+    {
+      "source": "sawmill",
+      "target": "raw",
+      "directed": false,
+      "label": "includes",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "sawmill",
+      "target": "sawing",
+      "directed": false,
+      "label": "includes",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "sawmill",
+      "target": "planing",
+      "directed": false,
+      "label": "includes",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "raw",
+      "target": "waste",
+      "directed": false,
+      "label": "produces",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "sawing",
+      "target": "waste",
+      "directed": false,
+      "label": "produces",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "planing",
+      "target": "waste",
+      "directed": false,
+      "label": "produces",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "waste",
+      "target": "emissions",
+      "directed": false,
+      "label": "generates",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "emissions",
+      "target": "fine",
+      "directed": false,
+      "label": "contains",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "emissions",
+      "target": "coarse",
+      "directed": false,
+      "label": "contains",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "emissions",
+      "target": "aqi",
+      "directed": false,
+      "label": "affects",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "control",
+      "target": "emissions",
+      "directed": false,
+      "label": "reduces",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "emissions",
+      "target": "profile",
+      "directed": false,
+      "label": "tracked by",
+      "style": null,
+      "color": null,
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    },
+    {
+      "source": "a",
+      "target": "b",
+      "directed": false,
+      "label": "",
+      "style": "dashed",
+      "color": "black!50",
+      "arrowHead": null,
+      "weight": null,
+      "metadata": {}
+    }
+  ],
+  "groups": []
+}

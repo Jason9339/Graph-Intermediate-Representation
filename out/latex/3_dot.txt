@@ -1,0 +1,24 @@
+digraph G {
+  rankdir=LR;
+  labelloc="t"; label="LaTeXDiagramPipeline_textbook_1-75";
+  "onboarding" [shape="box", label="Onboarding\\\small\textit{Introduction to Red Cross Mission and Values"];
+  "basicFirstAid" [shape="box", label="Basic First Aid\\\small\textit{Basic lifesaving techniques and CPR"];
+  "volunteerCodeOfConduct" [shape="box", label="Volunteer Code of Conduct\\\small\textit{Understanding roles, responsibilities, and ethical guidelines"];
+  "emergencyResponseTraining" [shape="box", label="Emergency Response Training\\\small\textit{Disaster response and safety procedures"];
+  "psychologicalFirstAid" [shape="box", label="Psychological First Aid\\\small\textit{Providing emotional support in crises"];
+  "onboarding.east" [shape="box", label="Specialized Training\\\small\textit{Specific training based on volunteer's role"];
+  "continuingEducation" [shape="box", label="Continuing Education\\\small\textit{Ongoing learning and skill enhancement"];
+  "advancedCertifications" [shape="box", label="Advanced Certifications\\\small\textit{Specialized certifications"];
+  "leadershipTraining" [shape="box", label="Leadership Training\\\small\textit{Cultivating leadership and team management skills"];
+  "communityEngagement" [shape="box", label="Community Engagement\\\small\textit{Building relationships and outreach activities"];
+  "specializedTraining" [shape="box", label="specializedTraining"];
+  "onboarding" -> "basicFirstAid" [arrowhead="normal"];
+  "basicFirstAid" -> "volunteerCodeOfConduct" [arrowhead="normal"];
+  "volunteerCodeOfConduct" -> "emergencyResponseTraining" [arrowhead="normal"];
+  "emergencyResponseTraining" -> "psychologicalFirstAid" [arrowhead="normal"];
+  "psychologicalFirstAid" -> "specializedTraining" [arrowhead="normal"];
+  "specializedTraining" -> "continuingEducation" [arrowhead="normal"];
+  "continuingEducation" -> "advancedCertifications" [arrowhead="normal"];
+  "advancedCertifications" -> "leadershipTraining" [arrowhead="normal"];
+  "leadershipTraining" -> "communityEngagement" [arrowhead="normal"];
+}
