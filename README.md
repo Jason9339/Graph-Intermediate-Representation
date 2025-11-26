@@ -1,5 +1,12 @@
 # Graph Intermediate Representation (IR) Converter
 
+> 只想快速確認頁面效果？
+> ```bash
+> git clone <repo-url>
+> python3 -m http.server 8000
+> ```
+> 然後開啟 http://localhost:8000/index.html 即可預覽左右並排的圖與 IR JSON。
+
 A unified tool to convert diagram source code (Mermaid, TikZ/LaTeX, Graphviz) into **one** format-consistent intermediate representation (IR) in JSON.
 
 ## Requirements & install

@@ -265,9 +265,12 @@ def _extract_nodes_from_json(json_layout: Dict[str, Any]) -> Dict[str, Dict[str,
         style = obj.get('style', '')
 
         # Build node info
+        raw_label = obj.get('label', name)
+        # Graphviz uses "\N" as placeholder for node name; treat it as missing.
+        label = raw_label if raw_label not in (None, '', '\\N') else name
         node_info = {
             'name': name,
-            'label': obj.get('label', name),
+            'label': label,
             'shape': shape,
             'position': pos,
             'width': width,

@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "5th Edition",
-      "label": "\\N",
+      "label": "5th Edition",
       "shape": "ellipse",
       "pos": [
         573.5,
@@ -18,7 +18,7 @@
     },
     {
       "id": "6th Edition",
-      "label": "\\N",
+      "label": "6th Edition",
       "shape": "ellipse",
       "pos": [
         468.5,
@@ -32,7 +32,7 @@
     },
     {
       "id": "PWB 1.0",
-      "label": "\\N",
+      "label": "PWB 1.0",
       "shape": "ellipse",
       "pos": [
         748.5,
@@ -46,7 +46,7 @@
     },
     {
       "id": "LSX",
-      "label": "\\N",
+      "label": "LSX",
       "shape": "ellipse",
       "pos": [
         650.5,
@@ -60,7 +60,7 @@
     },
     {
       "id": "1 BSD",
-      "label": "\\N",
+      "label": "1 BSD",
       "shape": "ellipse",
       "pos": [
         131.5,
@@ -74,7 +74,7 @@
     },
     {
       "id": "Mini Unix",
-      "label": "\\N",
+      "label": "Mini Unix",
       "shape": "ellipse",
       "pos": [
         398.5,
@@ -88,7 +88,7 @@
     },
     {
       "id": "Wollongong",
-      "label": "\\N",
+      "label": "Wollongong",
       "shape": "ellipse",
       "pos": [
         538.5,
@@ -102,7 +102,7 @@
     },
     {
       "id": "Interdata",
-      "label": "\\N",
+      "label": "Interdata",
       "shape": "ellipse",
       "pos": [
         270.5,
@@ -116,7 +116,7 @@
     },
     {
       "id": "Unix/TS 3.0",
-      "label": "\\N",
+      "label": "Unix/TS 3.0",
       "shape": "ellipse",
       "pos": [
         662.5,
@@ -130,7 +130,7 @@
     },
     {
       "id": "PWB 2.0",
-      "label": "\\N",
+      "label": "PWB 2.0",
       "shape": "ellipse",
       "pos": [
         599.5,
@@ -144,7 +144,7 @@
     },
     {
       "id": "7th Edition",
-      "label": "\\N",
+      "label": "7th Edition",
       "shape": "ellipse",
       "pos": [
         270.5,
@@ -158,7 +158,7 @@
     },
     {
       "id": "8th Edition",
-      "label": "\\N",
+      "label": "8th Edition",
       "shape": "ellipse",
       "pos": [
         508.5,
@@ -172,7 +172,7 @@
     },
     {
       "id": "32V",
-      "label": "\\N",
+      "label": "32V",
       "shape": "ellipse",
       "pos": [
         425.5,
@@ -186,7 +186,7 @@
     },
     {
       "id": "V7M",
-      "label": "\\N",
+      "label": "V7M",
       "shape": "ellipse",
       "pos": [
         32.497,
@@ -200,7 +200,7 @@
     },
     {
       "id": "Ultrix-11",
-      "label": "\\N",
+      "label": "Ultrix-11",
       "shape": "ellipse",
       "pos": [
         107.5,
@@ -214,7 +214,7 @@
     },
     {
       "id": "Xenix",
-      "label": "\\N",
+      "label": "Xenix",
       "shape": "ellipse",
       "pos": [
         213.5,
@@ -228,7 +228,7 @@
     },
     {
       "id": "UniPlus+",
-      "label": "\\N",
+      "label": "UniPlus+",
       "shape": "ellipse",
       "pos": [
         323.5,
@@ -242,7 +242,7 @@
     },
     {
       "id": "9th Edition",
-      "label": "\\N",
+      "label": "9th Edition",
       "shape": "ellipse",
       "pos": [
         594.5,
@@ -256,7 +256,7 @@
     },
     {
       "id": "2 BSD",
-      "label": "\\N",
+      "label": "2 BSD",
       "shape": "ellipse",
       "pos": [
         81.497,
@@ -270,7 +270,7 @@
     },
     {
       "id": "2.8 BSD",
-      "label": "\\N",
+      "label": "2.8 BSD",
       "shape": "ellipse",
       "pos": [
         226.5,
@@ -284,7 +284,7 @@
     },
     {
       "id": "2.9 BSD",
-      "label": "\\N",
+      "label": "2.9 BSD",
       "shape": "ellipse",
       "pos": [
         226.5,
@@ -298,7 +298,7 @@
     },
     {
       "id": "3 BSD",
-      "label": "\\N",
+      "label": "3 BSD",
       "shape": "ellipse",
       "pos": [
         396.5,
@@ -312,7 +312,7 @@
     },
     {
       "id": "4 BSD",
-      "label": "\\N",
+      "label": "4 BSD",
       "shape": "ellipse",
       "pos": [
         391.5,
@@ -326,7 +326,7 @@
     },
     {
       "id": "4.1 BSD",
-      "label": "\\N",
+      "label": "4.1 BSD",
       "shape": "ellipse",
       "pos": [
         387.5,
@@ -340,7 +340,7 @@
     },
     {
       "id": "4.2 BSD",
-      "label": "\\N",
+      "label": "4.2 BSD",
       "shape": "ellipse",
       "pos": [
         378.5,
@@ -354,7 +354,7 @@
     },
     {
       "id": "4.3 BSD",
-      "label": "\\N",
+      "label": "4.3 BSD",
       "shape": "ellipse",
       "pos": [
         464.5,
@@ -368,7 +368,7 @@
     },
     {
       "id": "Ultrix-32",
-      "label": "\\N",
+      "label": "Ultrix-32",
       "shape": "ellipse",
       "pos": [
         345.5,
@@ -382,7 +382,7 @@
     },
     {
       "id": "PWB 1.2",
-      "label": "\\N",
+      "label": "PWB 1.2",
       "shape": "ellipse",
       "pos": [
         748.5,
@@ -396,7 +396,7 @@
     },
     {
       "id": "USG 1.0",
-      "label": "\\N",
+      "label": "USG 1.0",
       "shape": "ellipse",
       "pos": [
         867.5,
@@ -410,7 +410,7 @@
     },
     {
       "id": "CB Unix 1",
-      "label": "\\N",
+      "label": "CB Unix 1",
       "shape": "ellipse",
       "pos": [
         901.5,
@@ -424,7 +424,7 @@
     },
     {
       "id": "USG 2.0",
-      "label": "\\N",
+      "label": "USG 2.0",
       "shape": "ellipse",
       "pos": [
         756.5,
@@ -438,7 +438,7 @@
     },
     {
       "id": "CB Unix 2",
-      "label": "\\N",
+      "label": "CB Unix 2",
       "shape": "ellipse",
       "pos": [
         937.5,
@@ -452,7 +452,7 @@
     },
     {
       "id": "CB Unix 3",
-      "label": "\\N",
+      "label": "CB Unix 3",
       "shape": "ellipse",
       "pos": [
         921.5,
@@ -466,7 +466,7 @@
     },
     {
       "id": "Unix/TS++",
-      "label": "\\N",
+      "label": "Unix/TS++",
       "shape": "ellipse",
       "pos": [
         860.5,
@@ -480,7 +480,7 @@
     },
     {
       "id": "PDP-11 Sys V",
-      "label": "\\N",
+      "label": "PDP-11 Sys V",
       "shape": "ellipse",
       "pos": [
         1015.5,
@@ -494,7 +494,7 @@
     },
     {
       "id": "USG 3.0",
-      "label": "\\N",
+      "label": "USG 3.0",
       "shape": "ellipse",
       "pos": [
         662.5,
@@ -508,7 +508,7 @@
     },
     {
       "id": "Unix/TS 1.0",
-      "label": "\\N",
+      "label": "Unix/TS 1.0",
       "shape": "ellipse",
       "pos": [
         796.5,
@@ -522,7 +522,7 @@
     },
     {
       "id": "TS 4.0",
-      "label": "\\N",
+      "label": "TS 4.0",
       "shape": "ellipse",
       "pos": [
         768.5,
@@ -536,7 +536,7 @@
     },
     {
       "id": "System V.0",
-      "label": "\\N",
+      "label": "System V.0",
       "shape": "ellipse",
       "pos": [
         768.5,
@@ -550,7 +550,7 @@
     },
     {
       "id": "System V.2",
-      "label": "\\N",
+      "label": "System V.2",
       "shape": "ellipse",
       "pos": [
         768.5,
@@ -564,7 +564,7 @@
     },
     {
       "id": "System V.3",
-      "label": "\\N",
+      "label": "System V.3",
       "shape": "ellipse",
       "pos": [
         768.5,

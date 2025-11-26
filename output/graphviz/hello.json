@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "Hello",
-      "label": "\\N",
+      "label": "Hello",
       "shape": "ellipse",
       "pos": [
         38.347,
@@ -17,7 +17,7 @@
     },
     {
       "id": "World",
-      "label": "\\N",
+      "label": "World",
       "shape": "ellipse",
       "pos": [
         38.347,

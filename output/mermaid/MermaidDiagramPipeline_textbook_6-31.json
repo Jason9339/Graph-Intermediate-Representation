@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "1",
-      "label": "Ancient Egyptian Music<br>Religious and ceremonial music",
+      "label": "Ancient Egyptian Music Religious and ceremonial music",
       "shape": "rect",
       "pos": [
         416.4765625,
@@ -21,7 +21,7 @@
     },
     {
       "id": "2",
-      "label": "Coptic Music<br>Christian liturgical music",
+      "label": "Coptic Music Christian liturgical music",
       "shape": "rect",
       "pos": [
         416.4765625,
@@ -38,7 +38,7 @@
     },
     {
       "id": "3",
-      "label": "Arab Classical Music<br>Influenced by Islamic traditions",
+      "label": "Arab Classical Music Influenced by Islamic traditions",
       "shape": "rect",
       "pos": [
         416.4765625,
@@ -55,7 +55,7 @@
     },
     {
       "id": "4",
-      "label": "Shaabi<br>Popular folk music",
+      "label": "Shaabi Popular folk music",
       "shape": "rect",
       "pos": [
         416.4765625,
@@ -72,7 +72,7 @@
     },
     {
       "id": "5",
-      "label": "Takht Ensemble<br>Traditional instrumental ensemble",
+      "label": "Takht Ensemble Traditional instrumental ensemble",
       "shape": "rect",
       "pos": [
         138.0,
@@ -89,7 +89,7 @@
     },
     {
       "id": "6",
-      "label": "Baligh Hamdi<br>Influential composer",
+      "label": "Baligh Hamdi Influential composer",
       "shape": "rect",
       "pos": [
         138.0,
@@ -106,7 +106,7 @@
     },
     {
       "id": "7",
-      "label": "Umm Kulthum<br>Legendary singer of the 20th century",
+      "label": "Umm Kulthum Legendary singer of the 20th century",
       "shape": "rect",
       "pos": [
         691.8359375,
@@ -123,7 +123,7 @@
     },
     {
       "id": "8",
-      "label": "Modern Pop<br>Contemporary popular music",
+      "label": "Modern Pop Contemporary popular music",
       "shape": "rect",
       "pos": [
         554.15625,
@@ -140,7 +140,7 @@
     },
     {
       "id": "9",
-      "label": "Amr Diab<br>Popular modern pop artist",
+      "label": "Amr Diab Popular modern pop artist",
       "shape": "rect",
       "pos": [
         403.12890625,
@@ -157,7 +157,7 @@
     },
     {
       "id": "10",
-      "label": "Sherine Abdelwahab<br>Renowned contemporary singer",
+      "label": "Sherine Abdelwahab Renowned contemporary singer",
       "shape": "rect",
       "pos": [
         705.18359375,

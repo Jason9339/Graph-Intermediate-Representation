@@ -73,7 +73,7 @@
       "from": "earth",
       "to": "kepler_452b",
       "arrow": true,
-      "label": "Orbit: 384.84 days<br>Size: 1.6x Earth<br>Habitable Zone: Yes",
+      "label": "Orbit: 384.84 days Size: 1.6x Earth Habitable Zone: Yes",
       "stroke": "#333",
       "strokeWidth": 2.0
     },
@@ -81,7 +81,7 @@
       "from": "trappist_1",
       "to": "trappist_1e",
       "arrow": true,
-      "label": "Orbit: 6.1 days<br>Size: 0.92x Earth<br>Habitable Zone: Yes",
+      "label": "Orbit: 6.1 days Size: 0.92x Earth Habitable Zone: Yes",
       "stroke": "#333",
       "strokeWidth": 2.0
     },
@@ -89,7 +89,7 @@
       "from": "earth",
       "to": "trappist_1",
       "arrow": true,
-      "label": "Distance from Earth:<br>40 light-years",
+      "label": "Distance from Earth: 40 light-years",
       "stroke": "#333",
       "strokeWidth": 2.0
     },
@@ -97,7 +97,7 @@
       "from": "earth",
       "to": "proxima_b",
       "arrow": true,
-      "label": "Distance: 4.2 light-years<br>Orbit: 11.2 days<br>Size: 1.3x Earth<br>Habitable Zone: Yes",
+      "label": "Distance: 4.2 light-years Orbit: 11.2 days Size: 1.3x Earth Habitable Zone: Yes",
       "stroke": "#333",
       "strokeWidth": 2.0
     }

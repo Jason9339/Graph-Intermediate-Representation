@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "anode",
-      "label": "\\N",
+      "label": "anode",
       "shape": "rect",
       "pos": [
         46.0,

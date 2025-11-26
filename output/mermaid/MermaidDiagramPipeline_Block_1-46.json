@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "title",
-      "label": "The Profile of a Criminal Offender:<br/>Psychological and Behavioral Traits",
+      "label": "The Profile of a Criminal Offender: Psychological and Behavioral Traits",
       "shape": "rect",
       "pos": [
         1163.2265625,
@@ -417,55 +417,55 @@
       "from": "CE",
       "to": "CE1",
       "arrow": true,
-      "label": "Abuse<br/>Neglect<br/>Trauma"
+      "label": "Abuse Neglect Trauma"
     },
     {
       "from": "FD",
       "to": "FD1",
       "arrow": true,
-      "label": "Parental Criminality<br/>Domestic Violence<br/>Substance Abuse"
+      "label": "Parental Criminality Domestic Violence Substance Abuse"
     },
     {
       "from": "EB",
       "to": "EB1",
       "arrow": true,
-      "label": "Learning Disabilities<br/>School Failure<br/>Peer Rejection"
+      "label": "Learning Disabilities School Failure Peer Rejection"
     },
     {
       "from": "PD",
       "to": "PD1",
       "arrow": true,
-      "label": "Antisocial PD<br/>Narcissistic PD<br/>Borderline PD"
+      "label": "Antisocial PD Narcissistic PD Borderline PD"
     },
     {
       "from": "CD",
       "to": "CD1",
       "arrow": true,
-      "label": "Lack of Empathy<br/>Entitlement<br/>Rationalization"
+      "label": "Lack of Empathy Entitlement Rationalization"
     },
     {
       "from": "ES",
       "to": "ES1",
       "arrow": true,
-      "label": "Anger<br/>Paranoia<br/>Depression"
+      "label": "Anger Paranoia Depression"
     },
     {
       "from": "CH",
       "to": "CH1",
       "arrow": true,
-      "label": "Juvenile Delinquency<br/>Violent Crimes<br/>Substance Abuse Crimes"
+      "label": "Juvenile Delinquency Violent Crimes Substance Abuse Crimes"
     },
     {
       "from": "IR",
       "to": "IR1",
       "arrow": true,
-      "label": "Coercion<br/>Manipulation<br/>Isolation"
+      "label": "Coercion Manipulation Isolation"
     },
     {
       "from": "LS",
       "to": "LS1",
       "arrow": true,
-      "label": "Unstable Employment<br/>Transient Living<br/>Gang Affiliation"
+      "label": "Unstable Employment Transient Living Gang Affiliation"
     },
     {
       "from": "title",

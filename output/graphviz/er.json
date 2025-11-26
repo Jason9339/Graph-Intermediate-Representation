@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "course",
-      "label": "\\N",
+      "label": "course",
       "shape": "rect",
       "pos": [
         291.4,
@@ -17,7 +17,7 @@
     },
     {
       "id": "institute",
-      "label": "\\N",
+      "label": "institute",
       "shape": "rect",
       "pos": [
         243.4,
@@ -30,7 +30,7 @@
     },
     {
       "id": "student",
-      "label": "\\N",
+      "label": "student",
       "shape": "rect",
       "pos": [
         230.4,
@@ -82,7 +82,7 @@
     },
     {
       "id": "code",
-      "label": "\\N",
+      "label": "code",
       "shape": "ellipse",
       "pos": [
         335.4,
@@ -95,7 +95,7 @@
     },
     {
       "id": "grade",
-      "label": "\\N",
+      "label": "grade",
       "shape": "ellipse",
       "pos": [
         128.4,
@@ -108,7 +108,7 @@
     },
     {
       "id": "number",
-      "label": "\\N",
+      "label": "number",
       "shape": "ellipse",
       "pos": [
         230.4,
@@ -121,7 +121,7 @@
     },
     {
       "id": "C-I",
-      "label": "\\N",
+      "label": "C-I",
       "shape": "diamond",
       "pos": [
         255.4,
@@ -135,7 +135,7 @@
     },
     {
       "id": "S-C",
-      "label": "\\N",
+      "label": "S-C",
       "shape": "diamond",
       "pos": [
         332.4,
@@ -149,7 +149,7 @@
     },
     {
       "id": "S-I",
-      "label": "\\N",
+      "label": "S-I",
       "shape": "diamond",
       "pos": [
         243.4,

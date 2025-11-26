@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "AO",
-      "label": "Ali Osman Taha<br>1951<br>Former Vice President of Sudan",
+      "label": "Ali Osman Taha 1951 Former Vice President of Sudan",
       "shape": "rect",
       "pos": [
         138.0,
@@ -21,7 +21,7 @@
     },
     {
       "id": "HPK",
-      "label": "Hans-Peter Kniess<br>1948<br>Former German Ambassador to Sudan",
+      "label": "Hans-Peter Kniess 1948 Former German Ambassador to Sudan",
       "shape": "rect",
       "pos": [
         138.0,
@@ -38,7 +38,7 @@
     },
     {
       "id": "BA",
-      "label": "Badr Eldin Abdullah<br>1960<br>Former Sudanese Ambassador to Germany",
+      "label": "Badr Eldin Abdullah 1960 Former Sudanese Ambassador to Germany",
       "shape": "rect",
       "pos": [
         448.0,
@@ -55,7 +55,7 @@
     },
     {
       "id": "MZ",
-      "label": "Michael Zickerick<br>1954<br>Former German Ambassador to Sudan",
+      "label": "Michael Zickerick 1954 Former German Ambassador to Sudan",
       "shape": "rect",
       "pos": [
         448.0,
@@ -72,7 +72,7 @@
     },
     {
       "id": "NE",
-      "label": "Nafisa El-Saddig<br>1965<br>Sudanese Diplomat",
+      "label": "Nafisa El-Saddig 1965 Sudanese Diplomat",
       "shape": "rect",
       "pos": [
         727.8203125,
@@ -89,7 +89,7 @@
     },
     {
       "id": "MM",
-      "label": "Miriam Müller<br>1967<br>German Diplomat",
+      "label": "Miriam Müller 1967 German Diplomat",
       "shape": "rect",
       "pos": [
         727.8203125,
@@ -110,7 +110,7 @@
       "from": "AO",
       "to": "HPK",
       "arrow": false,
-      "label": "Close family friend<br>and advisor",
+      "label": "Close family friend and advisor",
       "stroke": "#708090",
       "strokeWidth": 2.0
     },

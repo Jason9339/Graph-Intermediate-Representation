@@ -4,109 +4,7 @@
   "nodes": [
     {
       "id": "CS",
-      "label": "Correct:<br/>Stand tall and straight,<br/>keep shoulders back,<br/>distribute weight evenly",
-      "shape": "rect",
-      "pos": [
-        164.0,
-        106.0
-      ],
-      "size": [
-        237.0,
-        126.0
-      ],
-      "fill": "#e6f7ff",
-      "stroke": "#1890ff",
-      "strokeWidth": 2.0,
-      "class": "correct"
-    },
-    {
-      "id": "IS",
-      "label": "Incorrect:<br/>Slouching or leaning<br/>too far back,<br/>uneven weight distribution",
-      "shape": "rect",
-      "pos": [
-        487.28125,
-        106.0
-      ],
-      "size": [
-        180.09375,
-        102.0
-      ],
-      "fill": "#fff1f0",
-      "stroke": "#ff4d4f",
-      "strokeWidth": 2.0,
-      "class": "incorrect"
-    },
-    {
-      "id": "CSI",
-      "label": "Correct:<br/>Sit up with back straight,<br/>shoulders back, buttocks<br/>touching chair back",
-      "shape": "rect",
-      "pos": [
-        167.5625,
-        106.0
-      ],
-      "size": [
-        244.125,
-        126.0
-      ],
-      "fill": "#e6f7ff",
-      "stroke": "#1890ff",
-      "strokeWidth": 2.0,
-      "class": "correct"
-    },
-    {
-      "id": "ISI",
-      "label": "Incorrect:<br/>Slouching forward or<br/>backward, sitting without<br/>back support",
-      "shape": "rect",
-      "pos": [
-        508.6328125,
-        106.0
-      ],
-      "size": [
-        208.546875,
-        102.0
-      ],
-      "fill": "#fff1f0",
-      "stroke": "#ff4d4f",
-      "strokeWidth": 2.0,
-      "class": "incorrect"
-    },
-    {
-      "id": "CL",
-      "label": "Correct:<br/>Use legs to lift,<br/>keep back straight,<br/>hold objects close to body",
-      "shape": "rect",
-      "pos": [
-        163.546875,
-        106.0
-      ],
-      "size": [
-        236.09375,
-        126.0
-      ],
-      "fill": "#e6f7ff",
-      "stroke": "#1890ff",
-      "strokeWidth": 2.0,
-      "class": "correct"
-    },
-    {
-      "id": "IL",
-      "label": "Incorrect:<br/>Bending at the waist,<br/>lifting with your back",
-      "shape": "rect",
-      "pos": [
-        513.484375,
-        106.0
-      ],
-      "size": [
-        234.3125,
-        126.0
-      ],
-      "fill": "#fff1f0",
-      "stroke": "#ff4d4f",
-      "strokeWidth": 2.0,
-      "class": "incorrect"
-    },
-    {
-      "id": "CSL",
-      "label": "Correct:<br/>Sleep on side, preferably<br/>left, with bent knees and<br/>pillow between them",
+      "label": "Correct: Stand tall and straight, keep shoulders back, distribute weight evenly",
       "shape": "rect",
       "pos": [
         158.65625,
@@ -122,8 +20,8 @@
       "class": "correct"
     },
     {
-      "id": "ISL",
-      "label": "Incorrect:<br/>Sleeping on your<br/>back or stomach",
+      "id": "IS",
+      "label": "Incorrect: Slouching or leaning too far back, uneven weight distribution",
       "shape": "rect",
       "pos": [
         509.0546875,
@@ -132,6 +30,108 @@
       "size": [
         245.015625,
         126.0
+      ],
+      "fill": "#fff1f0",
+      "stroke": "#ff4d4f",
+      "strokeWidth": 2.0,
+      "class": "incorrect"
+    },
+    {
+      "id": "CSI",
+      "label": "Correct: Sit up with back straight, shoulders back, buttocks touching chair back",
+      "shape": "rect",
+      "pos": [
+        163.546875,
+        106.0
+      ],
+      "size": [
+        236.09375,
+        126.0
+      ],
+      "fill": "#e6f7ff",
+      "stroke": "#1890ff",
+      "strokeWidth": 2.0,
+      "class": "correct"
+    },
+    {
+      "id": "ISI",
+      "label": "Incorrect: Slouching forward or backward, sitting without back support",
+      "shape": "rect",
+      "pos": [
+        513.484375,
+        106.0
+      ],
+      "size": [
+        234.3125,
+        126.0
+      ],
+      "fill": "#fff1f0",
+      "stroke": "#ff4d4f",
+      "strokeWidth": 2.0,
+      "class": "incorrect"
+    },
+    {
+      "id": "CL",
+      "label": "Correct: Use legs to lift, keep back straight, hold objects close to body",
+      "shape": "rect",
+      "pos": [
+        167.5625,
+        106.0
+      ],
+      "size": [
+        244.125,
+        126.0
+      ],
+      "fill": "#e6f7ff",
+      "stroke": "#1890ff",
+      "strokeWidth": 2.0,
+      "class": "correct"
+    },
+    {
+      "id": "IL",
+      "label": "Incorrect: Bending at the waist, lifting with your back",
+      "shape": "rect",
+      "pos": [
+        508.6328125,
+        106.0
+      ],
+      "size": [
+        208.546875,
+        102.0
+      ],
+      "fill": "#fff1f0",
+      "stroke": "#ff4d4f",
+      "strokeWidth": 2.0,
+      "class": "incorrect"
+    },
+    {
+      "id": "CSL",
+      "label": "Correct: Sleep on side, preferably left, with bent knees and pillow between them",
+      "shape": "rect",
+      "pos": [
+        164.0,
+        106.0
+      ],
+      "size": [
+        237.0,
+        126.0
+      ],
+      "fill": "#e6f7ff",
+      "stroke": "#1890ff",
+      "strokeWidth": 2.0,
+      "class": "correct"
+    },
+    {
+      "id": "ISL",
+      "label": "Incorrect: Sleeping on your back or stomach",
+      "shape": "rect",
+      "pos": [
+        487.28125,
+        106.0
+      ],
+      "size": [
+        180.09375,
+        102.0
       ],
       "fill": "#fff1f0",
       "stroke": "#ff4d4f",

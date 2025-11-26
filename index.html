@@ -5,19 +5,19 @@
   <title>IR Viewer</title>
   <style>
     :root {
-      --bg: #0f172a;
-      --panel: #111827;
-      --accent: #38bdf8;
-      --text: #e5e7eb;
-      --muted: #9ca3af;
-      --border: #1f2937;
-      --code: #0b1221;
+      --bg: #f5f7fb;
+      --panel: #ffffff;
+      --accent: #0ea5e9;
+      --text: #0f172a;
+      --muted: #6b7280;
+      --border: #e5e7eb;
+      --code: #f3f4f6;
     }
     * { box-sizing: border-box; }
     body {
       margin: 0;
       font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
-      background: radial-gradient(circle at 20% 20%, #0b1221, #060913 40%), var(--bg);
+      background: radial-gradient(circle at 20% 20%, #e0f2fe, #f5f7fb 50%), var(--bg);
       color: var(--text);
       min-height: 100vh;
       display: flex;
@@ -33,12 +33,11 @@
     .controls {
       display: flex;
       flex-wrap: wrap;
-      gap: 10px;
+      gap: 12px;
       margin-top: 12px;
       align-items: center;
     }
-    .controls input[type="file"],
-    .controls input[type="text"],
+    .controls select,
     .controls button {
       background: var(--panel);
       border: 1px solid var(--border);
@@ -52,13 +51,17 @@
       border-color: var(--accent);
       color: var(--accent);
     }
+    .controls .spacer {
+      flex: 1;
+    }
     main {
       flex: 1;
       display: grid;
-      grid-template-columns: 1fr 1fr 1fr;
-      gap: 10px;
-      padding: 10px;
+      grid-template-columns: 1.1fr 1fr;
+      gap: 14px;
+      padding: 12px;
       min-height: 0;
+      overflow: hidden; /* keep independent scrollbars inside panels */
     }
     .panel {
       background: var(--panel);
@@ -77,15 +80,36 @@
     }
     .viewer {
       flex: 1;
+      min-height: 0;
       overflow: auto;
       border: 1px dashed var(--border);
       border-radius: 8px;
       padding: 8px;
-      background: #0c1324;
+      background: #f9fafb;
+    }
+    .status-row {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-top: 10px;
     }
     #svgHost svg {
       width: 100%;
       height: auto;
+    }
+    #svgHost img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+    #svgHost {
+      min-height: 0;
+      width: 100%;
+    }
+    #svgHost {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
     }
     pre {
       margin: 0;
@@ -93,7 +117,7 @@
       word-break: break-word;
       font-family: "SFMono-Regular", Menlo, Consolas, monospace;
       background: var(--code);
-      color: #cbd5e1;
+      color: #0f172a;
       padding: 8px;
       border-radius: 6px;
     }
@@ -101,43 +125,36 @@
     li { margin: 4px 0; color: var(--muted); font-size: 13px; }
     .status { font-size: 13px; color: var(--muted); margin-top: 6px; }
     .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; background: rgba(56,189,248,0.15); color: var(--accent); font-size: 12px; }
+    @media (max-width: 960px) {
+      main { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
   <header>
     <h1>IR Viewer · Unified JSON</h1>
-    <div class="subtle">Left: rendered SVG (if provided). Middle: IR JSON. Right: helpers & tips.</div>
+    <div class="subtle">直接瀏覽 <code>output/</code> 內的範例：左圖、右 IR JSON，無需上傳。</div>
     <div class="controls">
-      <label>JSON file <input type="file" id="jsonFile" accept=".json,application/json"></label>
-      <label>SVG file (optional) <input type="file" id="svgFile" accept=".svg,image/svg+xml"></label>
-      <input type="text" id="urlInput" placeholder="Load JSON from URL (raw GitHub works)" size="38">
-      <button id="loadUrl">Load URL</button>
-      <button id="clearAll">Clear</button>
-      <span class="badge" id="summary">No file loaded</span>
+      <label for="sampleSelect">選擇範例</label>
+      <select id="sampleSelect"></select>
+      <button id="prevSample">上一個</button>
+      <button id="nextSample">下一個</button>
+      <div class="spacer"></div>
+      <span class="badge" id="summary">載入中…</span>
     </div>
   </header>
   <main>
     <section class="panel">
-      <h2>Render (SVG)</h2>
-      <div id="svgHost" class="viewer">Drop an SVG file or load a pair of JSON + SVG.</div>
+      <h2>Render (SVG / PNG)</h2>
+      <div id="svgHost" class="viewer">範例圖載入中…</div>
     </section>
     <section class="panel">
       <h2>IR JSON</h2>
       <div class="viewer">
-        <pre id="irPre">Drop or load a JSON file to view the unified IR.</pre>
+        <pre id="irPre">範例 IR 載入中…</pre>
       </div>
-    </section>
-    <section class="panel">
-      <h2>Tips</h2>
-      <div class="viewer" id="tips">
-        <ul>
-          <li>Works offline: open <code>viewer.html</code> locally and drop your IR JSON (+ optional SVG).</li>
-          <li>GitHub: open this file in the repo, click “Raw”, save, then open locally; or host via GitHub Pages.</li>
-          <li>Bundled samples live in <code>output/</code>; pair <code>.json</code> with the matching <code>.svg</code> for preview.</li>
-          <li>Minimal IR fields: <code>title</code>, <code>orientation</code>, <code>nodes</code> (<code>pos/size/fill/stroke</code>), <code>edges</code> (<code>from/to/arrow/dash</code>), optional <code>groups</code>.</li>
-          <li>If you only load JSON, the IR is shown on the right; SVG preview is optional.</li>
-        </ul>
-        <div class="status" id="status">Waiting for files…</div>
+      <div class="status-row">
+        <div class="status" id="status">載入範例中…</div>
       </div>
     </section>
   </main>
@@ -146,6 +163,81 @@
     const svgHost = document.getElementById('svgHost');
     const statusEl = document.getElementById('status');
     const summary = document.getElementById('summary');
+    const sampleSelect = document.getElementById('sampleSelect');
+    const prevBtn = document.getElementById('prevSample');
+    const nextBtn = document.getElementById('nextSample');
+    const isFileProtocol = window.location.protocol === 'file:';
+
+    const samples = [
+      {
+        id: 'mermaid_textbook_6_132',
+        label: 'Mermaid · textbook_6-132',
+        json: 'output/mermaid/MermaidDiagramPipeline_textbook_6-132.json',
+        svg: 'output/mermaid/MermaidDiagramPipeline_textbook_6-132.svg'
+      },
+      {
+        id: 'mermaid_tree_1_146',
+        label: 'Mermaid · tree_1-146',
+        json: 'output/mermaid/MermaidDiagramPipeline_tree_1-146.json',
+        svg: 'output/mermaid/MermaidDiagramPipeline_tree_1-146.svg'
+      },
+      {
+        id: 'mermaid_network_1_185',
+        label: 'Mermaid · network_1-185',
+        json: 'output/mermaid/MermaidDiagramPipeline_network_1-185.json',
+        svg: 'output/mermaid/MermaidDiagramPipeline_network_1-185.svg'
+      },
+      {
+        id: 'mermaid_directed_1_199',
+        label: 'Mermaid · directed_1-199',
+        json: 'output/mermaid/MermaidDiagramPipeline_directed_1-199.json',
+        svg: 'output/mermaid/MermaidDiagramPipeline_directed_1-199.svg'
+      },
+      {
+        id: 'tikz_math_0_4',
+        label: 'TikZ · math_0-4',
+        json: 'output/tikz/LaTeXDiagramPipeline_math_0-4.json',
+        svg: 'output/tikz/LaTeXDiagramPipeline_math_0-4.svg'
+      },
+      {
+        id: 'tikz_fsm_1_247',
+        label: 'TikZ · fsm_1-247',
+        json: 'output/tikz/LaTeXDiagramPipeline_fsm_1-247.json',
+        svg: 'output/tikz/LaTeXDiagramPipeline_fsm_1-247.svg'
+      },
+      {
+        id: 'tikz_flow_1_387',
+        label: 'TikZ · flow_1-387',
+        json: 'output/tikz/LaTeXDiagramPipeline_flow_1-387.json',
+        svg: 'output/tikz/LaTeXDiagramPipeline_flow_1-387.svg'
+      },
+      {
+        id: 'graphviz_process',
+        label: 'Graphviz · process',
+        json: 'output/graphviz/process.json',
+        svg: 'output/graphviz/process.svg'
+      },
+      {
+        id: 'graphviz_btree',
+        label: 'Graphviz · btree',
+        json: 'output/graphviz/btree.json',
+        svg: 'output/graphviz/btree.svg'
+      },
+      {
+        id: 'graphviz_cluster',
+        label: 'Graphviz · cluster',
+        json: 'output/graphviz/cluster.json',
+        svg: 'output/graphviz/cluster.svg'
+      },
+      {
+        id: 'graphviz_cluster_edge',
+        label: 'Graphviz · cluster_edge',
+        json: 'output/graphviz/cluster_edge.json',
+        svg: 'output/graphviz/cluster_edge.svg'
+      }
+    ];
+
+    let currentIndex = 0;
 
     function setStatus(msg) {
       statusEl.textContent = msg;
@@ -177,54 +269,78 @@
 
     function displaySVG(text) {
       if (!text) {
-        svgHost.textContent = 'No SVG loaded.';
+        svgHost.textContent = 'No image loaded.';
         return;
       }
       svgHost.innerHTML = text;
       setStatus('SVG loaded.');
     }
 
-    function handleFile(fileInput, callback) {
-      const file = fileInput.files[0];
-      if (!file) return;
-      const reader = new FileReader();
-      reader.onload = (e) => callback(e.target.result);
-      reader.readAsText(file);
+    async function loadSample(index) {
+      if (isFileProtocol) {
+        const msg = '因瀏覽器限制，file:// 無法讀取本機檔案。請在專案根目錄執行 python3 -m http.server 8000，改用 http://localhost:8000 開啟。';
+        setStatus(msg);
+        irPre.textContent = msg;
+        svgHost.textContent = msg;
+        return;
+      }
+      const sample = samples[index];
+      if (!sample) return;
+      currentIndex = index;
+      sampleSelect.value = sample.id;
+      setStatus('Loading ' + sample.label + ' …');
+
+      try {
+        const [jsonRes, svgRes] = await Promise.all([
+          fetch(sample.json),
+          fetch(sample.svg)
+        ]);
+        if (!jsonRes.ok) throw new Error('JSON fetch failed: ' + jsonRes.status);
+        if (!svgRes.ok) throw new Error('SVG fetch failed: ' + svgRes.status);
+
+        const jsonText = await jsonRes.text();
+        const svgText = await svgRes.text();
+
+        displayIR(jsonText);
+        displaySVG(svgText);
+        summary.textContent = sample.label;
+        setStatus('Loaded.');
+      } catch (err) {
+        irPre.textContent = 'Failed to load sample: ' + err.message;
+        svgHost.textContent = 'Failed to load sample image.';
+        summary.textContent = 'Load error';
+        setStatus(err.message);
+      }
     }
 
-    document.getElementById('jsonFile').addEventListener('change', (e) => {
-      handleFile(e.target, displayIR);
+    function renderSampleOptions() {
+      sampleSelect.innerHTML = '';
+      samples.forEach((s) => {
+        const opt = document.createElement('option');
+        opt.value = s.id;
+        opt.textContent = s.label;
+        sampleSelect.appendChild(opt);
+      });
+    }
+
+    sampleSelect.addEventListener('change', () => {
+      const idx = samples.findIndex((s) => s.id === sampleSelect.value);
+      if (idx >= 0) loadSample(idx);
     });
 
-    document.getElementById('svgFile').addEventListener('change', (e) => {
-      handleFile(e.target, displaySVG);
+    prevBtn.addEventListener('click', () => {
+      const nextIndex = (currentIndex - 1 + samples.length) % samples.length;
+      loadSample(nextIndex);
     });
 
-    document.getElementById('loadUrl').addEventListener('click', async () => {
-      const url = document.getElementById('urlInput').value.trim();
-      if (!url) return;
-      setStatus('Fetching ' + url + ' …');
-      try {
-        const res = await fetch(url);
-        if (!res.ok) throw new Error(res.statusText);
-        const text = await res.text();
-        displayIR(text);
-      } catch (err) {
-        setStatus('Fetch failed: ' + err.message);
-        irPre.textContent = 'Failed to fetch: ' + err.message;
-        summary.textContent = 'Fetch error';
-      }
+    nextBtn.addEventListener('click', () => {
+      const nextIndex = (currentIndex + 1) % samples.length;
+      loadSample(nextIndex);
     });
 
-    document.getElementById('clearAll').addEventListener('click', () => {
-      irPre.textContent = 'Drop or load a JSON file to view the unified IR.';
-      svgHost.textContent = 'Drop an SVG file or load a pair of JSON + SVG.';
-      summary.textContent = 'No file loaded';
-      setStatus('Cleared.');
-      document.getElementById('jsonFile').value = '';
-      document.getElementById('svgFile').value = '';
-      document.getElementById('urlInput').value = '';
-    });
+    // Initialize
+    renderSampleOptions();
+    loadSample(0);
   </script>
 </body>
 </html>

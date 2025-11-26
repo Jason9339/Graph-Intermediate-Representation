@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "gy2",
-      "label": "\\N",
+      "label": "gy2",
       "shape": "rect",
       "pos": [
         243.75,
@@ -17,7 +17,7 @@
     },
     {
       "id": "yr2",
-      "label": "\\N",
+      "label": "yr2",
       "shape": "rect",
       "pos": [
         183.75,
@@ -30,7 +30,7 @@
     },
     {
       "id": "rg2",
-      "label": "\\N",
+      "label": "rg2",
       "shape": "rect",
       "pos": [
         145.75,
@@ -43,7 +43,7 @@
     },
     {
       "id": "gy1",
-      "label": "\\N",
+      "label": "gy1",
       "shape": "rect",
       "pos": [
         167.75,
@@ -56,7 +56,7 @@
     },
     {
       "id": "yr1",
-      "label": "\\N",
+      "label": "yr1",
       "shape": "rect",
       "pos": [
         167.75,
@@ -69,7 +69,7 @@
     },
     {
       "id": "rg1",
-      "label": "\\N",
+      "label": "rg1",
       "shape": "rect",
       "pos": [
         183.75,
@@ -82,7 +82,7 @@
     },
     {
       "id": "green2",
-      "label": "\\N",
+      "label": "green2",
       "shape": "circle",
       "pos": [
         217.75,
@@ -95,7 +95,7 @@
     },
     {
       "id": "yellow2",
-      "label": "\\N",
+      "label": "yellow2",
       "shape": "circle",
       "pos": [
         213.75,
@@ -108,7 +108,7 @@
     },
     {
       "id": "red2",
-      "label": "\\N",
+      "label": "red2",
       "shape": "circle",
       "pos": [
         95.75,
@@ -121,7 +121,7 @@
     },
     {
       "id": "safe2",
-      "label": "\\N",
+      "label": "safe2",
       "shape": "circle",
       "pos": [
         145.75,
@@ -134,7 +134,7 @@
     },
     {
       "id": "green1",
-      "label": "\\N",
+      "label": "green1",
       "shape": "circle",
       "pos": [
         167.75,
@@ -147,7 +147,7 @@
     },
     {
       "id": "yellow1",
-      "label": "\\N",
+      "label": "yellow1",
       "shape": "circle",
       "pos": [
         167.75,
@@ -160,7 +160,7 @@
     },
     {
       "id": "red1",
-      "label": "\\N",
+      "label": "red1",
       "shape": "circle",
       "pos": [
         228.75,
@@ -173,7 +173,7 @@
     },
     {
       "id": "safe1",
-      "label": "\\N",
+      "label": "safe1",
       "shape": "circle",
       "pos": [
         183.75,

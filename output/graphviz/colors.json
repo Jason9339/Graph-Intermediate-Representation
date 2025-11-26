@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "RGB: #40e0d0",
-      "label": "\\N",
+      "label": "RGB: #40e0d0",
       "shape": "ellipse",
       "pos": [
         79.943,
@@ -18,7 +18,7 @@
     },
     {
       "id": "RGBA: #ff000042",
-      "label": "\\N",
+      "label": "RGBA: #ff000042",
       "shape": "ellipse",
       "pos": [
         270.94,
@@ -32,7 +32,7 @@
     },
     {
       "id": "HSV: 0.051 0.718 0.627",
-      "label": "\\N",
+      "label": "HSV: 0.051 0.718 0.627",
       "shape": "ellipse",
       "pos": [
         502.94,
@@ -46,7 +46,7 @@
     },
     {
       "id": "name: deeppink",
-      "label": "\\N",
+      "label": "name: deeppink",
       "shape": "ellipse",
       "pos": [
         726.94,

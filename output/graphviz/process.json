@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "run",
-      "label": "\\N",
+      "label": "run",
       "shape": "ellipse",
       "pos": [
         91.747,
@@ -17,7 +17,7 @@
     },
     {
       "id": "intr",
-      "label": "\\N",
+      "label": "intr",
       "shape": "ellipse",
       "pos": [
         35.747,
@@ -30,7 +30,7 @@
     },
     {
       "id": "runbl",
-      "label": "\\N",
+      "label": "runbl",
       "shape": "ellipse",
       "pos": [
         35.747,
@@ -43,7 +43,7 @@
     },
     {
       "id": "kernel",
-      "label": "\\N",
+      "label": "kernel",
       "shape": "ellipse",
       "pos": [
         194.75,
@@ -56,7 +56,7 @@
     },
     {
       "id": "zombie",
-      "label": "\\N",
+      "label": "zombie",
       "shape": "ellipse",
       "pos": [
         133.75,
@@ -69,7 +69,7 @@
     },
     {
       "id": "sleep",
-      "label": "\\N",
+      "label": "sleep",
       "shape": "ellipse",
       "pos": [
         230.75,
@@ -82,7 +82,7 @@
     },
     {
       "id": "runmem",
-      "label": "\\N",
+      "label": "runmem",
       "shape": "ellipse",
       "pos": [
         220.75,
@@ -95,7 +95,7 @@
     },
     {
       "id": "swap",
-      "label": "\\N",
+      "label": "swap",
       "shape": "ellipse",
       "pos": [
         230.75,
@@ -108,7 +108,7 @@
     },
     {
       "id": "runswap",
-      "label": "\\N",
+      "label": "runswap",
       "shape": "ellipse",
       "pos": [
         230.75,
@@ -121,7 +121,7 @@
     },
     {
       "id": "new",
-      "label": "\\N",
+      "label": "new",
       "shape": "ellipse",
       "pos": [
         249.75,

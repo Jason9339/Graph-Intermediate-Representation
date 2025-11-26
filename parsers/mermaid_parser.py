@@ -572,8 +572,23 @@ def _parse_css_declarations(text: str) -> Dict[str, str]:
 
 def _clean_label(text: str) -> str:
     value = text.strip()
+
+    # Strip surrounding quotes first
     if value.startswith('"') and value.endswith('"') and len(value) >= 2:
         value = value[1:-1]
+    if value.startswith("'") and value.endswith("'") and len(value) >= 2:
+        value = value[1:-1]
+
+    # Remove outer parentheses added by some Mermaid parsers
+    if value.startswith("(") and value.endswith(")") and len(value) >= 2:
+        value = value[1:-1].strip()
+
+    # Normalize simple HTML line breaks/tags to plain text
+    value = re.sub(r"<br\\s*/?>", " ", value, flags=re.IGNORECASE)
+    value = re.sub(r"<[^>]+>", " ", value)  # drop any remaining tags
+
+    # Collapse whitespace
+    value = " ".join(value.split())
     return value
 
 

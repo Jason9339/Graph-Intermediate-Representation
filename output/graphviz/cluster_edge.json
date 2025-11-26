@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "a",
-      "label": "\\N",
+      "label": "a",
       "shape": "ellipse",
       "pos": [
         135.0,
@@ -17,7 +17,7 @@
     },
     {
       "id": "b",
-      "label": "\\N",
+      "label": "b",
       "shape": "ellipse",
       "pos": [
         99.0,
@@ -30,7 +30,7 @@
     },
     {
       "id": "c",
-      "label": "\\N",
+      "label": "c",
       "shape": "ellipse",
       "pos": [
         171.0,
@@ -43,7 +43,7 @@
     },
     {
       "id": "d",
-      "label": "\\N",
+      "label": "d",
       "shape": "ellipse",
       "pos": [
         99.0,
@@ -56,7 +56,7 @@
     },
     {
       "id": "e",
-      "label": "\\N",
+      "label": "e",
       "shape": "ellipse",
       "pos": [
         99.0,
@@ -69,7 +69,7 @@
     },
     {
       "id": "g",
-      "label": "\\N",
+      "label": "g",
       "shape": "ellipse",
       "pos": [
         171.0,
@@ -82,7 +82,7 @@
     },
     {
       "id": "f",
-      "label": "\\N",
+      "label": "f",
       "shape": "ellipse",
       "pos": [
         99.0,
@@ -95,7 +95,7 @@
     },
     {
       "id": "h",
-      "label": "\\N",
+      "label": "h",
       "shape": "ellipse",
       "pos": [
         27.0,

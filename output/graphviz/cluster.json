@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "a0",
-      "label": "\\N",
+      "label": "a0",
       "shape": "ellipse",
       "pos": [
         68.0,
@@ -18,7 +18,7 @@
     },
     {
       "id": "a1",
-      "label": "\\N",
+      "label": "a1",
       "shape": "ellipse",
       "pos": [
         68.0,
@@ -32,7 +32,7 @@
     },
     {
       "id": "a2",
-      "label": "\\N",
+      "label": "a2",
       "shape": "ellipse",
       "pos": [
         67.0,
@@ -46,7 +46,7 @@
     },
     {
       "id": "a3",
-      "label": "\\N",
+      "label": "a3",
       "shape": "ellipse",
       "pos": [
         68.0,
@@ -60,7 +60,7 @@
     },
     {
       "id": "b0",
-      "label": "\\N",
+      "label": "b0",
       "shape": "ellipse",
       "pos": [
         150.0,
@@ -73,7 +73,7 @@
     },
     {
       "id": "b1",
-      "label": "\\N",
+      "label": "b1",
       "shape": "ellipse",
       "pos": [
         163.0,
@@ -86,7 +86,7 @@
     },
     {
       "id": "b2",
-      "label": "\\N",
+      "label": "b2",
       "shape": "ellipse",
       "pos": [
         177.0,
@@ -99,7 +99,7 @@
     },
     {
       "id": "b3",
-      "label": "\\N",
+      "label": "b3",
       "shape": "ellipse",
       "pos": [
         150.0,
@@ -112,7 +112,7 @@
     },
     {
       "id": "start",
-      "label": "\\N",
+      "label": "start",
       "shape": "diamond",
       "pos": [
         109.0,
@@ -125,7 +125,7 @@
     },
     {
       "id": "end",
-      "label": "\\N",
+      "label": "end",
       "shape": "rect",
       "pos": [
         109.0,

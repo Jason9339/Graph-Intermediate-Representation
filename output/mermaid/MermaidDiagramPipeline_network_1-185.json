@@ -21,7 +21,7 @@
     },
     {
       "id": "A",
-      "label": "Random Forests<br/>Leo Breiman (2001)<br/>30k citations",
+      "label": "Random Forests Leo Breiman (2001) 30k citations",
       "shape": "rect",
       "pos": [
         746.9375,
@@ -38,7 +38,7 @@
     },
     {
       "id": "B",
-      "label": "A Few Useful Things to Know<br/>About Machine Learning<br/>Pedro Domingos (2012)<br/>15k citations",
+      "label": "A Few Useful Things to Know About Machine Learning Pedro Domingos (2012) 15k citations",
       "shape": "rect",
       "pos": [
         156.2265625,
@@ -54,7 +54,7 @@
     },
     {
       "id": "C",
-      "label": "Gradient Boosting Machines<br/>Jerome H. Friedman (2001)<br/>18k citations",
+      "label": "Gradient Boosting Machines Jerome H. Friedman (2001) 18k citations",
       "shape": "rect",
       "pos": [
         466.2265625,
@@ -70,7 +70,7 @@
     },
     {
       "id": "D",
-      "label": "The Elements of<br/>Statistical Learning<br/>Hastie, Tibshirani, Friedman (2009)<br/>35k citations",
+      "label": "The Elements of Statistical Learning Hastie, Tibshirani, Friedman (2009) 35k citations",
       "shape": "rect",
       "pos": [
         360.85546875,
@@ -87,7 +87,7 @@
     },
     {
       "id": "E",
-      "label": "Statistical Modeling:<br/>The Two Cultures<br/>Leo Breiman (2001)<br/>9k citations",
+      "label": "Statistical Modeling: The Two Cultures Leo Breiman (2001) 9k citations",
       "shape": "rect",
       "pos": [
         451.58203125,

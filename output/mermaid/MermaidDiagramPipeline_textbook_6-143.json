@@ -4,55 +4,7 @@
   "nodes": [
     {
       "id": "1920s",
-      "label": "1920s: Simple and Functional<br/>Minimal, functional costumes",
-      "shape": "rect",
-      "pos": [
-        424.4921875,
-        999.0
-      ],
-      "size": [
-        212.984375,
-        78.0
-      ],
-      "fill": "#f9f",
-      "stroke": "#333",
-      "strokeWidth": 2.0
-    },
-    {
-      "id": "1950s",
-      "label": "1950s: Glam and Elegance<br/>Sequins and velvet introduced",
-      "shape": "rect",
-      "pos": [
-        673.6796875,
-        999.0
-      ],
-      "size": [
-        185.390625,
-        78.0
-      ],
-      "fill": "#f9f",
-      "stroke": "#333",
-      "strokeWidth": 2.0
-    },
-    {
-      "id": "1980s",
-      "label": "1980s: Bold and Colorful<br/>Bright colors, elaborate designs",
-      "shape": "rect",
-      "pos": [
-        921.5234375,
-        999.0
-      ],
-      "size": [
-        210.296875,
-        78.0
-      ],
-      "fill": "#f9f",
-      "stroke": "#333",
-      "strokeWidth": 2.0
-    },
-    {
-      "id": "1990s",
-      "label": "1990s: Technical and Artistic<br/>Blend of tech fabrics and art",
+      "label": "1920s: Simple and Functional Minimal, functional costumes",
       "shape": "rect",
       "pos": [
         549.0859375,
@@ -67,8 +19,8 @@
       "strokeWidth": 2.0
     },
     {
-      "id": "JohnnyWeir",
-      "label": "Johnny Weir: Iconic and Unconventional<br/>Avant-garde and flamboyant",
+      "id": "1950s",
+      "label": "1950s: Glam and Elegance Sequins and velvet introduced",
       "shape": "rect",
       "pos": [
         549.0859375,
@@ -78,14 +30,13 @@
         260.0,
         102.0
       ],
-      "fill": "#ff9",
-      "stroke": "#f66",
-      "strokeWidth": 3.0,
-      "class": "johnny"
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
     },
     {
-      "id": "2004",
-      "label": "2004: Swan Costume<br/>White with feathers",
+      "id": "1980s",
+      "label": "1980s: Bold and Colorful Bright colors, elaborate designs",
       "shape": "rect",
       "pos": [
         549.0859375,
@@ -100,8 +51,8 @@
       "strokeWidth": 2.0
     },
     {
-      "id": "2006",
-      "label": "2006: King Arthur<br/>Medieval-inspired",
+      "id": "1990s",
+      "label": "1990s: Technical and Artistic Blend of tech fabrics and art",
       "shape": "rect",
       "pos": [
         549.0859375,
@@ -116,8 +67,8 @@
       "strokeWidth": 2.0
     },
     {
-      "id": "2010",
-      "label": "2010: Poker Face<br/>Black with red gloves",
+      "id": "JohnnyWeir",
+      "label": "Johnny Weir: Iconic and Unconventional Avant-garde and flamboyant",
       "shape": "rect",
       "pos": [
         549.0859375,
@@ -127,13 +78,62 @@
         260.0,
         126.0
       ],
+      "fill": "#ff9",
+      "stroke": "#f66",
+      "strokeWidth": 3.0,
+      "class": "johnny"
+    },
+    {
+      "id": "2004",
+      "label": "2004: Swan Costume White with feathers",
+      "shape": "rect",
+      "pos": [
+        424.4921875,
+        999.0
+      ],
+      "size": [
+        212.984375,
+        78.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "2006",
+      "label": "2006: King Arthur Medieval-inspired",
+      "shape": "rect",
+      "pos": [
+        673.6796875,
+        999.0
+      ],
+      "size": [
+        185.390625,
+        78.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "2010",
+      "label": "2010: Poker Face Black with red gloves",
+      "shape": "rect",
+      "pos": [
+        921.5234375,
+        999.0
+      ],
+      "size": [
+        210.296875,
+        78.0
+      ],
       "fill": "#f9f",
       "stroke": "#333",
       "strokeWidth": 2.0
     },
     {
       "id": "modern",
-      "label": "Modern Era: Technological Integration<br/>Advanced fabrics, LED lights",
+      "label": "Modern Era: Technological Integration Advanced fabrics, LED lights",
       "shape": "rect",
       "pos": [
         138.0,

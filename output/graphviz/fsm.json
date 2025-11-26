@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "LR_0",
-      "label": "\\N",
+      "label": "LR_0",
       "shape": "double-circle",
       "pos": [
         37.797,
@@ -17,7 +17,7 @@
     },
     {
       "id": "LR_3",
-      "label": "\\N",
+      "label": "LR_3",
       "shape": "double-circle",
       "pos": [
         348.99,
@@ -30,7 +30,7 @@
     },
     {
       "id": "LR_4",
-      "label": "\\N",
+      "label": "LR_4",
       "shape": "double-circle",
       "pos": [
         348.99,
@@ -43,7 +43,7 @@
     },
     {
       "id": "LR_8",
-      "label": "\\N",
+      "label": "LR_8",
       "shape": "double-circle",
       "pos": [
         756.77,
@@ -56,7 +56,7 @@
     },
     {
       "id": "LR_2",
-      "label": "\\N",
+      "label": "LR_2",
       "shape": "circle",
       "pos": [
         185.39,
@@ -69,7 +69,7 @@
     },
     {
       "id": "LR_1",
-      "label": "\\N",
+      "label": "LR_1",
       "shape": "circle",
       "pos": [
         185.39,
@@ -82,7 +82,7 @@
     },
     {
       "id": "LR_6",
-      "label": "\\N",
+      "label": "LR_6",
       "shape": "circle",
       "pos": [
         348.99,
@@ -95,7 +95,7 @@
     },
     {
       "id": "LR_5",
-      "label": "\\N",
+      "label": "LR_5",
       "shape": "circle",
       "pos": [
         485.58,
@@ -108,7 +108,7 @@
     },
     {
       "id": "LR_7",
-      "label": "\\N",
+      "label": "LR_7",
       "shape": "circle",
       "pos": [
         619.17,

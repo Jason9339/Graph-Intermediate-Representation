@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "preclinical",
-      "label": "Preclinical Testing<br><small>Laboratory and animal studies</small>",
+      "label": "Preclinical Testing Laboratory and animal studies",
       "shape": "rect",
       "pos": [
         136.9140625,
@@ -21,7 +21,7 @@
     },
     {
       "id": "phase1",
-      "label": "Phase 1 Trials<br><small>Small group of healthy volunteers</small>",
+      "label": "Phase 1 Trials Small group of healthy volunteers",
       "shape": "rect",
       "pos": [
         136.9140625,
@@ -38,7 +38,7 @@
     },
     {
       "id": "phase2",
-      "label": "Phase 2 Trials<br><small>Larger group of patients</small>",
+      "label": "Phase 2 Trials Larger group of patients",
       "shape": "rect",
       "pos": [
         136.9140625,
@@ -55,7 +55,7 @@
     },
     {
       "id": "phase3",
-      "label": "Phase 3 Trials<br><small>Large-scale patient testing</small>",
+      "label": "Phase 3 Trials Large-scale patient testing",
       "shape": "rect",
       "pos": [
         136.9140625,
@@ -72,7 +72,7 @@
     },
     {
       "id": "fda_approval",
-      "label": "FDA Approval<br><small>Review and authorization</small>",
+      "label": "FDA Approval Review and authorization",
       "shape": "rect",
       "pos": [
         136.9140625,
@@ -89,7 +89,7 @@
     },
     {
       "id": "phase4",
-      "label": "Phase 4 Trials<br><small>Post-marketing surveillance</small>",
+      "label": "Phase 4 Trials Post-marketing surveillance",
       "shape": "rect",
       "pos": [
         136.9140625,

@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "1",
-      "label": "(\"Start-Up Stage<br/>Initial network setup\")",
+      "label": "\"Start-Up Stage Initial network setup\"",
       "shape": "rect",
       "pos": [
         115.5,
@@ -17,7 +17,7 @@
     },
     {
       "id": "2",
-      "label": "(\"First Growth<br/>Add additional servers\")",
+      "label": "\"First Growth Add additional servers\"",
       "shape": "rect",
       "pos": [
         115.5,
@@ -29,7 +29,7 @@
     },
     {
       "id": "3",
-      "label": "(\"Increased Traffic<br/>Upgrade bandwidth\")",
+      "label": "\"Increased Traffic Upgrade bandwidth\"",
       "shape": "rect",
       "pos": [
         115.5,
@@ -41,7 +41,7 @@
     },
     {
       "id": "4",
-      "label": "(\"High Availability<br/>Implement redundancy\")",
+      "label": "\"High Availability Implement redundancy\"",
       "shape": "rect",
       "pos": [
         115.5,
@@ -53,7 +53,7 @@
     },
     {
       "id": "5",
-      "label": "(\"Automation and Monitoring<br/>Deploy automated management tools\")",
+      "label": "\"Automation and Monitoring Deploy automated management tools\"",
       "shape": "rect",
       "pos": [
         115.5,
@@ -65,7 +65,7 @@
     },
     {
       "id": "6",
-      "label": "(\"Security Enhancements<br/>Advanced security measures\")",
+      "label": "\"Security Enhancements Advanced security measures\"",
       "shape": "rect",
       "pos": [
         115.5,
@@ -77,7 +77,7 @@
     },
     {
       "id": "7",
-      "label": "(\"Global Expansion<br/>Establish regional data centers\")",
+      "label": "\"Global Expansion Establish regional data centers\"",
       "shape": "rect",
       "pos": [
         115.5,
