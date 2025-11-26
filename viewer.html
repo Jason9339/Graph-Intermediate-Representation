@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IR Viewer</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --panel: #111827;
+      --accent: #38bdf8;
+      --text: #e5e7eb;
+      --muted: #9ca3af;
+      --border: #1f2937;
+      --code: #0b1221;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Inter", "Segoe UI", system-ui, -apple-system, sans-serif;
+      background: radial-gradient(circle at 20% 20%, #0b1221, #060913 40%), var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      padding: 16px 20px;
+      border-bottom: 1px solid var(--border);
+      background: linear-gradient(90deg, rgba(56,189,248,0.08), rgba(56,189,248,0) 60%);
+    }
+    h1 { margin: 0; font-size: 20px; letter-spacing: 0.02em; }
+    .subtle { color: var(--muted); font-size: 13px; margin-top: 6px; }
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 12px;
+      align-items: center;
+    }
+    .controls input[type="file"],
+    .controls input[type="text"],
+    .controls button {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 8px;
+      padding: 8px 10px;
+      font-size: 13px;
+    }
+    .controls button {
+      cursor: pointer;
+      border-color: var(--accent);
+      color: var(--accent);
+    }
+    main {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 10px;
+      padding: 10px;
+      min-height: 0;
+    }
+    .panel {
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 10px;
+      display: flex;
+      flex-direction: column;
+      min-height: 0;
+    }
+    .panel h2 {
+      margin: 0 0 8px;
+      font-size: 14px;
+      letter-spacing: 0.02em;
+      color: var(--accent);
+    }
+    .viewer {
+      flex: 1;
+      overflow: auto;
+      border: 1px dashed var(--border);
+      border-radius: 8px;
+      padding: 8px;
+      background: #0c1324;
+    }
+    #svgHost svg {
+      width: 100%;
+      height: auto;
+    }
+    pre {
+      margin: 0;
+      white-space: pre-wrap;
+      word-break: break-word;
+      font-family: "SFMono-Regular", Menlo, Consolas, monospace;
+      background: var(--code);
+      color: #cbd5e1;
+      padding: 8px;
+      border-radius: 6px;
+    }
+    ul { margin: 0 0 0 16px; padding: 0; }
+    li { margin: 4px 0; color: var(--muted); font-size: 13px; }
+    .status { font-size: 13px; color: var(--muted); margin-top: 6px; }
+    .badge { display: inline-block; padding: 2px 8px; border-radius: 999px; background: rgba(56,189,248,0.15); color: var(--accent); font-size: 12px; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>IR Viewer · Unified JSON</h1>
+    <div class="subtle">Left: rendered SVG (if provided). Middle: IR JSON. Right: helpers & tips.</div>
+    <div class="controls">
+      <label>JSON file <input type="file" id="jsonFile" accept=".json,application/json"></label>
+      <label>SVG file (optional) <input type="file" id="svgFile" accept=".svg,image/svg+xml"></label>
+      <input type="text" id="urlInput" placeholder="Load JSON from URL (raw GitHub works)" size="38">
+      <button id="loadUrl">Load URL</button>
+      <button id="clearAll">Clear</button>
+      <span class="badge" id="summary">No file loaded</span>
+    </div>
+  </header>
+  <main>
+    <section class="panel">
+      <h2>Render (SVG)</h2>
+      <div id="svgHost" class="viewer">Drop an SVG file or load a pair of JSON + SVG.</div>
+    </section>
+    <section class="panel">
+      <h2>IR JSON</h2>
+      <div class="viewer">
+        <pre id="irPre">Drop or load a JSON file to view the unified IR.</pre>
+      </div>
+    </section>
+    <section class="panel">
+      <h2>Tips</h2>
+      <div class="viewer" id="tips">
+        <ul>
+          <li>Works offline: open <code>viewer.html</code> locally and drop your IR JSON (+ optional SVG).</li>
+          <li>GitHub: open this file in the repo, click “Raw”, save, then open locally; or host via GitHub Pages.</li>
+          <li>Bundled samples live in <code>output/</code>; pair <code>.json</code> with the matching <code>.svg</code> for preview.</li>
+          <li>Minimal IR fields: <code>title</code>, <code>orientation</code>, <code>nodes</code> (<code>pos/size/fill/stroke</code>), <code>edges</code> (<code>from/to/arrow/dash</code>), optional <code>groups</code>.</li>
+          <li>If you only load JSON, the IR is shown on the right; SVG preview is optional.</li>
+        </ul>
+        <div class="status" id="status">Waiting for files…</div>
+      </div>
+    </section>
+  </main>
+  <script>
+    const irPre = document.getElementById('irPre');
+    const svgHost = document.getElementById('svgHost');
+    const statusEl = document.getElementById('status');
+    const summary = document.getElementById('summary');
+
+    function setStatus(msg) {
+      statusEl.textContent = msg;
+    }
+
+    function updateSummary(ir) {
+      if (!ir || !ir.nodes) {
+        summary.textContent = 'No file loaded';
+        return;
+      }
+      const nodes = ir.nodes.length;
+      const edges = (ir.edges || []).length;
+      const groups = (ir.groups || []).length;
+      summary.textContent = `${ir.title || 'Untitled'} · nodes ${nodes}, edges ${edges}, groups ${groups}`;
+    }
+
+    function displayIR(text) {
+      try {
+        const data = JSON.parse(text);
+        irPre.textContent = JSON.stringify(data, null, 2);
+        updateSummary(data);
+        setStatus('JSON loaded successfully.');
+      } catch (err) {
+        irPre.textContent = 'Failed to parse JSON: ' + err.message;
+        setStatus('JSON parse error.');
+        summary.textContent = 'Parse error';
+      }
+    }
+
+    function displaySVG(text) {
+      if (!text) {
+        svgHost.textContent = 'No SVG loaded.';
+        return;
+      }
+      svgHost.innerHTML = text;
+      setStatus('SVG loaded.');
+    }
+
+    function handleFile(fileInput, callback) {
+      const file = fileInput.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = (e) => callback(e.target.result);
+      reader.readAsText(file);
+    }
+
+    document.getElementById('jsonFile').addEventListener('change', (e) => {
+      handleFile(e.target, displayIR);
+    });
+
+    document.getElementById('svgFile').addEventListener('change', (e) => {
+      handleFile(e.target, displaySVG);
+    });
+
+    document.getElementById('loadUrl').addEventListener('click', async () => {
+      const url = document.getElementById('urlInput').value.trim();
+      if (!url) return;
+      setStatus('Fetching ' + url + ' …');
+      try {
+        const res = await fetch(url);
+        if (!res.ok) throw new Error(res.statusText);
+        const text = await res.text();
+        displayIR(text);
+      } catch (err) {
+        setStatus('Fetch failed: ' + err.message);
+        irPre.textContent = 'Failed to fetch: ' + err.message;
+        summary.textContent = 'Fetch error';
+      }
+    });
+
+    document.getElementById('clearAll').addEventListener('click', () => {
+      irPre.textContent = 'Drop or load a JSON file to view the unified IR.';
+      svgHost.textContent = 'Drop an SVG file or load a pair of JSON + SVG.';
+      summary.textContent = 'No file loaded';
+      setStatus('Cleared.');
+      document.getElementById('jsonFile').value = '';
+      document.getElementById('svgFile').value = '';
+      document.getElementById('urlInput').value = '';
+    });
+  </script>
+</body>
+</html>
