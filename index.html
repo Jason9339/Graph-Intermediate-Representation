@@ -168,74 +168,115 @@
     const nextBtn = document.getElementById('nextSample');
     const isFileProtocol = window.location.protocol === 'file:';
 
-    const samples = [
-      {
-        id: 'mermaid_textbook_6_132',
-        label: 'Mermaid · textbook_6-132',
-        json: 'output/mermaid/MermaidDiagramPipeline_textbook_6-132.json',
-        svg: 'output/mermaid/MermaidDiagramPipeline_textbook_6-132.svg'
-      },
-      {
-        id: 'mermaid_tree_1_146',
-        label: 'Mermaid · tree_1-146',
-        json: 'output/mermaid/MermaidDiagramPipeline_tree_1-146.json',
-        svg: 'output/mermaid/MermaidDiagramPipeline_tree_1-146.svg'
-      },
-      {
-        id: 'mermaid_network_1_185',
-        label: 'Mermaid · network_1-185',
-        json: 'output/mermaid/MermaidDiagramPipeline_network_1-185.json',
-        svg: 'output/mermaid/MermaidDiagramPipeline_network_1-185.svg'
-      },
-      {
-        id: 'mermaid_directed_1_199',
-        label: 'Mermaid · directed_1-199',
-        json: 'output/mermaid/MermaidDiagramPipeline_directed_1-199.json',
-        svg: 'output/mermaid/MermaidDiagramPipeline_directed_1-199.svg'
-      },
-      {
-        id: 'tikz_math_0_4',
-        label: 'TikZ · math_0-4',
-        json: 'output/tikz/LaTeXDiagramPipeline_math_0-4.json',
-        svg: 'output/tikz/LaTeXDiagramPipeline_math_0-4.svg'
-      },
-      {
-        id: 'tikz_fsm_1_247',
-        label: 'TikZ · fsm_1-247',
-        json: 'output/tikz/LaTeXDiagramPipeline_fsm_1-247.json',
-        svg: 'output/tikz/LaTeXDiagramPipeline_fsm_1-247.svg'
-      },
-      {
-        id: 'tikz_flow_1_387',
-        label: 'TikZ · flow_1-387',
-        json: 'output/tikz/LaTeXDiagramPipeline_flow_1-387.json',
-        svg: 'output/tikz/LaTeXDiagramPipeline_flow_1-387.svg'
-      },
-      {
-        id: 'graphviz_process',
-        label: 'Graphviz · process',
-        json: 'output/graphviz/process.json',
-        svg: 'output/graphviz/process.svg'
-      },
-      {
-        id: 'graphviz_btree',
-        label: 'Graphviz · btree',
-        json: 'output/graphviz/btree.json',
-        svg: 'output/graphviz/btree.svg'
-      },
-      {
-        id: 'graphviz_cluster',
-        label: 'Graphviz · cluster',
-        json: 'output/graphviz/cluster.json',
-        svg: 'output/graphviz/cluster.svg'
-      },
-      {
-        id: 'graphviz_cluster_edge',
-        label: 'Graphviz · cluster_edge',
-        json: 'output/graphviz/cluster_edge.json',
-        svg: 'output/graphviz/cluster_edge.svg'
-      }
+    const mermaidNames = [
+      'MermaidDiagramPipeline_Block_1-46',
+      'MermaidDiagramPipeline_Clinical_1-70',
+      'MermaidDiagramPipeline_Clinical_2-101',
+      'MermaidDiagramPipeline_Clinical_2-60',
+      'MermaidDiagramPipeline_Clinical_2-78',
+      'MermaidDiagramPipeline_Clinical_2-87',
+      'MermaidDiagramPipeline_Concept_2-22',
+      'MermaidDiagramPipeline_astronomy_2-79',
+      'MermaidDiagramPipeline_bio_2-151',
+      'MermaidDiagramPipeline_bio_2-175',
+      'MermaidDiagramPipeline_bio_2-176',
+      'MermaidDiagramPipeline_bottom_0-107',
+      'MermaidDiagramPipeline_directed_1-199',
+      'MermaidDiagramPipeline_familiy_1-18',
+      'MermaidDiagramPipeline_food_1-52',
+      'MermaidDiagramPipeline_food_2-111',
+      'MermaidDiagramPipeline_function_1-112',
+      'MermaidDiagramPipeline_function_2-76',
+      'MermaidDiagramPipeline_instruction_1-104',
+      'MermaidDiagramPipeline_instruction_2-116',
+      'MermaidDiagramPipeline_mind_1-228',
+      'MermaidDiagramPipeline_mind_2-234',
+      'MermaidDiagramPipeline_ml_2-132',
+      'MermaidDiagramPipeline_natural_2-191',
+      'MermaidDiagramPipeline_natural_2-52',
+      'MermaidDiagramPipeline_network_1-185',
+      'MermaidDiagramPipeline_program_1-95',
+      'MermaidDiagramPipeline_sequence_1-71',
+      'MermaidDiagramPipeline_sequence_2-102',
+      'MermaidDiagramPipeline_social_1-28',
+      'MermaidDiagramPipeline_social_2-149',
+      'MermaidDiagramPipeline_textbook_2-92',
+      'MermaidDiagramPipeline_textbook_5-84',
+      'MermaidDiagramPipeline_textbook_6-132',
+      'MermaidDiagramPipeline_textbook_6-143',
+      'MermaidDiagramPipeline_textbook_6-2',
+      'MermaidDiagramPipeline_textbook_6-31',
+      'MermaidDiagramPipeline_textbook_8-149',
+      'MermaidDiagramPipeline_timeline_2-15',
+      'MermaidDiagramPipeline_tree_1-146',
+      'test_astronomy',
+      'test_astronomy2',
+      'test_astronomy3',
     ];
+
+    const tikzNames = [
+      'LaTeXDiagramPipeline_bio_1-54',
+      'LaTeXDiagramPipeline_flow_1-103',
+      'LaTeXDiagramPipeline_flow_1-173',
+      'LaTeXDiagramPipeline_flow_1-272',
+      'LaTeXDiagramPipeline_flow_1-387',
+      'LaTeXDiagramPipeline_flow_1-430',
+      'LaTeXDiagramPipeline_food_1-177',
+      'LaTeXDiagramPipeline_food_1-82',
+      'LaTeXDiagramPipeline_fsm_1-247',
+      'LaTeXDiagramPipeline_fsm_1-329',
+      'LaTeXDiagramPipeline_math_0-4',
+      'LaTeXDiagramPipeline_mind_1-131',
+      'LaTeXDiagramPipeline_mind_1-351',
+      'LaTeXDiagramPipeline_ml_2-47',
+      'LaTeXDiagramPipeline_natural_1-67',
+      'LaTeXDiagramPipeline_textbook_2-18',
+      'LaTeXDiagramPipeline_textbook_5-24',
+    ];
+
+    const graphvizNames = [
+      'btree',
+      'cluster',
+      'cluster_edge',
+      'colors',
+      'er',
+      'fdpclust',
+      'fsm',
+      'g_c_n',
+      'hello',
+      'process',
+      'rank_same',
+      'structs',
+      'structs_revisited',
+      'traffic_lights',
+      'unix',
+    ];
+
+    const samples = [];
+    mermaidNames.forEach((name) => {
+      samples.push({
+        id: `mermaid_${name}`,
+        label: `Mermaid · ${name}`,
+        json: `output/mermaid/${name}.json`,
+        svg: `output/mermaid/${name}.svg`,
+      });
+    });
+    tikzNames.forEach((name) => {
+      samples.push({
+        id: `tikz_${name}`,
+        label: `TikZ · ${name}`,
+        json: `output/tikz/${name}.json`,
+        svg: `output/tikz/${name}.svg`,
+      });
+    });
+    graphvizNames.forEach((name) => {
+      samples.push({
+        id: `graphviz_${name}`,
+        label: `Graphviz · ${name}`,
+        json: `output/graphviz/${name}.json`,
+        svg: `output/graphviz/${name}.svg`,
+      });
+    });
 
     let currentIndex = 0;
 

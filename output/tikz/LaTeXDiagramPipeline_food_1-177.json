@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "CSO",
-      "label": "Civil Society\\\\ Organizations\\\\ (CSOs)",
+      "label": "Civil Society Organizations (CSOs)",
       "shape": "rect",
       "pos": [
         0.0,
@@ -17,7 +17,7 @@
     },
     {
       "id": "SF",
-      "label": "Smallholder\\\\ Farmers",
+      "label": "Smallholder Farmers",
       "shape": "rect",
       "pos": [
         141.43279,
@@ -33,7 +33,7 @@
     },
     {
       "id": "TP",
-      "label": "Training\\\\ Programs",
+      "label": "Training Programs",
       "shape": "rect",
       "pos": [
         274.77193,
@@ -49,7 +49,7 @@
     },
     {
       "id": "AM",
-      "label": "Access to\\\\ Market",
+      "label": "Access to Market",
       "shape": "rect",
       "pos": [
         274.68723,
@@ -65,7 +65,7 @@
     },
     {
       "id": "IAP",
-      "label": "Improved\\\\ Agricultural\\\\ Practices",
+      "label": "Improved Agricultural Practices",
       "shape": "rect",
       "pos": [
         3.90483,
@@ -81,7 +81,7 @@
     },
     {
       "id": "GP",
-      "label": "Government\\\\ Policies",
+      "label": "Government Policies",
       "shape": "rect",
       "pos": [
         -142.2696,

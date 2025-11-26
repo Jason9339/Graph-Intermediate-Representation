@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "1",
-      "label": "Artifact\\\\Recovery",
+      "label": "Artifact Recovery",
       "shape": "rect",
       "pos": [
         0.0,
@@ -20,7 +20,7 @@
     },
     {
       "id": "2",
-      "label": "Initial\\\\Cleaning",
+      "label": "Initial Cleaning",
       "shape": "rect",
       "pos": [
         156.89012,
@@ -58,7 +58,7 @@
     },
     {
       "id": "4",
-      "label": "Condition\\\\Assessment",
+      "label": "Condition Assessment",
       "shape": "rect",
       "pos": [
         156.89012,
@@ -77,7 +77,7 @@
     },
     {
       "id": "5",
-      "label": "Stabilization\\\\Treatment",
+      "label": "Stabilization Treatment",
       "shape": "rect",
       "pos": [
         0.0,
@@ -115,7 +115,7 @@
     },
     {
       "id": "7",
-      "label": "Long-term\\\\Storage",
+      "label": "Long-term Storage",
       "shape": "rect",
       "pos": [
         313.78024,

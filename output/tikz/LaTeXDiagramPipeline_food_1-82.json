@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "farmer",
-      "label": "Farmer Co-op\\\\{\\tiny Local farming communities",
+      "label": "Farmer Co-op {\\tiny Local farming communities",
       "shape": "rect",
       "pos": [
         0.0,
@@ -19,7 +19,7 @@
     },
     {
       "id": "cert",
-      "label": "Organic\\\\Certification\\\\{\\tiny Fair Trade, USDA Organic",
+      "label": "Organic Certification {\\tiny Fair Trade, USDA Organic",
       "shape": "rect",
       "pos": [
         167.83858,
@@ -37,7 +37,7 @@
     },
     {
       "id": "harvest",
-      "label": "Harvesting\\\\{\\tiny Hand-picking ripe beans",
+      "label": "Harvesting {\\tiny Hand-picking ripe beans",
       "shape": "rect",
       "pos": [
         0.0,
@@ -55,7 +55,7 @@
     },
     {
       "id": "process",
-      "label": "Processing\\\\{\\tiny Wet and dry methods",
+      "label": "Processing {\\tiny Wet and dry methods",
       "shape": "rect",
       "pos": [
         0.0,
@@ -73,7 +73,7 @@
     },
     {
       "id": "trade",
-      "label": "Direct Trade\\\\{\\tiny Trader relationships",
+      "label": "Direct Trade {\\tiny Trader relationships",
       "shape": "rect",
       "pos": [
         0.0,
@@ -91,7 +91,7 @@
     },
     {
       "id": "roast",
-      "label": "Roasting Facility\\\\{\\tiny Specialty roasters",
+      "label": "Roasting Facility {\\tiny Specialty roasters",
       "shape": "rect",
       "pos": [
         159.34471,
@@ -109,7 +109,7 @@
     },
     {
       "id": "qc",
-      "label": "Quality Control\\\\{\\tiny Cupping and grading",
+      "label": "Quality Control {\\tiny Cupping and grading",
       "shape": "rect",
       "pos": [
         318.68942,
@@ -127,7 +127,7 @@
     },
     {
       "id": "pack",
-      "label": "Packaging\\\\{\\tiny Eco-friendly materials",
+      "label": "Packaging {\\tiny Eco-friendly materials",
       "shape": "rect",
       "pos": [
         475.57954,
@@ -145,7 +145,7 @@
     },
     {
       "id": "dist",
-      "label": "Distribution\\\\{\\tiny Logistics and transportation",
+      "label": "Distribution {\\tiny Logistics and transportation",
       "shape": "rect",
       "pos": [
         159.34471,
@@ -163,7 +163,7 @@
     },
     {
       "id": "retail",
-      "label": "Retail\\\\{\\tiny Coffee shops, online stores",
+      "label": "Retail {\\tiny Coffee shops, online stores",
       "shape": "rect",
       "pos": [
         159.34471,
@@ -181,7 +181,7 @@
     },
     {
       "id": "consumer",
-      "label": "Consumer\\\\{\\tiny Ethically-conscious buyers",
+      "label": "Consumer {\\tiny Ethically-conscious buyers",
       "shape": "rect",
       "pos": [
         159.34471,

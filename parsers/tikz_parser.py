@@ -46,6 +46,10 @@ def _clean_text(text: str) -> str:
     value = text.strip()
     if value.startswith('"') and value.endswith('"') and len(value) >= 2:
         value = value[1:-1]
+    # Replace LaTeX line breaks (\\) with a space to keep plain text labels
+    value = re.sub(r"\\\\\s*", " ", value)
+    # Collapse repeated whitespace
+    value = " ".join(value.split())
     return value
 
 

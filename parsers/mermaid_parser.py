@@ -309,7 +309,11 @@ def _standardize_node_fields(node: Dict[str, Any]) -> None:
     if "position" in node:
         pos_obj = node.pop("position")
         if isinstance(pos_obj, dict):
-            node["pos"] = [pos_obj.get("x", 0), pos_obj.get("y", 0)]
+            x = pos_obj.get("x")
+            y = pos_obj.get("y")
+            # 只有在有有效座標時才寫入，避免 0,0 當預設值
+            if x is not None and y is not None:
+                node["pos"] = [x, y]
 
     # Convert width, height to size array
     if "width" in node and "height" in node:

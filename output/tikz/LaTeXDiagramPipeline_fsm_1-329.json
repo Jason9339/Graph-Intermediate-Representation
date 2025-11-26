@@ -4,7 +4,7 @@
   "nodes": [
     {
       "id": "GA",
-      "label": "Game\\\\ Analysis",
+      "label": "Game Analysis",
       "shape": "rect",
       "pos": [
         0.0,
@@ -20,7 +20,7 @@
     },
     {
       "id": "FS",
-      "label": "Formulate\\\\ Strategy",
+      "label": "Formulate Strategy",
       "shape": "rect",
       "pos": [
         113.81102,
@@ -39,7 +39,7 @@
     },
     {
       "id": "TP",
-      "label": "Team\\\\ Preparation",
+      "label": "Team Preparation",
       "shape": "rect",
       "pos": [
         194.28764,
@@ -58,7 +58,7 @@
     },
     {
       "id": "IA",
-      "label": "In-game\\\\ Adaptation",
+      "label": "In-game Adaptation",
       "shape": "rect",
       "pos": [
         113.81102,
@@ -77,7 +77,7 @@
     },
     {
       "id": "PR",
-      "label": "Post-game\\\\ Review",
+      "label": "Post-game Review",
       "shape": "rect",
       "pos": [
         0.0,
@@ -100,13 +100,13 @@
       "from": "GA",
       "to": "FS",
       "arrow": false,
-      "label": "Complete\\\\ SWOT Analysis"
+      "label": "Complete SWOT Analysis"
     },
     {
       "from": "FS",
       "to": "TP",
       "arrow": false,
-      "label": "Strategy\\\\ Approved"
+      "label": "Strategy Approved"
     },
     {
       "from": "TP",

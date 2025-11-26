@@ -18,7 +18,7 @@
     },
     {
       "id": "CheckBloodSugar",
-      "label": "Check\\\\ Blood\\\\ Sugar",
+      "label": "Check Blood Sugar",
       "shape": "rect",
       "pos": [
         85.35826,
@@ -35,7 +35,7 @@
     },
     {
       "id": "ChooseMealType",
-      "label": "Choose\\\\ Meal\\\\ Type",
+      "label": "Choose Meal Type",
       "shape": "rect",
       "pos": [
         170.71652,
@@ -52,7 +52,7 @@
     },
     {
       "id": "SelectFoodItems",
-      "label": "Select\\\\ Food\\\\ Items",
+      "label": "Select Food Items",
       "shape": "rect",
       "pos": [
         170.71652,
@@ -69,7 +69,7 @@
     },
     {
       "id": "PrepareMeal",
-      "label": "Prepare\\\\ Meal",
+      "label": "Prepare Meal",
       "shape": "rect",
       "pos": [
         85.35826,
@@ -86,7 +86,7 @@
     },
     {
       "id": "ServeMeal",
-      "label": "Serve\\\\ Meal",
+      "label": "Serve Meal",
       "shape": "rect",
       "pos": [
         0.0,
@@ -103,7 +103,7 @@
     },
     {
       "id": "MonitorAfterMeal",
-      "label": "Monitor\\\\ After\\\\ Meal",
+      "label": "Monitor After Meal",
       "shape": "rect",
       "pos": [
         0.0,
@@ -120,7 +120,7 @@
     },
     {
       "id": "AdjustNextMeal",
-      "label": "Adjust\\\\ Next\\\\ Meal",
+      "label": "Adjust Next Meal",
       "shape": "rect",
       "pos": [
         85.35826,
