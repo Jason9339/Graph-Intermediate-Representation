@@ -1,0 +1,368 @@
+{
+  "title": "MermaidDiagramPipeline_Clinical_2-78",
+  "orientation": "TD",
+  "nodes": [
+    {
+      "id": "A",
+      "label": "Assessment",
+      "shape": "rect",
+      "pos": [
+        157.22265625,
+        35.0
+      ],
+      "size": [
+        147.140625,
+        54.0
+      ],
+      "class": "defaultStyle;"
+    },
+    {
+      "id": "B",
+      "label": "Collaboration",
+      "shape": "rect",
+      "pos": [
+        655.2265625,
+        163.0
+      ],
+      "size": [
+        154.28125,
+        54.0
+      ],
+      "class": "defaultStyle;"
+    },
+    {
+      "id": "C",
+      "label": "Curriculum Development",
+      "shape": "rect",
+      "pos": [
+        850.2421875,
+        291.0
+      ],
+      "size": [
+        236.0625,
+        54.0
+      ],
+      "class": "defaultStyle;"
+    },
+    {
+      "id": "D",
+      "label": "Teacher Training",
+      "shape": "rect",
+      "pos": [
+        975.73046875,
+        419.0
+      ],
+      "size": [
+        178.296875,
+        54.0
+      ],
+      "class": "defaultStyle;"
+    },
+    {
+      "id": "E",
+      "label": "Implementation",
+      "shape": "rect",
+      "pos": [
+        1092.3125,
+        547.0
+      ],
+      "size": [
+        169.390625,
+        54.0
+      ],
+      "class": "defaultStyle;"
+    },
+    {
+      "id": "F",
+      "label": "Evaluation",
+      "shape": "rect",
+      "pos": [
+        216.3984375,
+        675.0
+      ],
+      "size": [
+        134.71875,
+        54.0
+      ],
+      "class": "defaultStyle;"
+    },
+    {
+      "id": "A1",
+      "label": "Analyze content",
+      "shape": "rect",
+      "pos": [
+        218.1875,
+        163.0
+      ],
+      "size": [
+        173.859375,
+        54.0
+      ],
+      "class": "actionStyle;"
+    },
+    {
+      "id": "A2",
+      "label": "Gather opinions",
+      "shape": "rect",
+      "pos": [
+        441.6015625,
+        163.0
+      ],
+      "size": [
+        172.96875,
+        54.0
+      ],
+      "class": "actionStyle;"
+    },
+    {
+      "id": "B1",
+      "label": "Include stakeholders",
+      "shape": "rect",
+      "pos": [
+        322.72265625,
+        291.0
+      ],
+      "size": [
+        206.765625,
+        54.0
+      ],
+      "class": "actionStyle;"
+    },
+    {
+      "id": "B2",
+      "label": "Work with experts",
+      "shape": "rect",
+      "pos": [
+        569.53515625,
+        291.0
+      ],
+      "size": [
+        186.859375,
+        54.0
+      ],
+      "class": "actionStyle;"
+    },
+    {
+      "id": "C1",
+      "label": "Ensure representation",
+      "shape": "rect",
+      "pos": [
+        454.20703125,
+        419.0
+      ],
+      "size": [
+        217.4375,
+        54.0
+      ],
+      "class": "actionStyle;"
+    },
+    {
+      "id": "C2",
+      "label": "Incorporate documents",
+      "shape": "rect",
+      "pos": [
+        724.75390625,
+        419.0
+      ],
+      "size": [
+        223.65625,
+        54.0
+      ],
+      "class": "actionStyle;"
+    },
+    {
+      "id": "D1",
+      "label": "Offer workshops",
+      "shape": "rect",
+      "pos": [
+        576.421875,
+        547.0
+      ],
+      "size": [
+        176.203125,
+        54.0
+      ],
+      "class": "actionStyle;"
+    },
+    {
+      "id": "D2",
+      "label": "Distribute materials",
+      "shape": "rect",
+      "pos": [
+        812.9921875,
+        547.0
+      ],
+      "size": [
+        196.9375,
+        54.0
+      ],
+      "class": "actionStyle;"
+    },
+    {
+      "id": "E1",
+      "label": "Test new content",
+      "shape": "rect",
+      "pos": [
+        972.3828125,
+        675.0
+      ],
+      "size": [
+        180.078125,
+        54.0
+      ],
+      "class": "actionStyle;"
+    },
+    {
+      "id": "E2",
+      "label": "Collect and analyze",
+      "shape": "rect",
+      "pos": [
+        1212.2421875,
+        675.0
+      ],
+      "size": [
+        199.640625,
+        54.0
+      ],
+      "class": "actionStyle;"
+    },
+    {
+      "id": "F1",
+      "label": "Assess changes",
+      "shape": "rect",
+      "pos": [
+        96.2578125,
+        803.0
+      ],
+      "size": [
+        176.515625,
+        54.0
+      ],
+      "class": "actionStyle;"
+    },
+    {
+      "id": "F2",
+      "label": "Make improvements",
+      "shape": "rect",
+      "pos": [
+        336.5390625,
+        803.0
+      ],
+      "size": [
+        204.046875,
+        54.0
+      ],
+      "class": "actionStyle;"
+    }
+  ],
+  "edges": [
+    {
+      "from": "A",
+      "to": "B",
+      "arrow": true,
+      "label": "Evaluate curricula"
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "arrow": true,
+      "label": "Engage stakeholders"
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "arrow": true,
+      "label": "Create inclusive content"
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "arrow": true,
+      "label": "Equip educators"
+    },
+    {
+      "from": "E",
+      "to": "F",
+      "arrow": true,
+      "label": "Integrate new curriculum"
+    },
+    {
+      "from": "F",
+      "to": "A",
+      "arrow": true,
+      "label": "Measure impact"
+    },
+    {
+      "from": "A",
+      "to": "A1",
+      "arrow": true,
+      "label": "Review Textbooks"
+    },
+    {
+      "from": "A",
+      "to": "A2",
+      "arrow": true,
+      "label": "Conduct Surveys"
+    },
+    {
+      "from": "B",
+      "to": "B1",
+      "arrow": true,
+      "label": "Form Committees"
+    },
+    {
+      "from": "B",
+      "to": "B2",
+      "arrow": true,
+      "label": "Partner with Organizations"
+    },
+    {
+      "from": "C",
+      "to": "C1",
+      "arrow": true,
+      "label": "Integrate Diverse Voices"
+    },
+    {
+      "from": "C",
+      "to": "C2",
+      "arrow": true,
+      "label": "Use Primary Sources"
+    },
+    {
+      "from": "D",
+      "to": "D1",
+      "arrow": true,
+      "label": "Professional Development"
+    },
+    {
+      "from": "D",
+      "to": "D2",
+      "arrow": true,
+      "label": "Provide Resources"
+    },
+    {
+      "from": "E",
+      "to": "E1",
+      "arrow": true,
+      "label": "Pilot Programs"
+    },
+    {
+      "from": "E",
+      "to": "E2",
+      "arrow": true,
+      "label": "Gather Feedback"
+    },
+    {
+      "from": "F",
+      "to": "F1",
+      "arrow": true,
+      "label": "Monitor Performance"
+    },
+    {
+      "from": "F",
+      "to": "F2",
+      "arrow": true,
+      "label": "Adjust Curriculum"
+    }
+  ]
+}

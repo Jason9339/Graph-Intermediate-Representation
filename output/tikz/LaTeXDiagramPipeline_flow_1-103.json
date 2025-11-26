@@ -1,0 +1,216 @@
+{
+  "title": "LaTeXDiagramPipeline_flow_1-103",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "start",
+      "label": "Identify Research Gap",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "size": [
+        86.73374,
+        28.85272
+      ],
+      "fill": "teal!20",
+      "stroke": "teal",
+      "class": "process"
+    },
+    {
+      "id": "formulate",
+      "label": "Formulate Research Question",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -85.75822
+      ],
+      "size": [
+        86.73374,
+        28.852729999999994
+      ],
+      "fill": "teal!20",
+      "stroke": "teal",
+      "class": "process",
+      "layoutHints": {
+        "below": "of start"
+      }
+    },
+    {
+      "id": "design",
+      "label": "Design Methodology",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -171.51645
+      ],
+      "size": [
+        86.73374,
+        28.852720000000005
+      ],
+      "fill": "teal!20",
+      "stroke": "teal",
+      "class": "process",
+      "layoutHints": {
+        "below": "of formulate"
+      }
+    },
+    {
+      "id": "collect",
+      "label": "Collect Data",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -257.27467
+      ],
+      "size": [
+        86.73374,
+        28.852720000000005
+      ],
+      "fill": "teal!20",
+      "stroke": "teal",
+      "class": "process",
+      "layoutHints": {
+        "below": "of design"
+      }
+    },
+    {
+      "id": "analyze",
+      "label": "Analyze Data",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -343.0329
+      ],
+      "size": [
+        86.73374,
+        28.852719999999977
+      ],
+      "fill": "teal!20",
+      "stroke": "teal",
+      "class": "process",
+      "layoutHints": {
+        "below": "of collect"
+      }
+    },
+    {
+      "id": "draft",
+      "label": "Draft Manuscript",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -428.79112
+      ],
+      "size": [
+        86.73374,
+        28.852720000000033
+      ],
+      "fill": "teal!20",
+      "stroke": "teal",
+      "class": "process",
+      "layoutHints": {
+        "below": "of analyze"
+      }
+    },
+    {
+      "id": "submit",
+      "label": "Submit to Journal",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -514.54935
+      ],
+      "size": [
+        86.73374,
+        28.852720000000033
+      ],
+      "fill": "teal!20",
+      "stroke": "teal",
+      "class": "process",
+      "layoutHints": {
+        "below": "of draft"
+      }
+    },
+    {
+      "id": "review",
+      "label": "Peer Review Process",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -600.30757
+      ],
+      "size": [
+        86.73374,
+        28.852719999999977
+      ],
+      "fill": "teal!20",
+      "stroke": "teal",
+      "class": "process",
+      "layoutHints": {
+        "below": "of submit"
+      }
+    },
+    {
+      "id": "publish",
+      "label": "Publication",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -686.0658
+      ],
+      "size": [
+        86.73374,
+        28.852730000000065
+      ],
+      "fill": "teal!20",
+      "stroke": "teal",
+      "class": "process",
+      "layoutHints": {
+        "below": "of review"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "start",
+      "to": "formulate",
+      "arrow": false
+    },
+    {
+      "from": "formulate",
+      "to": "design",
+      "arrow": false
+    },
+    {
+      "from": "design",
+      "to": "collect",
+      "arrow": false
+    },
+    {
+      "from": "collect",
+      "to": "analyze",
+      "arrow": false
+    },
+    {
+      "from": "analyze",
+      "to": "draft",
+      "arrow": false
+    },
+    {
+      "from": "draft",
+      "to": "submit",
+      "arrow": false
+    },
+    {
+      "from": "submit",
+      "to": "review",
+      "arrow": false
+    },
+    {
+      "from": "review",
+      "to": "publish",
+      "arrow": false
+    }
+  ]
+}

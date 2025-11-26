@@ -1,0 +1,190 @@
+{
+  "title": "MermaidDiagramPipeline_network_1-185",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "Papers",
+      "label": "Influential Data Science Papers",
+      "shape": "rect",
+      "pos": [
+        138.0,
+        47.0
+      ],
+      "size": [
+        260.0,
+        78.0
+      ],
+      "fill": "#ff9",
+      "stroke": "#f66",
+      "strokeWidth": 4.0,
+      "class": "category"
+    },
+    {
+      "id": "A",
+      "label": "Random Forests<br/>Leo Breiman (2001)<br/>30k citations",
+      "shape": "rect",
+      "pos": [
+        746.9375,
+        211.0
+      ],
+      "size": [
+        201.421875,
+        102.0
+      ],
+      "fill": "#9f9",
+      "stroke": "#6f6",
+      "strokeWidth": 3.0,
+      "class": "highCite"
+    },
+    {
+      "id": "B",
+      "label": "A Few Useful Things to Know<br/>About Machine Learning<br/>Pedro Domingos (2012)<br/>15k citations",
+      "shape": "rect",
+      "pos": [
+        156.2265625,
+        211.0
+      ],
+      "size": [
+        260.0,
+        150.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "C",
+      "label": "Gradient Boosting Machines<br/>Jerome H. Friedman (2001)<br/>18k citations",
+      "shape": "rect",
+      "pos": [
+        466.2265625,
+        211.0
+      ],
+      "size": [
+        260.0,
+        126.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "D",
+      "label": "The Elements of<br/>Statistical Learning<br/>Hastie, Tibshirani, Friedman (2009)<br/>35k citations",
+      "shape": "rect",
+      "pos": [
+        360.85546875,
+        435.0
+      ],
+      "size": [
+        260.0,
+        150.0
+      ],
+      "fill": "#9f9",
+      "stroke": "#6f6",
+      "strokeWidth": 3.0,
+      "class": "highCite"
+    },
+    {
+      "id": "E",
+      "label": "Statistical Modeling:<br/>The Two Cultures<br/>Leo Breiman (2001)<br/>9k citations",
+      "shape": "rect",
+      "pos": [
+        451.58203125,
+        647.0
+      ],
+      "size": [
+        202.296875,
+        126.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    }
+  ],
+  "edges": [
+    {
+      "from": "Papers",
+      "to": "A",
+      "arrow": true,
+      "stroke": "#f66",
+      "strokeWidth": 3.0
+    },
+    {
+      "from": "Papers",
+      "to": "B",
+      "arrow": true,
+      "stroke": "#f66",
+      "strokeWidth": 3.0
+    },
+    {
+      "from": "Papers",
+      "to": "C",
+      "arrow": true,
+      "stroke": "#f66",
+      "strokeWidth": 3.0
+    },
+    {
+      "from": "Papers",
+      "to": "D",
+      "arrow": true,
+      "stroke": "#f66",
+      "strokeWidth": 3.0
+    },
+    {
+      "from": "Papers",
+      "to": "E",
+      "arrow": true,
+      "stroke": "#f66",
+      "strokeWidth": 3.0
+    },
+    {
+      "from": "A",
+      "to": "D",
+      "arrow": true,
+      "label": "cites",
+      "stroke": "grey",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "arrow": true,
+      "label": "cites",
+      "stroke": "grey",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "arrow": true,
+      "label": "cites",
+      "stroke": "grey",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "D",
+      "to": "A",
+      "arrow": true,
+      "label": "cites",
+      "stroke": "grey",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "arrow": true,
+      "label": "cites",
+      "stroke": "grey",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "E",
+      "to": "A",
+      "arrow": true,
+      "label": "cites",
+      "stroke": "grey",
+      "strokeWidth": 2.0
+    }
+  ]
+}

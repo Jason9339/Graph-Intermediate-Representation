@@ -1,0 +1,341 @@
+{
+  "title": "MermaidDiagramPipeline_Clinical_2-87",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "A",
+      "label": "Identify Maintenance Issues",
+      "shape": "rect",
+      "pos": [
+        1362.44140625,
+        378.0
+      ],
+      "size": [
+        258.34375,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "defaultStyle"
+    },
+    {
+      "id": "B",
+      "label": "Evaluate Issues",
+      "shape": "rect",
+      "pos": [
+        1444.52734375,
+        543.0
+      ],
+      "size": [
+        172.953125,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "defaultStyle"
+    },
+    {
+      "id": "C",
+      "label": "Prepare Budget Proposal",
+      "shape": "rect",
+      "pos": [
+        1505.265625,
+        647.0
+      ],
+      "size": [
+        239.671875,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "defaultStyle"
+    },
+    {
+      "id": "D",
+      "label": "Budget Review",
+      "shape": "diamond",
+      "pos": [
+        1662.828125,
+        828.8125
+      ],
+      "fill": "#9cf",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "approvalStyle"
+    },
+    {
+      "id": "E",
+      "label": "Implement Maintenance Plan",
+      "shape": "rect",
+      "pos": [
+        1691.08984375,
+        1022.625
+      ],
+      "size": [
+        260.0,
+        78.0
+      ],
+      "fill": "#bfb",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "implementStyle"
+    },
+    {
+      "id": "GK",
+      "label": "Groundskeeper",
+      "shape": "rect",
+      "pos": [
+        689.59765625,
+        200.0
+      ],
+      "size": [
+        170.296875,
+        54.0
+      ]
+    },
+    {
+      "id": "PMS",
+      "label": "Park Maintenance Supervisor",
+      "shape": "rect",
+      "pos": [
+        1533.52734375,
+        200.0
+      ],
+      "size": [
+        260.0,
+        78.0
+      ]
+    },
+    {
+      "id": "CCM",
+      "label": "City Council Member",
+      "shape": "rect",
+      "pos": [
+        1833.2109375,
+        200.0
+      ],
+      "size": [
+        208.484375,
+        54.0
+      ]
+    },
+    {
+      "id": "WLM",
+      "label": "Weekly Lawn Mowing",
+      "shape": "rect",
+      "pos": [
+        150.21875,
+        378.0
+      ],
+      "size": [
+        214.4375,
+        54.0
+      ]
+    },
+    {
+      "id": "MTP",
+      "label": "Monthly Tree Pruning",
+      "shape": "rect",
+      "pos": [
+        413.4765625,
+        378.0
+      ],
+      "size": [
+        212.078125,
+        54.0
+      ]
+    },
+    {
+      "id": "QPI",
+      "label": "Quarterly Park Bench Inspections",
+      "shape": "rect",
+      "pos": [
+        699.515625,
+        378.0
+      ],
+      "size": [
+        260.0,
+        78.0
+      ]
+    },
+    {
+      "id": "BSC",
+      "label": "Bi-Annual Playground Equipment Safety Check",
+      "shape": "rect",
+      "pos": [
+        1009.515625,
+        378.0
+      ],
+      "size": [
+        260.0,
+        78.0
+      ]
+    },
+    {
+      "id": "PWD",
+      "label": "Public Works Department",
+      "shape": "rect",
+      "pos": [
+        387.16015625,
+        200.0
+      ],
+      "size": [
+        241.109375,
+        54.0
+      ]
+    },
+    {
+      "id": "MMR",
+      "label": "Monthly Maintenance Report",
+      "shape": "rect",
+      "pos": [
+        1833.2109375,
+        47.0
+      ],
+      "size": [
+        260.0,
+        78.0
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "A",
+      "to": "B",
+      "arrow": true,
+      "label": "Report"
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "arrow": true
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "arrow": true
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "arrow": true,
+      "label": "Approved"
+    },
+    {
+      "from": "D",
+      "to": "C",
+      "arrow": true,
+      "label": "Revisions Needed"
+    },
+    {
+      "from": "GK",
+      "to": "A",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "PMS",
+      "to": "B",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "PMS",
+      "to": "C",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "CCM",
+      "to": "D",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "PMS",
+      "to": "E",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "GK",
+      "to": "WLM",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "GK",
+      "to": "MTP",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "PMS",
+      "to": "QPI",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "PWD",
+      "to": "BSC",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "MMR",
+      "to": "CCM",
+      "arrow": true
+    }
+  ],
+  "groups": [
+    {
+      "id": "roles",
+      "label": "Roles",
+      "nodes": [
+        "GK",
+        "PMS",
+        "CCM"
+      ]
+    },
+    {
+      "id": "schedule",
+      "label": "Schedule",
+      "nodes": [
+        "WLM",
+        "MTP",
+        "QPI",
+        "BSC"
+      ]
+    }
+  ]
+}

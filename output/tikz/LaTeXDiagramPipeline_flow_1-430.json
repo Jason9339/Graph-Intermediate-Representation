@@ -1,0 +1,168 @@
+{
+  "title": "LaTeXDiagramPipeline_flow_1-430",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "1",
+      "label": "Artifact\\\\Recovery",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "size": [
+        71.53186,
+        28.85272
+      ],
+      "fill": "brown!20",
+      "stroke": "#000000",
+      "class": "node_style"
+    },
+    {
+      "id": "2",
+      "label": "Initial\\\\Cleaning",
+      "shape": "rect",
+      "pos": [
+        156.89012,
+        0.0
+      ],
+      "size": [
+        71.53186,
+        28.85272
+      ],
+      "fill": "brown!20",
+      "stroke": "#000000",
+      "class": "node_style",
+      "layoutHints": {
+        "right": "of 1"
+      }
+    },
+    {
+      "id": "3",
+      "label": "Documentation",
+      "shape": "rect",
+      "pos": [
+        313.78024,
+        0.0
+      ],
+      "size": [
+        71.53186,
+        28.85272
+      ],
+      "fill": "brown!20",
+      "stroke": "#000000",
+      "class": "node_style",
+      "layoutHints": {
+        "right": "of 2"
+      }
+    },
+    {
+      "id": "4",
+      "label": "Condition\\\\Assessment",
+      "shape": "rect",
+      "pos": [
+        156.89012,
+        -85.75822
+      ],
+      "size": [
+        71.53186,
+        28.852729999999994
+      ],
+      "fill": "brown!20",
+      "stroke": "#000000",
+      "class": "node_style",
+      "layoutHints": {
+        "below": "of 2"
+      }
+    },
+    {
+      "id": "5",
+      "label": "Stabilization\\\\Treatment",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -85.75822
+      ],
+      "size": [
+        71.53186,
+        28.852729999999994
+      ],
+      "fill": "brown!20",
+      "stroke": "#000000",
+      "class": "node_style",
+      "layoutHints": {
+        "left": "of 4"
+      }
+    },
+    {
+      "id": "6",
+      "label": "Cataloging",
+      "shape": "rect",
+      "pos": [
+        156.89012,
+        -171.51645
+      ],
+      "size": [
+        71.53186,
+        28.852720000000005
+      ],
+      "fill": "brown!20",
+      "stroke": "#000000",
+      "class": "node_style",
+      "layoutHints": {
+        "below": "of 4"
+      }
+    },
+    {
+      "id": "7",
+      "label": "Long-term\\\\Storage",
+      "shape": "rect",
+      "pos": [
+        313.78024,
+        -171.51645
+      ],
+      "size": [
+        71.53186,
+        28.852720000000005
+      ],
+      "fill": "brown!20",
+      "stroke": "#000000",
+      "class": "node_style",
+      "layoutHints": {
+        "right": "of 6"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2",
+      "arrow": false
+    },
+    {
+      "from": "2",
+      "to": "3",
+      "arrow": false
+    },
+    {
+      "from": "3",
+      "to": "4",
+      "arrow": false
+    },
+    {
+      "from": "4",
+      "to": "5",
+      "arrow": false
+    },
+    {
+      "from": "5",
+      "to": "6",
+      "arrow": false
+    },
+    {
+      "from": "6",
+      "to": "7",
+      "arrow": false
+    }
+  ]
+}

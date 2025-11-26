@@ -1,0 +1,16 @@
+{
+  "title": "LaTeXDiagramPipeline_mind_1-131",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "HSS",
+      "label": "Basic Drill Bit Materials",
+      "shape": "rect",
+      "layoutHints": {
+        "concept color": "blue!60",
+        "font": "\\Large\\bfseries"
+      }
+    }
+  ],
+  "edges": []
+}

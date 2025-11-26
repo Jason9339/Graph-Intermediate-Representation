@@ -1,0 +1,185 @@
+{
+  "title": "LaTeXDiagramPipeline_flow_1-387",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "1",
+      "label": "Identify Needs",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "size": [
+        71.53186,
+        34.5432
+      ],
+      "fill": "blue!10",
+      "stroke": "#000000",
+      "class": "box"
+    },
+    {
+      "id": "2",
+      "label": "Set Budget",
+      "shape": "rect",
+      "pos": [
+        128.43736,
+        0.0
+      ],
+      "size": [
+        71.53187000000001,
+        34.5432
+      ],
+      "fill": "blue!10",
+      "stroke": "#000000",
+      "class": "box",
+      "layoutHints": {
+        "right": "of 1"
+      }
+    },
+    {
+      "id": "3",
+      "label": "Research Models",
+      "shape": "rect",
+      "pos": [
+        256.98598,
+        0.0
+      ],
+      "size": [
+        71.75435999999999,
+        34.5432
+      ],
+      "fill": "blue!10",
+      "stroke": "#000000",
+      "class": "box",
+      "layoutHints": {
+        "right": "of 2"
+      }
+    },
+    {
+      "id": "4",
+      "label": "Visit Dealerships",
+      "shape": "rect",
+      "pos": [
+        256.98598,
+        -77.22234
+      ],
+      "size": [
+        71.53184999999999,
+        34.543209999999995
+      ],
+      "fill": "blue!10",
+      "stroke": "#000000",
+      "class": "box",
+      "layoutHints": {
+        "below": "of 3"
+      }
+    },
+    {
+      "id": "5",
+      "label": "Negotiate Price",
+      "shape": "rect",
+      "pos": [
+        128.54861,
+        -77.22234
+      ],
+      "size": [
+        71.53186,
+        34.543209999999995
+      ],
+      "fill": "blue!10",
+      "stroke": "#000000",
+      "class": "box",
+      "layoutHints": {
+        "below": "of $(5)!0.5!(6)$"
+      }
+    },
+    {
+      "id": "6",
+      "label": "Evaluate Financing Options",
+      "shape": "rect",
+      "pos": [
+        -20.9803,
+        -77.22234
+      ],
+      "size": [
+        113.71495999999999,
+        34.543209999999995
+      ],
+      "fill": "blue!10",
+      "stroke": "#000000",
+      "class": "box",
+      "layoutHints": {
+        "left": "of 5"
+      }
+    },
+    {
+      "id": "8",
+      "label": "Make Purchase",
+      "shape": "rect",
+      "pos": [
+        182.22153,
+        -137.17305
+      ],
+      "size": [
+        71.53186,
+        34.543220000000005
+      ],
+      "fill": "blue!10",
+      "stroke": "#000000",
+      "class": "box",
+      "layoutHints": {
+        "right": "of 7"
+      }
+    },
+    {
+      "id": "7",
+      "label": "7",
+      "pos": [
+        53.78416,
+        -137.17305
+      ],
+      "size": [
+        71.53187,
+        34.543220000000005
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2",
+      "arrow": false
+    },
+    {
+      "from": "2",
+      "to": "3",
+      "arrow": false
+    },
+    {
+      "from": "3",
+      "to": "4",
+      "arrow": false
+    },
+    {
+      "from": "4",
+      "to": "5",
+      "arrow": false
+    },
+    {
+      "from": "5",
+      "to": "6",
+      "arrow": false
+    },
+    {
+      "from": "6",
+      "to": "7",
+      "arrow": false
+    },
+    {
+      "from": "7",
+      "to": "8",
+      "arrow": false
+    }
+  ]
+}

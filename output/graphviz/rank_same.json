@@ -1,0 +1,125 @@
+{
+  "title": "%3",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "A",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        72.0,
+        162.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "X",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        171.0,
+        162.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "C",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        36.0,
+        90.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "B",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        99.0,
+        18.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "D",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        27.0,
+        18.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "Y",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        171.0,
+        18.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "A",
+      "to": "C",
+      "arrow": true
+    },
+    {
+      "from": "A",
+      "to": "B",
+      "arrow": true
+    },
+    {
+      "from": "X",
+      "to": "Y",
+      "arrow": true
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "arrow": true
+    }
+  ],
+  "groups": [
+    {
+      "id": "%5",
+      "label": "%5",
+      "nodes": [
+        "A",
+        "X"
+      ]
+    },
+    {
+      "id": "%7",
+      "label": "%7",
+      "nodes": [
+        "B",
+        "D",
+        "Y"
+      ]
+    }
+  ]
+}

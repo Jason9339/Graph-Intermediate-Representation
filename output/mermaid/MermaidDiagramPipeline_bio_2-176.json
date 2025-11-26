@@ -1,0 +1,594 @@
+{
+  "title": "MermaidDiagramPipeline_bio_2-176",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "1",
+      "label": "Muscular Symmetry",
+      "shape": "rect",
+      "pos": [
+        807.7578125,
+        139.0
+      ],
+      "size": [
+        201.359375,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "default;"
+    },
+    {
+      "id": "2",
+      "label": "Strength Training Specifics",
+      "shape": "rect",
+      "pos": [
+        415.734375,
+        243.0
+      ],
+      "size": [
+        250.328125,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "default;"
+    },
+    {
+      "id": "3",
+      "label": "NFL Quarterbacks",
+      "shape": "rect",
+      "pos": [
+        807.7578125,
+        35.0
+      ],
+      "size": [
+        190.125,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "default;"
+    },
+    {
+      "id": "4",
+      "label": "Upper Body",
+      "shape": "rect",
+      "pos": [
+        142.359375,
+        347.0
+      ],
+      "size": [
+        144.5,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "default;"
+    },
+    {
+      "id": "5",
+      "label": "Lower Body",
+      "shape": "rect",
+      "pos": [
+        611.76171875,
+        347.0
+      ],
+      "size": [
+        144.5,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "default;"
+    },
+    {
+      "id": "6",
+      "label": "Core",
+      "shape": "rect",
+      "pos": [
+        935.39453125,
+        347.0
+      ],
+      "size": [
+        94.6875,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "default;"
+    },
+    {
+      "id": "7",
+      "label": "Chest",
+      "shape": "rect",
+      "pos": [
+        58.8984375,
+        451.0
+      ],
+      "size": [
+        101.796875,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "muscle;"
+    },
+    {
+      "id": "8",
+      "label": "Shoulders",
+      "shape": "rect",
+      "pos": [
+        225.8203125,
+        451.0
+      ],
+      "size": [
+        132.046875,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "muscle;"
+    },
+    {
+      "id": "9",
+      "label": "Arms",
+      "shape": "rect",
+      "pos": [
+        390.5078125,
+        451.0
+      ],
+      "size": [
+        97.328125,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "muscle;"
+    },
+    {
+      "id": "10",
+      "label": "Legs",
+      "shape": "rect",
+      "pos": [
+        536.5234375,
+        451.0
+      ],
+      "size": [
+        94.703125,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "muscle;"
+    },
+    {
+      "id": "11",
+      "label": "Glutes",
+      "shape": "rect",
+      "pos": [
+        687.0,
+        451.0
+      ],
+      "size": [
+        106.25,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "muscle;"
+    },
+    {
+      "id": "12",
+      "label": "Abdomen",
+      "shape": "rect",
+      "pos": [
+        854.375,
+        451.0
+      ],
+      "size": [
+        128.5,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "muscle;"
+    },
+    {
+      "id": "13",
+      "label": "Back",
+      "shape": "rect",
+      "pos": [
+        1016.4140625,
+        451.0
+      ],
+      "size": [
+        95.578125,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "muscle;"
+    },
+    {
+      "id": "14",
+      "label": "Injury Prevention",
+      "shape": "rect",
+      "pos": [
+        1241.80859375,
+        243.0
+      ],
+      "size": [
+        180.0625,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "default;"
+    },
+    {
+      "id": "15",
+      "label": "Strength Training Programs",
+      "shape": "rect",
+      "pos": [
+        1849.6875,
+        35.0
+      ],
+      "size": [
+        255.65625,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "default;"
+    },
+    {
+      "id": "16",
+      "label": "Incline Bench Press",
+      "shape": "rect",
+      "pos": [
+        1059.140625,
+        139.0
+      ],
+      "size": [
+        201.40625,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "exercise;"
+    },
+    {
+      "id": "17",
+      "label": "Lateral Raises",
+      "shape": "rect",
+      "pos": [
+        1290.984375,
+        139.0
+      ],
+      "size": [
+        162.28125,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "exercise;"
+    },
+    {
+      "id": "18",
+      "label": "Bicep Curls",
+      "shape": "rect",
+      "pos": [
+        1493.03125,
+        139.0
+      ],
+      "size": [
+        141.8125,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "exercise;"
+    },
+    {
+      "id": "19",
+      "label": "Squats",
+      "shape": "rect",
+      "pos": [
+        1668.84375,
+        139.0
+      ],
+      "size": [
+        109.8125,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "exercise;"
+    },
+    {
+      "id": "20",
+      "label": "Lunges",
+      "shape": "rect",
+      "pos": [
+        1830.0,
+        139.0
+      ],
+      "size": [
+        112.5,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "exercise;"
+    },
+    {
+      "id": "21",
+      "label": "Planks",
+      "shape": "rect",
+      "pos": [
+        1990.265625,
+        139.0
+      ],
+      "size": [
+        108.03125,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "exercise;"
+    },
+    {
+      "id": "22",
+      "label": "Deadlifts",
+      "shape": "rect",
+      "pos": [
+        2155.40625,
+        139.0
+      ],
+      "size": [
+        122.25,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "exercise;"
+    },
+    {
+      "id": "23",
+      "label": "Physical Therapy",
+      "shape": "rect",
+      "pos": [
+        1123.95703125,
+        347.0
+      ],
+      "size": [
+        182.4375,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "prevention;"
+    },
+    {
+      "id": "24",
+      "label": "Resistance Bands",
+      "shape": "rect",
+      "pos": [
+        1359.66015625,
+        347.0
+      ],
+      "size": [
+        188.96875,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "prevention;"
+    },
+    {
+      "id": "25",
+      "label": "Dynamic Stretching",
+      "shape": "rect",
+      "pos": [
+        1603.50390625,
+        347.0
+      ],
+      "size": [
+        198.71875,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "prevention;"
+    }
+  ],
+  "edges": [
+    {
+      "from": "3",
+      "to": "1",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "1",
+      "to": "2",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "1",
+      "to": "14",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "2",
+      "to": "4",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "2",
+      "to": "5",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "2",
+      "to": "6",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "4",
+      "to": "7",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "4",
+      "to": "8",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "4",
+      "to": "9",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "5",
+      "to": "10",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "5",
+      "to": "11",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "6",
+      "to": "12",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "6",
+      "to": "13",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "15",
+      "to": "16",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "15",
+      "to": "17",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "15",
+      "to": "18",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "15",
+      "to": "19",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "15",
+      "to": "20",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "15",
+      "to": "21",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "15",
+      "to": "22",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "14",
+      "to": "23",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "14",
+      "to": "24",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "14",
+      "to": "25",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    }
+  ]
+}

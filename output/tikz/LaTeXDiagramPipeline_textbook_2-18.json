@@ -1,0 +1,199 @@
+{
+  "title": "LaTeXDiagramPipeline_textbook_2-18",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "2003",
+      "label": "Medicare Prescription Drug, Improvement, and Modernization Act\\\\(2003)",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "size": [
+        120.87696,
+        48.56594
+      ],
+      "fill": "blue!20",
+      "stroke": "#000000",
+      "class": "event"
+    },
+    {
+      "id": "2010",
+      "label": "Affordable Care Act\\\\(2010)",
+      "shape": "rect",
+      "pos": [
+        234.68797,
+        -94.47145
+      ],
+      "size": [
+        120.87694999999997,
+        26.56595
+      ],
+      "fill": "blue!20",
+      "stroke": "#000000",
+      "class": "event",
+      "layoutHints": {
+        "below right": "of 2003"
+      }
+    },
+    {
+      "id": "2014",
+      "label": "Medicaid Expansion\\\\(2014)",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -177.9429
+      ],
+      "size": [
+        120.87696,
+        26.565949999999987
+      ],
+      "fill": "blue!20",
+      "stroke": "#000000",
+      "class": "event",
+      "layoutHints": {
+        "below left": "of 2010"
+      }
+    },
+    {
+      "id": "2015",
+      "label": "MACRA (Medicare Access and CHIP Reauthorization Act)\\\\(2015)",
+      "shape": "rect",
+      "pos": [
+        469.37595,
+        -189.1929
+      ],
+      "size": [
+        120.87695000000002,
+        49.06594999999999
+      ],
+      "fill": "blue!20",
+      "stroke": "#000000",
+      "class": "event",
+      "layoutHints": {
+        "below right": "of 2010"
+      }
+    },
+    {
+      "id": "2016",
+      "label": "21st Century Cures Act\\\\(2016)",
+      "shape": "rect",
+      "pos": [
+        469.37595,
+        -283.91435
+      ],
+      "size": [
+        120.87695000000002,
+        26.565950000000043
+      ],
+      "fill": "blue!20",
+      "stroke": "#000000",
+      "class": "event",
+      "layoutHints": {
+        "below": "of 2015"
+      }
+    },
+    {
+      "id": "2018",
+      "label": "Right to Try Act\\\\(2018)",
+      "shape": "rect",
+      "pos": [
+        234.68797,
+        -367.3858
+      ],
+      "size": [
+        120.87694999999997,
+        26.565950000000043
+      ],
+      "fill": "blue!20",
+      "stroke": "#000000",
+      "class": "event",
+      "layoutHints": {
+        "below left": "of 2016"
+      }
+    },
+    {
+      "id": "2020",
+      "label": "COVID-19 Health Care Policy Adjustments\\\\(2020)",
+      "shape": "rect",
+      "pos": [
+        469.37595,
+        -456.35725
+      ],
+      "size": [
+        120.87695000000002,
+        37.56594999999999
+      ],
+      "fill": "blue!20",
+      "stroke": "#000000",
+      "class": "event",
+      "layoutHints": {
+        "below right": "of 2018"
+      }
+    },
+    {
+      "id": "2022",
+      "label": "No Surprises Act\\\\(2022)",
+      "shape": "rect",
+      "pos": [
+        469.37595,
+        -545.3287
+      ],
+      "size": [
+        120.87695000000002,
+        26.56594999999993
+      ],
+      "fill": "blue!20",
+      "stroke": "#000000",
+      "class": "event",
+      "layoutHints": {
+        "below": "of 2020"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "2003",
+      "to": "2010",
+      "arrow": false,
+      "label": "Insurance Coverage Expansion"
+    },
+    {
+      "from": "2010",
+      "to": "2014",
+      "arrow": false,
+      "label": "State-Level Medicaid Changes"
+    },
+    {
+      "from": "2010",
+      "to": "2015",
+      "arrow": false,
+      "label": "Quality Payment Program"
+    },
+    {
+      "from": "2015",
+      "to": "2016",
+      "arrow": false,
+      "label": "Biomedical Research Funding"
+    },
+    {
+      "from": "2016",
+      "to": "2018",
+      "arrow": false,
+      "label": "Experimental Drug Access"
+    },
+    {
+      "from": "2018",
+      "to": "2020",
+      "arrow": false,
+      "label": "Pandemic Response"
+    },
+    {
+      "from": "2020",
+      "to": "2022",
+      "arrow": false,
+      "label": "Billing Transparency"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "title": "G",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "anode",
+      "label": "\\N",
+      "shape": "rect",
+      "pos": [
+        46.0,
+        57.0
+      ],
+      "size": [
+        58.99968,
+        36.0
+      ],
+      "fill": "red:yellow"
+    }
+  ],
+  "edges": [],
+  "groups": [
+    {
+      "id": "cluster1",
+      "label": "acluster",
+      "nodes": [
+        "anode"
+      ],
+      "boundingBox": {
+        "x": 8.0,
+        "y": 31.0,
+        "width": 76.0,
+        "height": 75.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,224 @@
+{
+  "title": "LaTeXDiagramPipeline_math_0-4",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "1",
+      "label": "Analog Input Signal",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "size": [
+        92.42903,
+        28.854219999999998
+      ],
+      "fill": "blue!5",
+      "stroke": "blue!60",
+      "class": "process"
+    },
+    {
+      "id": "9",
+      "label": "Optional: Low-pass Filter",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -99.99033
+      ],
+      "size": [
+        92.42903,
+        28.85423
+      ],
+      "fill": "blue!5",
+      "stroke": "blue!60",
+      "class": "process",
+      "layoutHints": {
+        "below": "of 1"
+      }
+    },
+    {
+      "id": "2",
+      "label": "Sample and Hold Circuit",
+      "shape": "rect",
+      "pos": [
+        163.5668,
+        0.0
+      ],
+      "size": [
+        92.42904,
+        28.8542
+      ],
+      "fill": "blue!5",
+      "stroke": "blue!60",
+      "class": "process",
+      "layoutHints": {
+        "right": "of 1"
+      }
+    },
+    {
+      "id": "3",
+      "label": "Analog Multiplexer",
+      "shape": "rect",
+      "pos": [
+        327.14223,
+        0.0
+      ],
+      "size": [
+        92.42904999999996,
+        28.854219999999998
+      ],
+      "fill": "blue!5",
+      "stroke": "blue!60",
+      "class": "process",
+      "layoutHints": {
+        "right": "of 2"
+      }
+    },
+    {
+      "id": "4",
+      "label": "Analog-to-Digital Converter (ADC)",
+      "shape": "rect",
+      "pos": [
+        327.15942,
+        -99.9903
+      ],
+      "size": [
+        92.42902999999995,
+        28.85423
+      ],
+      "fill": "blue!5",
+      "stroke": "blue!60",
+      "class": "process",
+      "layoutHints": {
+        "below": "of 3"
+      }
+    },
+    {
+      "id": "5",
+      "label": "ADC Control Logic",
+      "shape": "rect",
+      "pos": [
+        163.6098,
+        -99.99554
+      ],
+      "size": [
+        92.42903,
+        28.85421000000001
+      ],
+      "fill": "blue!5",
+      "stroke": "blue!60",
+      "class": "process",
+      "layoutHints": {
+        "left": "of 4"
+      }
+    },
+    {
+      "id": "6",
+      "label": "Digital Output",
+      "shape": "rect",
+      "pos": [
+        327.17664,
+        -199.98592
+      ],
+      "size": [
+        92.42903000000001,
+        28.85423
+      ],
+      "fill": "blue!5",
+      "stroke": "blue!60",
+      "class": "process",
+      "layoutHints": {
+        "below": "of 4"
+      }
+    },
+    {
+      "id": "7",
+      "label": "Microcontroller Memory",
+      "shape": "rect",
+      "pos": [
+        327.19383,
+        -299.98676
+      ],
+      "size": [
+        92.42905000000002,
+        28.85423000000003
+      ],
+      "fill": "blue!5",
+      "stroke": "blue!60",
+      "class": "process",
+      "layoutHints": {
+        "below": "of 6"
+      }
+    },
+    {
+      "id": "8",
+      "label": "Microcontroller Processing Unit",
+      "shape": "rect",
+      "pos": [
+        163.64421,
+        -300.00253
+      ],
+      "size": [
+        92.42903000000001,
+        28.854240000000004
+      ],
+      "fill": "blue!5",
+      "stroke": "blue!60",
+      "class": "process",
+      "layoutHints": {
+        "left": "of 7"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2",
+      "arrow": false,
+      "label": "\\small Provide Analog Signal"
+    },
+    {
+      "from": "2",
+      "to": "3",
+      "arrow": false,
+      "label": "\\small Hold Analog Value"
+    },
+    {
+      "from": "3",
+      "to": "4",
+      "arrow": false,
+      "label": "\\small Select Channel"
+    },
+    {
+      "from": "4",
+      "to": "5",
+      "arrow": false,
+      "label": "\\small Conversion Trigger"
+    },
+    {
+      "from": "5",
+      "to": "6",
+      "arrow": false,
+      "label": "\\small Digital Data Ready"
+    },
+    {
+      "from": "6",
+      "to": "7",
+      "arrow": false,
+      "label": "\\small Store Digital Data"
+    },
+    {
+      "from": "7",
+      "to": "8",
+      "arrow": false,
+      "label": "\\small Microcontroller Read"
+    },
+    {
+      "from": "1",
+      "to": "9",
+      "arrow": false,
+      "label": "\\small Optional Signal Conditioning"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "title": "LaTeXDiagramPipeline_food_1-177",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "CSO",
+      "label": "Civil Society\\\\ Organizations\\\\ (CSOs)",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "size": [
+        60.07656,
+        37.56594
+      ]
+    },
+    {
+      "id": "SF",
+      "label": "Smallholder\\\\ Farmers",
+      "shape": "rect",
+      "pos": [
+        141.43279,
+        -73.62007
+      ],
+      "size": [
+        52.072469999999996,
+        24.315949999999994
+      ],
+      "layoutHints": {
+        "below right": "of CSO"
+      }
+    },
+    {
+      "id": "TP",
+      "label": "Training\\\\ Programs",
+      "shape": "rect",
+      "pos": [
+        274.77193,
+        -5.75
+      ],
+      "size": [
+        43.889279999999985,
+        26.065939999999998
+      ],
+      "layoutHints": {
+        "above right": "of SF"
+      }
+    },
+    {
+      "id": "AM",
+      "label": "Access to\\\\ Market",
+      "shape": "rect",
+      "pos": [
+        274.68723,
+        -140.61514
+      ],
+      "size": [
+        43.719870000000014,
+        24.315950000000015
+      ],
+      "layoutHints": {
+        "below right": "of SF"
+      }
+    },
+    {
+      "id": "IAP",
+      "label": "Improved\\\\ Agricultural\\\\ Practices",
+      "shape": "rect",
+      "pos": [
+        3.90483,
+        -146.11514
+      ],
+      "size": [
+        52.2669,
+        35.315950000000015
+      ],
+      "layoutHints": {
+        "below left": "of SF"
+      }
+    },
+    {
+      "id": "GP",
+      "label": "Government\\\\ Policies",
+      "shape": "rect",
+      "pos": [
+        -142.2696,
+        73.62007
+      ],
+      "size": [
+        53.746120000000005,
+        24.315949999999994
+      ],
+      "layoutHints": {
+        "above left": "of CSO"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "CSO",
+      "to": "TP",
+      "arrow": false
+    },
+    {
+      "from": "TP",
+      "to": "SF",
+      "arrow": false
+    },
+    {
+      "from": "SF",
+      "to": "AM",
+      "arrow": false
+    },
+    {
+      "from": "AM",
+      "to": "SF",
+      "arrow": false
+    },
+    {
+      "from": "CSO",
+      "to": "IAP",
+      "arrow": false
+    },
+    {
+      "from": "IAP",
+      "to": "SF",
+      "arrow": false
+    },
+    {
+      "from": "GP",
+      "to": "CSO",
+      "arrow": false
+    },
+    {
+      "from": "GP",
+      "to": "SF",
+      "arrow": false
+    }
+  ]
+}

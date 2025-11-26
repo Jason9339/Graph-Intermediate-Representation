@@ -1,0 +1,331 @@
+{
+  "title": "MermaidDiagramPipeline_bio_2-175",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "1",
+      "label": "(\"Injury/Infection\")",
+      "shape": "rect",
+      "pos": [
+        321.5,
+        45.793853759765625
+      ],
+      "fill": "#ff9999",
+      "stroke": "#ff0000",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "2",
+      "label": "PAMPs",
+      "shape": "rect",
+      "pos": [
+        321.5,
+        184.58770751953125
+      ],
+      "size": [
+        112.15625,
+        54.0
+      ],
+      "fill": "#ffcc99",
+      "stroke": "#ff9933",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "3",
+      "label": "PRRs",
+      "shape": "rect",
+      "pos": [
+        321.5,
+        312.58770751953125
+      ],
+      "size": [
+        101.78125,
+        54.0
+      ],
+      "fill": "#ffff99",
+      "stroke": "#ffff00",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "4",
+      "label": "Macrophages",
+      "shape": "rect",
+      "pos": [
+        321.5,
+        440.58770751953125
+      ],
+      "size": [
+        156.953125,
+        54.0
+      ],
+      "fill": "#ccffcc",
+      "stroke": "#66ff66",
+      "strokeWidth": 2.0,
+      "class": "immune"
+    },
+    {
+      "id": "5",
+      "label": "Dendritic Cells",
+      "shape": "rect",
+      "pos": [
+        108.6875,
+        440.58770751953125
+      ],
+      "size": [
+        163.140625,
+        54.0
+      ],
+      "fill": "#ccffcc",
+      "stroke": "#66ff66",
+      "strokeWidth": 2.0,
+      "class": "immune"
+    },
+    {
+      "id": "6",
+      "label": "Neutrophils",
+      "shape": "rect",
+      "pos": [
+        520.4453125,
+        440.58770751953125
+      ],
+      "size": [
+        140.9375,
+        54.0
+      ],
+      "fill": "#ccffcc",
+      "stroke": "#66ff66",
+      "strokeWidth": 2.0,
+      "class": "immune"
+    },
+    {
+      "id": "7",
+      "label": "T-helper Cells (Th1)",
+      "shape": "rect",
+      "pos": [
+        108.6875,
+        603.7127075195312
+      ],
+      "size": [
+        201.375,
+        54.0
+      ],
+      "fill": "#ccffcc",
+      "stroke": "#66ff66",
+      "strokeWidth": 2.0,
+      "class": "immune"
+    },
+    {
+      "id": "8",
+      "label": "Cytokines",
+      "shape": "diamond",
+      "pos": [
+        321.5,
+        603.7127075195312
+      ],
+      "fill": "#99ccff",
+      "stroke": "#3366ff",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "9",
+      "label": "TNF-α",
+      "shape": "rect",
+      "pos": [
+        174.8671875,
+        766.8377075195312
+      ],
+      "size": [
+        105.6875,
+        54.0
+      ],
+      "fill": "#ffcccc",
+      "stroke": "#ff6666",
+      "strokeWidth": 2.0,
+      "class": "cytokine"
+    },
+    {
+      "id": "10",
+      "label": "IL-1",
+      "shape": "rect",
+      "pos": [
+        321.5,
+        766.8377075195312
+      ],
+      "size": [
+        87.578125,
+        54.0
+      ],
+      "fill": "#ffcccc",
+      "stroke": "#ff6666",
+      "strokeWidth": 2.0,
+      "class": "cytokine"
+    },
+    {
+      "id": "11",
+      "label": "IL-6",
+      "shape": "rect",
+      "pos": [
+        459.078125,
+        766.8377075195312
+      ],
+      "size": [
+        87.578125,
+        54.0
+      ],
+      "fill": "#ffcccc",
+      "stroke": "#ff6666",
+      "strokeWidth": 2.0,
+      "class": "cytokine"
+    },
+    {
+      "id": "12",
+      "label": "Inflammation",
+      "shape": "circle",
+      "pos": [
+        321.5,
+        921.1345825195312
+      ],
+      "size": [
+        106.59375,
+        106.59375
+      ],
+      "fill": "#ff99cc",
+      "stroke": "#ff3399",
+      "strokeWidth": 2.0,
+      "class": "process"
+    },
+    {
+      "id": "13",
+      "label": "Recruitment of Immune Cells",
+      "shape": "rect",
+      "pos": [
+        321.5,
+        1087.4314575195312
+      ],
+      "size": [
+        260.0,
+        78.0
+      ],
+      "fill": "#ccccff",
+      "stroke": "#6666ff",
+      "strokeWidth": 2.0,
+      "class": "process"
+    },
+    {
+      "id": "14",
+      "label": "Phagocytosis",
+      "shape": "rect",
+      "pos": [
+        321.5,
+        1227.4314575195312
+      ],
+      "size": [
+        155.171875,
+        54.0
+      ],
+      "fill": "#ccccff",
+      "stroke": "#6666ff",
+      "strokeWidth": 2.0,
+      "class": "process"
+    },
+    {
+      "id": "15",
+      "label": "Resolution",
+      "shape": "rect",
+      "pos": [
+        321.5,
+        1355.4314575195312
+      ],
+      "size": [
+        135.609375,
+        54.0
+      ],
+      "fill": "#99ffcc",
+      "stroke": "#00ff99",
+      "strokeWidth": 2.0,
+      "class": "process"
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2",
+      "arrow": true,
+      "label": "causes",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "2",
+      "to": "3",
+      "arrow": true,
+      "label": "recognize",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "3",
+      "to": "4",
+      "arrow": true,
+      "label": "activate",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "4",
+      "to": "8",
+      "arrow": true,
+      "label": "produce",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "5",
+      "to": "7",
+      "arrow": true,
+      "label": "present antigens to",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "8",
+      "to": "9",
+      "arrow": true,
+      "label": "release",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "9",
+      "to": "12",
+      "arrow": true,
+      "label": "leads to",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "12",
+      "to": "13",
+      "arrow": true,
+      "label": "triggers",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "13",
+      "to": "14",
+      "arrow": true,
+      "label": "perform",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "14",
+      "to": "15",
+      "arrow": true,
+      "label": "leads to",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    }
+  ]
+}

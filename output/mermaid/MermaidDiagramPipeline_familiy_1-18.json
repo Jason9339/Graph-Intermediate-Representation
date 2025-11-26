@@ -1,0 +1,134 @@
+{
+  "title": "MermaidDiagramPipeline_familiy_1-18",
+  "orientation": "TD",
+  "nodes": [
+    {
+      "id": "AO",
+      "label": "Ali Osman Taha<br>1951<br>Former Vice President of Sudan",
+      "shape": "rect",
+      "pos": [
+        138.0,
+        71.0
+      ],
+      "size": [
+        260.0,
+        126.0
+      ],
+      "fill": "#FFE5B4",
+      "stroke": "#FF8C00",
+      "strokeWidth": 2.0,
+      "class": "sudanese"
+    },
+    {
+      "id": "HPK",
+      "label": "Hans-Peter Kniess<br>1948<br>Former German Ambassador to Sudan",
+      "shape": "rect",
+      "pos": [
+        138.0,
+        295.0
+      ],
+      "size": [
+        260.0,
+        126.0
+      ],
+      "fill": "#F0F8FF",
+      "stroke": "#4682B4",
+      "strokeWidth": 1.0,
+      "class": "german"
+    },
+    {
+      "id": "BA",
+      "label": "Badr Eldin Abdullah<br>1960<br>Former Sudanese Ambassador to Germany",
+      "shape": "rect",
+      "pos": [
+        448.0,
+        71.0
+      ],
+      "size": [
+        260.0,
+        126.0
+      ],
+      "fill": "#FFE5B4",
+      "stroke": "#FF8C00",
+      "strokeWidth": 2.0,
+      "class": "sudanese"
+    },
+    {
+      "id": "MZ",
+      "label": "Michael Zickerick<br>1954<br>Former German Ambassador to Sudan",
+      "shape": "rect",
+      "pos": [
+        448.0,
+        295.0
+      ],
+      "size": [
+        260.0,
+        126.0
+      ],
+      "fill": "#F0F8FF",
+      "stroke": "#4682B4",
+      "strokeWidth": 1.0,
+      "class": "german"
+    },
+    {
+      "id": "NE",
+      "label": "Nafisa El-Saddig<br>1965<br>Sudanese Diplomat",
+      "shape": "rect",
+      "pos": [
+        727.8203125,
+        71.0
+      ],
+      "size": [
+        199.640625,
+        102.0
+      ],
+      "fill": "#FFE5B4",
+      "stroke": "#FF8C00",
+      "strokeWidth": 2.0,
+      "class": "sudanese"
+    },
+    {
+      "id": "MM",
+      "label": "Miriam Müller<br>1967<br>German Diplomat",
+      "shape": "rect",
+      "pos": [
+        727.8203125,
+        295.0
+      ],
+      "size": [
+        185.375,
+        102.0
+      ],
+      "fill": "#F0F8FF",
+      "stroke": "#4682B4",
+      "strokeWidth": 1.0,
+      "class": "german"
+    }
+  ],
+  "edges": [
+    {
+      "from": "AO",
+      "to": "HPK",
+      "arrow": false,
+      "label": "Close family friend<br>and advisor",
+      "stroke": "#708090",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "BA",
+      "to": "MZ",
+      "arrow": false,
+      "label": "Family friendship",
+      "stroke": "#708090",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "NE",
+      "to": "MM",
+      "arrow": false,
+      "label": "Distant cousins",
+      "stroke": "#708090",
+      "strokeWidth": 2.0
+    }
+  ]
+}

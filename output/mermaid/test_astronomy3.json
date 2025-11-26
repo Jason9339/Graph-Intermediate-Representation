@@ -1,0 +1,157 @@
+{
+  "graph": {
+    "title": "MermaidDiagramPipeline_astronomy_2-79",
+    "directed": true,
+    "orientation": "LR"
+  },
+  "nodes": [
+    {
+      "id": "earth",
+      "label": "Earth",
+      "shape": "round",
+      "style": "bold",
+      "classes": [
+        "planet"
+      ],
+      "fill": "#2E8B57",
+      "stroke": "#006400",
+      "strokeWidth": 2.0,
+      "textColor": "#FFFFFF",
+      "pos": [
+        44.515625,
+        149.5
+      ],
+      "size": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": "kepler_452b",
+      "label": "Kepler-452b",
+      "shape": "round",
+      "style": "bold",
+      "classes": [
+        "exoplanet"
+      ],
+      "fill": "#4169E1",
+      "stroke": "#000080",
+      "strokeWidth": 2.0,
+      "textColor": "#FFFFFF",
+      "pos": [
+        401.6953125,
+        44.0
+      ],
+      "size": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": "trappist_1",
+      "label": "TRAPPIST-1 System",
+      "shape": "round",
+      "style": "bold",
+      "classes": [
+        "system"
+      ],
+      "fill": "#FF4500",
+      "stroke": "#8B0000",
+      "strokeWidth": 2.0,
+      "textColor": "#FFFFFF",
+      "pos": [
+        401.6953125,
+        149.5
+      ],
+      "size": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": "trappist_1e",
+      "label": "TRAPPIST-1e",
+      "shape": "round",
+      "style": "bold",
+      "classes": [
+        "exoplanet"
+      ],
+      "fill": "#4169E1",
+      "stroke": "#000080",
+      "strokeWidth": 2.0,
+      "textColor": "#FFFFFF",
+      "pos": [
+        759.1796875,
+        149.5
+      ],
+      "size": [
+        null,
+        null
+      ]
+    },
+    {
+      "id": "proxima_b",
+      "label": "Proxima Centauri b",
+      "shape": "round",
+      "style": "bold",
+      "classes": [
+        "exoplanet"
+      ],
+      "fill": "#4169E1",
+      "stroke": "#000080",
+      "strokeWidth": 2.0,
+      "textColor": "#FFFFFF",
+      "pos": [
+        401.6953125,
+        255.0
+      ],
+      "size": [
+        null,
+        null
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "earth",
+      "target": "kepler_452b",
+      "directed": true,
+      "label": "Orbit: 384.84 days<br>Size: 1.6x Earth<br>Habitable Zone: Yes",
+      "style": null,
+      "arrowHead": null,
+      "weight": null,
+      "stroke": null
+    },
+    {
+      "source": "trappist_1",
+      "target": "trappist_1e",
+      "directed": true,
+      "label": "Orbit: 6.1 days<br>Size: 0.92x Earth<br>Habitable Zone: Yes",
+      "style": null,
+      "arrowHead": null,
+      "weight": null,
+      "stroke": null
+    },
+    {
+      "source": "earth",
+      "target": "trappist_1",
+      "directed": true,
+      "label": "Distance from Earth:<br>40 light-years",
+      "style": null,
+      "arrowHead": null,
+      "weight": null,
+      "stroke": null
+    },
+    {
+      "source": "earth",
+      "target": "proxima_b",
+      "directed": true,
+      "label": "Distance: 4.2 light-years<br>Orbit: 11.2 days<br>Size: 1.3x Earth<br>Habitable Zone: Yes",
+      "style": null,
+      "arrowHead": null,
+      "weight": null,
+      "stroke": null
+    }
+  ],
+  "groups": []
+}

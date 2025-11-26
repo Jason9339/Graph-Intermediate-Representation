@@ -1,0 +1,235 @@
+{
+  "title": "MermaidDiagramPipeline_textbook_2-92",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "CS",
+      "label": "Correct:<br/>Stand tall and straight,<br/>keep shoulders back,<br/>distribute weight evenly",
+      "shape": "rect",
+      "pos": [
+        164.0,
+        106.0
+      ],
+      "size": [
+        237.0,
+        126.0
+      ],
+      "fill": "#e6f7ff",
+      "stroke": "#1890ff",
+      "strokeWidth": 2.0,
+      "class": "correct"
+    },
+    {
+      "id": "IS",
+      "label": "Incorrect:<br/>Slouching or leaning<br/>too far back,<br/>uneven weight distribution",
+      "shape": "rect",
+      "pos": [
+        487.28125,
+        106.0
+      ],
+      "size": [
+        180.09375,
+        102.0
+      ],
+      "fill": "#fff1f0",
+      "stroke": "#ff4d4f",
+      "strokeWidth": 2.0,
+      "class": "incorrect"
+    },
+    {
+      "id": "CSI",
+      "label": "Correct:<br/>Sit up with back straight,<br/>shoulders back, buttocks<br/>touching chair back",
+      "shape": "rect",
+      "pos": [
+        167.5625,
+        106.0
+      ],
+      "size": [
+        244.125,
+        126.0
+      ],
+      "fill": "#e6f7ff",
+      "stroke": "#1890ff",
+      "strokeWidth": 2.0,
+      "class": "correct"
+    },
+    {
+      "id": "ISI",
+      "label": "Incorrect:<br/>Slouching forward or<br/>backward, sitting without<br/>back support",
+      "shape": "rect",
+      "pos": [
+        508.6328125,
+        106.0
+      ],
+      "size": [
+        208.546875,
+        102.0
+      ],
+      "fill": "#fff1f0",
+      "stroke": "#ff4d4f",
+      "strokeWidth": 2.0,
+      "class": "incorrect"
+    },
+    {
+      "id": "CL",
+      "label": "Correct:<br/>Use legs to lift,<br/>keep back straight,<br/>hold objects close to body",
+      "shape": "rect",
+      "pos": [
+        163.546875,
+        106.0
+      ],
+      "size": [
+        236.09375,
+        126.0
+      ],
+      "fill": "#e6f7ff",
+      "stroke": "#1890ff",
+      "strokeWidth": 2.0,
+      "class": "correct"
+    },
+    {
+      "id": "IL",
+      "label": "Incorrect:<br/>Bending at the waist,<br/>lifting with your back",
+      "shape": "rect",
+      "pos": [
+        513.484375,
+        106.0
+      ],
+      "size": [
+        234.3125,
+        126.0
+      ],
+      "fill": "#fff1f0",
+      "stroke": "#ff4d4f",
+      "strokeWidth": 2.0,
+      "class": "incorrect"
+    },
+    {
+      "id": "CSL",
+      "label": "Correct:<br/>Sleep on side, preferably<br/>left, with bent knees and<br/>pillow between them",
+      "shape": "rect",
+      "pos": [
+        158.65625,
+        106.0
+      ],
+      "size": [
+        226.3125,
+        126.0
+      ],
+      "fill": "#e6f7ff",
+      "stroke": "#1890ff",
+      "strokeWidth": 2.0,
+      "class": "correct"
+    },
+    {
+      "id": "ISL",
+      "label": "Incorrect:<br/>Sleeping on your<br/>back or stomach",
+      "shape": "rect",
+      "pos": [
+        509.0546875,
+        106.0
+      ],
+      "size": [
+        245.015625,
+        126.0
+      ],
+      "fill": "#fff1f0",
+      "stroke": "#ff4d4f",
+      "strokeWidth": 2.0,
+      "class": "incorrect"
+    },
+    {
+      "id": "Standing",
+      "shape": "rect",
+      "fill": "#f0f5ff",
+      "stroke": "#1890ff",
+      "strokeWidth": 4.0
+    },
+    {
+      "id": "Sitting",
+      "shape": "rect",
+      "fill": "#f0f5ff",
+      "stroke": "#1890ff",
+      "strokeWidth": 4.0
+    },
+    {
+      "id": "Lifting",
+      "shape": "rect",
+      "fill": "#f0f5ff",
+      "stroke": "#1890ff",
+      "strokeWidth": 4.0
+    },
+    {
+      "id": "Sleeping",
+      "shape": "rect",
+      "fill": "#f0f5ff",
+      "stroke": "#1890ff",
+      "strokeWidth": 4.0
+    }
+  ],
+  "edges": [
+    {
+      "from": "CS",
+      "to": "IS",
+      "arrow": true,
+      "label": "Avoid"
+    },
+    {
+      "from": "CSI",
+      "to": "ISI",
+      "arrow": true,
+      "label": "Avoid"
+    },
+    {
+      "from": "CL",
+      "to": "IL",
+      "arrow": true,
+      "label": "Avoid"
+    },
+    {
+      "from": "CSL",
+      "to": "ISL",
+      "arrow": true,
+      "label": "Avoid"
+    },
+    {
+      "from": "Standing",
+      "to": "Sitting",
+      "arrow": true
+    }
+  ],
+  "groups": [
+    {
+      "id": "standing_standing_posture",
+      "label": "Standing[Standing Posture]",
+      "nodes": [
+        "CS",
+        "IS"
+      ]
+    },
+    {
+      "id": "sitting_sitting_posture",
+      "label": "Sitting[Sitting Posture]",
+      "nodes": [
+        "CSI",
+        "ISI"
+      ]
+    },
+    {
+      "id": "lifting_lifting_objects",
+      "label": "Lifting[Lifting Objects]",
+      "nodes": [
+        "CL",
+        "IL"
+      ]
+    },
+    {
+      "id": "sleeping_sleeping_posture",
+      "label": "Sleeping[Sleeping Posture]",
+      "nodes": [
+        "CSL",
+        "ISL"
+      ]
+    }
+  ]
+}

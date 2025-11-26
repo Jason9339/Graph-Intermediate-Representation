@@ -1,0 +1,215 @@
+{
+  "title": "MermaidDiagramPipeline_textbook_6-143",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "1920s",
+      "label": "1920s: Simple and Functional<br/>Minimal, functional costumes",
+      "shape": "rect",
+      "pos": [
+        424.4921875,
+        999.0
+      ],
+      "size": [
+        212.984375,
+        78.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "1950s",
+      "label": "1950s: Glam and Elegance<br/>Sequins and velvet introduced",
+      "shape": "rect",
+      "pos": [
+        673.6796875,
+        999.0
+      ],
+      "size": [
+        185.390625,
+        78.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "1980s",
+      "label": "1980s: Bold and Colorful<br/>Bright colors, elaborate designs",
+      "shape": "rect",
+      "pos": [
+        921.5234375,
+        999.0
+      ],
+      "size": [
+        210.296875,
+        78.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "1990s",
+      "label": "1990s: Technical and Artistic<br/>Blend of tech fabrics and art",
+      "shape": "rect",
+      "pos": [
+        549.0859375,
+        71.0
+      ],
+      "size": [
+        260.0,
+        126.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "JohnnyWeir",
+      "label": "Johnny Weir: Iconic and Unconventional<br/>Avant-garde and flamboyant",
+      "shape": "rect",
+      "pos": [
+        549.0859375,
+        259.0
+      ],
+      "size": [
+        260.0,
+        102.0
+      ],
+      "fill": "#ff9",
+      "stroke": "#f66",
+      "strokeWidth": 3.0,
+      "class": "johnny"
+    },
+    {
+      "id": "2004",
+      "label": "2004: Swan Costume<br/>White with feathers",
+      "shape": "rect",
+      "pos": [
+        549.0859375,
+        435.0
+      ],
+      "size": [
+        260.0,
+        102.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "2006",
+      "label": "2006: King Arthur<br/>Medieval-inspired",
+      "shape": "rect",
+      "pos": [
+        549.0859375,
+        611.0
+      ],
+      "size": [
+        260.0,
+        102.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "2010",
+      "label": "2010: Poker Face<br/>Black with red gloves",
+      "shape": "rect",
+      "pos": [
+        549.0859375,
+        799.0
+      ],
+      "size": [
+        260.0,
+        126.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "modern",
+      "label": "Modern Era: Technological Integration<br/>Advanced fabrics, LED lights",
+      "shape": "rect",
+      "pos": [
+        138.0,
+        999.0
+      ],
+      "size": [
+        260.0,
+        126.0
+      ],
+      "fill": "#9ff",
+      "stroke": "#66f",
+      "strokeWidth": 2.0,
+      "class": "modern"
+    }
+  ],
+  "edges": [
+    {
+      "from": "1920s",
+      "to": "1950s",
+      "arrow": true,
+      "label": "Evolution of fabric",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "1950s",
+      "to": "1980s",
+      "arrow": true,
+      "label": "Introduction of sequins",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "1980s",
+      "to": "1990s",
+      "arrow": true,
+      "label": "Rise of elaborate designs",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "1990s",
+      "to": "JohnnyWeir",
+      "arrow": true,
+      "label": "Blend of art and function",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "JohnnyWeir",
+      "to": "modern",
+      "arrow": true,
+      "label": "Pushing boundaries",
+      "stroke": "#f66",
+      "strokeWidth": 3.0
+    },
+    {
+      "from": "JohnnyWeir",
+      "to": "2004",
+      "arrow": true,
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "JohnnyWeir",
+      "to": "2006",
+      "arrow": true,
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "JohnnyWeir",
+      "to": "2010",
+      "arrow": true,
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    }
+  ]
+}

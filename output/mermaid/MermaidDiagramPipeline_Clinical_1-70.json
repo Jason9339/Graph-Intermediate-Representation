@@ -1,0 +1,429 @@
+{
+  "title": "MermaidDiagramPipeline_Clinical_1-70",
+  "orientation": "TD",
+  "nodes": [
+    {
+      "id": "A",
+      "label": "Screening and Diagnosis",
+      "shape": "rect",
+      "pos": [
+        1614.66015625,
+        35.0
+      ],
+      "size": [
+        237.890625,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "stageClass"
+    },
+    {
+      "id": "B",
+      "label": "Initial Response",
+      "shape": "rect",
+      "pos": [
+        931.53125,
+        151.0
+      ],
+      "size": [
+        173.84375,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "stageClass"
+    },
+    {
+      "id": "C",
+      "label": "Chelation Therapy",
+      "shape": "rect",
+      "pos": [
+        804.56640625,
+        267.0
+      ],
+      "size": [
+        190.453125,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "stageClass"
+    },
+    {
+      "id": "D",
+      "label": "Supportive Care",
+      "shape": "rect",
+      "pos": [
+        683.3046875,
+        371.0
+      ],
+      "size": [
+        175.625,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "stageClass"
+    },
+    {
+      "id": "E",
+      "label": "Long-term Monitoring",
+      "shape": "rect",
+      "pos": [
+        436.1953125,
+        475.0
+      ],
+      "size": [
+        212.078125,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "stageClass"
+    },
+    {
+      "id": "F",
+      "label": "Community and Environmental Interventions",
+      "shape": "rect",
+      "pos": [
+        288.359375,
+        591.0
+      ],
+      "size": [
+        260.0,
+        78.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "stageClass"
+    },
+    {
+      "id": "A1",
+      "label": "Community Health Screening",
+      "shape": "rect",
+      "pos": [
+        1198.453125,
+        151.0
+      ],
+      "size": [
+        260.0,
+        78.0
+      ],
+      "fill": "#eeeeee",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "actionClass"
+    },
+    {
+      "id": "A2",
+      "label": "Blood and Urine Tests",
+      "shape": "rect",
+      "pos": [
+        1486.578125,
+        151.0
+      ],
+      "size": [
+        216.25,
+        54.0
+      ],
+      "fill": "#eeeeee",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "actionClass"
+    },
+    {
+      "id": "A3",
+      "label": "Diagnostic Imaging",
+      "shape": "rect",
+      "pos": [
+        1742.7421875,
+        151.0
+      ],
+      "size": [
+        196.078125,
+        54.0
+      ],
+      "fill": "#eeeeee",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "actionClass"
+    },
+    {
+      "id": "B1",
+      "label": "Emergency Treatment",
+      "shape": "rect",
+      "pos": [
+        1058.49609375,
+        267.0
+      ],
+      "size": [
+        217.40625,
+        54.0
+      ],
+      "fill": "#eeeeee",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "actionClass"
+    },
+    {
+      "id": "C1",
+      "label": "Chelation Medication",
+      "shape": "rect",
+      "pos": [
+        925.828125,
+        371.0
+      ],
+      "size": [
+        209.421875,
+        54.0
+      ],
+      "fill": "#eeeeee",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "actionClass"
+    },
+    {
+      "id": "C2",
+      "label": "Monitoring and Adjustment",
+      "shape": "rect",
+      "pos": [
+        1205.265625,
+        371.0
+      ],
+      "size": [
+        249.453125,
+        54.0
+      ],
+      "fill": "#eeeeee",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "actionClass"
+    },
+    {
+      "id": "D1",
+      "label": "Nutritional Support",
+      "shape": "rect",
+      "pos": [
+        688.4921875,
+        475.0
+      ],
+      "size": [
+        192.515625,
+        54.0
+      ],
+      "fill": "#eeeeee",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "actionClass"
+    },
+    {
+      "id": "D2",
+      "label": "Hydration Therapy",
+      "shape": "rect",
+      "pos": [
+        930.4140625,
+        475.0
+      ],
+      "size": [
+        191.328125,
+        54.0
+      ],
+      "fill": "#eeeeee",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "actionClass"
+    },
+    {
+      "id": "D3",
+      "label": "Symptom Management",
+      "shape": "rect",
+      "pos": [
+        1188.78125,
+        475.0
+      ],
+      "size": [
+        225.40625,
+        54.0
+      ],
+      "fill": "#eeeeee",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "actionClass"
+    },
+    {
+      "id": "E1",
+      "label": "Regular Follow-up Tests",
+      "shape": "rect",
+      "pos": [
+        584.03125,
+        591.0
+      ],
+      "size": [
+        231.34375,
+        54.0
+      ],
+      "fill": "#eeeeee",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "actionClass"
+    },
+    {
+      "id": "E2",
+      "label": "Cognitive and Physical Therapy",
+      "shape": "rect",
+      "pos": [
+        879.703125,
+        591.0
+      ],
+      "size": [
+        260.0,
+        78.0
+      ],
+      "fill": "#eeeeee",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "actionClass"
+    },
+    {
+      "id": "F1",
+      "label": "Education and Awareness Campaigns",
+      "shape": "rect",
+      "pos": [
+        138.0,
+        719.0
+      ],
+      "size": [
+        260.0,
+        78.0
+      ],
+      "fill": "#eeeeee",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "actionClass"
+    },
+    {
+      "id": "F2",
+      "label": "Advocacy for Regulations",
+      "shape": "rect",
+      "pos": [
+        438.71875,
+        719.0
+      ],
+      "size": [
+        241.4375,
+        54.0
+      ],
+      "fill": "#eeeeee",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "actionClass"
+    }
+  ],
+  "edges": [
+    {
+      "from": "A",
+      "to": "B",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "A",
+      "to": "A1",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "A",
+      "to": "A2",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "A",
+      "to": "A3",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "B",
+      "to": "B1",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "C",
+      "to": "C1",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "C",
+      "to": "C2",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "D",
+      "to": "D1",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "D",
+      "to": "D2",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "D",
+      "to": "D3",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "E",
+      "to": "E1",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "E",
+      "to": "E2",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "F",
+      "to": "F1",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "F",
+      "to": "F2",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    }
+  ]
+}

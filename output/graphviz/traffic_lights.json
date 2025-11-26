@@ -1,0 +1,270 @@
+{
+  "title": "TrafficLights",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "gy2",
+      "label": "\\N",
+      "shape": "rect",
+      "pos": [
+        243.75,
+        1047.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "yr2",
+      "label": "\\N",
+      "shape": "rect",
+      "pos": [
+        183.75,
+        874.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "rg2",
+      "label": "\\N",
+      "shape": "rect",
+      "pos": [
+        145.75,
+        153.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "gy1",
+      "label": "\\N",
+      "shape": "rect",
+      "pos": [
+        167.75,
+        499.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "yr1",
+      "label": "\\N",
+      "shape": "rect",
+      "pos": [
+        167.75,
+        326.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "rg1",
+      "label": "\\N",
+      "shape": "rect",
+      "pos": [
+        183.75,
+        686.5
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "green2",
+      "label": "\\N",
+      "shape": "circle",
+      "pos": [
+        217.75,
+        66.5
+      ],
+      "size": [
+        65.00016000000001,
+        65.00016000000001
+      ]
+    },
+    {
+      "id": "yellow2",
+      "label": "\\N",
+      "shape": "circle",
+      "pos": [
+        213.75,
+        960.5
+      ],
+      "size": [
+        65.00016000000001,
+        65.00016000000001
+      ]
+    },
+    {
+      "id": "red2",
+      "label": "\\N",
+      "shape": "circle",
+      "pos": [
+        95.75,
+        686.5
+      ],
+      "size": [
+        65.00016000000001,
+        65.00016000000001
+      ]
+    },
+    {
+      "id": "safe2",
+      "label": "\\N",
+      "shape": "circle",
+      "pos": [
+        145.75,
+        239.5
+      ],
+      "size": [
+        65.00016000000001,
+        65.00016000000001
+      ]
+    },
+    {
+      "id": "green1",
+      "label": "\\N",
+      "shape": "circle",
+      "pos": [
+        167.75,
+        585.5
+      ],
+      "size": [
+        65.00016000000001,
+        65.00016000000001
+      ]
+    },
+    {
+      "id": "yellow1",
+      "label": "\\N",
+      "shape": "circle",
+      "pos": [
+        167.75,
+        412.5
+      ],
+      "size": [
+        65.00016000000001,
+        65.00016000000001
+      ]
+    },
+    {
+      "id": "red1",
+      "label": "\\N",
+      "shape": "circle",
+      "pos": [
+        228.75,
+        239.5
+      ],
+      "size": [
+        65.00016000000001,
+        65.00016000000001
+      ]
+    },
+    {
+      "id": "safe1",
+      "label": "\\N",
+      "shape": "circle",
+      "pos": [
+        183.75,
+        787.5
+      ],
+      "size": [
+        65.00016000000001,
+        65.00016000000001
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "gy2",
+      "to": "yellow2",
+      "arrow": true
+    },
+    {
+      "from": "yr2",
+      "to": "red2",
+      "arrow": true
+    },
+    {
+      "from": "yr2",
+      "to": "safe1",
+      "arrow": true
+    },
+    {
+      "from": "rg2",
+      "to": "green2",
+      "arrow": true
+    },
+    {
+      "from": "gy1",
+      "to": "yellow1",
+      "arrow": true
+    },
+    {
+      "from": "yr1",
+      "to": "safe2",
+      "arrow": true
+    },
+    {
+      "from": "yr1",
+      "to": "red1",
+      "arrow": true
+    },
+    {
+      "from": "rg1",
+      "to": "green1",
+      "arrow": true
+    },
+    {
+      "from": "green2",
+      "to": "gy2",
+      "arrow": true
+    },
+    {
+      "from": "yellow2",
+      "to": "yr2",
+      "arrow": true
+    },
+    {
+      "from": "red2",
+      "to": "rg2",
+      "arrow": true
+    },
+    {
+      "from": "safe2",
+      "to": "rg2",
+      "arrow": true
+    },
+    {
+      "from": "green1",
+      "to": "gy1",
+      "arrow": true
+    },
+    {
+      "from": "yellow1",
+      "to": "yr1",
+      "arrow": true
+    },
+    {
+      "from": "red1",
+      "to": "rg1",
+      "arrow": true
+    },
+    {
+      "from": "safe1",
+      "to": "rg1",
+      "arrow": true
+    }
+  ]
+}

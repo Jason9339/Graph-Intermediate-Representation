@@ -1,0 +1,203 @@
+{
+  "title": "G",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "run",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        91.747,
+        450.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "intr",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        35.747,
+        378.0
+      ],
+      "size": [
+        55.89504,
+        36.0
+      ]
+    },
+    {
+      "id": "runbl",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        35.747,
+        306.0
+      ],
+      "size": [
+        71.49384,
+        36.0
+      ]
+    },
+    {
+      "id": "kernel",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        194.75,
+        378.0
+      ],
+      "size": [
+        80.58959999999999,
+        36.0
+      ]
+    },
+    {
+      "id": "zombie",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        133.75,
+        306.0
+      ],
+      "size": [
+        88.3944,
+        36.0
+      ]
+    },
+    {
+      "id": "sleep",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        230.75,
+        306.0
+      ],
+      "size": [
+        70.19352,
+        36.0
+      ]
+    },
+    {
+      "id": "runmem",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        220.75,
+        18.0
+      ],
+      "size": [
+        100.09440000000001,
+        36.0
+      ]
+    },
+    {
+      "id": "swap",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        230.75,
+        234.0
+      ],
+      "size": [
+        68.89392000000001,
+        36.0
+      ]
+    },
+    {
+      "id": "runswap",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        230.75,
+        162.0
+      ],
+      "size": [
+        101.3904,
+        36.0
+      ]
+    },
+    {
+      "id": "new",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        249.75,
+        90.0
+      ],
+      "size": [
+        59.79456,
+        36.0
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "run",
+      "to": "intr",
+      "arrow": false
+    },
+    {
+      "from": "run",
+      "to": "kernel",
+      "arrow": false
+    },
+    {
+      "from": "intr",
+      "to": "runbl",
+      "arrow": false
+    },
+    {
+      "from": "runbl",
+      "to": "run",
+      "arrow": false
+    },
+    {
+      "from": "kernel",
+      "to": "zombie",
+      "arrow": false
+    },
+    {
+      "from": "kernel",
+      "to": "sleep",
+      "arrow": false
+    },
+    {
+      "from": "kernel",
+      "to": "runmem",
+      "arrow": false
+    },
+    {
+      "from": "sleep",
+      "to": "runmem",
+      "arrow": false
+    },
+    {
+      "from": "sleep",
+      "to": "swap",
+      "arrow": false
+    },
+    {
+      "from": "swap",
+      "to": "runswap",
+      "arrow": false
+    },
+    {
+      "from": "runswap",
+      "to": "runmem",
+      "arrow": false
+    },
+    {
+      "from": "runswap",
+      "to": "new",
+      "arrow": false
+    },
+    {
+      "from": "new",
+      "to": "runmem",
+      "arrow": false
+    }
+  ]
+}

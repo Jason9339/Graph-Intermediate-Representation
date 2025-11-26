@@ -1,0 +1,130 @@
+{
+  "title": "LaTeXDiagramPipeline_fsm_1-329",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "GA",
+      "label": "Game\\\\ Analysis",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "size": [
+        65.779,
+        65.779
+      ],
+      "fill": "blue!10",
+      "stroke": "#000000",
+      "class": "state"
+    },
+    {
+      "id": "FS",
+      "label": "Formulate\\\\ Strategy",
+      "shape": "rect",
+      "pos": [
+        113.81102,
+        0.0
+      ],
+      "size": [
+        84.71209999999999,
+        84.7121
+      ],
+      "fill": "blue!10",
+      "stroke": "#000000",
+      "class": "state",
+      "layoutHints": {
+        "right": "of GA"
+      }
+    },
+    {
+      "id": "TP",
+      "label": "Team\\\\ Preparation",
+      "shape": "rect",
+      "pos": [
+        194.28764,
+        -80.47662
+      ],
+      "size": [
+        79.38153,
+        79.38153
+      ],
+      "fill": "blue!10",
+      "stroke": "#000000",
+      "class": "state",
+      "layoutHints": {
+        "below right": "of FS"
+      }
+    },
+    {
+      "id": "IA",
+      "label": "In-game\\\\ Adaptation",
+      "shape": "rect",
+      "pos": [
+        113.81102,
+        -160.95325
+      ],
+      "size": [
+        87.60810000000001,
+        87.6081
+      ],
+      "fill": "blue!10",
+      "stroke": "#000000",
+      "class": "state",
+      "layoutHints": {
+        "below left": "of TP"
+      }
+    },
+    {
+      "id": "PR",
+      "label": "Post-game\\\\ Review",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -160.95325
+      ],
+      "size": [
+        81.56024,
+        81.56024000000001
+      ],
+      "fill": "blue!10",
+      "stroke": "#000000",
+      "class": "state",
+      "layoutHints": {
+        "left": "of IA"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "GA",
+      "to": "FS",
+      "arrow": false,
+      "label": "Complete\\\\ SWOT Analysis"
+    },
+    {
+      "from": "FS",
+      "to": "TP",
+      "arrow": false,
+      "label": "Strategy\\\\ Approved"
+    },
+    {
+      "from": "TP",
+      "to": "IA",
+      "arrow": false,
+      "label": "Game Start"
+    },
+    {
+      "from": "IA",
+      "to": "PR",
+      "arrow": false,
+      "label": "Game End"
+    },
+    {
+      "from": "PR",
+      "to": "GA",
+      "arrow": false,
+      "label": "Begin Next Cycle"
+    }
+  ]
+}

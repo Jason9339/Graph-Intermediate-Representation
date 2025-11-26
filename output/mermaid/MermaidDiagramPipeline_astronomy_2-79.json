@@ -1,0 +1,105 @@
+{
+  "title": "MermaidDiagramPipeline_astronomy_2-79",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "earth",
+      "label": "Earth",
+      "shape": "round",
+      "pos": [
+        44.515625,
+        149.5
+      ],
+      "fill": "#2E8B57",
+      "stroke": "#006400",
+      "strokeWidth": 2.0,
+      "class": "planet"
+    },
+    {
+      "id": "kepler_452b",
+      "label": "Kepler-452b",
+      "shape": "round",
+      "pos": [
+        401.6953125,
+        44.0
+      ],
+      "fill": "#4169E1",
+      "stroke": "#000080",
+      "strokeWidth": 2.0,
+      "class": "exoplanet"
+    },
+    {
+      "id": "trappist_1",
+      "label": "TRAPPIST-1 System",
+      "shape": "round",
+      "pos": [
+        401.6953125,
+        149.5
+      ],
+      "fill": "#FF4500",
+      "stroke": "#8B0000",
+      "strokeWidth": 2.0,
+      "class": "system"
+    },
+    {
+      "id": "trappist_1e",
+      "label": "TRAPPIST-1e",
+      "shape": "round",
+      "pos": [
+        759.1796875,
+        149.5
+      ],
+      "fill": "#4169E1",
+      "stroke": "#000080",
+      "strokeWidth": 2.0,
+      "class": "exoplanet"
+    },
+    {
+      "id": "proxima_b",
+      "label": "Proxima Centauri b",
+      "shape": "round",
+      "pos": [
+        401.6953125,
+        255.0
+      ],
+      "fill": "#4169E1",
+      "stroke": "#000080",
+      "strokeWidth": 2.0,
+      "class": "exoplanet"
+    }
+  ],
+  "edges": [
+    {
+      "from": "earth",
+      "to": "kepler_452b",
+      "arrow": true,
+      "label": "Orbit: 384.84 days<br>Size: 1.6x Earth<br>Habitable Zone: Yes",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "trappist_1",
+      "to": "trappist_1e",
+      "arrow": true,
+      "label": "Orbit: 6.1 days<br>Size: 0.92x Earth<br>Habitable Zone: Yes",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "earth",
+      "to": "trappist_1",
+      "arrow": true,
+      "label": "Distance from Earth:<br>40 light-years",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "earth",
+      "to": "proxima_b",
+      "arrow": true,
+      "label": "Distance: 4.2 light-years<br>Orbit: 11.2 days<br>Size: 1.3x Earth<br>Habitable Zone: Yes",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    }
+  ]
+}

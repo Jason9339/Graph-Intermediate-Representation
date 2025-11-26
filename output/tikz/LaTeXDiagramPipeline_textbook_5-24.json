@@ -1,0 +1,428 @@
+{
+  "title": "LaTeXDiagramPipeline_textbook_5-24",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "preprocess",
+      "label": "Data Preprocessing",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        284.52744
+      ],
+      "size": [
+        87.1188,
+        15.065949999999987
+      ],
+      "class": "label"
+    },
+    {
+      "id": "raw",
+      "label": "Raw Data",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        227.62195
+      ],
+      "size": [
+        57.30548,
+        28.852719999999977
+      ],
+      "fill": "white",
+      "stroke": "#000000",
+      "class": "input"
+    },
+    {
+      "id": "clean",
+      "label": "Data Cleaning",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        156.0901
+      ],
+      "size": [
+        62.128,
+        28.852720000000005
+      ],
+      "fill": "white",
+      "stroke": "#000000",
+      "class": "process",
+      "layoutHints": {
+        "below": "of raw"
+      }
+    },
+    {
+      "id": "extract",
+      "label": "Feature Extraction",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        84.55826
+      ],
+      "size": [
+        78.9612,
+        28.852720000000005
+      ],
+      "fill": "white",
+      "stroke": "#000000",
+      "class": "process",
+      "layoutHints": {
+        "below": "of clean"
+      }
+    },
+    {
+      "id": "normalize",
+      "label": "Data Normalization",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        13.02641
+      ],
+      "size": [
+        82.75976,
+        28.85272
+      ],
+      "fill": "white",
+      "stroke": "#000000",
+      "class": "process",
+      "layoutHints": {
+        "below": "of extract"
+      }
+    },
+    {
+      "id": "preprocessed",
+      "label": "Preprocessed Data",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -58.50543
+      ],
+      "size": [
+        111.58306,
+        28.852729999999994
+      ],
+      "fill": "white",
+      "stroke": "#000000",
+      "class": "output",
+      "layoutHints": {
+        "below": "of normalize"
+      }
+    },
+    {
+      "id": "training",
+      "label": "Model Training",
+      "shape": "rect",
+      "pos": [
+        170.71646,
+        284.52744
+      ],
+      "size": [
+        69.84121999999999,
+        15.065949999999987
+      ],
+      "class": "label"
+    },
+    {
+      "id": "traindata",
+      "label": "Training Data",
+      "shape": "rect",
+      "pos": [
+        172.87149,
+        227.62195
+      ],
+      "size": [
+        60.81546,
+        28.852719999999977
+      ],
+      "fill": "white",
+      "stroke": "#000000",
+      "class": "input",
+      "layoutHints": {
+        "right": "4cm of raw"
+      }
+    },
+    {
+      "id": "init",
+      "label": "Model Initialization",
+      "shape": "rect",
+      "pos": [
+        172.87149,
+        156.0901
+      ],
+      "size": [
+        81.60694000000001,
+        28.852720000000005
+      ],
+      "fill": "white",
+      "stroke": "#000000",
+      "class": "process",
+      "layoutHints": {
+        "below": "of traindata"
+      }
+    },
+    {
+      "id": "train",
+      "label": "Training Process",
+      "shape": "rect",
+      "pos": [
+        172.87149,
+        84.55826
+      ],
+      "size": [
+        71.17096000000001,
+        28.852720000000005
+      ],
+      "fill": "white",
+      "stroke": "#000000",
+      "class": "process",
+      "layoutHints": {
+        "below": "of init"
+      }
+    },
+    {
+      "id": "model",
+      "label": "Trained Model",
+      "shape": "rect",
+      "pos": [
+        172.87149,
+        13.02641
+      ],
+      "size": [
+        89.26794000000001,
+        28.85272
+      ],
+      "fill": "white",
+      "stroke": "#000000",
+      "class": "output",
+      "layoutHints": {
+        "below": "of train"
+      }
+    },
+    {
+      "id": "evaluation",
+      "label": "Error Evaluation",
+      "shape": "rect",
+      "pos": [
+        341.43292,
+        284.52744
+      ],
+      "size": [
+        73.87871999999999,
+        13.315949999999987
+      ],
+      "class": "label"
+    },
+    {
+      "id": "valdata",
+      "label": "Validation Data",
+      "shape": "rect",
+      "pos": [
+        351.10211,
+        227.62195
+      ],
+      "size": [
+        68.02374000000003,
+        28.852719999999977
+      ],
+      "fill": "white",
+      "stroke": "#000000",
+      "class": "input",
+      "layoutHints": {
+        "right": "4cm of traindata"
+      }
+    },
+    {
+      "id": "predict",
+      "label": "Predictive Analysis",
+      "shape": "rect",
+      "pos": [
+        351.10211,
+        156.0901
+      ],
+      "size": [
+        79.53198000000003,
+        28.852720000000005
+      ],
+      "fill": "white",
+      "stroke": "#000000",
+      "class": "process",
+      "layoutHints": {
+        "below": "of valdata"
+      }
+    },
+    {
+      "id": "error",
+      "label": "Error Calculation",
+      "shape": "rect",
+      "pos": [
+        351.10211,
+        84.55826
+      ],
+      "size": [
+        72.60705999999999,
+        28.852720000000005
+      ],
+      "fill": "white",
+      "stroke": "#000000",
+      "class": "process",
+      "layoutHints": {
+        "below": "of predict"
+      }
+    },
+    {
+      "id": "report",
+      "label": "Evaluation Report",
+      "shape": "rect",
+      "pos": [
+        351.10211,
+        13.02641
+      ],
+      "size": [
+        108.44806,
+        28.85272
+      ],
+      "fill": "white",
+      "stroke": "#000000",
+      "class": "output",
+      "layoutHints": {
+        "below": "of error"
+      }
+    },
+    {
+      "id": "preprocessing",
+      "label": "preprocessing",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        84.55826
+      ],
+      "size": [
+        111.18308,
+        314.58011
+      ],
+      "fill": "preprocesscolor",
+      "class": "rounded corners",
+      "layoutHints": {
+        "fit": "(preprocessing)",
+        "inner sep": "10pt"
+      }
+    },
+    {
+      "id": "modeltraining",
+      "label": "modeltraining",
+      "shape": "rect",
+      "pos": [
+        172.87148,
+        120.32417
+      ],
+      "size": [
+        88.86795000000001,
+        243.04826
+      ],
+      "fill": "trainingcolor",
+      "class": "rounded corners",
+      "layoutHints": {
+        "fit": "(modeltraining)",
+        "inner sep": "10pt"
+      }
+    },
+    {
+      "id": "errorevaluation",
+      "label": "errorevaluation",
+      "shape": "rect",
+      "pos": [
+        351.1021,
+        120.32417
+      ],
+      "size": [
+        108.04806000000002,
+        243.04826
+      ],
+      "fill": "evaluationcolor",
+      "class": "rounded corners",
+      "layoutHints": {
+        "fit": "(errorevaluation)",
+        "inner sep": "10pt"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "raw",
+      "to": "clean",
+      "arrow": false
+    },
+    {
+      "from": "clean",
+      "to": "extract",
+      "arrow": false
+    },
+    {
+      "from": "extract",
+      "to": "normalize",
+      "arrow": false
+    },
+    {
+      "from": "normalize",
+      "to": "preprocessed",
+      "arrow": false
+    },
+    {
+      "from": "traindata",
+      "to": "init",
+      "arrow": false
+    },
+    {
+      "from": "init",
+      "to": "train",
+      "arrow": false
+    },
+    {
+      "from": "train",
+      "to": "model",
+      "arrow": false
+    },
+    {
+      "from": "valdata",
+      "to": "predict",
+      "arrow": false
+    },
+    {
+      "from": "predict",
+      "to": "error",
+      "arrow": false
+    },
+    {
+      "from": "error",
+      "to": "report",
+      "arrow": false
+    },
+    {
+      "from": "preprocessed",
+      "to": "traindata",
+      "arrow": false,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "model",
+      "to": "predict",
+      "arrow": false,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "valdata",
+      "to": "predict",
+      "arrow": false,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,200 @@
+{
+  "title": "G",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "a",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        135.0,
+        322.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "b",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        99.0,
+        250.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "c",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        171.0,
+        250.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "d",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        99.0,
+        178.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "e",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        99.0,
+        106.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "g",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        171.0,
+        34.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "f",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        99.0,
+        34.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "h",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        27.0,
+        106.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "a",
+      "to": "b",
+      "arrow": true
+    },
+    {
+      "from": "a",
+      "to": "c",
+      "arrow": true
+    },
+    {
+      "from": "b",
+      "to": "d",
+      "arrow": true
+    },
+    {
+      "from": "b",
+      "to": "f",
+      "arrow": true
+    },
+    {
+      "from": "c",
+      "to": "d",
+      "arrow": true
+    },
+    {
+      "from": "c",
+      "to": "e",
+      "arrow": true
+    },
+    {
+      "from": "c",
+      "to": "g",
+      "arrow": true
+    },
+    {
+      "from": "d",
+      "to": "e",
+      "arrow": true
+    },
+    {
+      "from": "d",
+      "to": "h",
+      "arrow": true
+    },
+    {
+      "from": "e",
+      "to": "g",
+      "arrow": true
+    },
+    {
+      "from": "e",
+      "to": "f",
+      "arrow": true
+    }
+  ],
+  "groups": [
+    {
+      "id": "cluster0",
+      "label": "cluster0",
+      "nodes": [
+        "a",
+        "b",
+        "c",
+        "d"
+      ],
+      "boundingBox": {
+        "x": 64.0,
+        "y": 152.0,
+        "width": 142.0,
+        "height": 196.0
+      }
+    },
+    {
+      "id": "cluster1",
+      "label": "cluster1",
+      "nodes": [
+        "e",
+        "g",
+        "f"
+      ],
+      "boundingBox": {
+        "x": 64.0,
+        "y": 8.0,
+        "width": 142.0,
+        "height": 124.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,476 @@
+{
+  "title": "MermaidDiagramPipeline_Block_1-46",
+  "orientation": "TD",
+  "nodes": [
+    {
+      "id": "title",
+      "label": "The Profile of a Criminal Offender:<br/>Psychological and Behavioral Traits",
+      "shape": "rect",
+      "pos": [
+        1163.2265625,
+        71.0
+      ],
+      "size": [
+        260.0,
+        126.0
+      ],
+      "fill": "#c83349",
+      "stroke": "#333",
+      "strokeWidth": 3.0
+    },
+    {
+      "id": "PB",
+      "label": "Personal Background",
+      "shape": "rect",
+      "pos": [
+        373.4453125,
+        211.0
+      ],
+      "size": [
+        225.375,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "mainBlock"
+    },
+    {
+      "id": "PT",
+      "label": "Psychological Traits",
+      "shape": "rect",
+      "pos": [
+        1163.2265625,
+        211.0
+      ],
+      "size": [
+        214.734375,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "mainBlock"
+    },
+    {
+      "id": "BP",
+      "label": "Behavioral Patterns",
+      "shape": "rect",
+      "pos": [
+        1897.3984375,
+        211.0
+      ],
+      "size": [
+        210.28125,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "mainBlock"
+    },
+    {
+      "id": "CE",
+      "label": "Childhood Experiences",
+      "shape": "rect",
+      "pos": [
+        120.2734375,
+        315.0
+      ],
+      "size": [
+        224.546875,
+        54.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "subBlock"
+    },
+    {
+      "id": "FD",
+      "label": "Family Dynamics",
+      "shape": "rect",
+      "pos": [
+        373.4453125,
+        315.0
+      ],
+      "size": [
+        181.796875,
+        54.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "subBlock"
+    },
+    {
+      "id": "EB",
+      "label": "Educational Background",
+      "shape": "rect",
+      "pos": [
+        631.0703125,
+        315.0
+      ],
+      "size": [
+        233.453125,
+        54.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "subBlock"
+    },
+    {
+      "id": "PD",
+      "label": "Personality Disorders",
+      "shape": "rect",
+      "pos": [
+        903.828125,
+        315.0
+      ],
+      "size": [
+        212.0625,
+        54.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "subBlock"
+    },
+    {
+      "id": "CD",
+      "label": "Cognitive Distortions",
+      "shape": "rect",
+      "pos": [
+        1163.2265625,
+        315.0
+      ],
+      "size": [
+        206.734375,
+        54.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "subBlock"
+    },
+    {
+      "id": "ES",
+      "label": "Emotional States",
+      "shape": "rect",
+      "pos": [
+        1407.0703125,
+        315.0
+      ],
+      "size": [
+        180.953125,
+        54.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "subBlock"
+    },
+    {
+      "id": "CH",
+      "label": "Criminal History",
+      "shape": "rect",
+      "pos": [
+        1634.0,
+        315.0
+      ],
+      "size": [
+        172.90625,
+        54.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "subBlock"
+    },
+    {
+      "id": "IR",
+      "label": "Interpersonal Relationships",
+      "shape": "rect",
+      "pos": [
+        1897.3984375,
+        315.0
+      ],
+      "size": [
+        253.890625,
+        54.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "subBlock"
+    },
+    {
+      "id": "LS",
+      "label": "Lifestyle",
+      "shape": "rect",
+      "pos": [
+        2133.6953125,
+        315.0
+      ],
+      "size": [
+        118.703125,
+        54.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "subBlock"
+    },
+    {
+      "id": "CE1",
+      "shape": "rect",
+      "pos": [
+        120.2734375,
+        491.0
+      ],
+      "size": [
+        91.125,
+        54.0
+      ],
+      "fill": "#e06377",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "detailBlock"
+    },
+    {
+      "id": "FD1",
+      "shape": "rect",
+      "pos": [
+        373.4453125,
+        491.0
+      ],
+      "size": [
+        90.234375,
+        54.0
+      ],
+      "fill": "#e06377",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "detailBlock"
+    },
+    {
+      "id": "EB1",
+      "shape": "rect",
+      "pos": [
+        631.0703125,
+        491.0
+      ],
+      "size": [
+        90.25,
+        54.0
+      ],
+      "fill": "#e06377",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "detailBlock"
+    },
+    {
+      "id": "PD1",
+      "shape": "rect",
+      "pos": [
+        903.828125,
+        491.0
+      ],
+      "size": [
+        91.125,
+        54.0
+      ],
+      "fill": "#e06377",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "detailBlock"
+    },
+    {
+      "id": "CD1",
+      "shape": "rect",
+      "pos": [
+        1163.2265625,
+        491.0
+      ],
+      "size": [
+        92.015625,
+        54.0
+      ],
+      "fill": "#e06377",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "detailBlock"
+    },
+    {
+      "id": "ES1",
+      "shape": "rect",
+      "pos": [
+        1407.0703125,
+        491.0
+      ],
+      "size": [
+        90.25,
+        54.0
+      ],
+      "fill": "#e06377",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "detailBlock"
+    },
+    {
+      "id": "CH1",
+      "shape": "rect",
+      "pos": [
+        1634.0,
+        491.0
+      ],
+      "size": [
+        92.015625,
+        54.0
+      ],
+      "fill": "#e06377",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "detailBlock"
+    },
+    {
+      "id": "IR1",
+      "shape": "rect",
+      "pos": [
+        1897.3984375,
+        491.0
+      ],
+      "size": [
+        84.90625,
+        54.0
+      ],
+      "fill": "#e06377",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "detailBlock"
+    },
+    {
+      "id": "LS1",
+      "shape": "rect",
+      "pos": [
+        2133.6953125,
+        491.0
+      ],
+      "size": [
+        88.46875,
+        54.0
+      ],
+      "fill": "#e06377",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "detailBlock"
+    }
+  ],
+  "edges": [
+    {
+      "from": "PB",
+      "to": "CE",
+      "arrow": true
+    },
+    {
+      "from": "PB",
+      "to": "FD",
+      "arrow": true
+    },
+    {
+      "from": "PB",
+      "to": "EB",
+      "arrow": true
+    },
+    {
+      "from": "PT",
+      "to": "PD",
+      "arrow": true
+    },
+    {
+      "from": "PT",
+      "to": "CD",
+      "arrow": true
+    },
+    {
+      "from": "PT",
+      "to": "ES",
+      "arrow": true
+    },
+    {
+      "from": "BP",
+      "to": "CH",
+      "arrow": true
+    },
+    {
+      "from": "BP",
+      "to": "IR",
+      "arrow": true
+    },
+    {
+      "from": "BP",
+      "to": "LS",
+      "arrow": true
+    },
+    {
+      "from": "CE",
+      "to": "CE1",
+      "arrow": true,
+      "label": "Abuse<br/>Neglect<br/>Trauma"
+    },
+    {
+      "from": "FD",
+      "to": "FD1",
+      "arrow": true,
+      "label": "Parental Criminality<br/>Domestic Violence<br/>Substance Abuse"
+    },
+    {
+      "from": "EB",
+      "to": "EB1",
+      "arrow": true,
+      "label": "Learning Disabilities<br/>School Failure<br/>Peer Rejection"
+    },
+    {
+      "from": "PD",
+      "to": "PD1",
+      "arrow": true,
+      "label": "Antisocial PD<br/>Narcissistic PD<br/>Borderline PD"
+    },
+    {
+      "from": "CD",
+      "to": "CD1",
+      "arrow": true,
+      "label": "Lack of Empathy<br/>Entitlement<br/>Rationalization"
+    },
+    {
+      "from": "ES",
+      "to": "ES1",
+      "arrow": true,
+      "label": "Anger<br/>Paranoia<br/>Depression"
+    },
+    {
+      "from": "CH",
+      "to": "CH1",
+      "arrow": true,
+      "label": "Juvenile Delinquency<br/>Violent Crimes<br/>Substance Abuse Crimes"
+    },
+    {
+      "from": "IR",
+      "to": "IR1",
+      "arrow": true,
+      "label": "Coercion<br/>Manipulation<br/>Isolation"
+    },
+    {
+      "from": "LS",
+      "to": "LS1",
+      "arrow": true,
+      "label": "Unstable Employment<br/>Transient Living<br/>Gang Affiliation"
+    },
+    {
+      "from": "title",
+      "to": "PB",
+      "arrow": true
+    }
+  ]
+}

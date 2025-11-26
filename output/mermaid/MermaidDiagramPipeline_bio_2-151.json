@@ -1,0 +1,183 @@
+{
+  "title": "MermaidDiagramPipeline_bio_2-151",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "music_therapy",
+      "label": "Music Therapy",
+      "shape": "circle",
+      "pos": [
+        282.59375,
+        157.9453125
+      ],
+      "size": [
+        106.5625,
+        106.5625
+      ],
+      "fill": "#ffd700",
+      "stroke": "#000",
+      "strokeWidth": 2.0,
+      "class": "treatment"
+    },
+    {
+      "id": "neural_plasticity",
+      "label": "Neural Plasticity",
+      "shape": "circle",
+      "pos": [
+        512.03125,
+        157.9453125
+      ],
+      "size": [
+        115.375,
+        115.375
+      ],
+      "fill": "#87cefa",
+      "stroke": "#000",
+      "strokeWidth": 2.0,
+      "class": "process"
+    },
+    {
+      "id": "auditory_cortex",
+      "label": "Auditory Cortex",
+      "shape": "rect",
+      "pos": [
+        746.5859375,
+        211.09375
+      ],
+      "size": [
+        156.484375,
+        51.0
+      ],
+      "fill": "#90ee90",
+      "stroke": "#000",
+      "strokeWidth": 2.0,
+      "class": "brain_region"
+    },
+    {
+      "id": "motor_cortex",
+      "label": "Motor Cortex",
+      "shape": "rect",
+      "pos": [
+        746.5859375,
+        60.796875
+      ],
+      "size": [
+        140.921875,
+        51.0
+      ],
+      "fill": "#90ee90",
+      "stroke": "#000",
+      "strokeWidth": 2.0,
+      "class": "brain_region"
+    },
+    {
+      "id": "stroke_patients",
+      "label": "Stroke Patients",
+      "shape": "circle",
+      "pos": [
+        62.96875,
+        157.9453125
+      ],
+      "size": [
+        109.9375,
+        109.9375
+      ],
+      "fill": "#ff6347",
+      "stroke": "#000",
+      "strokeWidth": 2.0,
+      "class": "patient_group"
+    },
+    {
+      "id": "improved_motor_skills",
+      "label": "Improved Motor Skills",
+      "shape": "circle",
+      "pos": [
+        1066.703125,
+        82.796875
+      ],
+      "size": [
+        149.59375,
+        149.59375
+      ],
+      "fill": "#dda0dd",
+      "stroke": "#000",
+      "strokeWidth": 2.0,
+      "class": "outcome"
+    },
+    {
+      "id": "broadmann_area_22",
+      "label": "Broadmann Area 22",
+      "shape": "rect",
+      "pos": [
+        1066.703125,
+        233.09375
+      ],
+      "size": [
+        184.53125,
+        51.0
+      ],
+      "fill": "#90ee90",
+      "stroke": "#000",
+      "strokeWidth": 2.0,
+      "class": "brain_region"
+    }
+  ],
+  "edges": [
+    {
+      "from": "stroke_patients",
+      "to": "music_therapy",
+      "arrow": true,
+      "label": "Undergo",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "music_therapy",
+      "to": "neural_plasticity",
+      "arrow": true,
+      "label": "Promotes",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "neural_plasticity",
+      "to": "auditory_cortex",
+      "arrow": true,
+      "label": "Affects",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "neural_plasticity",
+      "to": "motor_cortex",
+      "arrow": true,
+      "label": "Affects",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "auditory_cortex",
+      "to": "improved_motor_skills",
+      "arrow": true,
+      "label": "Contributes to",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "motor_cortex",
+      "to": "improved_motor_skills",
+      "arrow": true,
+      "label": "Contributes to",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "auditory_cortex",
+      "to": "broadmann_area_22",
+      "arrow": true,
+      "label": "Includes",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    }
+  ]
+}

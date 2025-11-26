@@ -1,0 +1,216 @@
+{
+  "title": "MermaidDiagramPipeline_food_1-52",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "n1",
+      "label": "Phytoplankton",
+      "shape": "rect",
+      "pos": [
+        261.76953125,
+        33.5
+      ],
+      "size": [
+        157.234375,
+        51.0
+      ],
+      "fill": "#e6f3ff",
+      "stroke": "#4a86e8",
+      "strokeWidth": 2.0,
+      "class": "primaryNode"
+    },
+    {
+      "id": "n2",
+      "label": "Zooplankton",
+      "shape": "rect",
+      "pos": [
+        80.0,
+        158.5
+      ],
+      "size": [
+        144.0,
+        51.0
+      ],
+      "fill": "#fff2cc",
+      "stroke": "#f1c232",
+      "strokeWidth": 2.0,
+      "class": "secondaryNode"
+    },
+    {
+      "id": "n3",
+      "label": "Arctic Cod",
+      "shape": "rect",
+      "pos": [
+        275.9609375,
+        283.5
+      ],
+      "size": [
+        130.796875,
+        51.0
+      ],
+      "fill": "#d9ead3",
+      "stroke": "#6aa84f",
+      "strokeWidth": 2.0,
+      "class": "tertiaryNode"
+    },
+    {
+      "id": "n4",
+      "label": "Ringed Seal",
+      "shape": "rect",
+      "pos": [
+        212.8125,
+        408.5
+      ],
+      "size": [
+        140.140625,
+        51.0
+      ],
+      "fill": "#fff2cc",
+      "stroke": "#f1c232",
+      "strokeWidth": 2.0,
+      "class": "secondaryNode"
+    },
+    {
+      "id": "n5",
+      "label": "Polar Bear",
+      "shape": "rect",
+      "pos": [
+        212.8125,
+        533.5
+      ],
+      "size": [
+        130.046875,
+        51.0
+      ],
+      "fill": "#e6f3ff",
+      "stroke": "#4a86e8",
+      "strokeWidth": 2.0,
+      "class": "primaryNode"
+    },
+    {
+      "id": "n6",
+      "label": "Leopard Seal",
+      "shape": "rect",
+      "pos": [
+        275.9609375,
+        158.5
+      ],
+      "size": [
+        147.921875,
+        51.0
+      ],
+      "fill": "#d9ead3",
+      "stroke": "#6aa84f",
+      "strokeWidth": 2.0,
+      "class": "tertiaryNode"
+    },
+    {
+      "id": "n7",
+      "label": "Krill",
+      "shape": "rect",
+      "pos": [
+        443.5390625,
+        158.5
+      ],
+      "size": [
+        87.234375,
+        51.0
+      ],
+      "fill": "#fff2cc",
+      "stroke": "#f1c232",
+      "strokeWidth": 2.0,
+      "class": "secondaryNode"
+    },
+    {
+      "id": "n8",
+      "label": "Arctic Tern",
+      "shape": "rect",
+      "pos": [
+        443.5390625,
+        408.5
+      ],
+      "size": [
+        132.875,
+        51.0
+      ],
+      "fill": "#d9ead3",
+      "stroke": "#6aa84f",
+      "strokeWidth": 2.0,
+      "class": "tertiaryNode"
+    }
+  ],
+  "edges": [
+    {
+      "from": "n1",
+      "to": "n2",
+      "arrow": true,
+      "label": "feeds on",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "n1",
+      "to": "n7",
+      "arrow": true,
+      "label": "feeds on",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "n2",
+      "to": "n3",
+      "arrow": true,
+      "label": "feeds on",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "n7",
+      "to": "n3",
+      "arrow": true,
+      "label": "feeds on",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "n3",
+      "to": "n4",
+      "arrow": true,
+      "label": "feeds on",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "n3",
+      "to": "n8",
+      "arrow": true,
+      "label": "feeds on",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "n4",
+      "to": "n5",
+      "arrow": true,
+      "label": "feeds on",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "n6",
+      "to": "n3",
+      "arrow": true,
+      "label": "feeds on",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "n7",
+      "to": "n8",
+      "arrow": true,
+      "label": "feeds on",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    }
+  ]
+}

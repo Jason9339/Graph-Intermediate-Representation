@@ -1,0 +1,827 @@
+{
+  "title": "unix",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "5th Edition",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        573.5,
+        738.0
+      ],
+      "size": [
+        126.08640000000001,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "6th Edition",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        468.5,
+        666.0
+      ],
+      "size": [
+        126.08640000000001,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "PWB 1.0",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        748.5,
+        666.0
+      ],
+      "size": [
+        101.3904,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "LSX",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        650.5,
+        594.0
+      ],
+      "size": [
+        58.49496,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "1 BSD",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        131.5,
+        594.0
+      ],
+      "size": [
+        80.58959999999999,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "Mini Unix",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        398.5,
+        594.0
+      ],
+      "size": [
+        113.0904,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "Wollongong",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        538.5,
+        594.0
+      ],
+      "size": [
+        129.9888,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "Interdata",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        270.5,
+        594.0
+      ],
+      "size": [
+        107.892,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "Unix/TS 3.0",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        662.5,
+        378.0
+      ],
+      "size": [
+        131.2848,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "PWB 2.0",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        599.5,
+        522.0
+      ],
+      "size": [
+        101.3904,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "7th Edition",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        270.5,
+        522.0
+      ],
+      "size": [
+        126.08640000000001,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "8th Edition",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        508.5,
+        162.0
+      ],
+      "size": [
+        126.08640000000001,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "32V",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        425.5,
+        450.0
+      ],
+      "size": [
+        57.19464,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "V7M",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        32.497,
+        378.0
+      ],
+      "size": [
+        64.9944,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "Ultrix-11",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        107.5,
+        90.0
+      ],
+      "size": [
+        103.9896,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "Xenix",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        213.5,
+        450.0
+      ],
+      "size": [
+        72.79199999999999,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "UniPlus+",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        323.5,
+        450.0
+      ],
+      "size": [
+        110.49119999999999,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "9th Edition",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        594.5,
+        90.0
+      ],
+      "size": [
+        126.08640000000001,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "2 BSD",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        81.497,
+        234.0
+      ],
+      "size": [
+        80.58959999999999,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "2.8 BSD",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        226.5,
+        162.0
+      ],
+      "size": [
+        97.488,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "2.9 BSD",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        226.5,
+        90.0
+      ],
+      "size": [
+        97.488,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "3 BSD",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        396.5,
+        378.0
+      ],
+      "size": [
+        80.58959999999999,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "4 BSD",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        391.5,
+        306.0
+      ],
+      "size": [
+        80.58959999999999,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "4.1 BSD",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        387.5,
+        234.0
+      ],
+      "size": [
+        97.488,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "4.2 BSD",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        378.5,
+        162.0
+      ],
+      "size": [
+        97.488,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "4.3 BSD",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        464.5,
+        90.0
+      ],
+      "size": [
+        97.488,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "Ultrix-32",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        345.5,
+        90.0
+      ],
+      "size": [
+        103.9896,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "PWB 1.2",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        748.5,
+        594.0
+      ],
+      "size": [
+        101.3904,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "USG 1.0",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        867.5,
+        594.0
+      ],
+      "size": [
+        100.09440000000001,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "CB Unix 1",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        901.5,
+        522.0
+      ],
+      "size": [
+        115.6896,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "USG 2.0",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        756.5,
+        522.0
+      ],
+      "size": [
+        100.09440000000001,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "CB Unix 2",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        937.5,
+        450.0
+      ],
+      "size": [
+        115.6896,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "CB Unix 3",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        921.5,
+        378.0
+      ],
+      "size": [
+        115.6896,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "Unix/TS++",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        860.5,
+        306.0
+      ],
+      "size": [
+        127.3896,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "PDP-11 Sys V",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        1015.5,
+        306.0
+      ],
+      "size": [
+        146.88719999999998,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "USG 3.0",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        662.5,
+        450.0
+      ],
+      "size": [
+        100.09440000000001,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "Unix/TS 1.0",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        796.5,
+        450.0
+      ],
+      "size": [
+        131.2848,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "TS 4.0",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        768.5,
+        234.0
+      ],
+      "size": [
+        80.58959999999999,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "System V.0",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        768.5,
+        162.0
+      ],
+      "size": [
+        123.4872,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "System V.2",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        768.5,
+        90.0
+      ],
+      "size": [
+        123.4872,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    },
+    {
+      "id": "System V.3",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        768.5,
+        18.0
+      ],
+      "size": [
+        123.4872,
+        36.0
+      ],
+      "stroke": "lightblue2"
+    }
+  ],
+  "edges": [
+    {
+      "from": "5th Edition",
+      "to": "6th Edition",
+      "arrow": true
+    },
+    {
+      "from": "5th Edition",
+      "to": "PWB 1.0",
+      "arrow": true
+    },
+    {
+      "from": "6th Edition",
+      "to": "LSX",
+      "arrow": true
+    },
+    {
+      "from": "6th Edition",
+      "to": "1 BSD",
+      "arrow": true
+    },
+    {
+      "from": "6th Edition",
+      "to": "Mini Unix",
+      "arrow": true
+    },
+    {
+      "from": "6th Edition",
+      "to": "Wollongong",
+      "arrow": true
+    },
+    {
+      "from": "6th Edition",
+      "to": "Interdata",
+      "arrow": true
+    },
+    {
+      "from": "PWB 1.0",
+      "to": "PWB 1.2",
+      "arrow": true
+    },
+    {
+      "from": "PWB 1.0",
+      "to": "USG 1.0",
+      "arrow": true
+    },
+    {
+      "from": "1 BSD",
+      "to": "2 BSD",
+      "arrow": true
+    },
+    {
+      "from": "Interdata",
+      "to": "Unix/TS 3.0",
+      "arrow": true
+    },
+    {
+      "from": "Interdata",
+      "to": "PWB 2.0",
+      "arrow": true
+    },
+    {
+      "from": "Interdata",
+      "to": "7th Edition",
+      "arrow": true
+    },
+    {
+      "from": "Unix/TS 3.0",
+      "to": "TS 4.0",
+      "arrow": true
+    },
+    {
+      "from": "PWB 2.0",
+      "to": "Unix/TS 3.0",
+      "arrow": true
+    },
+    {
+      "from": "7th Edition",
+      "to": "8th Edition",
+      "arrow": true
+    },
+    {
+      "from": "7th Edition",
+      "to": "32V",
+      "arrow": true
+    },
+    {
+      "from": "7th Edition",
+      "to": "V7M",
+      "arrow": true
+    },
+    {
+      "from": "7th Edition",
+      "to": "Ultrix-11",
+      "arrow": true
+    },
+    {
+      "from": "7th Edition",
+      "to": "Xenix",
+      "arrow": true
+    },
+    {
+      "from": "7th Edition",
+      "to": "UniPlus+",
+      "arrow": true
+    },
+    {
+      "from": "8th Edition",
+      "to": "9th Edition",
+      "arrow": true
+    },
+    {
+      "from": "32V",
+      "to": "3 BSD",
+      "arrow": true
+    },
+    {
+      "from": "V7M",
+      "to": "Ultrix-11",
+      "arrow": true
+    },
+    {
+      "from": "2 BSD",
+      "to": "2.8 BSD",
+      "arrow": true
+    },
+    {
+      "from": "2.8 BSD",
+      "to": "Ultrix-11",
+      "arrow": true
+    },
+    {
+      "from": "2.8 BSD",
+      "to": "2.9 BSD",
+      "arrow": true
+    },
+    {
+      "from": "3 BSD",
+      "to": "4 BSD",
+      "arrow": true
+    },
+    {
+      "from": "4 BSD",
+      "to": "4.1 BSD",
+      "arrow": true
+    },
+    {
+      "from": "4.1 BSD",
+      "to": "8th Edition",
+      "arrow": true
+    },
+    {
+      "from": "4.1 BSD",
+      "to": "2.8 BSD",
+      "arrow": true
+    },
+    {
+      "from": "4.1 BSD",
+      "to": "4.2 BSD",
+      "arrow": true
+    },
+    {
+      "from": "4.2 BSD",
+      "to": "4.3 BSD",
+      "arrow": true
+    },
+    {
+      "from": "4.2 BSD",
+      "to": "Ultrix-32",
+      "arrow": true
+    },
+    {
+      "from": "PWB 1.2",
+      "to": "PWB 2.0",
+      "arrow": true
+    },
+    {
+      "from": "USG 1.0",
+      "to": "CB Unix 1",
+      "arrow": true
+    },
+    {
+      "from": "USG 1.0",
+      "to": "USG 2.0",
+      "arrow": true
+    },
+    {
+      "from": "CB Unix 1",
+      "to": "CB Unix 2",
+      "arrow": true
+    },
+    {
+      "from": "USG 2.0",
+      "to": "USG 3.0",
+      "arrow": true
+    },
+    {
+      "from": "CB Unix 2",
+      "to": "CB Unix 3",
+      "arrow": true
+    },
+    {
+      "from": "CB Unix 3",
+      "to": "Unix/TS++",
+      "arrow": true
+    },
+    {
+      "from": "CB Unix 3",
+      "to": "PDP-11 Sys V",
+      "arrow": true
+    },
+    {
+      "from": "CB Unix 3",
+      "to": "TS 4.0",
+      "arrow": true
+    },
+    {
+      "from": "Unix/TS++",
+      "to": "TS 4.0",
+      "arrow": true
+    },
+    {
+      "from": "USG 3.0",
+      "to": "Unix/TS 3.0",
+      "arrow": true
+    },
+    {
+      "from": "Unix/TS 1.0",
+      "to": "Unix/TS 3.0",
+      "arrow": true
+    },
+    {
+      "from": "TS 4.0",
+      "to": "System V.0",
+      "arrow": true
+    },
+    {
+      "from": "System V.0",
+      "to": "System V.2",
+      "arrow": true
+    },
+    {
+      "from": "System V.2",
+      "to": "System V.3",
+      "arrow": true
+    }
+  ]
+}

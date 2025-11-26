@@ -1,0 +1,253 @@
+{
+  "title": "LaTeXDiagramPipeline_food_1-82",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "farmer",
+      "label": "Farmer Co-op\\\\{\\tiny Local farming communities",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "size": [
+        71.53186,
+        28.85272
+      ],
+      "fill": "orange!20",
+      "class": "process"
+    },
+    {
+      "id": "cert",
+      "label": "Organic\\\\Certification\\\\{\\tiny Fair Trade, USDA Organic",
+      "shape": "rect",
+      "pos": [
+        167.83858,
+        0.0
+      ],
+      "size": [
+        93.42877000000001,
+        54.96406
+      ],
+      "fill": "green!20",
+      "class": "certification",
+      "layoutHints": {
+        "right": "of farmer"
+      }
+    },
+    {
+      "id": "harvest",
+      "label": "Harvesting\\\\{\\tiny Hand-picking ripe beans",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -71.53185
+      ],
+      "size": [
+        71.53186,
+        28.852720000000005
+      ],
+      "fill": "orange!20",
+      "class": "process",
+      "layoutHints": {
+        "below": "of farmer"
+      }
+    },
+    {
+      "id": "process",
+      "label": "Processing\\\\{\\tiny Wet and dry methods",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -143.06369
+      ],
+      "size": [
+        71.53186,
+        28.852720000000005
+      ],
+      "fill": "orange!20",
+      "class": "process",
+      "layoutHints": {
+        "below": "of harvest"
+      }
+    },
+    {
+      "id": "trade",
+      "label": "Direct Trade\\\\{\\tiny Trader relationships",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -214.59554
+      ],
+      "size": [
+        71.53186,
+        28.85272999999998
+      ],
+      "fill": "orange!20",
+      "class": "process",
+      "layoutHints": {
+        "below": "of process"
+      }
+    },
+    {
+      "id": "roast",
+      "label": "Roasting Facility\\\\{\\tiny Specialty roasters",
+      "shape": "rect",
+      "pos": [
+        159.34471,
+        -214.59554
+      ],
+      "size": [
+        76.44104000000002,
+        28.85272999999998
+      ],
+      "fill": "orange!20",
+      "class": "process",
+      "layoutHints": {
+        "right": "of trade"
+      }
+    },
+    {
+      "id": "qc",
+      "label": "Quality Control\\\\{\\tiny Cupping and grading",
+      "shape": "rect",
+      "pos": [
+        318.68942,
+        -214.59554
+      ],
+      "size": [
+        71.53185000000002,
+        28.85272999999998
+      ],
+      "fill": "orange!20",
+      "class": "process",
+      "layoutHints": {
+        "right": "of roast"
+      }
+    },
+    {
+      "id": "pack",
+      "label": "Packaging\\\\{\\tiny Eco-friendly materials",
+      "shape": "rect",
+      "pos": [
+        475.57954,
+        -214.59554
+      ],
+      "size": [
+        71.53186,
+        28.85272999999998
+      ],
+      "fill": "orange!20",
+      "class": "process",
+      "layoutHints": {
+        "right": "of qc"
+      }
+    },
+    {
+      "id": "dist",
+      "label": "Distribution\\\\{\\tiny Logistics and transportation",
+      "shape": "rect",
+      "pos": [
+        159.34471,
+        -286.12738
+      ],
+      "size": [
+        71.53186,
+        28.852719999999977
+      ],
+      "fill": "orange!20",
+      "class": "process",
+      "layoutHints": {
+        "below": "of roast"
+      }
+    },
+    {
+      "id": "retail",
+      "label": "Retail\\\\{\\tiny Coffee shops, online stores",
+      "shape": "rect",
+      "pos": [
+        159.34471,
+        -357.65923
+      ],
+      "size": [
+        71.53186,
+        28.852730000000008
+      ],
+      "fill": "orange!20",
+      "class": "process",
+      "layoutHints": {
+        "below": "of dist"
+      }
+    },
+    {
+      "id": "consumer",
+      "label": "Consumer\\\\{\\tiny Ethically-conscious buyers",
+      "shape": "rect",
+      "pos": [
+        159.34471,
+        -429.19107
+      ],
+      "size": [
+        71.53186,
+        28.852720000000033
+      ],
+      "fill": "orange!20",
+      "class": "process",
+      "layoutHints": {
+        "below": "of retail"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "farmer",
+      "to": "cert",
+      "arrow": false
+    },
+    {
+      "from": "farmer",
+      "to": "harvest",
+      "arrow": false
+    },
+    {
+      "from": "harvest",
+      "to": "process",
+      "arrow": false
+    },
+    {
+      "from": "process",
+      "to": "trade",
+      "arrow": false
+    },
+    {
+      "from": "trade",
+      "to": "roast",
+      "arrow": false
+    },
+    {
+      "from": "roast",
+      "to": "qc",
+      "arrow": false
+    },
+    {
+      "from": "qc",
+      "to": "pack",
+      "arrow": false
+    },
+    {
+      "from": "pack",
+      "to": "dist",
+      "arrow": false
+    },
+    {
+      "from": "dist",
+      "to": "retail",
+      "arrow": false
+    },
+    {
+      "from": "retail",
+      "to": "consumer",
+      "arrow": false
+    }
+  ]
+}

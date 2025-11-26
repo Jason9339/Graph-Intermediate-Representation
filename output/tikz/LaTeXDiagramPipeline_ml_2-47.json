@@ -1,0 +1,344 @@
+{
+  "title": "LaTeXDiagramPipeline_ml_2-47",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "data_collection",
+      "label": "Data Collection",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "size": [
+        71.53186,
+        28.85272
+      ],
+      "class": "data"
+    },
+    {
+      "id": "weather_data",
+      "label": "Weather Data",
+      "shape": "rect",
+      "pos": [
+        -128.43736,
+        -71.53185
+      ],
+      "size": [
+        71.53187000000001,
+        28.852720000000005
+      ],
+      "class": "data",
+      "layoutHints": {
+        "below left": "of data_collection"
+      }
+    },
+    {
+      "id": "topography_data",
+      "label": "Topography Data",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -71.53185
+      ],
+      "size": [
+        74.94732,
+        28.852720000000005
+      ],
+      "class": "data",
+      "layoutHints": {
+        "below": "of data_collection"
+      }
+    },
+    {
+      "id": "historical_routes",
+      "label": "Historical Routes",
+      "shape": "rect",
+      "pos": [
+        129.01039,
+        -71.53185
+      ],
+      "size": [
+        72.67791999999999,
+        28.852720000000005
+      ],
+      "class": "data",
+      "layoutHints": {
+        "below right": "of data_collection"
+      }
+    },
+    {
+      "id": "tourist_preference_data",
+      "label": "Tourist Preferences",
+      "shape": "rect",
+      "pos": [
+        262.90283,
+        -71.53185
+      ],
+      "size": [
+        81.29596000000001,
+        28.852720000000005
+      ],
+      "class": "data",
+      "layoutHints": {
+        "right": "of historical_routes"
+      }
+    },
+    {
+      "id": "data_preprocessing",
+      "label": "Data Preprocessing",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -157.29007
+      ],
+      "size": [
+        81.7404,
+        28.852720000000005
+      ],
+      "fill": "green!10",
+      "class": "process",
+      "layoutHints": {
+        "below": "2cm of topography_data"
+      }
+    },
+    {
+      "id": "clean_data",
+      "label": "Clean Data",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -228.82191
+      ],
+      "size": [
+        71.53186,
+        28.852730000000008
+      ],
+      "fill": "green!10",
+      "class": "process",
+      "layoutHints": {
+        "below": "of data_preprocessing"
+      }
+    },
+    {
+      "id": "feature_engineering",
+      "label": "Feature Engineering",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -300.35376
+      ],
+      "size": [
+        84.0723,
+        28.852720000000033
+      ],
+      "fill": "green!10",
+      "class": "process",
+      "layoutHints": {
+        "below": "of clean_data"
+      }
+    },
+    {
+      "id": "feature_selection",
+      "label": "Feature Selection",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -371.8856
+      ],
+      "size": [
+        73.76684,
+        28.85272999999995
+      ],
+      "fill": "green!10",
+      "class": "process",
+      "layoutHints": {
+        "below": "of feature_engineering"
+      }
+    },
+    {
+      "id": "model_training",
+      "label": "Model Training",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -443.41745
+      ],
+      "size": [
+        93.11768,
+        28.852720000000033
+      ],
+      "fill": "red!10",
+      "class": "model",
+      "layoutHints": {
+        "below": "of feature_selection"
+      }
+    },
+    {
+      "id": "route_prediction_model",
+      "label": "Route Prediction Model",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -514.9493
+      ],
+      "size": [
+        140.37576,
+        28.852730000000065
+      ],
+      "fill": "red!10",
+      "class": "model",
+      "layoutHints": {
+        "below": "of model_training"
+      }
+    },
+    {
+      "id": "model_evaluation",
+      "label": "Model Evaluation",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -586.48114
+      ],
+      "size": [
+        105.69824,
+        28.852719999999977
+      ],
+      "fill": "red!10",
+      "class": "model",
+      "layoutHints": {
+        "below": "of route_prediction_model"
+      }
+    },
+    {
+      "id": "optimal_route",
+      "label": "Optimal Route",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -658.01299
+      ],
+      "size": [
+        71.53186,
+        28.85272999999995
+      ],
+      "fill": "green!10",
+      "class": "process",
+      "layoutHints": {
+        "below": "of model_evaluation"
+      }
+    },
+    {
+      "id": "real_time_adjustments",
+      "label": "Real-Time Adjustments",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -729.54483
+      ],
+      "size": [
+        98.1846,
+        28.852719999999977
+      ],
+      "fill": "green!10",
+      "class": "process",
+      "layoutHints": {
+        "below": "of optimal_route"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "data_collection",
+      "to": "weather_data",
+      "arrow": false,
+      "label": "Collects"
+    },
+    {
+      "from": "data_collection",
+      "to": "topography_data",
+      "arrow": false,
+      "label": "Collects"
+    },
+    {
+      "from": "data_collection",
+      "to": "historical_routes",
+      "arrow": false,
+      "label": "Collects"
+    },
+    {
+      "from": "data_collection",
+      "to": "tourist_preference_data",
+      "arrow": false,
+      "label": "Collects"
+    },
+    {
+      "from": "weather_data",
+      "to": "data_preprocessing",
+      "arrow": false
+    },
+    {
+      "from": "topography_data",
+      "to": "data_preprocessing",
+      "arrow": false
+    },
+    {
+      "from": "historical_routes",
+      "to": "data_preprocessing",
+      "arrow": false
+    },
+    {
+      "from": "tourist_preference_data",
+      "to": "data_preprocessing",
+      "arrow": false
+    },
+    {
+      "from": "data_preprocessing",
+      "to": "clean_data",
+      "arrow": false,
+      "label": "Outputs"
+    },
+    {
+      "from": "clean_data",
+      "to": "feature_engineering",
+      "arrow": false,
+      "label": "Inputs to"
+    },
+    {
+      "from": "feature_engineering",
+      "to": "feature_selection",
+      "arrow": false,
+      "label": "Outputs"
+    },
+    {
+      "from": "feature_selection",
+      "to": "model_training",
+      "arrow": false,
+      "label": "Inputs to"
+    },
+    {
+      "from": "model_training",
+      "to": "route_prediction_model",
+      "arrow": false,
+      "label": "Trains"
+    },
+    {
+      "from": "route_prediction_model",
+      "to": "model_evaluation",
+      "arrow": false,
+      "label": "Evaluates"
+    },
+    {
+      "from": "model_evaluation",
+      "to": "optimal_route",
+      "arrow": false,
+      "label": "Determines"
+    },
+    {
+      "from": "optimal_route",
+      "to": "real_time_adjustments",
+      "arrow": false,
+      "label": "Feeds"
+    }
+  ]
+}

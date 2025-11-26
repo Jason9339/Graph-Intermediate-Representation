@@ -1,0 +1,318 @@
+{
+  "title": "MermaidDiagramPipeline_instruction_1-104",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "A",
+      "label": "Identify Objective",
+      "shape": "rect",
+      "pos": [
+        464.0390625,
+        60.0
+      ],
+      "size": [
+        182.734375,
+        54.0
+      ],
+      "fill": "#e6f3ff",
+      "stroke": "#4a86e8",
+      "strokeWidth": 2.0,
+      "class": "entity"
+    },
+    {
+      "id": "B",
+      "label": "Intelligence Gathering",
+      "shape": "rect",
+      "pos": [
+        162.8359375,
+        189.0
+      ],
+      "size": [
+        215.65625,
+        54.0
+      ],
+      "fill": "#e6f3ff",
+      "stroke": "#4a86e8",
+      "strokeWidth": 2.0,
+      "class": "entity"
+    },
+    {
+      "id": "C",
+      "label": "Strategic Planning",
+      "shape": "rect",
+      "pos": [
+        162.8359375,
+        343.0
+      ],
+      "size": [
+        189.859375,
+        54.0
+      ],
+      "fill": "#e6f3ff",
+      "stroke": "#4a86e8",
+      "strokeWidth": 2.0,
+      "class": "entity"
+    },
+    {
+      "id": "D",
+      "label": "Operational Planning",
+      "shape": "rect",
+      "pos": [
+        162.8359375,
+        497.0
+      ],
+      "size": [
+        209.4375,
+        54.0
+      ],
+      "fill": "#e6f3ff",
+      "stroke": "#4a86e8",
+      "strokeWidth": 2.0,
+      "class": "entity"
+    },
+    {
+      "id": "E",
+      "label": "Resource Allocation",
+      "shape": "rect",
+      "pos": [
+        162.8359375,
+        651.0
+      ],
+      "size": [
+        201.421875,
+        54.0
+      ],
+      "fill": "#e6f3ff",
+      "stroke": "#4a86e8",
+      "strokeWidth": 2.0,
+      "class": "entity"
+    },
+    {
+      "id": "F",
+      "label": "Mission Briefing",
+      "shape": "rect",
+      "pos": [
+        162.8359375,
+        805.0
+      ],
+      "size": [
+        172.9375,
+        54.0
+      ],
+      "fill": "#e6f3ff",
+      "stroke": "#4a86e8",
+      "strokeWidth": 2.0,
+      "class": "entity"
+    },
+    {
+      "id": "G",
+      "label": "Execution",
+      "shape": "rect",
+      "pos": [
+        162.8359375,
+        959.0
+      ],
+      "size": [
+        130.265625,
+        54.0
+      ],
+      "fill": "#e6f3ff",
+      "stroke": "#4a86e8",
+      "strokeWidth": 2.0,
+      "class": "entity"
+    },
+    {
+      "id": "H",
+      "label": "Monitoring and Reporting",
+      "shape": "rect",
+      "pos": [
+        162.8359375,
+        1113.0
+      ],
+      "size": [
+        239.671875,
+        54.0
+      ],
+      "fill": "#e6f3ff",
+      "stroke": "#4a86e8",
+      "strokeWidth": 2.0,
+      "class": "entity"
+    },
+    {
+      "id": "I",
+      "label": "Post-Mission Analysis",
+      "shape": "rect",
+      "pos": [
+        162.8359375,
+        1267.0
+      ],
+      "size": [
+        214.71875,
+        54.0
+      ],
+      "fill": "#e6f3ff",
+      "stroke": "#4a86e8",
+      "strokeWidth": 2.0,
+      "class": "entity"
+    },
+    {
+      "id": "J",
+      "label": "Feedback Loop",
+      "shape": "rect",
+      "pos": [
+        467.14453125,
+        1396.0
+      ],
+      "size": [
+        170.3125,
+        54.0
+      ],
+      "fill": "#e6f3ff",
+      "stroke": "#4a86e8",
+      "strokeWidth": 2.0,
+      "class": "entity"
+    }
+  ],
+  "edges": [
+    {
+      "from": "A",
+      "to": "B",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "E",
+      "to": "F",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "F",
+      "to": "G",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "G",
+      "to": "H",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "H",
+      "to": "I",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "I",
+      "to": "J",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "J",
+      "to": "A",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "dash": [
+        5.0,
+        5.0
+      ]
+    }
+  ],
+  "groups": [
+    {
+      "id": "top_military_officials",
+      "label": "Top Military Officials",
+      "nodes": [
+        "A",
+        "J"
+      ]
+    },
+    {
+      "id": "intelligence_division",
+      "label": "Intelligence Division",
+      "nodes": [
+        "B"
+      ]
+    },
+    {
+      "id": "strategy_and_planning_division",
+      "label": "Strategy and Planning Division",
+      "nodes": [
+        "C"
+      ]
+    },
+    {
+      "id": "operational_command",
+      "label": "Operational Command",
+      "nodes": [
+        "D"
+      ]
+    },
+    {
+      "id": "logistics_and_resource_management",
+      "label": "Logistics and Resource Management",
+      "nodes": [
+        "E"
+      ]
+    },
+    {
+      "id": "field_commanders",
+      "label": "Field Commanders",
+      "nodes": [
+        "F"
+      ]
+    },
+    {
+      "id": "deployed_military_units",
+      "label": "Deployed Military Units",
+      "nodes": [
+        "G"
+      ]
+    },
+    {
+      "id": "command_and_control_centers",
+      "label": "Command and Control Centers",
+      "nodes": [
+        "H"
+      ]
+    },
+    {
+      "id": "evaluation_and_assessment_division",
+      "label": "Evaluation and Assessment Division",
+      "nodes": [
+        "I"
+      ]
+    }
+  ]
+}

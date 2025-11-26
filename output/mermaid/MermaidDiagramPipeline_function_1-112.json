@@ -1,0 +1,289 @@
+{
+  "title": "MermaidDiagramPipeline_function_1-112",
+  "orientation": "TD",
+  "nodes": [
+    {
+      "id": "A",
+      "label": "Start",
+      "shape": "rect",
+      "pos": [
+        236.6328125,
+        35.0
+      ],
+      "size": [
+        93.796875,
+        54.0
+      ],
+      "fill": "#9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "io"
+    },
+    {
+      "id": "B",
+      "label": "Check-In",
+      "shape": "rect",
+      "pos": [
+        236.6328125,
+        139.0
+      ],
+      "size": [
+        124.03125,
+        54.0
+      ],
+      "fill": "#bbf",
+      "stroke": "#f66",
+      "strokeWidth": 2.0,
+      "class": "process"
+    },
+    {
+      "id": "C",
+      "label": "Warm-Up",
+      "shape": "rect",
+      "pos": [
+        236.6328125,
+        243.0
+      ],
+      "size": [
+        127.84375,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "D",
+      "label": "Health Status",
+      "shape": "diamond",
+      "pos": [
+        236.6328125,
+        395.03125
+      ],
+      "fill": "#ff9",
+      "stroke": "#f66",
+      "strokeWidth": 2.0,
+      "class": "decision"
+    },
+    {
+      "id": "E",
+      "label": "Consult Medical Staff",
+      "shape": "rect",
+      "pos": [
+        113.4453125,
+        571.0625
+      ],
+      "size": [
+        210.890625,
+        54.0
+      ],
+      "fill": "#bbf",
+      "stroke": "#f66",
+      "strokeWidth": 2.0,
+      "class": "process"
+    },
+    {
+      "id": "F",
+      "label": "Strength Training",
+      "shape": "rect",
+      "pos": [
+        359.8203125,
+        571.0625
+      ],
+      "size": [
+        181.859375,
+        54.0
+      ],
+      "fill": "#bbf",
+      "stroke": "#f66",
+      "strokeWidth": 2.0,
+      "class": "process"
+    },
+    {
+      "id": "G",
+      "label": "Cardio Training",
+      "shape": "rect",
+      "pos": [
+        359.8203125,
+        675.0625
+      ],
+      "size": [
+        168.5,
+        54.0
+      ],
+      "fill": "#bbf",
+      "stroke": "#f66",
+      "strokeWidth": 2.0,
+      "class": "process"
+    },
+    {
+      "id": "H",
+      "label": "Cool Down",
+      "shape": "rect",
+      "pos": [
+        359.8203125,
+        779.0625
+      ],
+      "size": [
+        138.265625,
+        54.0
+      ],
+      "fill": "#bbf",
+      "stroke": "#f66",
+      "strokeWidth": 2.0,
+      "class": "process"
+    },
+    {
+      "id": "I",
+      "label": "Daily Milestone Check",
+      "shape": "diamond",
+      "pos": [
+        359.8203125,
+        962.203125
+      ],
+      "fill": "#ff9",
+      "stroke": "#f66",
+      "strokeWidth": 2.0,
+      "class": "decision"
+    },
+    {
+      "id": "J",
+      "label": "Record Achievement",
+      "shape": "rect",
+      "pos": [
+        217.91015625,
+        1181.34375
+      ],
+      "size": [
+        207.640625,
+        54.0
+      ],
+      "fill": "#bbf",
+      "stroke": "#f66",
+      "strokeWidth": 2.0,
+      "class": "process"
+    },
+    {
+      "id": "K",
+      "label": "Schedule Follow-Up Session",
+      "shape": "rect",
+      "pos": [
+        501.73046875,
+        1181.34375
+      ],
+      "size": [
+        260.0,
+        78.0
+      ],
+      "fill": "#bbf",
+      "stroke": "#f66",
+      "strokeWidth": 2.0,
+      "class": "process"
+    },
+    {
+      "id": "L",
+      "label": "End of Training Session",
+      "shape": "rect",
+      "pos": [
+        359.8203125,
+        1297.34375
+      ],
+      "size": [
+        229.0,
+        54.0
+      ],
+      "fill": "#bbf",
+      "stroke": "#f66",
+      "strokeWidth": 2.0,
+      "class": "process"
+    },
+    {
+      "id": "M",
+      "label": "End",
+      "shape": "rect",
+      "pos": [
+        359.8203125,
+        1401.34375
+      ],
+      "size": [
+        88.46875,
+        54.0
+      ],
+      "fill": "#9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "io"
+    }
+  ],
+  "edges": [
+    {
+      "from": "A",
+      "to": "B",
+      "arrow": true
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "arrow": true
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "arrow": true
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "arrow": true,
+      "label": "Yes"
+    },
+    {
+      "from": "D",
+      "to": "F",
+      "arrow": true,
+      "label": "No"
+    },
+    {
+      "from": "F",
+      "to": "G",
+      "arrow": true
+    },
+    {
+      "from": "G",
+      "to": "H",
+      "arrow": true
+    },
+    {
+      "from": "H",
+      "to": "I",
+      "arrow": true
+    },
+    {
+      "from": "I",
+      "to": "J",
+      "arrow": true,
+      "label": "Yes"
+    },
+    {
+      "from": "I",
+      "to": "K",
+      "arrow": true,
+      "label": "No"
+    },
+    {
+      "from": "J",
+      "to": "L",
+      "arrow": true
+    },
+    {
+      "from": "K",
+      "to": "L",
+      "arrow": true
+    },
+    {
+      "from": "L",
+      "to": "M",
+      "arrow": true
+    }
+  ]
+}

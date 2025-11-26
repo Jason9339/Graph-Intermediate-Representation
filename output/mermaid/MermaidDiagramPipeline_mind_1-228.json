@@ -1,0 +1,577 @@
+{
+  "title": "MermaidDiagramPipeline_mind_1-228",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "root",
+      "label": "(Connecting with<br>Ancestral Spirits)",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "preparation",
+      "label": "Preparation",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "purification_rituals",
+      "label": "Purification Rituals",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "smudging_with_sage",
+      "label": "Smudging with Sage",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "spiritual_baths",
+      "label": "Spiritual Baths",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "sacred_space",
+      "label": "Sacred Space",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "altar_creation",
+      "label": "Altar Creation",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "protective_boundaries",
+      "label": "Protective Boundaries",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "techniques",
+      "label": "Techniques",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "meditation",
+      "label": "Meditation",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "guided_ancestral_visualization",
+      "label": "Guided Ancestral Visualization",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "breath_work",
+      "label": "Breath Work",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "divination",
+      "label": "Divination",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "tarot_reading",
+      "label": "Tarot Reading",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "pendulum_dowsing",
+      "label": "Pendulum Dowsing",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "scryscoping_with_water",
+      "label": "Scryscoping with Water",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "practices",
+      "label": "Practices",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "offerings",
+      "label": "Offerings",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "food_and_drink",
+      "label": "Food and Drink",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "tobacco",
+      "label": "Tobacco",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "flowers",
+      "label": "Flowers",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ancestral_communication",
+      "label": "Ancestral Communication",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "automatic_writing",
+      "label": "Automatic Writing",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "dream_journaling",
+      "label": "Dream Journaling",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "ancestral_altars",
+      "label": "Ancestral Altars",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "tools_and_instruments",
+      "label": "Tools and Instruments",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "crystals",
+      "label": "Crystals",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "rose_quartz",
+      "label": "Rose Quartz",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "amethyst",
+      "label": "Amethyst",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "black_tourmaline",
+      "label": "Black Tourmaline",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "sacred_plants",
+      "label": "Sacred Plants",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "mugwort",
+      "label": "Mugwort",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "cedar",
+      "label": "Cedar",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "bay_leaves",
+      "label": "Bay Leaves",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "post_connection",
+      "label": "Post-Connection",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "grounding_exercises",
+      "label": "Grounding Exercises",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "earth_meditation",
+      "label": "Earth Meditation",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "walking_barefoot",
+      "label": "Walking Barefoot",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "integration",
+      "label": "Integration",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "journaling_insights",
+      "label": "Journaling Insights",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "actionable_steps",
+      "label": "Actionable Steps",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "root",
+      "to": "preparation",
+      "arrow": true
+    },
+    {
+      "from": "preparation",
+      "to": "purification_rituals",
+      "arrow": true
+    },
+    {
+      "from": "purification_rituals",
+      "to": "smudging_with_sage",
+      "arrow": true
+    },
+    {
+      "from": "purification_rituals",
+      "to": "spiritual_baths",
+      "arrow": true
+    },
+    {
+      "from": "preparation",
+      "to": "sacred_space",
+      "arrow": true
+    },
+    {
+      "from": "sacred_space",
+      "to": "altar_creation",
+      "arrow": true
+    },
+    {
+      "from": "sacred_space",
+      "to": "protective_boundaries",
+      "arrow": true
+    },
+    {
+      "from": "root",
+      "to": "techniques",
+      "arrow": true
+    },
+    {
+      "from": "techniques",
+      "to": "meditation",
+      "arrow": true
+    },
+    {
+      "from": "meditation",
+      "to": "guided_ancestral_visualization",
+      "arrow": true
+    },
+    {
+      "from": "meditation",
+      "to": "breath_work",
+      "arrow": true
+    },
+    {
+      "from": "techniques",
+      "to": "divination",
+      "arrow": true
+    },
+    {
+      "from": "divination",
+      "to": "tarot_reading",
+      "arrow": true
+    },
+    {
+      "from": "divination",
+      "to": "pendulum_dowsing",
+      "arrow": true
+    },
+    {
+      "from": "divination",
+      "to": "scryscoping_with_water",
+      "arrow": true
+    },
+    {
+      "from": "root",
+      "to": "practices",
+      "arrow": true
+    },
+    {
+      "from": "practices",
+      "to": "offerings",
+      "arrow": true
+    },
+    {
+      "from": "offerings",
+      "to": "food_and_drink",
+      "arrow": true
+    },
+    {
+      "from": "offerings",
+      "to": "tobacco",
+      "arrow": true
+    },
+    {
+      "from": "offerings",
+      "to": "flowers",
+      "arrow": true
+    },
+    {
+      "from": "practices",
+      "to": "ancestral_communication",
+      "arrow": true
+    },
+    {
+      "from": "ancestral_communication",
+      "to": "automatic_writing",
+      "arrow": true
+    },
+    {
+      "from": "ancestral_communication",
+      "to": "dream_journaling",
+      "arrow": true
+    },
+    {
+      "from": "ancestral_communication",
+      "to": "ancestral_altars",
+      "arrow": true
+    },
+    {
+      "from": "root",
+      "to": "tools_and_instruments",
+      "arrow": true
+    },
+    {
+      "from": "tools_and_instruments",
+      "to": "crystals",
+      "arrow": true
+    },
+    {
+      "from": "crystals",
+      "to": "rose_quartz",
+      "arrow": true
+    },
+    {
+      "from": "crystals",
+      "to": "amethyst",
+      "arrow": true
+    },
+    {
+      "from": "crystals",
+      "to": "black_tourmaline",
+      "arrow": true
+    },
+    {
+      "from": "tools_and_instruments",
+      "to": "sacred_plants",
+      "arrow": true
+    },
+    {
+      "from": "sacred_plants",
+      "to": "mugwort",
+      "arrow": true
+    },
+    {
+      "from": "sacred_plants",
+      "to": "cedar",
+      "arrow": true
+    },
+    {
+      "from": "sacred_plants",
+      "to": "bay_leaves",
+      "arrow": true
+    },
+    {
+      "from": "root",
+      "to": "post_connection",
+      "arrow": true
+    },
+    {
+      "from": "post_connection",
+      "to": "grounding_exercises",
+      "arrow": true
+    },
+    {
+      "from": "grounding_exercises",
+      "to": "earth_meditation",
+      "arrow": true
+    },
+    {
+      "from": "grounding_exercises",
+      "to": "walking_barefoot",
+      "arrow": true
+    },
+    {
+      "from": "post_connection",
+      "to": "integration",
+      "arrow": true
+    },
+    {
+      "from": "integration",
+      "to": "journaling_insights",
+      "arrow": true
+    },
+    {
+      "from": "integration",
+      "to": "actionable_steps",
+      "arrow": true
+    }
+  ]
+}

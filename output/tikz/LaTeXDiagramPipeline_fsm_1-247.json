@@ -1,0 +1,198 @@
+{
+  "title": "LaTeXDiagramPipeline_fsm_1-247",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "Start",
+      "label": "Start",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "size": [
+        26.03632,
+        26.03632
+      ],
+      "class": "state"
+    },
+    {
+      "id": "CheckBloodSugar",
+      "label": "Check\\\\ Blood\\\\ Sugar",
+      "shape": "rect",
+      "pos": [
+        85.35826,
+        0.0
+      ],
+      "size": [
+        73.89912000000001,
+        73.8991
+      ],
+      "class": "state",
+      "layoutHints": {
+        "right": "of Start"
+      }
+    },
+    {
+      "id": "ChooseMealType",
+      "label": "Choose\\\\ Meal\\\\ Type",
+      "shape": "rect",
+      "pos": [
+        170.71652,
+        0.0
+      ],
+      "size": [
+        71.28192000000001,
+        71.28192
+      ],
+      "class": "state",
+      "layoutHints": {
+        "right": "of CheckBloodSugar"
+      }
+    },
+    {
+      "id": "SelectFoodItems",
+      "label": "Select\\\\ Food\\\\ Items",
+      "shape": "rect",
+      "pos": [
+        170.71652,
+        -71.13188
+      ],
+      "size": [
+        68.86298,
+        68.86297
+      ],
+      "class": "state",
+      "layoutHints": {
+        "below": "of ChooseMealType"
+      }
+    },
+    {
+      "id": "PrepareMeal",
+      "label": "Prepare\\\\ Meal",
+      "shape": "rect",
+      "pos": [
+        85.35826,
+        -71.13188
+      ],
+      "size": [
+        54.32488000000001,
+        54.32489
+      ],
+      "class": "state",
+      "layoutHints": {
+        "left": "of SelectFoodItems"
+      }
+    },
+    {
+      "id": "ServeMeal",
+      "label": "Serve\\\\ Meal",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -71.13188
+      ],
+      "size": [
+        45.4787,
+        45.478699999999996
+      ],
+      "class": "state",
+      "layoutHints": {
+        "left": "of PrepareMeal"
+      }
+    },
+    {
+      "id": "MonitorAfterMeal",
+      "label": "Monitor\\\\ After\\\\ Meal",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -142.26376
+      ],
+      "size": [
+        74.40204,
+        74.40203999999999
+      ],
+      "class": "state",
+      "layoutHints": {
+        "below": "of ServeMeal"
+      }
+    },
+    {
+      "id": "AdjustNextMeal",
+      "label": "Adjust\\\\ Next\\\\ Meal",
+      "shape": "rect",
+      "pos": [
+        85.35826,
+        -142.26376
+      ],
+      "size": [
+        68.04167999999999,
+        68.04168000000001
+      ],
+      "class": "state",
+      "layoutHints": {
+        "right": "of MonitorAfterMeal"
+      }
+    },
+    {
+      "id": "End",
+      "label": "End",
+      "shape": "rect",
+      "pos": [
+        170.71652,
+        -142.26376
+      ],
+      "size": [
+        23.047449999999998,
+        23.047449999999998
+      ],
+      "class": "state",
+      "layoutHints": {
+        "right": "of AdjustNextMeal"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "Start",
+      "to": "CheckBloodSugar",
+      "arrow": false
+    },
+    {
+      "from": "CheckBloodSugar",
+      "to": "ChooseMealType",
+      "arrow": false
+    },
+    {
+      "from": "ChooseMealType",
+      "to": "SelectFoodItems",
+      "arrow": false
+    },
+    {
+      "from": "SelectFoodItems",
+      "to": "PrepareMeal",
+      "arrow": false
+    },
+    {
+      "from": "PrepareMeal",
+      "to": "ServeMeal",
+      "arrow": false
+    },
+    {
+      "from": "ServeMeal",
+      "to": "MonitorAfterMeal",
+      "arrow": false
+    },
+    {
+      "from": "MonitorAfterMeal",
+      "to": "AdjustNextMeal",
+      "arrow": false
+    },
+    {
+      "from": "AdjustNextMeal",
+      "to": "End",
+      "arrow": false
+    }
+  ]
+}

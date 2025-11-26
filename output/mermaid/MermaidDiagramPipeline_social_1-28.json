@@ -1,0 +1,210 @@
+{
+  "title": "MermaidDiagramPipeline_social_1-28",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "1",
+      "label": "Income Level",
+      "shape": "rect",
+      "pos": [
+        111.828125,
+        347.0
+      ],
+      "size": [
+        155.171875,
+        54.0
+      ],
+      "fill": "#e1f3f8",
+      "stroke": "#0077be",
+      "strokeWidth": 3.0,
+      "class": "highlight"
+    },
+    {
+      "id": "2",
+      "label": "Gender",
+      "shape": "rect",
+      "pos": [
+        111.828125,
+        35.0
+      ],
+      "size": [
+        113.375,
+        54.0
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "3",
+      "label": "Age Group",
+      "shape": "rect",
+      "pos": [
+        111.828125,
+        139.0
+      ],
+      "size": [
+        137.390625,
+        54.0
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "4",
+      "label": "Education Level",
+      "shape": "rect",
+      "pos": [
+        111.828125,
+        243.0
+      ],
+      "size": [
+        173.859375,
+        54.0
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "5",
+      "label": "Geographic Location",
+      "shape": "rect",
+      "pos": [
+        111.828125,
+        451.0
+      ],
+      "size": [
+        207.65625,
+        54.0
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "6",
+      "label": "Cultural Interests",
+      "shape": "rect",
+      "pos": [
+        488.359375,
+        139.0
+      ],
+      "size": [
+        180.9375,
+        54.0
+      ],
+      "fill": "#e1f3f8",
+      "stroke": "#0077be",
+      "strokeWidth": 3.0,
+      "class": "highlight"
+    },
+    {
+      "id": "7",
+      "label": "Price of Equipment",
+      "shape": "rect",
+      "pos": [
+        488.359375,
+        399.0
+      ],
+      "size": [
+        195.1875,
+        54.0
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "8",
+      "label": "Social Media Influence",
+      "shape": "rect",
+      "pos": [
+        789.1328125,
+        139.0
+      ],
+      "size": [
+        220.984375,
+        54.0
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "9",
+      "label": "Technological Literacy",
+      "shape": "rect",
+      "pos": [
+        1161.4921875,
+        139.0
+      ],
+      "size": [
+        217.421875,
+        54.0
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "7",
+      "arrow": true,
+      "label": "affects",
+      "stroke": "#999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "2",
+      "to": "6",
+      "arrow": true,
+      "label": "correlates with",
+      "stroke": "#0077be",
+      "strokeWidth": 3.0
+    },
+    {
+      "from": "3",
+      "to": "6",
+      "arrow": true,
+      "label": "influences",
+      "stroke": "#0077be",
+      "strokeWidth": 3.0
+    },
+    {
+      "from": "4",
+      "to": "6",
+      "arrow": true,
+      "label": "correlates with",
+      "stroke": "#0077be",
+      "strokeWidth": 3.0
+    },
+    {
+      "from": "5",
+      "to": "7",
+      "arrow": true,
+      "label": "affects availability",
+      "stroke": "#999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "6",
+      "to": "8",
+      "arrow": true,
+      "label": "drives",
+      "stroke": "#ff6347",
+      "strokeWidth": 3.0
+    },
+    {
+      "from": "8",
+      "to": "9",
+      "arrow": true,
+      "label": "correlates with",
+      "stroke": "#999",
+      "strokeWidth": 2.0
+    }
+  ]
+}

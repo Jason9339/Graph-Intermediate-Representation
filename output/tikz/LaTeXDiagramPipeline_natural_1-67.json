@@ -1,0 +1,192 @@
+{
+  "title": "LaTeXDiagramPipeline_natural_1-67",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "rising_temperatures",
+      "label": "Rising Temperatures",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "size": [
+        63.97144,
+        28.85272
+      ],
+      "fill": "orange!20",
+      "stroke": "#000000",
+      "class": "mynode"
+    },
+    {
+      "id": "extreme_weather",
+      "label": "Extreme Weather Events",
+      "shape": "rect",
+      "pos": [
+        120.87694,
+        0.0
+      ],
+      "size": [
+        63.97144,
+        35.31594
+      ],
+      "fill": "orange!20",
+      "stroke": "#000000",
+      "class": "mynode",
+      "layoutHints": {
+        "right": "of rising_temperatures"
+      }
+    },
+    {
+      "id": "resource_scarcity",
+      "label": "Resource Scarcity",
+      "shape": "rect",
+      "pos": [
+        241.75388,
+        -74.76346
+      ],
+      "size": [
+        63.97144,
+        28.852719999999998
+      ],
+      "fill": "orange!20",
+      "stroke": "#000000",
+      "class": "mynode",
+      "layoutHints": {
+        "below right": "of extreme_weather"
+      }
+    },
+    {
+      "id": "economic_disparities",
+      "label": "Economic Disparities",
+      "shape": "rect",
+      "pos": [
+        120.87694,
+        -146.2953
+      ],
+      "size": [
+        63.97144,
+        28.852720000000005
+      ],
+      "fill": "orange!20",
+      "stroke": "#000000",
+      "class": "mynode",
+      "layoutHints": {
+        "below left": "of resource_scarcity"
+      }
+    },
+    {
+      "id": "health_issues",
+      "label": "Health Issues",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -146.2953
+      ],
+      "size": [
+        63.97144,
+        28.852720000000005
+      ],
+      "fill": "orange!20",
+      "stroke": "#000000",
+      "class": "mynode",
+      "layoutHints": {
+        "left": "of economic_disparities"
+      }
+    },
+    {
+      "id": "civil_unrest",
+      "label": "Civil Unrest",
+      "shape": "rect",
+      "pos": [
+        241.75388,
+        -217.82715
+      ],
+      "size": [
+        63.97144,
+        28.852720000000005
+      ],
+      "fill": "orange!20",
+      "stroke": "#000000",
+      "class": "mynode",
+      "layoutHints": {
+        "below right": "of economic_disparities"
+      }
+    },
+    {
+      "id": "police_misconduct",
+      "label": "Police Misconduct",
+      "shape": "rect",
+      "pos": [
+        120.87694,
+        -289.359
+      ],
+      "size": [
+        63.97144,
+        28.852719999999977
+      ],
+      "fill": "orange!20",
+      "stroke": "#000000",
+      "class": "mynode",
+      "layoutHints": {
+        "below left": "of civil_unrest"
+      }
+    },
+    {
+      "id": "social_justice",
+      "label": "Social Justice",
+      "shape": "rect",
+      "pos": [
+        362.63081,
+        -289.359
+      ],
+      "size": [
+        63.97143,
+        28.852719999999977
+      ],
+      "fill": "orange!20",
+      "stroke": "#000000",
+      "class": "mynode",
+      "layoutHints": {
+        "below right": "of civil_unrest"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "rising_temperatures",
+      "to": "extreme_weather",
+      "arrow": false
+    },
+    {
+      "from": "extreme_weather",
+      "to": "resource_scarcity",
+      "arrow": false
+    },
+    {
+      "from": "resource_scarcity",
+      "to": "economic_disparities",
+      "arrow": false
+    },
+    {
+      "from": "economic_disparities",
+      "to": "civil_unrest",
+      "arrow": false
+    },
+    {
+      "from": "health_issues",
+      "to": "civil_unrest",
+      "arrow": false
+    },
+    {
+      "from": "civil_unrest",
+      "to": "police_misconduct",
+      "arrow": false
+    },
+    {
+      "from": "civil_unrest",
+      "to": "social_justice",
+      "arrow": false
+    }
+  ]
+}

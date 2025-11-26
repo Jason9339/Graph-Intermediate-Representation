@@ -1,0 +1,142 @@
+{
+  "title": "MermaidDiagramPipeline_textbook_6-132",
+  "orientation": "TD",
+  "nodes": [
+    {
+      "id": "1",
+      "label": "(\"Start-Up Stage<br/>Initial network setup\")",
+      "shape": "rect",
+      "pos": [
+        115.5,
+        61.09331512451172
+      ],
+      "fill": "#e1f3e1",
+      "stroke": "#4CAF50",
+      "strokeWidth": 2.0,
+      "class": "milestone"
+    },
+    {
+      "id": "2",
+      "label": "(\"First Growth<br/>Add additional servers\")",
+      "shape": "rect",
+      "pos": [
+        115.5,
+        241.47323989868164
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "3",
+      "label": "(\"Increased Traffic<br/>Upgrade bandwidth\")",
+      "shape": "rect",
+      "pos": [
+        115.5,
+        420.9446449279785
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "4",
+      "label": "(\"High Availability<br/>Implement redundancy\")",
+      "shape": "rect",
+      "pos": [
+        115.5,
+        600.6471672058105
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "5",
+      "label": "(\"Automation and Monitoring<br/>Deploy automated management tools\")",
+      "shape": "rect",
+      "pos": [
+        115.5,
+        795.3781280517578
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "6",
+      "label": "(\"Security Enhancements<br/>Advanced security measures\")",
+      "shape": "rect",
+      "pos": [
+        115.5,
+        1003.8045959472656
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "7",
+      "label": "(\"Global Expansion<br/>Establish regional data centers\")",
+      "shape": "rect",
+      "pos": [
+        115.5,
+        1212.2310638427734
+      ],
+      "fill": "#e1f3e1",
+      "stroke": "#4CAF50",
+      "strokeWidth": 2.0,
+      "class": "milestone"
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2",
+      "arrow": true,
+      "label": "Increase capacity",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "2",
+      "to": "3",
+      "arrow": true,
+      "label": "Boost connectivity",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "3",
+      "to": "4",
+      "arrow": true,
+      "label": "Add failover systems",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "4",
+      "to": "5",
+      "arrow": true,
+      "label": "Enhanced operations",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "5",
+      "to": "6",
+      "arrow": true,
+      "label": "Prioritize security",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "6",
+      "to": "7",
+      "arrow": true,
+      "label": "Expand globally",
+      "stroke": "#666",
+      "strokeWidth": 2.0
+    }
+  ]
+}

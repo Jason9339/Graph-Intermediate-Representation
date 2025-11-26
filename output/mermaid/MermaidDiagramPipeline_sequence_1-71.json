@@ -1,0 +1,271 @@
+{
+  "title": "MermaidDiagramPipeline_sequence_1-71",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "Player",
+      "label": "👤 Player",
+      "shape": "rect",
+      "pos": [
+        75.0,
+        744.5
+      ],
+      "size": [
+        150.0,
+        65.0
+      ],
+      "kind": "participant",
+      "alias": "👤 Player"
+    },
+    {
+      "id": "NPC",
+      "label": "🤖 NPC",
+      "shape": "rect",
+      "pos": [
+        386.0,
+        744.5
+      ],
+      "size": [
+        150.0,
+        65.0
+      ],
+      "kind": "participant",
+      "alias": "🤖 NPC"
+    },
+    {
+      "id": "DialogueManager",
+      "label": "💬 DialogueManager",
+      "shape": "rect",
+      "pos": [
+        668.0,
+        744.5
+      ],
+      "size": [
+        150.0,
+        65.0
+      ],
+      "kind": "participant",
+      "alias": "💬 DialogueManager"
+    },
+    {
+      "id": "GameServer",
+      "label": "🖥️ GameServer",
+      "shape": "rect",
+      "pos": [
+        940.0,
+        744.5
+      ],
+      "size": [
+        150.0,
+        65.0
+      ],
+      "kind": "participant",
+      "alias": "🖥️ GameServer"
+    },
+    {
+      "id": "note_1",
+      "label": "NPC Dialogue Tree Navigation",
+      "shape": "note",
+      "pos": [
+        507.5,
+        663.5
+      ],
+      "size": [
+        915.0,
+        37.0
+      ],
+      "kind": "note",
+      "notePosition": "over",
+      "participants": [
+        "Player",
+        "GameServer"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "Player",
+      "to": "NPC",
+      "arrow": true,
+      "label": "Initiate Conversation",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "NPC",
+      "to": "DialogueManager",
+      "arrow": true,
+      "label": "Load Dialogue Tree",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "DialogueManager",
+      "to": "GameServer",
+      "arrow": true,
+      "label": "Fetch Dialogue Data",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "GameServer",
+      "to": "DialogueManager",
+      "arrow": true,
+      "label": "Return Dialogue Data",
+      "kind": "sequence_message",
+      "arrowToken": "-->>"
+    },
+    {
+      "from": "DialogueManager",
+      "to": "NPC",
+      "arrow": true,
+      "label": "Send Dialogue Options",
+      "kind": "sequence_message",
+      "arrowToken": "-->>"
+    },
+    {
+      "from": "NPC",
+      "to": "Player",
+      "arrow": true,
+      "label": "Present Dialogue Options",
+      "kind": "sequence_message",
+      "arrowToken": "-->>"
+    },
+    {
+      "from": "Player",
+      "to": "NPC",
+      "arrow": true,
+      "label": "Select Dialogue Option",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "NPC",
+      "to": "DialogueManager",
+      "arrow": true,
+      "label": "Process Player Selection",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "DialogueManager",
+      "to": "GameServer",
+      "arrow": true,
+      "label": "Log Player Choice",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "GameServer",
+      "to": "DialogueManager",
+      "arrow": true,
+      "label": "Acknowledge and Update State",
+      "kind": "sequence_message",
+      "arrowToken": "-->>"
+    },
+    {
+      "from": "DialogueManager",
+      "to": "NPC",
+      "arrow": true,
+      "label": "Provide Next Dialogue or Action",
+      "kind": "sequence_message",
+      "arrowToken": "-->>"
+    },
+    {
+      "from": "NPC",
+      "to": "Player",
+      "arrow": true,
+      "label": "Continue Dialogue or Execute Action",
+      "kind": "sequence_message",
+      "arrowToken": "-->>"
+    }
+  ],
+  "groups": [
+    {
+      "id": "block_1",
+      "label": "rect rgb(240, 240, 240)",
+      "nodes": [
+        "GameServer",
+        "Player"
+      ]
+    }
+  ],
+  "sequenceTimeline": [
+    {
+      "type": "participant",
+      "participant": "Player"
+    },
+    {
+      "type": "participant",
+      "participant": "NPC"
+    },
+    {
+      "type": "participant",
+      "participant": "DialogueManager"
+    },
+    {
+      "type": "participant",
+      "participant": "GameServer"
+    },
+    {
+      "type": "message",
+      "edge": "e1"
+    },
+    {
+      "type": "message",
+      "edge": "e2"
+    },
+    {
+      "type": "message",
+      "edge": "e3"
+    },
+    {
+      "type": "message",
+      "edge": "e4"
+    },
+    {
+      "type": "message",
+      "edge": "e5"
+    },
+    {
+      "type": "message",
+      "edge": "e6"
+    },
+    {
+      "type": "message",
+      "edge": "e7"
+    },
+    {
+      "type": "message",
+      "edge": "e8"
+    },
+    {
+      "type": "message",
+      "edge": "e9"
+    },
+    {
+      "type": "message",
+      "edge": "e10"
+    },
+    {
+      "type": "message",
+      "edge": "e11"
+    },
+    {
+      "type": "message",
+      "edge": "e12"
+    },
+    {
+      "type": "block_start",
+      "block": "block_1"
+    },
+    {
+      "type": "note",
+      "note": "note_1"
+    },
+    {
+      "type": "block_end",
+      "block": "block_1"
+    }
+  ]
+}

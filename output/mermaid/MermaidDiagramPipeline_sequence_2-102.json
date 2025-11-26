@@ -1,0 +1,524 @@
+{
+  "title": "MermaidDiagramPipeline_sequence_2-102",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "D",
+      "label": "Director",
+      "shape": "rect",
+      "pos": [
+        75.0,
+        1028.5
+      ],
+      "size": [
+        150.0,
+        65.0
+      ],
+      "kind": "participant",
+      "alias": "Director"
+    },
+    {
+      "id": "S",
+      "label": "Screenwriter",
+      "shape": "rect",
+      "pos": [
+        275.0,
+        1028.5
+      ],
+      "size": [
+        150.0,
+        65.0
+      ],
+      "kind": "participant",
+      "alias": "Screenwriter"
+    },
+    {
+      "id": "CD",
+      "label": "Casting Director",
+      "shape": "rect",
+      "pos": [
+        475.0,
+        1028.5
+      ],
+      "size": [
+        150.0,
+        65.0
+      ],
+      "kind": "participant",
+      "alias": "Casting Director"
+    },
+    {
+      "id": "A",
+      "label": "Actors",
+      "shape": "rect",
+      "pos": [
+        682.0,
+        1028.5
+      ],
+      "size": [
+        150.0,
+        65.0
+      ],
+      "kind": "participant",
+      "alias": "Actors"
+    },
+    {
+      "id": "LS",
+      "label": "Location Scout",
+      "shape": "rect",
+      "pos": [
+        882.0,
+        1028.5
+      ],
+      "size": [
+        150.0,
+        65.0
+      ],
+      "kind": "participant",
+      "alias": "Location Scout"
+    },
+    {
+      "id": "LA",
+      "label": "Local Authorities",
+      "shape": "rect",
+      "pos": [
+        1103.0,
+        1028.5
+      ],
+      "size": [
+        150.0,
+        65.0
+      ],
+      "kind": "participant",
+      "alias": "Local Authorities"
+    },
+    {
+      "id": "PM",
+      "label": "Production Manager",
+      "shape": "rect",
+      "pos": [
+        1304.0,
+        1028.5
+      ],
+      "size": [
+        152.0,
+        65.0
+      ],
+      "kind": "participant",
+      "alias": "Production Manager"
+    },
+    {
+      "id": "SD",
+      "label": "Set Designers",
+      "shape": "rect",
+      "pos": [
+        1543.0,
+        1028.5
+      ],
+      "size": [
+        150.0,
+        65.0
+      ],
+      "kind": "participant",
+      "alias": "Set Designers"
+    },
+    {
+      "id": "C",
+      "label": "Crew",
+      "shape": "rect",
+      "pos": [
+        1743.0,
+        1028.5
+      ],
+      "size": [
+        150.0,
+        65.0
+      ],
+      "kind": "participant",
+      "alias": "Crew"
+    },
+    {
+      "id": "CoD",
+      "label": "Costume Designer",
+      "shape": "rect",
+      "pos": [
+        1943.0,
+        1028.5
+      ],
+      "size": [
+        150.0,
+        65.0
+      ],
+      "kind": "participant",
+      "alias": "Costume Designer"
+    },
+    {
+      "id": "E",
+      "label": "Editor",
+      "shape": "rect",
+      "pos": [
+        2156.5,
+        1028.5
+      ],
+      "size": [
+        150.0,
+        65.0
+      ],
+      "kind": "participant",
+      "alias": "Editor"
+    },
+    {
+      "id": "note_1",
+      "label": "19th Century Alaska Historical Film Production",
+      "shape": "note",
+      "pos": [
+        1115.75,
+        957.5
+      ],
+      "size": [
+        2131.5,
+        37.0
+      ],
+      "kind": "note",
+      "notePosition": "over",
+      "participants": [
+        "D",
+        "E"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "S",
+      "to": "D",
+      "arrow": true,
+      "label": "Develop Script",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "D",
+      "to": "S",
+      "arrow": true,
+      "label": "Finalize Script",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "S",
+      "to": "D",
+      "arrow": true,
+      "label": "Revise Script",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "D",
+      "to": "CD",
+      "arrow": true,
+      "label": "Assign Roles",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "CD",
+      "to": "A",
+      "arrow": true,
+      "label": "Coordinate Auditions",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "CD",
+      "to": "D",
+      "arrow": true,
+      "label": "Confirm Cast",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "LS",
+      "to": "D",
+      "arrow": true,
+      "label": "Identify Filming Locations",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "LS",
+      "to": "LA",
+      "arrow": true,
+      "label": "Secure Filming Permits",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "PM",
+      "to": "SD",
+      "arrow": true,
+      "label": "Organize Set Construction",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "PM",
+      "to": "C",
+      "arrow": true,
+      "label": "Coordinate Daily Shoot Schedule",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "CoD",
+      "to": "D",
+      "arrow": true,
+      "label": "Design Costumes",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "CoD",
+      "to": "A",
+      "arrow": true,
+      "label": "Fittings & Alterations",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "E",
+      "to": "D",
+      "arrow": true,
+      "label": "Receive Daily Footage",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "arrow": true,
+      "label": "Review Daily Footage",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    },
+    {
+      "from": "E",
+      "to": "D",
+      "arrow": true,
+      "label": "Edit Scenes",
+      "kind": "sequence_message",
+      "arrowToken": "->>"
+    }
+  ],
+  "groups": [
+    {
+      "id": "block_1",
+      "label": "rect rgb(240, 230, 220)",
+      "nodes": [
+        "D",
+        "S"
+      ]
+    },
+    {
+      "id": "block_2",
+      "label": "rect rgb(220, 240, 230)",
+      "nodes": [
+        "A",
+        "CD",
+        "D"
+      ]
+    },
+    {
+      "id": "block_3",
+      "label": "rect rgb(230, 220, 240)",
+      "nodes": [
+        "D",
+        "LA",
+        "LS"
+      ]
+    },
+    {
+      "id": "block_4",
+      "label": "rect rgb(240, 220, 220)",
+      "nodes": [
+        "C",
+        "PM",
+        "SD"
+      ]
+    },
+    {
+      "id": "block_5",
+      "label": "rect rgb(220, 230, 240)",
+      "nodes": [
+        "A",
+        "CoD",
+        "D"
+      ]
+    },
+    {
+      "id": "block_6",
+      "label": "rect rgb(230, 240, 220)",
+      "nodes": [
+        "D",
+        "E"
+      ]
+    }
+  ],
+  "sequenceTimeline": [
+    {
+      "type": "participant",
+      "participant": "D"
+    },
+    {
+      "type": "participant",
+      "participant": "S"
+    },
+    {
+      "type": "participant",
+      "participant": "CD"
+    },
+    {
+      "type": "participant",
+      "participant": "A"
+    },
+    {
+      "type": "participant",
+      "participant": "LS"
+    },
+    {
+      "type": "participant",
+      "participant": "LA"
+    },
+    {
+      "type": "participant",
+      "participant": "PM"
+    },
+    {
+      "type": "participant",
+      "participant": "SD"
+    },
+    {
+      "type": "participant",
+      "participant": "C"
+    },
+    {
+      "type": "participant",
+      "participant": "CoD"
+    },
+    {
+      "type": "participant",
+      "participant": "E"
+    },
+    {
+      "type": "block_start",
+      "block": "block_1"
+    },
+    {
+      "type": "message",
+      "edge": "e1"
+    },
+    {
+      "type": "message",
+      "edge": "e2"
+    },
+    {
+      "type": "message",
+      "edge": "e3"
+    },
+    {
+      "type": "block_end",
+      "block": "block_1"
+    },
+    {
+      "type": "block_start",
+      "block": "block_2"
+    },
+    {
+      "type": "message",
+      "edge": "e4"
+    },
+    {
+      "type": "message",
+      "edge": "e5"
+    },
+    {
+      "type": "message",
+      "edge": "e6"
+    },
+    {
+      "type": "block_end",
+      "block": "block_2"
+    },
+    {
+      "type": "block_start",
+      "block": "block_3"
+    },
+    {
+      "type": "message",
+      "edge": "e7"
+    },
+    {
+      "type": "message",
+      "edge": "e8"
+    },
+    {
+      "type": "block_end",
+      "block": "block_3"
+    },
+    {
+      "type": "block_start",
+      "block": "block_4"
+    },
+    {
+      "type": "message",
+      "edge": "e9"
+    },
+    {
+      "type": "message",
+      "edge": "e10"
+    },
+    {
+      "type": "block_end",
+      "block": "block_4"
+    },
+    {
+      "type": "block_start",
+      "block": "block_5"
+    },
+    {
+      "type": "message",
+      "edge": "e11"
+    },
+    {
+      "type": "message",
+      "edge": "e12"
+    },
+    {
+      "type": "block_end",
+      "block": "block_5"
+    },
+    {
+      "type": "block_start",
+      "block": "block_6"
+    },
+    {
+      "type": "message",
+      "edge": "e13"
+    },
+    {
+      "type": "message",
+      "edge": "e14"
+    },
+    {
+      "type": "message",
+      "edge": "e15"
+    },
+    {
+      "type": "block_end",
+      "block": "block_6"
+    },
+    {
+      "type": "note",
+      "note": "note_1"
+    }
+  ]
+}

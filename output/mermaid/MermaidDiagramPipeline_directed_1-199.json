@@ -1,0 +1,214 @@
+{
+  "title": "MermaidDiagramPipeline_directed_1-199",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "Battery_Manufacturing",
+      "label": "Battery Manufacturing",
+      "shape": "round",
+      "pos": [
+        213.72265625,
+        35.0
+      ],
+      "fill": "#ffa07a",
+      "stroke": "#ff6347",
+      "strokeWidth": 2.0,
+      "class": "manufacturing"
+    },
+    {
+      "id": "Improper_Disposal",
+      "label": "Improper Disposal",
+      "shape": "round",
+      "pos": [
+        213.72265625,
+        139.0
+      ],
+      "fill": "#98fb98",
+      "stroke": "#32cd32",
+      "strokeWidth": 2.0,
+      "class": "disposal"
+    },
+    {
+      "id": "Toxic_Leakage",
+      "label": "Toxic Leakage",
+      "shape": "round",
+      "pos": [
+        213.72265625,
+        243.0
+      ],
+      "fill": "#87cefa",
+      "stroke": "#4169e1",
+      "strokeWidth": 2.0,
+      "class": "impact"
+    },
+    {
+      "id": "Soil_Contamination",
+      "label": "Soil Contamination",
+      "shape": "round",
+      "pos": [
+        90.1484375,
+        359.0
+      ],
+      "fill": "#87cefa",
+      "stroke": "#4169e1",
+      "strokeWidth": 2.0,
+      "class": "impact"
+    },
+    {
+      "id": "Groundwater_Contamination",
+      "label": "Groundwater Contamination",
+      "shape": "round",
+      "pos": [
+        337.296875,
+        359.0
+      ],
+      "fill": "#87cefa",
+      "stroke": "#4169e1",
+      "strokeWidth": 2.0,
+      "class": "impact"
+    },
+    {
+      "id": "Human_Health_Risks",
+      "label": "Human Health Risks",
+      "shape": "round",
+      "pos": [
+        337.296875,
+        475.0
+      ],
+      "fill": "#87cefa",
+      "stroke": "#4169e1",
+      "strokeWidth": 2.0,
+      "class": "impact"
+    },
+    {
+      "id": "Proper_Disposal",
+      "label": "Proper Disposal",
+      "shape": "round",
+      "pos": [
+        736.0,
+        35.0
+      ],
+      "fill": "#98fb98",
+      "stroke": "#32cd32",
+      "strokeWidth": 2.0,
+      "class": "disposal"
+    },
+    {
+      "id": "Recycling_Processes",
+      "label": "Recycling Processes",
+      "shape": "round",
+      "pos": [
+        617.296875,
+        139.0
+      ],
+      "fill": "#98fb98",
+      "stroke": "#32cd32",
+      "strokeWidth": 2.0,
+      "class": "disposal"
+    },
+    {
+      "id": "Resource_Recovery",
+      "label": "Resource Recovery",
+      "shape": "round",
+      "pos": [
+        617.296875,
+        243.0
+      ],
+      "fill": "#87cefa",
+      "stroke": "#4169e1",
+      "strokeWidth": 2.0,
+      "class": "impact"
+    },
+    {
+      "id": "Reduced_Environmental_Impact",
+      "label": "Reduced Environmental Impact",
+      "shape": "round",
+      "pos": [
+        617.296875,
+        359.0
+      ],
+      "fill": "#87cefa",
+      "stroke": "#4169e1",
+      "strokeWidth": 2.0,
+      "class": "impact"
+    },
+    {
+      "id": "Regulatory_Compliance",
+      "label": "Regulatory Compliance",
+      "shape": "round",
+      "pos": [
+        854.703125,
+        139.0
+      ],
+      "fill": "#dda0dd",
+      "stroke": "#8a2be2",
+      "strokeWidth": 2.0,
+      "class": "compliance"
+    }
+  ],
+  "edges": [
+    {
+      "from": "Battery_Manufacturing",
+      "to": "Improper_Disposal",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "Improper_Disposal",
+      "to": "Toxic_Leakage",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "Toxic_Leakage",
+      "to": "Soil_Contamination",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "Toxic_Leakage",
+      "to": "Groundwater_Contamination",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "Groundwater_Contamination",
+      "to": "Human_Health_Risks",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "Proper_Disposal",
+      "to": "Recycling_Processes",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "Recycling_Processes",
+      "to": "Resource_Recovery",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "Resource_Recovery",
+      "to": "Reduced_Environmental_Impact",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "Proper_Disposal",
+      "to": "Regulatory_Compliance",
+      "arrow": true,
+      "stroke": "gray",
+      "strokeWidth": 2.0
+    }
+  ]
+}

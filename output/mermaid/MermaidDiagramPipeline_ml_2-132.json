@@ -1,0 +1,233 @@
+{
+  "title": "MermaidDiagramPipeline_ml_2-132",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "1",
+      "label": "Asteroid Characteristics",
+      "shape": "rect",
+      "pos": [
+        123.46875,
+        33.5
+      ],
+      "size": [
+        207.828125,
+        51.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "box"
+    },
+    {
+      "id": "2",
+      "label": "Sample Collection Methods",
+      "shape": "rect",
+      "pos": [
+        123.46875,
+        158.5
+      ],
+      "size": [
+        230.421875,
+        51.0
+      ],
+      "fill": "#bbf",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "process"
+    },
+    {
+      "id": "3",
+      "label": "Transport to Earth",
+      "shape": "rect",
+      "pos": [
+        123.46875,
+        283.5
+      ],
+      "size": [
+        172.3125,
+        51.0
+      ],
+      "fill": "#bbf",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "process"
+    },
+    {
+      "id": "4",
+      "label": "Ecological Impact Variables",
+      "shape": "rect",
+      "pos": [
+        123.46875,
+        408.5
+      ],
+      "size": [
+        230.9375,
+        51.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "box"
+    },
+    {
+      "id": "5",
+      "label": "Machine Learning Model",
+      "shape": "rect",
+      "pos": [
+        330.6171875,
+        533.5
+      ],
+      "size": [
+        213.328125,
+        51.0
+      ],
+      "fill": "#bbf",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "process"
+    },
+    {
+      "id": "6",
+      "label": "Collected Data",
+      "shape": "rect",
+      "pos": [
+        364.8515625,
+        408.5
+      ],
+      "size": [
+        151.828125,
+        51.0
+      ],
+      "fill": "#bfb",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "data"
+    },
+    {
+      "id": "7",
+      "label": "Sensitivity Analysis",
+      "shape": "rect",
+      "pos": [
+        330.6171875,
+        658.5
+      ],
+      "size": [
+        178.28125,
+        51.0
+      ],
+      "fill": "#bbf",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "process"
+    },
+    {
+      "id": "8",
+      "label": "Predicted Ecological Outcomes",
+      "shape": "rect",
+      "pos": [
+        330.6171875,
+        783.5
+      ],
+      "size": [
+        254.546875,
+        51.0
+      ],
+      "fill": "#fbb",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "outcome"
+    },
+    {
+      "id": "9",
+      "label": "Conservation Strategies",
+      "shape": "rect",
+      "pos": [
+        244.16015625,
+        908.5
+      ],
+      "size": [
+        209.421875,
+        51.0
+      ],
+      "fill": "#fbb",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "outcome"
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2",
+      "arrow": true,
+      "label": "informs",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "2",
+      "to": "3",
+      "arrow": true,
+      "label": "leads to",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "3",
+      "to": "4",
+      "arrow": true,
+      "label": "affects",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "4",
+      "to": "5",
+      "arrow": true,
+      "label": "input for",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "6",
+      "to": "5",
+      "arrow": true,
+      "label": "trains",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "5",
+      "to": "7",
+      "arrow": true,
+      "label": "used in",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "7",
+      "to": "8",
+      "arrow": true,
+      "label": "produces",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "8",
+      "to": "9",
+      "arrow": true,
+      "label": "informs",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "4",
+      "to": "9",
+      "arrow": true,
+      "label": "factors into",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    }
+  ]
+}

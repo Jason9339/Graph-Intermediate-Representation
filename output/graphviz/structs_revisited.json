@@ -1,0 +1,57 @@
+{
+  "title": "structs",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "struct1",
+      "label": "<f0> left|<f1> middle|<f2> right",
+      "shape": "record",
+      "pos": [
+        85.5,
+        124.5
+      ],
+      "size": [
+        157.9968,
+        37.00008
+      ]
+    },
+    {
+      "id": "struct2",
+      "label": "<f0> one|<f1> two",
+      "shape": "record",
+      "pos": [
+        42.5,
+        35.0
+      ],
+      "size": [
+        85.0032,
+        37.00008
+      ]
+    },
+    {
+      "id": "struct3",
+      "label": "hello\\nworld |{ b |{c|<here> d|e}| f}| g | h",
+      "shape": "record",
+      "pos": [
+        195.5,
+        35.0
+      ],
+      "size": [
+        184.0032,
+        69.99983999999999
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "struct1",
+      "to": "struct2",
+      "arrow": true
+    },
+    {
+      "from": "struct1",
+      "to": "struct3",
+      "arrow": true
+    }
+  ]
+}

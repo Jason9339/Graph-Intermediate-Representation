@@ -1,0 +1,146 @@
+{
+  "stats": {
+    "total": 17,
+    "success": 16,
+    "failed": 0,
+    "empty": 1
+  },
+  "results": [
+    {
+      "id": "LaTeXDiagramPipeline_bio_1-54",
+      "nodes": 18,
+      "edges": 19,
+      "groups": 0,
+      "position_coverage": "18/18",
+      "svg": true
+    },
+    {
+      "id": "LaTeXDiagramPipeline_flow_1-103",
+      "nodes": 9,
+      "edges": 8,
+      "groups": 0,
+      "position_coverage": "9/9",
+      "svg": true
+    },
+    {
+      "id": "LaTeXDiagramPipeline_flow_1-173",
+      "nodes": 7,
+      "edges": 6,
+      "groups": 0,
+      "position_coverage": "7/7",
+      "svg": true
+    },
+    {
+      "id": "LaTeXDiagramPipeline_flow_1-272",
+      "nodes": 9,
+      "edges": 8,
+      "groups": 0,
+      "position_coverage": "9/9",
+      "svg": true
+    },
+    {
+      "id": "LaTeXDiagramPipeline_flow_1-387",
+      "nodes": 8,
+      "edges": 7,
+      "groups": 0,
+      "position_coverage": "8/8",
+      "svg": true
+    },
+    {
+      "id": "LaTeXDiagramPipeline_flow_1-430",
+      "nodes": 7,
+      "edges": 6,
+      "groups": 0,
+      "position_coverage": "7/7",
+      "svg": true
+    },
+    {
+      "id": "LaTeXDiagramPipeline_food_1-177",
+      "nodes": 6,
+      "edges": 8,
+      "groups": 0,
+      "position_coverage": "6/6",
+      "svg": true
+    },
+    {
+      "id": "LaTeXDiagramPipeline_food_1-82",
+      "nodes": 11,
+      "edges": 10,
+      "groups": 0,
+      "position_coverage": "11/11",
+      "svg": true
+    },
+    {
+      "id": "LaTeXDiagramPipeline_fsm_1-247",
+      "nodes": 9,
+      "edges": 8,
+      "groups": 0,
+      "position_coverage": "9/9",
+      "svg": true
+    },
+    {
+      "id": "LaTeXDiagramPipeline_fsm_1-329",
+      "nodes": 5,
+      "edges": 5,
+      "groups": 0,
+      "position_coverage": "5/5",
+      "svg": true
+    },
+    {
+      "id": "LaTeXDiagramPipeline_math_0-4",
+      "nodes": 9,
+      "edges": 8,
+      "groups": 0,
+      "position_coverage": "9/9",
+      "svg": true
+    },
+    {
+      "id": "LaTeXDiagramPipeline_mind_1-131",
+      "nodes": 1,
+      "edges": 0,
+      "groups": 0,
+      "position_coverage": "0/1",
+      "svg": true
+    },
+    {
+      "id": "LaTeXDiagramPipeline_mind_1-351",
+      "nodes": 0,
+      "edges": 0,
+      "groups": 0,
+      "position_coverage": "0/0",
+      "svg": false
+    },
+    {
+      "id": "LaTeXDiagramPipeline_ml_2-47",
+      "nodes": 14,
+      "edges": 16,
+      "groups": 0,
+      "position_coverage": "14/14",
+      "svg": true
+    },
+    {
+      "id": "LaTeXDiagramPipeline_natural_1-67",
+      "nodes": 8,
+      "edges": 7,
+      "groups": 0,
+      "position_coverage": "8/8",
+      "svg": true
+    },
+    {
+      "id": "LaTeXDiagramPipeline_textbook_2-18",
+      "nodes": 8,
+      "edges": 7,
+      "groups": 0,
+      "position_coverage": "8/8",
+      "svg": true
+    },
+    {
+      "id": "LaTeXDiagramPipeline_textbook_5-24",
+      "nodes": 19,
+      "edges": 13,
+      "groups": 0,
+      "position_coverage": "19/19",
+      "svg": true
+    }
+  ]
+}

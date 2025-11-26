@@ -1,0 +1,595 @@
+{
+  "title": "MermaidDiagramPipeline_Clinical_2-101",
+  "orientation": "TD",
+  "nodes": [
+    {
+      "id": "A",
+      "label": "Farming",
+      "shape": "rect",
+      "pos": [
+        264.171875,
+        139.0
+      ],
+      "size": [
+        123.125,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "stage"
+    },
+    {
+      "id": "B",
+      "label": "Harvesting",
+      "shape": "rect",
+      "pos": [
+        377.63671875,
+        255.0
+      ],
+      "size": [
+        142.703125,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "stage"
+    },
+    {
+      "id": "C",
+      "label": "Processing",
+      "shape": "rect",
+      "pos": [
+        503.3125,
+        371.0
+      ],
+      "size": [
+        146.265625,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "stage"
+    },
+    {
+      "id": "D",
+      "label": "Drying",
+      "shape": "rect",
+      "pos": [
+        629.67578125,
+        487.0
+      ],
+      "size": [
+        110.671875,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "stage"
+    },
+    {
+      "id": "E",
+      "label": "Milling",
+      "shape": "rect",
+      "pos": [
+        747.34375,
+        615.0
+      ],
+      "size": [
+        110.65625,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "stage"
+    },
+    {
+      "id": "F",
+      "label": "Exporting",
+      "shape": "rect",
+      "pos": [
+        861.25,
+        743.0
+      ],
+      "size": [
+        134.671875,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "stage"
+    },
+    {
+      "id": "G",
+      "label": "Roasting",
+      "shape": "rect",
+      "pos": [
+        988.6328125,
+        871.0
+      ],
+      "size": [
+        128.453125,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "stage"
+    },
+    {
+      "id": "H",
+      "label": "Brewing",
+      "shape": "rect",
+      "pos": [
+        1354.12109375,
+        987.0
+      ],
+      "size": [
+        123.125,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "stage"
+    },
+    {
+      "id": "A1",
+      "label": "Quality: Organic fertilizers",
+      "shape": "rect",
+      "pos": [
+        129.5859375,
+        35.0
+      ],
+      "size": [
+        243.171875,
+        54.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "qc"
+    },
+    {
+      "id": "A2",
+      "label": "Sustain: Fair Trade",
+      "shape": "rect",
+      "pos": [
+        398.7578125,
+        35.0
+      ],
+      "size": [
+        195.171875,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "sus"
+    },
+    {
+      "id": "B1",
+      "label": "Quality: Sorting cherries",
+      "shape": "rect",
+      "pos": [
+        491.1015625,
+        139.0
+      ],
+      "size": [
+        230.734375,
+        54.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "qc"
+    },
+    {
+      "id": "B2",
+      "label": "Sustain: Fair wages",
+      "shape": "rect",
+      "pos": [
+        756.7265625,
+        139.0
+      ],
+      "size": [
+        200.515625,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "sus"
+    },
+    {
+      "id": "C1",
+      "label": "Quality: Controlled fermentation",
+      "shape": "rect",
+      "pos": [
+        628.98828125,
+        255.0
+      ],
+      "size": [
+        260.0,
+        78.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "qc"
+    },
+    {
+      "id": "C2",
+      "label": "Sustain: Water recycling",
+      "shape": "rect",
+      "pos": [
+        924.94921875,
+        255.0
+      ],
+      "size": [
+        231.921875,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "sus"
+    },
+    {
+      "id": "D1",
+      "label": "Quality: Moisture monitoring",
+      "shape": "rect",
+      "pos": [
+        756.0390625,
+        371.0
+      ],
+      "size": [
+        259.1875,
+        54.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "qc"
+    },
+    {
+      "id": "D2",
+      "label": "Sustain: Solar drying",
+      "shape": "rect",
+      "pos": [
+        1039.453125,
+        371.0
+      ],
+      "size": [
+        207.640625,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "sus"
+    },
+    {
+      "id": "E1",
+      "label": "Quality: Size & imperfection checks",
+      "shape": "rect",
+      "pos": [
+        865.01171875,
+        487.0
+      ],
+      "size": [
+        260.0,
+        78.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "qc"
+    },
+    {
+      "id": "E2",
+      "label": "Sustain: Energy-efficient machinery",
+      "shape": "rect",
+      "pos": [
+        1175.01171875,
+        487.0
+      ],
+      "size": [
+        260.0,
+        78.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "sus"
+    },
+    {
+      "id": "F1",
+      "label": "Quality: Batch certification",
+      "shape": "rect",
+      "pos": [
+        975.15625,
+        615.0
+      ],
+      "size": [
+        244.96875,
+        54.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "qc"
+    },
+    {
+      "id": "F2",
+      "label": "Sustain: Eco-friendly packaging",
+      "shape": "rect",
+      "pos": [
+        1277.640625,
+        615.0
+      ],
+      "size": [
+        260.0,
+        78.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "sus"
+    },
+    {
+      "id": "G1",
+      "label": "Quality: Roast tests",
+      "shape": "rect",
+      "pos": [
+        1077.9453125,
+        743.0
+      ],
+      "size": [
+        198.71875,
+        54.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "qc"
+    },
+    {
+      "id": "G2",
+      "label": "Sustain: Energy-efficient roasters",
+      "shape": "rect",
+      "pos": [
+        1357.3046875,
+        743.0
+      ],
+      "size": [
+        260.0,
+        78.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "sus"
+    },
+    {
+      "id": "H1",
+      "label": "Quality: Water checks",
+      "shape": "rect",
+      "pos": [
+        1210.3671875,
+        871.0
+      ],
+      "size": [
+        215.015625,
+        54.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "qc"
+    },
+    {
+      "id": "H2",
+      "label": "Sustain: Composting grounds",
+      "shape": "rect",
+      "pos": [
+        1497.875,
+        871.0
+      ],
+      "size": [
+        260.0,
+        78.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "sus"
+    }
+  ],
+  "edges": [
+    {
+      "from": "A",
+      "to": "B",
+      "arrow": true
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "arrow": true
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "arrow": true
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "arrow": true
+    },
+    {
+      "from": "E",
+      "to": "F",
+      "arrow": true
+    },
+    {
+      "from": "F",
+      "to": "G",
+      "arrow": true
+    },
+    {
+      "from": "G",
+      "to": "H",
+      "arrow": true
+    },
+    {
+      "from": "A1",
+      "to": "A",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "A2",
+      "to": "A",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "B1",
+      "to": "B",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "B2",
+      "to": "B",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "C1",
+      "to": "C",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "C2",
+      "to": "C",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "D1",
+      "to": "D",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "D2",
+      "to": "D",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "E1",
+      "to": "E",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "E2",
+      "to": "E",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "F1",
+      "to": "F",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "F2",
+      "to": "F",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "G1",
+      "to": "G",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "G2",
+      "to": "G",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "H1",
+      "to": "H",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    },
+    {
+      "from": "H2",
+      "to": "H",
+      "arrow": true,
+      "dash": [
+        6.0,
+        4.0
+      ]
+    }
+  ]
+}

@@ -1,0 +1,130 @@
+{
+  "stats": {
+    "total": 15,
+    "success": 14,
+    "failed": 0,
+    "empty": 1
+  },
+  "results": [
+    {
+      "id": "btree",
+      "nodes": 9,
+      "edges": 8,
+      "groups": 0,
+      "position_coverage": "9/9",
+      "svg": true
+    },
+    {
+      "id": "cluster",
+      "nodes": 10,
+      "edges": 13,
+      "groups": 2,
+      "position_coverage": "10/10",
+      "svg": true
+    },
+    {
+      "id": "cluster_edge",
+      "nodes": 8,
+      "edges": 11,
+      "groups": 2,
+      "position_coverage": "8/8",
+      "svg": true
+    },
+    {
+      "id": "colors",
+      "nodes": 4,
+      "edges": 0,
+      "groups": 0,
+      "position_coverage": "4/4",
+      "svg": true
+    },
+    {
+      "id": "er",
+      "nodes": 12,
+      "edges": 12,
+      "groups": 0,
+      "position_coverage": "12/12",
+      "svg": true
+    },
+    {
+      "id": "fdpclust",
+      "nodes": 9,
+      "edges": 6,
+      "groups": 3,
+      "position_coverage": "9/9",
+      "svg": true
+    },
+    {
+      "id": "fsm",
+      "nodes": 9,
+      "edges": 14,
+      "groups": 0,
+      "position_coverage": "9/9",
+      "svg": true
+    },
+    {
+      "id": "g_c_n",
+      "nodes": 1,
+      "edges": 0,
+      "groups": 1,
+      "position_coverage": "1/1",
+      "svg": true
+    },
+    {
+      "id": "hello",
+      "nodes": 2,
+      "edges": 1,
+      "groups": 0,
+      "position_coverage": "2/2",
+      "svg": true
+    },
+    {
+      "id": "process",
+      "nodes": 10,
+      "edges": 13,
+      "groups": 0,
+      "position_coverage": "10/10",
+      "svg": true
+    },
+    {
+      "id": "rank_same",
+      "nodes": 6,
+      "edges": 4,
+      "groups": 2,
+      "position_coverage": "6/6",
+      "svg": true
+    },
+    {
+      "id": "structs",
+      "nodes": 0,
+      "edges": 0,
+      "groups": 0,
+      "position_coverage": "0/0",
+      "svg": false
+    },
+    {
+      "id": "structs_revisited",
+      "nodes": 3,
+      "edges": 2,
+      "groups": 0,
+      "position_coverage": "3/3",
+      "svg": true
+    },
+    {
+      "id": "traffic_lights",
+      "nodes": 14,
+      "edges": 16,
+      "groups": 0,
+      "position_coverage": "14/14",
+      "svg": true
+    },
+    {
+      "id": "unix",
+      "nodes": 41,
+      "edges": 49,
+      "groups": 0,
+      "position_coverage": "41/41",
+      "svg": true
+    }
+  ]
+}

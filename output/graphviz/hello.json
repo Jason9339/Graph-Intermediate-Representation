@@ -1,0 +1,39 @@
+{
+  "title": "G",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "Hello",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        38.347,
+        90.0
+      ],
+      "size": [
+        70.19352,
+        36.0
+      ]
+    },
+    {
+      "id": "World",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        38.347,
+        18.0
+      ],
+      "size": [
+        76.6944,
+        36.0
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "Hello",
+      "to": "World",
+      "arrow": true
+    }
+  ]
+}

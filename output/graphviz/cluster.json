@@ -1,0 +1,243 @@
+{
+  "title": "G",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "a0",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        68.0,
+        313.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ],
+      "stroke": "white"
+    },
+    {
+      "id": "a1",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        68.0,
+        241.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ],
+      "stroke": "white"
+    },
+    {
+      "id": "a2",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        67.0,
+        169.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ],
+      "stroke": "white"
+    },
+    {
+      "id": "a3",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        68.0,
+        97.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ],
+      "stroke": "white"
+    },
+    {
+      "id": "b0",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        150.0,
+        313.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "b1",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        163.0,
+        241.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "b2",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        177.0,
+        169.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "b3",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        150.0,
+        97.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "start",
+      "label": "\\N",
+      "shape": "diamond",
+      "pos": [
+        109.0,
+        388.0
+      ],
+      "size": [
+        93.7512,
+        36.0
+      ]
+    },
+    {
+      "id": "end",
+      "label": "\\N",
+      "shape": "rect",
+      "pos": [
+        109.0,
+        21.5
+      ],
+      "size": [
+        42.99984,
+        42.99984
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "a0",
+      "to": "a1",
+      "arrow": true
+    },
+    {
+      "from": "a1",
+      "to": "a2",
+      "arrow": true
+    },
+    {
+      "from": "a1",
+      "to": "b3",
+      "arrow": true
+    },
+    {
+      "from": "a2",
+      "to": "a3",
+      "arrow": true
+    },
+    {
+      "from": "a3",
+      "to": "a0",
+      "arrow": true
+    },
+    {
+      "from": "a3",
+      "to": "end",
+      "arrow": true
+    },
+    {
+      "from": "b0",
+      "to": "b1",
+      "arrow": true
+    },
+    {
+      "from": "b1",
+      "to": "b2",
+      "arrow": true
+    },
+    {
+      "from": "b2",
+      "to": "a3",
+      "arrow": true
+    },
+    {
+      "from": "b2",
+      "to": "b3",
+      "arrow": true
+    },
+    {
+      "from": "b3",
+      "to": "end",
+      "arrow": true
+    },
+    {
+      "from": "start",
+      "to": "a0",
+      "arrow": true
+    },
+    {
+      "from": "start",
+      "to": "b0",
+      "arrow": true
+    }
+  ],
+  "groups": [
+    {
+      "id": "cluster_0",
+      "label": "process #1",
+      "nodes": [
+        "a0",
+        "a1",
+        "a2",
+        "a3"
+      ],
+      "fill": "lightgrey",
+      "boundingBox": {
+        "x": 8.0,
+        "y": 71.0,
+        "width": 97.0,
+        "height": 291.0
+      }
+    },
+    {
+      "id": "cluster_1",
+      "label": "process #2",
+      "nodes": [
+        "b0",
+        "b1",
+        "b2",
+        "b3"
+      ],
+      "fill": "blue",
+      "boundingBox": {
+        "x": 115.0,
+        "y": 71.0,
+        "width": 97.0,
+        "height": 291.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,647 @@
+{
+  "title": "MermaidDiagramPipeline_Concept_2-22",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "root",
+      "label": "(Managing<br>Parenting Time)",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "weekday_schedule",
+      "label": "Weekday Schedule",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "alternating_days",
+      "label": "Alternating Days",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "monday_wednesday_friday_with_dad",
+      "label": "Monday, Wednesday, Friday with Dad",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "tuesday_thursday_with_mom",
+      "label": "Tuesday, Thursday with Mom",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "regular_childcare",
+      "label": "Regular Childcare",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "after_school_program",
+      "label": "After School Program",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "babysitter_on_thursdays",
+      "label": "Babysitter on Thursdays",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "weekend_schedule",
+      "label": "Weekend Schedule",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "alternating_weekends",
+      "label": "Alternating Weekends",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "weekend_1_with_mom",
+      "label": "Weekend 1 with Mom",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "weekend_2_with_dad",
+      "label": "Weekend 2 with Dad",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "special_activities",
+      "label": "Special Activities",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "sports_practice",
+      "label": "Sports Practice",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "play_dates",
+      "label": "Play Dates",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "holidays",
+      "label": "Holidays",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "even_year",
+      "label": "Even Year",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "christmas_with_dad",
+      "label": "Christmas with Dad",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "new_year_s_with_mom",
+      "label": "New Year's with Mom",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "odd_year",
+      "label": "Odd Year",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "thanksgiving_with_mom",
+      "label": "Thanksgiving with Mom",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "easter_with_dad",
+      "label": "Easter with Dad",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "other_holidays",
+      "label": "Other Holidays",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "mother_s_day_with_mom",
+      "label": "Mother's Day with Mom",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "father_s_day_with_dad",
+      "label": "Father's Day with Dad",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "vacations",
+      "label": "Vacations",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "summer_break",
+      "label": "Summer Break",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "first_half_two_weeks_with_dad",
+      "label": "First Half: Two Weeks with Dad",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "second_half_two_weeks_with_mom",
+      "label": "Second Half: Two Weeks with Mom",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "spring_break",
+      "label": "Spring Break",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "even_year_with_dad",
+      "label": "Even Year: With Dad",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "odd_year_with_mom",
+      "label": "Odd Year: With Mom",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "communication",
+      "label": "Communication",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "regular_updates",
+      "label": "Regular Updates",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "weekly_call_with_other_parent",
+      "label": "Weekly Call with Other Parent",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "monthly_in_person_meeting",
+      "label": "Monthly In-Person Meeting",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "emergency_changes",
+      "label": "Emergency Changes",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "immediate_phone_call",
+      "label": "Immediate Phone Call",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "email_confirmation",
+      "label": "Email Confirmation",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "emotional_well_being",
+      "label": "Emotional Well-being",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "counseling",
+      "label": "Counseling",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "monthly_session_with_therapist",
+      "label": "Monthly Session with Therapist",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "school_counselor_availability",
+      "label": "School Counselor Availability",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "quality_time",
+      "label": "Quality Time",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "daily_quality_time_with_parent",
+      "label": "Daily Quality Time with Parent",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "special_one_on_one_outings",
+      "label": "Special One-on-One Outings",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "root",
+      "to": "weekday_schedule",
+      "arrow": true
+    },
+    {
+      "from": "weekday_schedule",
+      "to": "alternating_days",
+      "arrow": true
+    },
+    {
+      "from": "alternating_days",
+      "to": "monday_wednesday_friday_with_dad",
+      "arrow": true
+    },
+    {
+      "from": "alternating_days",
+      "to": "tuesday_thursday_with_mom",
+      "arrow": true
+    },
+    {
+      "from": "weekday_schedule",
+      "to": "regular_childcare",
+      "arrow": true
+    },
+    {
+      "from": "regular_childcare",
+      "to": "after_school_program",
+      "arrow": true
+    },
+    {
+      "from": "regular_childcare",
+      "to": "babysitter_on_thursdays",
+      "arrow": true
+    },
+    {
+      "from": "root",
+      "to": "weekend_schedule",
+      "arrow": true
+    },
+    {
+      "from": "weekend_schedule",
+      "to": "alternating_weekends",
+      "arrow": true
+    },
+    {
+      "from": "alternating_weekends",
+      "to": "weekend_1_with_mom",
+      "arrow": true
+    },
+    {
+      "from": "alternating_weekends",
+      "to": "weekend_2_with_dad",
+      "arrow": true
+    },
+    {
+      "from": "weekend_schedule",
+      "to": "special_activities",
+      "arrow": true
+    },
+    {
+      "from": "special_activities",
+      "to": "sports_practice",
+      "arrow": true
+    },
+    {
+      "from": "special_activities",
+      "to": "play_dates",
+      "arrow": true
+    },
+    {
+      "from": "root",
+      "to": "holidays",
+      "arrow": true
+    },
+    {
+      "from": "holidays",
+      "to": "even_year",
+      "arrow": true
+    },
+    {
+      "from": "even_year",
+      "to": "christmas_with_dad",
+      "arrow": true
+    },
+    {
+      "from": "even_year",
+      "to": "new_year_s_with_mom",
+      "arrow": true
+    },
+    {
+      "from": "holidays",
+      "to": "odd_year",
+      "arrow": true
+    },
+    {
+      "from": "odd_year",
+      "to": "thanksgiving_with_mom",
+      "arrow": true
+    },
+    {
+      "from": "odd_year",
+      "to": "easter_with_dad",
+      "arrow": true
+    },
+    {
+      "from": "holidays",
+      "to": "other_holidays",
+      "arrow": true
+    },
+    {
+      "from": "other_holidays",
+      "to": "mother_s_day_with_mom",
+      "arrow": true
+    },
+    {
+      "from": "other_holidays",
+      "to": "father_s_day_with_dad",
+      "arrow": true
+    },
+    {
+      "from": "root",
+      "to": "vacations",
+      "arrow": true
+    },
+    {
+      "from": "vacations",
+      "to": "summer_break",
+      "arrow": true
+    },
+    {
+      "from": "summer_break",
+      "to": "first_half_two_weeks_with_dad",
+      "arrow": true
+    },
+    {
+      "from": "summer_break",
+      "to": "second_half_two_weeks_with_mom",
+      "arrow": true
+    },
+    {
+      "from": "vacations",
+      "to": "spring_break",
+      "arrow": true
+    },
+    {
+      "from": "spring_break",
+      "to": "even_year_with_dad",
+      "arrow": true
+    },
+    {
+      "from": "spring_break",
+      "to": "odd_year_with_mom",
+      "arrow": true
+    },
+    {
+      "from": "root",
+      "to": "communication",
+      "arrow": true
+    },
+    {
+      "from": "communication",
+      "to": "regular_updates",
+      "arrow": true
+    },
+    {
+      "from": "regular_updates",
+      "to": "weekly_call_with_other_parent",
+      "arrow": true
+    },
+    {
+      "from": "regular_updates",
+      "to": "monthly_in_person_meeting",
+      "arrow": true
+    },
+    {
+      "from": "communication",
+      "to": "emergency_changes",
+      "arrow": true
+    },
+    {
+      "from": "emergency_changes",
+      "to": "immediate_phone_call",
+      "arrow": true
+    },
+    {
+      "from": "emergency_changes",
+      "to": "email_confirmation",
+      "arrow": true
+    },
+    {
+      "from": "root",
+      "to": "emotional_well_being",
+      "arrow": true
+    },
+    {
+      "from": "emotional_well_being",
+      "to": "counseling",
+      "arrow": true
+    },
+    {
+      "from": "counseling",
+      "to": "monthly_session_with_therapist",
+      "arrow": true
+    },
+    {
+      "from": "counseling",
+      "to": "school_counselor_availability",
+      "arrow": true
+    },
+    {
+      "from": "emotional_well_being",
+      "to": "quality_time",
+      "arrow": true
+    },
+    {
+      "from": "quality_time",
+      "to": "daily_quality_time_with_parent",
+      "arrow": true
+    },
+    {
+      "from": "quality_time",
+      "to": "special_one_on_one_outings",
+      "arrow": true
+    }
+  ]
+}

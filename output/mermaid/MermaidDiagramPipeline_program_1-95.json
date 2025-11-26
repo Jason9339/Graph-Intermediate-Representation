@@ -1,0 +1,275 @@
+{
+  "title": "MermaidDiagramPipeline_program_1-95",
+  "orientation": "TD",
+  "nodes": [
+    {
+      "id": "A",
+      "label": "schedule_and_manage_chores",
+      "shape": "rect",
+      "pos": [
+        447.59765625,
+        139.0
+      ],
+      "size": [
+        283.28125,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "B",
+      "label": "InitializeSchedule",
+      "shape": "diamond",
+      "pos": [
+        120.8203125,
+        305.265625
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "C",
+      "label": "SortChoresByPriority",
+      "shape": "diamond",
+      "pos": [
+        120.8203125,
+        546.21875
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "D",
+      "label": "DistributeChores",
+      "shape": "diamond",
+      "pos": [
+        120.8203125,
+        784.484375
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "E",
+      "label": "CreateReminders",
+      "shape": "diamond",
+      "pos": [
+        120.8203125,
+        1010.7578125
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "F",
+      "label": "UpdateSchedule",
+      "shape": "diamond",
+      "pos": [
+        120.8203125,
+        1236.609375
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "G",
+      "label": "CheckCompletionStatus",
+      "shape": "diamond",
+      "pos": [
+        120.8203125,
+        1485.5859375
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "H",
+      "label": "LogChoreCompletion",
+      "shape": "diamond",
+      "pos": [
+        120.8203125,
+        1751.0078125
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "I1",
+      "label": "family_members",
+      "shape": "rect",
+      "pos": [
+        251.5625,
+        35.0
+      ],
+      "size": [
+        177.359375,
+        54.0
+      ],
+      "fill": "#bbf",
+      "stroke": "#f66",
+      "strokeWidth": 2.0,
+      "class": "input"
+    },
+    {
+      "id": "I2",
+      "label": "chores_list",
+      "shape": "rect",
+      "pos": [
+        458.484375,
+        35.0
+      ],
+      "size": [
+        136.484375,
+        54.0
+      ],
+      "fill": "#bbf",
+      "stroke": "#f66",
+      "strokeWidth": 2.0,
+      "class": "input"
+    },
+    {
+      "id": "I3",
+      "label": "availability",
+      "shape": "rect",
+      "pos": [
+        643.6328125,
+        35.0
+      ],
+      "size": [
+        133.8125,
+        54.0
+      ],
+      "fill": "#bbf",
+      "stroke": "#f66",
+      "strokeWidth": 2.0,
+      "class": "input"
+    },
+    {
+      "id": "O1",
+      "label": "chore_schedule",
+      "shape": "rect",
+      "pos": [
+        346.5703125,
+        305.265625
+      ],
+      "size": [
+        172.96875,
+        54.0
+      ],
+      "fill": "#bfb",
+      "stroke": "#f66",
+      "strokeWidth": 2.0,
+      "class": "output"
+    },
+    {
+      "id": "O2",
+      "label": "reminders",
+      "shape": "rect",
+      "pos": [
+        548.625,
+        305.265625
+      ],
+      "size": [
+        131.140625,
+        54.0
+      ],
+      "fill": "#bfb",
+      "stroke": "#f66",
+      "strokeWidth": 2.0,
+      "class": "output"
+    },
+    {
+      "id": "O3",
+      "label": "completion_status",
+      "shape": "rect",
+      "pos": [
+        758.6796875,
+        305.265625
+      ],
+      "size": [
+        188.96875,
+        54.0
+      ],
+      "fill": "#bfb",
+      "stroke": "#f66",
+      "strokeWidth": 2.0,
+      "class": "output"
+    }
+  ],
+  "edges": [
+    {
+      "from": "A",
+      "to": "B",
+      "arrow": true
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "arrow": true
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "arrow": true
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "arrow": true
+    },
+    {
+      "from": "E",
+      "to": "F",
+      "arrow": true
+    },
+    {
+      "from": "F",
+      "to": "G",
+      "arrow": true
+    },
+    {
+      "from": "G",
+      "to": "H",
+      "arrow": true
+    },
+    {
+      "from": "I1",
+      "to": "A",
+      "arrow": true
+    },
+    {
+      "from": "I2",
+      "to": "A",
+      "arrow": true
+    },
+    {
+      "from": "I3",
+      "to": "A",
+      "arrow": true
+    },
+    {
+      "from": "A",
+      "to": "O1",
+      "arrow": true
+    },
+    {
+      "from": "A",
+      "to": "O2",
+      "arrow": true
+    },
+    {
+      "from": "A",
+      "to": "O3",
+      "arrow": true
+    }
+  ]
+}

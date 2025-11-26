@@ -1,0 +1,233 @@
+{
+  "title": "ER",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "course",
+      "label": "\\N",
+      "shape": "rect",
+      "pos": [
+        291.4,
+        553.0
+      ],
+      "size": [
+        64.00008,
+        36.0
+      ]
+    },
+    {
+      "id": "institute",
+      "label": "\\N",
+      "shape": "rect",
+      "pos": [
+        243.4,
+        379.0
+      ],
+      "size": [
+        76.9968,
+        36.0
+      ]
+    },
+    {
+      "id": "student",
+      "label": "\\N",
+      "shape": "rect",
+      "pos": [
+        230.4,
+        205.0
+      ],
+      "size": [
+        70.99992,
+        36.0
+      ]
+    },
+    {
+      "id": "name0",
+      "label": "name",
+      "shape": "ellipse",
+      "pos": [
+        248.4,
+        626.0
+      ],
+      "size": [
+        72.79199999999999,
+        36.0
+      ]
+    },
+    {
+      "id": "name1",
+      "label": "name",
+      "shape": "ellipse",
+      "pos": [
+        156.4,
+        292.0
+      ],
+      "size": [
+        72.79199999999999,
+        36.0
+      ]
+    },
+    {
+      "id": "name2",
+      "label": "name",
+      "shape": "ellipse",
+      "pos": [
+        36.397,
+        118.0
+      ],
+      "size": [
+        72.79199999999999,
+        36.0
+      ]
+    },
+    {
+      "id": "code",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        335.4,
+        626.0
+      ],
+      "size": [
+        64.9944,
+        36.0
+      ]
+    },
+    {
+      "id": "grade",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        128.4,
+        118.0
+      ],
+      "size": [
+        75.3912,
+        36.0
+      ]
+    },
+    {
+      "id": "number",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        230.4,
+        118.0
+      ],
+      "size": [
+        93.59280000000001,
+        36.0
+      ]
+    },
+    {
+      "id": "C-I",
+      "label": "\\N",
+      "shape": "diamond",
+      "pos": [
+        255.4,
+        466.0
+      ],
+      "size": [
+        68.01768,
+        36.0
+      ],
+      "stroke": "lightgrey"
+    },
+    {
+      "id": "S-C",
+      "label": "\\N",
+      "shape": "diamond",
+      "pos": [
+        332.4,
+        118.0
+      ],
+      "size": [
+        75.36959999999999,
+        36.0
+      ],
+      "stroke": "lightgrey"
+    },
+    {
+      "id": "S-I",
+      "label": "\\N",
+      "shape": "diamond",
+      "pos": [
+        243.4,
+        292.0
+      ],
+      "size": [
+        66.17952,
+        36.0
+      ],
+      "stroke": "lightgrey"
+    }
+  ],
+  "edges": [
+    {
+      "from": "course",
+      "to": "C-I",
+      "arrow": false,
+      "label": "n"
+    },
+    {
+      "from": "institute",
+      "to": "name1",
+      "arrow": false
+    },
+    {
+      "from": "institute",
+      "to": "S-I",
+      "arrow": false,
+      "label": "1"
+    },
+    {
+      "from": "student",
+      "to": "name2",
+      "arrow": false
+    },
+    {
+      "from": "student",
+      "to": "grade",
+      "arrow": false
+    },
+    {
+      "from": "student",
+      "to": "number",
+      "arrow": false
+    },
+    {
+      "from": "student",
+      "to": "S-C",
+      "arrow": false,
+      "label": "m"
+    },
+    {
+      "from": "name0",
+      "to": "course",
+      "arrow": false
+    },
+    {
+      "from": "code",
+      "to": "course",
+      "arrow": false
+    },
+    {
+      "from": "C-I",
+      "to": "institute",
+      "arrow": false,
+      "label": "1"
+    },
+    {
+      "from": "S-C",
+      "to": "course",
+      "arrow": false,
+      "label": "n"
+    },
+    {
+      "from": "S-I",
+      "to": "student",
+      "arrow": false,
+      "label": "n"
+    }
+  ]
+}

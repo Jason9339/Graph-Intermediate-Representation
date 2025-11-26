@@ -1,0 +1,251 @@
+{
+  "title": "MermaidDiagramPipeline_natural_2-52",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "stellar_nurseries",
+      "label": "Stellar Nurseries",
+      "shape": "rect",
+      "pos": [
+        388.44921875,
+        35.0
+      ],
+      "size": [
+        178.265625,
+        54.0
+      ],
+      "fill": "#fcf",
+      "stroke": "#633",
+      "strokeWidth": 3.0,
+      "class": "cosmic"
+    },
+    {
+      "id": "nebulae",
+      "label": "Nebulae",
+      "shape": "rect",
+      "pos": [
+        180.16015625,
+        163.0
+      ],
+      "size": [
+        119.609375,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "protostar",
+      "label": "Protostar",
+      "shape": "rect",
+      "pos": [
+        180.16015625,
+        291.0
+      ],
+      "size": [
+        124.921875,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "main_sequence_star",
+      "label": "Main Sequence Star",
+      "shape": "rect",
+      "pos": [
+        180.16015625,
+        419.0
+      ],
+      "size": [
+        204.984375,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "red_giant",
+      "label": "Red Giant",
+      "shape": "rect",
+      "pos": [
+        180.16015625,
+        547.0
+      ],
+      "size": [
+        132.046875,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "supernova",
+      "label": "Supernova",
+      "shape": "rect",
+      "pos": [
+        180.16015625,
+        675.0
+      ],
+      "size": [
+        137.390625,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "neutron_star",
+      "label": "Neutron Star",
+      "shape": "rect",
+      "pos": [
+        83.359375,
+        803.0
+      ],
+      "size": [
+        150.71875,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "black_hole",
+      "label": "Black Hole",
+      "shape": "rect",
+      "pos": [
+        276.9609375,
+        803.0
+      ],
+      "size": [
+        136.484375,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "human_connection",
+      "label": "Human Connection",
+      "shape": "rect",
+      "pos": [
+        388.44921875,
+        163.0
+      ],
+      "size": [
+        196.96875,
+        54.0
+      ],
+      "fill": "#cff",
+      "stroke": "#366",
+      "strokeWidth": 3.0,
+      "class": "human"
+    },
+    {
+      "id": "cosmic_origins",
+      "label": "Cosmic Origins",
+      "shape": "rect",
+      "pos": [
+        484.31640625,
+        291.0
+      ],
+      "size": [
+        168.46875,
+        54.0
+      ],
+      "fill": "#fcf",
+      "stroke": "#633",
+      "strokeWidth": 3.0,
+      "class": "cosmic"
+    }
+  ],
+  "edges": [
+    {
+      "from": "stellar_nurseries",
+      "to": "nebulae",
+      "arrow": true,
+      "label": "form from",
+      "stroke": "blue",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "nebulae",
+      "to": "protostar",
+      "arrow": true,
+      "label": "collapse and form",
+      "stroke": "blue",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "protostar",
+      "to": "main_sequence_star",
+      "arrow": true,
+      "label": "matures into",
+      "stroke": "blue",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "main_sequence_star",
+      "to": "red_giant",
+      "arrow": true,
+      "label": "expands into",
+      "stroke": "blue",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "red_giant",
+      "to": "supernova",
+      "arrow": true,
+      "label": "may explode into",
+      "stroke": "blue",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "supernova",
+      "to": "neutron_star",
+      "arrow": true,
+      "label": "can form",
+      "stroke": "blue",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "supernova",
+      "to": "black_hole",
+      "arrow": true,
+      "label": "may collapse into",
+      "stroke": "blue",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "stellar_nurseries",
+      "to": "human_connection",
+      "arrow": true,
+      "label": "create elements for",
+      "stroke": "#f66",
+      "strokeWidth": 3.0
+    },
+    {
+      "from": "human_connection",
+      "to": "cosmic_origins",
+      "arrow": true,
+      "label": "explains",
+      "stroke": "#f66",
+      "strokeWidth": 3.0
+    },
+    {
+      "from": "stellar_nurseries",
+      "to": "cosmic_origins",
+      "arrow": true,
+      "label": "start the cycle of",
+      "stroke": "#f66",
+      "strokeWidth": 3.0
+    }
+  ]
+}

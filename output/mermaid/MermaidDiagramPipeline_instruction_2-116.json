@@ -1,0 +1,487 @@
+{
+  "title": "MermaidDiagramPipeline_instruction_2-116",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "direction",
+      "shape": "rect",
+      "pos": [
+        115.03125,
+        71.0
+      ],
+      "size": [
+        144.0625,
+        51.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "IP1",
+      "label": "Select Cities",
+      "shape": "rect",
+      "pos": [
+        111.90625,
+        71.0
+      ],
+      "size": [
+        137.8125,
+        51.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "IP2",
+      "label": "Book Venues",
+      "shape": "rect",
+      "pos": [
+        302.0703125,
+        71.0
+      ],
+      "size": [
+        142.515625,
+        51.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "IP3",
+      "label": "Set Tour Dates",
+      "shape": "rect",
+      "pos": [
+        499.5078125,
+        71.0
+      ],
+      "size": [
+        152.359375,
+        51.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "IP",
+      "shape": "rect",
+      "pos": [
+        308.703125,
+        71.0
+      ],
+      "size": [
+        143.28125,
+        51.0
+      ],
+      "fill": "#efa8b0",
+      "stroke": "#333",
+      "strokeWidth": 3.0,
+      "class": "stage"
+    },
+    {
+      "id": "LF1",
+      "label": "Obtain Permits",
+      "shape": "rect",
+      "pos": [
+        119.296875,
+        71.0
+      ],
+      "size": [
+        152.59375,
+        51.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "LF2",
+      "label": "Arrange Insurance",
+      "shape": "rect",
+      "pos": [
+        333.1875,
+        71.0
+      ],
+      "size": [
+        175.1875,
+        51.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "LF3",
+      "label": "Budget Allocation",
+      "shape": "rect",
+      "pos": [
+        554.8828125,
+        71.0
+      ],
+      "size": [
+        168.203125,
+        51.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "LF",
+      "shape": "rect",
+      "pos": [
+        517.5390625,
+        71.0
+      ],
+      "size": [
+        174.390625,
+        51.0
+      ],
+      "fill": "#efa8b0",
+      "stroke": "#333",
+      "strokeWidth": 3.0,
+      "class": "stage"
+    },
+    {
+      "id": "TS1",
+      "label": "Online Ticket Sales",
+      "shape": "rect",
+      "pos": [
+        132.921875,
+        71.0
+      ],
+      "size": [
+        179.84375,
+        51.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "TS2",
+      "label": "Physical Outlet Sales",
+      "shape": "rect",
+      "pos": [
+        368.9921875,
+        71.0
+      ],
+      "size": [
+        192.296875,
+        51.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "TS",
+      "shape": "rect",
+      "pos": [
+        151.2109375,
+        71.0
+      ],
+      "size": [
+        216.421875,
+        51.0
+      ],
+      "fill": "#efa8b0",
+      "stroke": "#333",
+      "strokeWidth": 3.0,
+      "class": "stage"
+    },
+    {
+      "id": "MP1",
+      "label": "Television Ads",
+      "shape": "rect",
+      "pos": [
+        117.359375,
+        81.5
+      ],
+      "size": [
+        148.71875,
+        51.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "MP2",
+      "label": "Social Media Campaigns",
+      "shape": "rect",
+      "pos": [
+        349.1484375,
+        81.5
+      ],
+      "size": [
+        214.859375,
+        51.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "MP3",
+      "label": "Partnerships with Local Businesses",
+      "shape": "rect",
+      "pos": [
+        636.578125,
+        81.5
+      ],
+      "size": [
+        260.0,
+        72.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "MP",
+      "shape": "rect",
+      "pos": [
+        410.2578125,
+        71.0
+      ],
+      "size": [
+        201.671875,
+        51.0
+      ],
+      "fill": "#efa8b0",
+      "stroke": "#333",
+      "strokeWidth": 3.0,
+      "class": "stage"
+    },
+    {
+      "id": "VP1",
+      "label": "Stage Construction",
+      "shape": "rect",
+      "pos": [
+        132.5390625,
+        71.0
+      ],
+      "size": [
+        179.078125,
+        51.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "VP2",
+      "label": "Lighting Setup",
+      "shape": "rect",
+      "pos": [
+        346.84375,
+        71.0
+      ],
+      "size": [
+        149.53125,
+        51.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "VP3",
+      "label": "Seating Arrangements",
+      "shape": "rect",
+      "pos": [
+        570.875,
+        71.0
+      ],
+      "size": [
+        198.53125,
+        51.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "VP",
+      "shape": "rect",
+      "fill": "#efa8b0",
+      "stroke": "#333",
+      "strokeWidth": 3.0,
+      "class": "stage"
+    },
+    {
+      "id": "DC1",
+      "label": "Backstage Arrangements",
+      "shape": "rect",
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "DC2",
+      "label": "Audience Engagement",
+      "shape": "rect",
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "DC",
+      "shape": "rect",
+      "fill": "#efa8b0",
+      "stroke": "#333",
+      "strokeWidth": 3.0,
+      "class": "stage"
+    },
+    {
+      "id": "PN1",
+      "label": "Sound Check",
+      "shape": "rect",
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "PN2",
+      "label": "Opening Acts",
+      "shape": "rect",
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "PN3",
+      "label": "Final Performance",
+      "shape": "rect",
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "PN",
+      "shape": "rect",
+      "fill": "#efa8b0",
+      "stroke": "#333",
+      "strokeWidth": 3.0,
+      "class": "stage"
+    }
+  ],
+  "edges": [
+    {
+      "from": "IP",
+      "to": "LF",
+      "arrow": true,
+      "stroke": "#ff9ff3",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "LF",
+      "to": "TS",
+      "arrow": true,
+      "stroke": "#ff9ff3",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "TS",
+      "to": "MP",
+      "arrow": true,
+      "stroke": "#ff9ff3",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "MP",
+      "to": "VP",
+      "arrow": true,
+      "stroke": "#ff9ff3",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "VP",
+      "to": "DC",
+      "arrow": true,
+      "stroke": "#ff9ff3",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "DC",
+      "to": "PN",
+      "arrow": true,
+      "stroke": "#ff9ff3",
+      "strokeWidth": 2.0
+    }
+  ],
+  "groups": [
+    {
+      "id": "ip_initial_planning",
+      "label": "IP[Initial Planning]",
+      "nodes": [
+        "direction",
+        "IP1",
+        "IP2",
+        "IP3"
+      ]
+    },
+    {
+      "id": "lf_legal_and_financial_planning",
+      "label": "LF[Legal and Financial Planning]",
+      "nodes": [
+        "direction",
+        "LF1",
+        "LF2",
+        "LF3"
+      ]
+    },
+    {
+      "id": "ts_ticket_sales",
+      "label": "TS[Ticket Sales]",
+      "nodes": [
+        "direction",
+        "TS1",
+        "TS2"
+      ]
+    },
+    {
+      "id": "mp_marketing_and_promotion",
+      "label": "MP[Marketing and Promotion]",
+      "nodes": [
+        "direction",
+        "MP1",
+        "MP2",
+        "MP3"
+      ]
+    },
+    {
+      "id": "vp_venue_preparation",
+      "label": "VP[Venue Preparation]",
+      "nodes": [
+        "direction",
+        "VP1",
+        "VP2",
+        "VP3"
+      ]
+    },
+    {
+      "id": "dc_day_of_concert_coordination",
+      "label": "DC[Day-of Concert Coordination]",
+      "nodes": [
+        "direction",
+        "DC1",
+        "DC2"
+      ]
+    },
+    {
+      "id": "pn_performance_night",
+      "label": "PN[Performance Night]",
+      "nodes": [
+        "direction",
+        "PN1",
+        "PN2",
+        "PN3"
+      ]
+    }
+  ]
+}

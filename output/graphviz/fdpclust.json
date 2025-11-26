@@ -1,0 +1,201 @@
+{
+  "title": "G",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "e",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        27.0,
+        114.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "a",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        217.0,
+        114.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "b",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        217.0,
+        42.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "C",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        289.0,
+        114.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "D",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        289.0,
+        42.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "d",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        375.0,
+        114.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "f",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        375.0,
+        42.0
+      ],
+      "size": [
+        54.0,
+        36.0
+      ]
+    },
+    {
+      "id": "clusterB",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        74.0,
+        42.0
+      ],
+      "size": [
+        100.09440000000001,
+        36.0
+      ]
+    },
+    {
+      "id": "clusterC",
+      "label": "\\N",
+      "shape": "ellipse",
+      "pos": [
+        122.0,
+        114.0
+      ],
+      "size": [
+        100.09440000000001,
+        36.0
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "e",
+      "to": "clusterB",
+      "arrow": false
+    },
+    {
+      "from": "a",
+      "to": "b",
+      "arrow": false
+    },
+    {
+      "from": "C",
+      "to": "D",
+      "arrow": false
+    },
+    {
+      "from": "d",
+      "to": "D",
+      "arrow": false
+    },
+    {
+      "from": "d",
+      "to": "f",
+      "arrow": false
+    },
+    {
+      "from": "clusterC",
+      "to": "clusterB",
+      "arrow": false
+    }
+  ],
+  "groups": [
+    {
+      "id": "clusterA",
+      "label": "clusterA",
+      "nodes": [
+        "a",
+        "b",
+        "C",
+        "D"
+      ],
+      "boundingBox": {
+        "x": 182.0,
+        "y": 8.0,
+        "width": 150.0,
+        "height": 140.0
+      }
+    },
+    {
+      "id": "clusterC",
+      "label": "clusterC",
+      "nodes": [
+        "C",
+        "D"
+      ],
+      "boundingBox": {
+        "x": 254.0,
+        "y": 16.0,
+        "width": 70.0,
+        "height": 124.0
+      }
+    },
+    {
+      "id": "clusterB",
+      "label": "clusterB",
+      "nodes": [
+        "d",
+        "f"
+      ],
+      "boundingBox": {
+        "x": 340.0,
+        "y": 16.0,
+        "width": 70.0,
+        "height": 124.0
+      }
+    }
+  ]
+}

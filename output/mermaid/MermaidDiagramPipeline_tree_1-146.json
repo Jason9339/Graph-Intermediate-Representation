@@ -1,0 +1,603 @@
+{
+  "title": "MermaidDiagramPipeline_tree_1-146",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "A",
+      "label": "Identify Existing Interests",
+      "shape": "rect",
+      "pos": [
+        1791.53515625,
+        50.0
+      ],
+      "size": [
+        260.0,
+        84.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "question"
+    },
+    {
+      "id": "B",
+      "label": "Do you have any shared interests from the past?",
+      "shape": "diamond",
+      "pos": [
+        1791.53515625,
+        281.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "question"
+    },
+    {
+      "id": "C",
+      "label": "Revisit Past Hobbies",
+      "shape": "rect",
+      "pos": [
+        2371.31640625,
+        533.0
+      ],
+      "size": [
+        207.625,
+        54.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "action"
+    },
+    {
+      "id": "D",
+      "label": "Explore New Hobbies Together",
+      "shape": "rect",
+      "pos": [
+        1557.6953125,
+        533.0
+      ],
+      "size": [
+        260.0,
+        78.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "action"
+    },
+    {
+      "id": "E",
+      "label": "Are you both open to physical activities?",
+      "shape": "diamond",
+      "pos": [
+        669.7421875,
+        758.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "question"
+    },
+    {
+      "id": "F",
+      "label": "Do you prefer intellectual or creative pursuits?",
+      "shape": "diamond",
+      "pos": [
+        431.58203125,
+        1104.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "question"
+    },
+    {
+      "id": "G",
+      "label": "Are you interested in learning new skills together?",
+      "shape": "diamond",
+      "pos": [
+        1787.35546875,
+        758.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "question"
+    },
+    {
+      "id": "C1",
+      "label": "Bicycle rides",
+      "shape": "rect",
+      "pos": [
+        2048.26171875,
+        758.0
+      ],
+      "size": [
+        149.8125,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "activity"
+    },
+    {
+      "id": "C2",
+      "label": "Visit museums",
+      "shape": "rect",
+      "pos": [
+        2255.03515625,
+        758.0
+      ],
+      "size": [
+        163.734375,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "activity"
+    },
+    {
+      "id": "C3",
+      "label": "Cook favorite meals",
+      "shape": "rect",
+      "pos": [
+        2487.59765625,
+        758.0
+      ],
+      "size": [
+        201.390625,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "activity"
+    },
+    {
+      "id": "E1",
+      "label": "Couples yoga",
+      "shape": "rect",
+      "pos": [
+        696.50390625,
+        1104.0
+      ],
+      "size": [
+        157.84375,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "activity"
+    },
+    {
+      "id": "E2",
+      "label": "Dance lessons",
+      "shape": "rect",
+      "pos": [
+        907.90234375,
+        1104.0
+      ],
+      "size": [
+        164.953125,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "activity"
+    },
+    {
+      "id": "E3",
+      "label": "Hiking",
+      "shape": "rect",
+      "pos": [
+        1092.61328125,
+        1104.0
+      ],
+      "size": [
+        104.46875,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "activity"
+    },
+    {
+      "id": "F1",
+      "label": "Book club",
+      "shape": "rect",
+      "pos": [
+        73.1328125,
+        1341.0
+      ],
+      "size": [
+        130.265625,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "activity"
+    },
+    {
+      "id": "F2",
+      "label": "Community college class",
+      "shape": "rect",
+      "pos": [
+        306.7421875,
+        1341.0
+      ],
+      "size": [
+        236.953125,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "activity"
+    },
+    {
+      "id": "F3",
+      "label": "Learn languages",
+      "shape": "rect",
+      "pos": [
+        564.828125,
+        1341.0
+      ],
+      "size": [
+        179.21875,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "activity"
+    },
+    {
+      "id": "F4",
+      "label": "Pottery/painting",
+      "shape": "rect",
+      "pos": [
+        790.03125,
+        1341.0
+      ],
+      "size": [
+        171.1875,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "activity"
+    },
+    {
+      "id": "F5",
+      "label": "Photography",
+      "shape": "rect",
+      "pos": [
+        1000.9921875,
+        1341.0
+      ],
+      "size": [
+        150.734375,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "activity"
+    },
+    {
+      "id": "F6",
+      "label": "Home gardening",
+      "shape": "rect",
+      "pos": [
+        1215.5078125,
+        1341.0
+      ],
+      "size": [
+        178.296875,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "activity"
+    },
+    {
+      "id": "G1",
+      "label": "Cooking class",
+      "shape": "rect",
+      "pos": [
+        1274.65234375,
+        1104.0
+      ],
+      "size": [
+        159.609375,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "activity"
+    },
+    {
+      "id": "G2",
+      "label": "DIY workshop",
+      "shape": "rect",
+      "pos": [
+        1484.11328125,
+        1104.0
+      ],
+      "size": [
+        159.3125,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "activity"
+    },
+    {
+      "id": "G3",
+      "label": "Learn instruments",
+      "shape": "rect",
+      "pos": [
+        1707.80078125,
+        1104.0
+      ],
+      "size": [
+        188.0625,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "activity"
+    },
+    {
+      "id": "G4",
+      "label": "Game nights",
+      "shape": "rect",
+      "pos": [
+        1927.19140625,
+        1104.0
+      ],
+      "size": [
+        150.71875,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "activity"
+    },
+    {
+      "id": "G5",
+      "label": "Movie nights",
+      "shape": "rect",
+      "pos": [
+        2127.46484375,
+        1104.0
+      ],
+      "size": [
+        149.828125,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "activity"
+    },
+    {
+      "id": "G6",
+      "label": "Volunteer together",
+      "shape": "rect",
+      "pos": [
+        2347.76171875,
+        1104.0
+      ],
+      "size": [
+        190.765625,
+        54.0
+      ],
+      "fill": "#e6d7b9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "activity"
+    }
+  ],
+  "edges": [
+    {
+      "from": "A",
+      "to": "B",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "B",
+      "to": "C",
+      "arrow": true,
+      "label": "Yes",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "B",
+      "to": "D",
+      "arrow": true,
+      "label": "No",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "D",
+      "to": "E",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "D",
+      "to": "G",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "E",
+      "to": "F",
+      "arrow": true,
+      "label": "No",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "C",
+      "to": "C1",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "C",
+      "to": "C2",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "C",
+      "to": "C3",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "E",
+      "to": "E1",
+      "arrow": true,
+      "label": "Yes",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "E",
+      "to": "E2",
+      "arrow": true,
+      "label": "Yes",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "E",
+      "to": "E3",
+      "arrow": true,
+      "label": "Yes",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "F",
+      "to": "F1",
+      "arrow": true,
+      "label": "Intellectual",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "F",
+      "to": "F2",
+      "arrow": true,
+      "label": "Intellectual",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "F",
+      "to": "F3",
+      "arrow": true,
+      "label": "Intellectual",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "F",
+      "to": "F4",
+      "arrow": true,
+      "label": "Creative",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "F",
+      "to": "F5",
+      "arrow": true,
+      "label": "Creative",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "F",
+      "to": "F6",
+      "arrow": true,
+      "label": "Creative",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "G",
+      "to": "G1",
+      "arrow": true,
+      "label": "Yes",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "G",
+      "to": "G2",
+      "arrow": true,
+      "label": "Yes",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "G",
+      "to": "G3",
+      "arrow": true,
+      "label": "Yes",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "G",
+      "to": "G4",
+      "arrow": true,
+      "label": "No",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "G",
+      "to": "G5",
+      "arrow": true,
+      "label": "No",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "G",
+      "to": "G6",
+      "arrow": true,
+      "label": "No",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    }
+  ]
+}

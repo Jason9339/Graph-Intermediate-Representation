@@ -1,0 +1,258 @@
+{
+  "title": "MermaidDiagramPipeline_textbook_6-31",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "1",
+      "label": "Ancient Egyptian Music<br>Religious and ceremonial music",
+      "shape": "rect",
+      "pos": [
+        416.4765625,
+        59.0
+      ],
+      "size": [
+        260.0,
+        102.0
+      ],
+      "fill": "#d4af37",
+      "stroke": "#000",
+      "strokeWidth": 2.0,
+      "class": "ancient"
+    },
+    {
+      "id": "2",
+      "label": "Coptic Music<br>Christian liturgical music",
+      "shape": "rect",
+      "pos": [
+        416.4765625,
+        223.0
+      ],
+      "size": [
+        232.5,
+        78.0
+      ],
+      "fill": "#d4af37",
+      "stroke": "#000",
+      "strokeWidth": 2.0,
+      "class": "ancient"
+    },
+    {
+      "id": "3",
+      "label": "Arab Classical Music<br>Influenced by Islamic traditions",
+      "shape": "rect",
+      "pos": [
+        416.4765625,
+        387.0
+      ],
+      "size": [
+        260.0,
+        102.0
+      ],
+      "fill": "#87ceeb",
+      "stroke": "#000",
+      "strokeWidth": 2.0,
+      "class": "classical"
+    },
+    {
+      "id": "4",
+      "label": "Shaabi<br>Popular folk music",
+      "shape": "rect",
+      "pos": [
+        416.4765625,
+        563.0
+      ],
+      "size": [
+        190.71875,
+        78.0
+      ],
+      "fill": "#87ceeb",
+      "stroke": "#000",
+      "strokeWidth": 2.0,
+      "class": "classical"
+    },
+    {
+      "id": "5",
+      "label": "Takht Ensemble<br>Traditional instrumental ensemble",
+      "shape": "rect",
+      "pos": [
+        138.0,
+        563.0
+      ],
+      "size": [
+        260.0,
+        102.0
+      ],
+      "fill": "#87ceeb",
+      "stroke": "#000",
+      "strokeWidth": 2.0,
+      "class": "classical"
+    },
+    {
+      "id": "6",
+      "label": "Baligh Hamdi<br>Influential composer",
+      "shape": "rect",
+      "pos": [
+        138.0,
+        739.0
+      ],
+      "size": [
+        203.1875,
+        78.0
+      ],
+      "fill": "#ffa07a",
+      "stroke": "#000",
+      "strokeWidth": 2.0,
+      "class": "artist"
+    },
+    {
+      "id": "7",
+      "label": "Umm Kulthum<br>Legendary singer of the 20th century",
+      "shape": "rect",
+      "pos": [
+        691.8359375,
+        563.0
+      ],
+      "size": [
+        260.0,
+        102.0
+      ],
+      "fill": "#ffa07a",
+      "stroke": "#000",
+      "strokeWidth": 2.0,
+      "class": "artist"
+    },
+    {
+      "id": "8",
+      "label": "Modern Pop<br>Contemporary popular music",
+      "shape": "rect",
+      "pos": [
+        554.15625,
+        739.0
+      ],
+      "size": [
+        260.0,
+        102.0
+      ],
+      "fill": "#98fb98",
+      "stroke": "#000",
+      "strokeWidth": 2.0,
+      "class": "modern"
+    },
+    {
+      "id": "9",
+      "label": "Amr Diab<br>Popular modern pop artist",
+      "shape": "rect",
+      "pos": [
+        403.12890625,
+        915.0
+      ],
+      "size": [
+        244.109375,
+        78.0
+      ],
+      "fill": "#ffa07a",
+      "stroke": "#000",
+      "strokeWidth": 2.0,
+      "class": "artist"
+    },
+    {
+      "id": "10",
+      "label": "Sherine Abdelwahab<br>Renowned contemporary singer",
+      "shape": "rect",
+      "pos": [
+        705.18359375,
+        915.0
+      ],
+      "size": [
+        260.0,
+        102.0
+      ],
+      "fill": "#ffa07a",
+      "stroke": "#000",
+      "strokeWidth": 2.0,
+      "class": "artist"
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2",
+      "arrow": true,
+      "label": "Transition to",
+      "stroke": "#ff3e00",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "2",
+      "to": "3",
+      "arrow": true,
+      "label": "Influence on",
+      "stroke": "#ff3e00",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "3",
+      "to": "4",
+      "arrow": true,
+      "label": "Evolution into",
+      "stroke": "#ff3e00",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "3",
+      "to": "5",
+      "arrow": true,
+      "label": "Development of",
+      "stroke": "#ff3e00",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "5",
+      "to": "6",
+      "arrow": true,
+      "label": "Influenced by",
+      "stroke": "#ff3e00",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "3",
+      "to": "7",
+      "arrow": true,
+      "label": "Root of",
+      "stroke": "#ff3e00",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "4",
+      "to": "8",
+      "arrow": true,
+      "label": "Basis for",
+      "stroke": "#ff3e00",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "7",
+      "to": "8",
+      "arrow": true,
+      "label": "Foundation for",
+      "stroke": "#ff3e00",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "8",
+      "to": "9",
+      "arrow": true,
+      "label": "Pioneered by",
+      "stroke": "#ff3e00",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "8",
+      "to": "10",
+      "arrow": true,
+      "label": "Popularized by",
+      "stroke": "#ff3e00",
+      "strokeWidth": 2.0
+    }
+  ]
+}

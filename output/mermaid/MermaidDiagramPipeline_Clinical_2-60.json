@@ -1,0 +1,291 @@
+{
+  "title": "MermaidDiagramPipeline_Clinical_2-60",
+  "orientation": "TD",
+  "nodes": [
+    {
+      "id": "title",
+      "label": "Transgender HRT Clinical Pathway",
+      "shape": "rect",
+      "pos": [
+        553.7109375,
+        47.0
+      ],
+      "size": [
+        260.0,
+        78.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "stageClass"
+    },
+    {
+      "id": "I1",
+      "label": "Initial Consultation",
+      "shape": "rect",
+      "pos": [
+        140.875,
+        70.0
+      ],
+      "size": [
+        190.75,
+        54.0
+      ],
+      "fill": "#e6f3ff",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "initiationClass"
+    },
+    {
+      "id": "I2",
+      "label": "Baseline Assessments",
+      "shape": "rect",
+      "pos": [
+        421.2890625,
+        70.0
+      ],
+      "size": [
+        220.078125,
+        54.0
+      ],
+      "fill": "#e6f3ff",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "initiationClass"
+    },
+    {
+      "id": "I3",
+      "label": "Therapy Education",
+      "shape": "rect",
+      "pos": [
+        703.484375,
+        70.0
+      ],
+      "size": [
+        194.3125,
+        54.0
+      ],
+      "fill": "#e6f3ff",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "initiationClass"
+    },
+    {
+      "id": "I4",
+      "label": "Initial Prescription",
+      "shape": "rect",
+      "pos": [
+        968.78125,
+        70.0
+      ],
+      "size": [
+        186.28125,
+        54.0
+      ],
+      "fill": "#e6f3ff",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "initiationClass"
+    },
+    {
+      "id": "Initiation",
+      "shape": "rect",
+      "pos": [
+        143.09375,
+        70.0
+      ],
+      "size": [
+        195.1875,
+        54.0
+      ],
+      "fill": "#e6f3ff",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "initiationClass"
+    },
+    {
+      "id": "M1",
+      "label": "Follow-up Appointments",
+      "shape": "rect",
+      "pos": [
+        160.8828125,
+        70.0
+      ],
+      "size": [
+        230.765625,
+        54.0
+      ],
+      "fill": "#e6ffe6",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "maintenanceClass"
+    },
+    {
+      "id": "M2",
+      "label": "Dose Adjustments",
+      "shape": "rect",
+      "pos": [
+        445.7421875,
+        70.0
+      ],
+      "size": [
+        188.953125,
+        54.0
+      ],
+      "fill": "#e6ffe6",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "maintenanceClass"
+    },
+    {
+      "id": "M3",
+      "label": "Supporting Services",
+      "shape": "rect",
+      "pos": [
+        716.8125,
+        70.0
+      ],
+      "size": [
+        203.1875,
+        54.0
+      ],
+      "fill": "#e6ffe6",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "maintenanceClass"
+    },
+    {
+      "id": "Maintenance",
+      "shape": "rect",
+      "pos": [
+        414.1796875,
+        70.0
+      ],
+      "size": [
+        196.984375,
+        54.0
+      ],
+      "fill": "#e6ffe6",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "maintenanceClass"
+    },
+    {
+      "id": "MO1",
+      "label": "Regular Monitoring",
+      "shape": "rect",
+      "pos": [
+        697.2734375,
+        70.0
+      ],
+      "size": [
+        219.203125,
+        54.0
+      ],
+      "fill": "#fff0e6",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "monitoringClass"
+    },
+    {
+      "id": "MO2",
+      "label": "Annual Evaluations",
+      "shape": "rect",
+      "fill": "#fff0e6",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "monitoringClass"
+    },
+    {
+      "id": "MO3",
+      "label": "Mental Health Support",
+      "shape": "rect",
+      "fill": "#fff0e6",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "monitoringClass"
+    },
+    {
+      "id": "Monitoring",
+      "shape": "rect",
+      "fill": "#fff0e6",
+      "stroke": "#333",
+      "strokeWidth": 1.0,
+      "class": "monitoringClass"
+    }
+  ],
+  "edges": [
+    {
+      "from": "title",
+      "to": "Initiation",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "Initiation",
+      "to": "Maintenance",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "Maintenance",
+      "to": "Monitoring",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "I1",
+      "to": "I2",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "M1",
+      "to": "M2",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "MO1",
+      "to": "MO2",
+      "arrow": true,
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    }
+  ],
+  "groups": [
+    {
+      "id": "initiation",
+      "label": "Initiation",
+      "nodes": [
+        "I1",
+        "I2",
+        "I3",
+        "I4"
+      ]
+    },
+    {
+      "id": "maintenance",
+      "label": "Maintenance",
+      "nodes": [
+        "M1",
+        "M2",
+        "M3"
+      ]
+    },
+    {
+      "id": "monitoring",
+      "label": "Monitoring",
+      "nodes": [
+        "MO1",
+        "MO2",
+        "MO3"
+      ]
+    }
+  ]
+}

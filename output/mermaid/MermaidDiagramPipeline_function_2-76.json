@@ -1,0 +1,234 @@
+{
+  "title": "MermaidDiagramPipeline_function_2-76",
+  "orientation": "BT",
+  "nodes": [
+    {
+      "id": "10",
+      "label": "Publication and Distribution",
+      "shape": "rect",
+      "pos": [
+        138.0,
+        1019.0
+      ],
+      "size": [
+        253.890625,
+        54.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 3.0,
+      "class": "highlight"
+    },
+    {
+      "id": "9",
+      "label": "Publishing Preparation",
+      "shape": "rect",
+      "pos": [
+        138.0,
+        915.0
+      ],
+      "size": [
+        235.140625,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "8",
+      "label": "Final Review and Edits",
+      "shape": "rect",
+      "pos": [
+        138.0,
+        811.0
+      ],
+      "size": [
+        222.75,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "7",
+      "label": "Combining Text and Illustrations",
+      "shape": "rect",
+      "pos": [
+        138.0,
+        695.0
+      ],
+      "size": [
+        260.0,
+        78.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "6",
+      "label": "Detailed Illustrations",
+      "shape": "rect",
+      "pos": [
+        138.0,
+        579.0
+      ],
+      "size": [
+        204.078125,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "5",
+      "label": "Feedback Iteration",
+      "shape": "rect",
+      "pos": [
+        138.0,
+        475.0
+      ],
+      "size": [
+        201.375,
+        54.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 3.0,
+      "class": "highlight"
+    },
+    {
+      "id": "4",
+      "label": "Creating Initial Sketches",
+      "shape": "rect",
+      "pos": [
+        138.0,
+        371.0
+      ],
+      "size": [
+        232.53125,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "3",
+      "label": "Drafting the Story",
+      "shape": "rect",
+      "pos": [
+        138.0,
+        267.0
+      ],
+      "size": [
+        195.125,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "2",
+      "label": "Selecting Math Concepts",
+      "shape": "rect",
+      "pos": [
+        138.0,
+        163.0
+      ],
+      "size": [
+        237.875,
+        54.0
+      ],
+      "fill": "#f9d5e5",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "1",
+      "label": "Brainstorming Story Ideas",
+      "shape": "rect",
+      "pos": [
+        138.0,
+        47.0
+      ],
+      "size": [
+        260.0,
+        78.0
+      ],
+      "fill": "#eeac99",
+      "stroke": "#333",
+      "strokeWidth": 3.0,
+      "class": "highlight"
+    }
+  ],
+  "edges": [
+    {
+      "from": "10",
+      "to": "9",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "9",
+      "to": "8",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "8",
+      "to": "7",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "7",
+      "to": "6",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "6",
+      "to": "5",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "5",
+      "to": "4",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "4",
+      "to": "3",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "3",
+      "to": "2",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "2",
+      "to": "1",
+      "arrow": true,
+      "stroke": "#ff9999",
+      "strokeWidth": 2.0
+    }
+  ]
+}

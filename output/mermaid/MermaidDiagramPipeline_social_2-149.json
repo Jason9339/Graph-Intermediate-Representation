@@ -1,0 +1,178 @@
+{
+  "title": "MermaidDiagramPipeline_social_2-149",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "1",
+      "label": "Avatar Customization",
+      "shape": "rect",
+      "pos": [
+        119.9375,
+        139.0
+      ],
+      "size": [
+        223.875,
+        54.0
+      ],
+      "fill": "#ff9",
+      "stroke": "#f66",
+      "strokeWidth": 3.0,
+      "class": "emphasis"
+    },
+    {
+      "id": "2",
+      "label": "Team Cohesion",
+      "shape": "rect",
+      "pos": [
+        460.4140625,
+        191.0
+      ],
+      "size": [
+        171.171875,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "3",
+      "label": "Player Communication",
+      "shape": "rect",
+      "pos": [
+        798.5234375,
+        139.0
+      ],
+      "size": [
+        220.953125,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "4",
+      "label": "In-Game Performance",
+      "shape": "rect",
+      "pos": [
+        1143.265625,
+        191.0
+      ],
+      "size": [
+        226.28125,
+        54.0
+      ],
+      "fill": "#ff9",
+      "stroke": "#f66",
+      "strokeWidth": 3.0,
+      "class": "emphasis"
+    },
+    {
+      "id": "5",
+      "label": "Player Satisfaction",
+      "shape": "rect",
+      "pos": [
+        798.5234375,
+        35.0
+      ],
+      "size": [
+        192.515625,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "6",
+      "label": "Individual Expression",
+      "shape": "rect",
+      "pos": [
+        460.4140625,
+        35.0
+      ],
+      "size": [
+        211.203125,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "id": "7",
+      "label": "Team Role Adaptation",
+      "shape": "rect",
+      "pos": [
+        798.5234375,
+        243.0
+      ],
+      "size": [
+        216.546875,
+        54.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "6",
+      "arrow": true,
+      "label": "Enables",
+      "stroke": "#606060",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "6",
+      "to": "5",
+      "arrow": true,
+      "label": "Enhances",
+      "stroke": "#606060",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "1",
+      "to": "2",
+      "arrow": true,
+      "label": "Influences",
+      "stroke": "#606060",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "2",
+      "to": "3",
+      "arrow": true,
+      "label": "Improves",
+      "stroke": "#606060",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "3",
+      "to": "4",
+      "arrow": true,
+      "label": "Boosts",
+      "stroke": "#606060",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "2",
+      "to": "7",
+      "arrow": true,
+      "label": "Facilitates",
+      "stroke": "#606060",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "7",
+      "to": "4",
+      "arrow": true,
+      "label": "Optimizes",
+      "stroke": "#606060",
+      "strokeWidth": 2.0
+    }
+  ]
+}

@@ -1,0 +1,209 @@
+{
+  "title": "finite_state_machine",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "LR_0",
+      "label": "\\N",
+      "shape": "double-circle",
+      "pos": [
+        37.797,
+        87.797
+      ],
+      "size": [
+        75.59280000000001,
+        75.59280000000001
+      ]
+    },
+    {
+      "id": "LR_3",
+      "label": "\\N",
+      "shape": "double-circle",
+      "pos": [
+        348.99,
+        37.797
+      ],
+      "size": [
+        75.59280000000001,
+        75.59280000000001
+      ]
+    },
+    {
+      "id": "LR_4",
+      "label": "\\N",
+      "shape": "double-circle",
+      "pos": [
+        348.99,
+        301.8
+      ],
+      "size": [
+        75.59280000000001,
+        75.59280000000001
+      ]
+    },
+    {
+      "id": "LR_8",
+      "label": "\\N",
+      "shape": "double-circle",
+      "pos": [
+        756.77,
+        158.8
+      ],
+      "size": [
+        75.59280000000001,
+        75.59280000000001
+      ]
+    },
+    {
+      "id": "LR_2",
+      "label": "\\N",
+      "shape": "circle",
+      "pos": [
+        185.39,
+        157.8
+      ],
+      "size": [
+        67.59432,
+        67.59432
+      ]
+    },
+    {
+      "id": "LR_1",
+      "label": "\\N",
+      "shape": "circle",
+      "pos": [
+        185.39,
+        44.797
+      ],
+      "size": [
+        67.59432,
+        67.59432
+      ]
+    },
+    {
+      "id": "LR_6",
+      "label": "\\N",
+      "shape": "circle",
+      "pos": [
+        348.99,
+        178.8
+      ],
+      "size": [
+        67.59432,
+        67.59432
+      ]
+    },
+    {
+      "id": "LR_5",
+      "label": "\\N",
+      "shape": "circle",
+      "pos": [
+        485.58,
+        111.8
+      ],
+      "size": [
+        67.59432,
+        67.59432
+      ]
+    },
+    {
+      "id": "LR_7",
+      "label": "\\N",
+      "shape": "circle",
+      "pos": [
+        619.17,
+        88.797
+      ],
+      "size": [
+        67.59432,
+        67.59432
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "LR_0",
+      "to": "LR_2",
+      "arrow": true,
+      "label": "SS(B)"
+    },
+    {
+      "from": "LR_0",
+      "to": "LR_1",
+      "arrow": true,
+      "label": "SS(S)"
+    },
+    {
+      "from": "LR_8",
+      "to": "LR_6",
+      "arrow": true,
+      "label": "S(b)"
+    },
+    {
+      "from": "LR_8",
+      "to": "LR_5",
+      "arrow": true,
+      "label": "S(a)"
+    },
+    {
+      "from": "LR_2",
+      "to": "LR_4",
+      "arrow": true,
+      "label": "S(A)"
+    },
+    {
+      "from": "LR_2",
+      "to": "LR_6",
+      "arrow": true,
+      "label": "SS(b)"
+    },
+    {
+      "from": "LR_2",
+      "to": "LR_5",
+      "arrow": true,
+      "label": "SS(a)"
+    },
+    {
+      "from": "LR_1",
+      "to": "LR_3",
+      "arrow": true,
+      "label": "S($end)"
+    },
+    {
+      "from": "LR_6",
+      "to": "LR_6",
+      "arrow": true,
+      "label": "S(b)"
+    },
+    {
+      "from": "LR_6",
+      "to": "LR_5",
+      "arrow": true,
+      "label": "S(a)"
+    },
+    {
+      "from": "LR_5",
+      "to": "LR_5",
+      "arrow": true,
+      "label": "S(a)"
+    },
+    {
+      "from": "LR_5",
+      "to": "LR_7",
+      "arrow": true,
+      "label": "S(b)"
+    },
+    {
+      "from": "LR_7",
+      "to": "LR_8",
+      "arrow": true,
+      "label": "S(b)"
+    },
+    {
+      "from": "LR_7",
+      "to": "LR_5",
+      "arrow": true,
+      "label": "S(a)"
+    }
+  ]
+}

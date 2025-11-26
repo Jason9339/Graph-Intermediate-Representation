@@ -1,0 +1,140 @@
+{
+  "title": "MermaidDiagramPipeline_textbook_5-84",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "preclinical",
+      "label": "Preclinical Testing<br><small>Laboratory and animal studies</small>",
+      "shape": "rect",
+      "pos": [
+        136.9140625,
+        47.0
+      ],
+      "size": [
+        238.5625,
+        78.0
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "default"
+    },
+    {
+      "id": "phase1",
+      "label": "Phase 1 Trials<br><small>Small group of healthy volunteers</small>",
+      "shape": "rect",
+      "pos": [
+        136.9140625,
+        199.0
+      ],
+      "size": [
+        257.828125,
+        78.0
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "default"
+    },
+    {
+      "id": "phase2",
+      "label": "Phase 2 Trials<br><small>Larger group of patients</small>",
+      "shape": "rect",
+      "pos": [
+        136.9140625,
+        375.0
+      ],
+      "size": [
+        201.53125,
+        78.0
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "default"
+    },
+    {
+      "id": "phase3",
+      "label": "Phase 3 Trials<br><small>Large-scale patient testing</small>",
+      "shape": "rect",
+      "pos": [
+        136.9140625,
+        527.0
+      ],
+      "size": [
+        216.34375,
+        78.0
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "default"
+    },
+    {
+      "id": "fda_approval",
+      "label": "FDA Approval<br><small>Review and authorization</small>",
+      "shape": "rect",
+      "pos": [
+        136.9140625,
+        679.0
+      ],
+      "size": [
+        209.671875,
+        78.0
+      ],
+      "fill": "#e6f7ff",
+      "stroke": "#0077be",
+      "strokeWidth": 3.0,
+      "class": "highlight"
+    },
+    {
+      "id": "phase4",
+      "label": "Phase 4 Trials<br><small>Post-marketing surveillance</small>",
+      "shape": "rect",
+      "pos": [
+        136.9140625,
+        831.0
+      ],
+      "size": [
+        223.71875,
+        78.0
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "default"
+    }
+  ],
+  "edges": [
+    {
+      "from": "preclinical",
+      "to": "phase1",
+      "arrow": true,
+      "label": "Approval for Human Testing"
+    },
+    {
+      "from": "phase1",
+      "to": "phase2",
+      "arrow": true,
+      "label": "Evaluating Therapeutic Effectiveness"
+    },
+    {
+      "from": "phase2",
+      "to": "phase3",
+      "arrow": true,
+      "label": "Confirmation of Efficacy"
+    },
+    {
+      "from": "phase3",
+      "to": "fda_approval",
+      "arrow": true,
+      "label": "Regulatory Review"
+    },
+    {
+      "from": "fda_approval",
+      "to": "phase4",
+      "arrow": true,
+      "label": "Long-term Monitoring"
+    }
+  ]
+}

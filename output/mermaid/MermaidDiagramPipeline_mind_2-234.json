@@ -1,0 +1,997 @@
+{
+  "title": "MermaidDiagramPipeline_mind_2-234",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "root",
+      "label": "Self-Care and Personal Growth Strategies",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "personal_joy",
+      "label": "Personal Joy",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "hobbies",
+      "label": "Hobbies",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gardening",
+      "label": "Gardening",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "photography",
+      "label": "Photography",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "me_time",
+      "label": "Me Time",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "spa_days",
+      "label": "Spa Days",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "reading_fiction",
+      "label": "Reading Fiction",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "travel_plans",
+      "label": "Travel Plans",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "weekend_getaways",
+      "label": "Weekend Getaways",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "annual_family_trip",
+      "label": "Annual Family Trip",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "emotional_well_being",
+      "label": "Emotional Well-being",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "therapy_sessions",
+      "label": "Therapy Sessions",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "weekly_with_dr_emily_rogers",
+      "label": "Weekly with Dr. Emily Rogers",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "virtual_sessions_for_flexibility",
+      "label": "Virtual sessions for flexibility",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "support_groups",
+      "label": "Support Groups",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "local_divorced_moms_group",
+      "label": "Local Divorced Moms Group",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "online_it_consultant_community",
+      "label": "Online IT Consultant Community",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "journaling",
+      "label": "Journaling",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "daily_reflections",
+      "label": "Daily Reflections",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "gratitude_journal",
+      "label": "Gratitude Journal",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "physical_health",
+      "label": "Physical Health",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "exercise_routine",
+      "label": "Exercise Routine",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "morning_yoga",
+      "label": "Morning Yoga",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "evening_walks_with_kids",
+      "label": "Evening Walks with Kids",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "nutrition",
+      "label": "Nutrition",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "meal_prep_on_sundays",
+      "label": "Meal Prep on Sundays",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "weekly_family_cooking_sessions",
+      "label": "Weekly Family Cooking Sessions",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "sleep_hygiene",
+      "label": "Sleep Hygiene",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "consistent_bedtime",
+      "label": "Consistent Bedtime",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "white_noise_machine",
+      "label": "White Noise Machine",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "parenting_focus",
+      "label": "Parenting Focus",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "quality_time",
+      "label": "Quality Time",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "weekly_movie_nights",
+      "label": "Weekly Movie Nights",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "sunday_afternoon_sports",
+      "label": "Sunday Afternoon Sports",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "co_parenting_strategy",
+      "label": "Co-parenting Strategy",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "regular_communication_with_ex_partner",
+      "label": "Regular Communication with Ex-partner",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "co_parenting_counseling",
+      "label": "Co-parenting Counseling",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "educational_support",
+      "label": "Educational Support",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "homework_assistance",
+      "label": "Homework Assistance",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "school_meetings_participation",
+      "label": "School Meetings Participation",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "professional_development",
+      "label": "Professional Development",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "skill_enhancement",
+      "label": "Skill Enhancement",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "online_java_course",
+      "label": "Online Java Course",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "monthly_tech_meetups",
+      "label": "Monthly Tech Meetups",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "work_life_balance",
+      "label": "Work-Life Balance",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "flexible_work_hours",
+      "label": "Flexible Work Hours",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "no_work_after_7_pm_rule",
+      "label": "No Work After 7 PM Rule",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "networking",
+      "label": "Networking",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "it_consultant_linkedin_group",
+      "label": "IT Consultant LinkedIn Group",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "local_professional_events",
+      "label": "Local Professional Events",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "social_connections",
+      "label": "Social Connections",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "friendship_time",
+      "label": "Friendship Time",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "monthly_girls_night_out",
+      "label": "Monthly Girls' Night Out",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "playdates_with_other_moms",
+      "label": "Playdates with Other Moms",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "new_interests",
+      "label": "New Interests",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "book_club_participation",
+      "label": "Book Club Participation",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "join_a_crafting_workshop",
+      "label": "Join a Crafting Workshop",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "volunteering",
+      "label": "Volunteering",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "school_pta",
+      "label": "School PTA",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "local_food_bank",
+      "label": "Local Food Bank",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "financial_health",
+      "label": "Financial Health",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "budgeting",
+      "label": "Budgeting",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "monthly_finance_review",
+      "label": "Monthly Finance Review",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "use_mint_app",
+      "label": "Use Mint App",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "savings_goals",
+      "label": "Savings Goals",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "emergency_fund",
+      "label": "Emergency Fund",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "college_fund_for_kids",
+      "label": "College Fund for Kids",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "career_advancement",
+      "label": "Career Advancement",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "seek_promotion_opportunities",
+      "label": "Seek Promotion Opportunities",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "id": "consider_side_hustle",
+      "label": "Consider Side Hustle",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "root",
+      "to": "personal_joy",
+      "arrow": true
+    },
+    {
+      "from": "personal_joy",
+      "to": "hobbies",
+      "arrow": true
+    },
+    {
+      "from": "hobbies",
+      "to": "gardening",
+      "arrow": true
+    },
+    {
+      "from": "hobbies",
+      "to": "photography",
+      "arrow": true
+    },
+    {
+      "from": "personal_joy",
+      "to": "me_time",
+      "arrow": true
+    },
+    {
+      "from": "me_time",
+      "to": "spa_days",
+      "arrow": true
+    },
+    {
+      "from": "me_time",
+      "to": "reading_fiction",
+      "arrow": true
+    },
+    {
+      "from": "personal_joy",
+      "to": "travel_plans",
+      "arrow": true
+    },
+    {
+      "from": "travel_plans",
+      "to": "weekend_getaways",
+      "arrow": true
+    },
+    {
+      "from": "travel_plans",
+      "to": "annual_family_trip",
+      "arrow": true
+    },
+    {
+      "from": "root",
+      "to": "emotional_well_being",
+      "arrow": true
+    },
+    {
+      "from": "emotional_well_being",
+      "to": "therapy_sessions",
+      "arrow": true
+    },
+    {
+      "from": "therapy_sessions",
+      "to": "weekly_with_dr_emily_rogers",
+      "arrow": true
+    },
+    {
+      "from": "therapy_sessions",
+      "to": "virtual_sessions_for_flexibility",
+      "arrow": true
+    },
+    {
+      "from": "emotional_well_being",
+      "to": "support_groups",
+      "arrow": true
+    },
+    {
+      "from": "support_groups",
+      "to": "local_divorced_moms_group",
+      "arrow": true
+    },
+    {
+      "from": "support_groups",
+      "to": "online_it_consultant_community",
+      "arrow": true
+    },
+    {
+      "from": "emotional_well_being",
+      "to": "journaling",
+      "arrow": true
+    },
+    {
+      "from": "journaling",
+      "to": "daily_reflections",
+      "arrow": true
+    },
+    {
+      "from": "journaling",
+      "to": "gratitude_journal",
+      "arrow": true
+    },
+    {
+      "from": "root",
+      "to": "physical_health",
+      "arrow": true
+    },
+    {
+      "from": "physical_health",
+      "to": "exercise_routine",
+      "arrow": true
+    },
+    {
+      "from": "exercise_routine",
+      "to": "morning_yoga",
+      "arrow": true
+    },
+    {
+      "from": "exercise_routine",
+      "to": "evening_walks_with_kids",
+      "arrow": true
+    },
+    {
+      "from": "physical_health",
+      "to": "nutrition",
+      "arrow": true
+    },
+    {
+      "from": "nutrition",
+      "to": "meal_prep_on_sundays",
+      "arrow": true
+    },
+    {
+      "from": "nutrition",
+      "to": "weekly_family_cooking_sessions",
+      "arrow": true
+    },
+    {
+      "from": "physical_health",
+      "to": "sleep_hygiene",
+      "arrow": true
+    },
+    {
+      "from": "sleep_hygiene",
+      "to": "consistent_bedtime",
+      "arrow": true
+    },
+    {
+      "from": "sleep_hygiene",
+      "to": "white_noise_machine",
+      "arrow": true
+    },
+    {
+      "from": "root",
+      "to": "parenting_focus",
+      "arrow": true
+    },
+    {
+      "from": "parenting_focus",
+      "to": "quality_time",
+      "arrow": true
+    },
+    {
+      "from": "quality_time",
+      "to": "weekly_movie_nights",
+      "arrow": true
+    },
+    {
+      "from": "quality_time",
+      "to": "sunday_afternoon_sports",
+      "arrow": true
+    },
+    {
+      "from": "parenting_focus",
+      "to": "co_parenting_strategy",
+      "arrow": true
+    },
+    {
+      "from": "co_parenting_strategy",
+      "to": "regular_communication_with_ex_partner",
+      "arrow": true
+    },
+    {
+      "from": "co_parenting_strategy",
+      "to": "co_parenting_counseling",
+      "arrow": true
+    },
+    {
+      "from": "parenting_focus",
+      "to": "educational_support",
+      "arrow": true
+    },
+    {
+      "from": "educational_support",
+      "to": "homework_assistance",
+      "arrow": true
+    },
+    {
+      "from": "educational_support",
+      "to": "school_meetings_participation",
+      "arrow": true
+    },
+    {
+      "from": "root",
+      "to": "professional_development",
+      "arrow": true
+    },
+    {
+      "from": "professional_development",
+      "to": "skill_enhancement",
+      "arrow": true
+    },
+    {
+      "from": "skill_enhancement",
+      "to": "online_java_course",
+      "arrow": true
+    },
+    {
+      "from": "skill_enhancement",
+      "to": "monthly_tech_meetups",
+      "arrow": true
+    },
+    {
+      "from": "professional_development",
+      "to": "work_life_balance",
+      "arrow": true
+    },
+    {
+      "from": "work_life_balance",
+      "to": "flexible_work_hours",
+      "arrow": true
+    },
+    {
+      "from": "work_life_balance",
+      "to": "no_work_after_7_pm_rule",
+      "arrow": true
+    },
+    {
+      "from": "professional_development",
+      "to": "networking",
+      "arrow": true
+    },
+    {
+      "from": "networking",
+      "to": "it_consultant_linkedin_group",
+      "arrow": true
+    },
+    {
+      "from": "networking",
+      "to": "local_professional_events",
+      "arrow": true
+    },
+    {
+      "from": "root",
+      "to": "social_connections",
+      "arrow": true
+    },
+    {
+      "from": "social_connections",
+      "to": "friendship_time",
+      "arrow": true
+    },
+    {
+      "from": "friendship_time",
+      "to": "monthly_girls_night_out",
+      "arrow": true
+    },
+    {
+      "from": "friendship_time",
+      "to": "playdates_with_other_moms",
+      "arrow": true
+    },
+    {
+      "from": "social_connections",
+      "to": "new_interests",
+      "arrow": true
+    },
+    {
+      "from": "new_interests",
+      "to": "book_club_participation",
+      "arrow": true
+    },
+    {
+      "from": "new_interests",
+      "to": "join_a_crafting_workshop",
+      "arrow": true
+    },
+    {
+      "from": "social_connections",
+      "to": "volunteering",
+      "arrow": true
+    },
+    {
+      "from": "volunteering",
+      "to": "school_pta",
+      "arrow": true
+    },
+    {
+      "from": "volunteering",
+      "to": "local_food_bank",
+      "arrow": true
+    },
+    {
+      "from": "root",
+      "to": "financial_health",
+      "arrow": true
+    },
+    {
+      "from": "financial_health",
+      "to": "budgeting",
+      "arrow": true
+    },
+    {
+      "from": "budgeting",
+      "to": "monthly_finance_review",
+      "arrow": true
+    },
+    {
+      "from": "budgeting",
+      "to": "use_mint_app",
+      "arrow": true
+    },
+    {
+      "from": "financial_health",
+      "to": "savings_goals",
+      "arrow": true
+    },
+    {
+      "from": "savings_goals",
+      "to": "emergency_fund",
+      "arrow": true
+    },
+    {
+      "from": "savings_goals",
+      "to": "college_fund_for_kids",
+      "arrow": true
+    },
+    {
+      "from": "financial_health",
+      "to": "career_advancement",
+      "arrow": true
+    },
+    {
+      "from": "career_advancement",
+      "to": "seek_promotion_opportunities",
+      "arrow": true
+    },
+    {
+      "from": "career_advancement",
+      "to": "consider_side_hustle",
+      "arrow": true
+    }
+  ]
+}

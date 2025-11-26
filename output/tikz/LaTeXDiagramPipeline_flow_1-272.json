@@ -1,0 +1,216 @@
+{
+  "title": "LaTeXDiagramPipeline_flow_1-272",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "concept",
+      "label": "Conceptual Design",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "size": [
+        86.73374,
+        28.85272
+      ],
+      "fill": "teal!20",
+      "stroke": "teal",
+      "class": "process"
+    },
+    {
+      "id": "funding",
+      "label": "Funding and Collaboration",
+      "shape": "rect",
+      "pos": [
+        143.63924,
+        0.0
+      ],
+      "size": [
+        86.73373000000001,
+        28.85272
+      ],
+      "fill": "teal!20",
+      "stroke": "teal",
+      "class": "process",
+      "layoutHints": {
+        "right": "of concept"
+      }
+    },
+    {
+      "id": "tech",
+      "label": "Technical Design",
+      "shape": "rect",
+      "pos": [
+        143.63924,
+        -85.75822
+      ],
+      "size": [
+        86.73373000000001,
+        28.852729999999994
+      ],
+      "fill": "teal!20",
+      "stroke": "teal",
+      "class": "process",
+      "layoutHints": {
+        "below": "of funding"
+      }
+    },
+    {
+      "id": "proto",
+      "label": "Prototyping",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -85.75822
+      ],
+      "size": [
+        86.73374,
+        28.852729999999994
+      ],
+      "fill": "teal!20",
+      "stroke": "teal",
+      "class": "process",
+      "layoutHints": {
+        "left": "of tech"
+      }
+    },
+    {
+      "id": "construct",
+      "label": "Construction",
+      "shape": "rect",
+      "pos": [
+        -143.63924,
+        -85.75822
+      ],
+      "size": [
+        86.73373000000001,
+        28.852729999999994
+      ],
+      "fill": "teal!20",
+      "stroke": "teal",
+      "class": "process",
+      "layoutHints": {
+        "left": "of proto"
+      }
+    },
+    {
+      "id": "commission",
+      "label": "Commissioning",
+      "shape": "rect",
+      "pos": [
+        -143.63924,
+        -171.51645
+      ],
+      "size": [
+        86.73373000000001,
+        28.852720000000005
+      ],
+      "fill": "teal!20",
+      "stroke": "teal",
+      "class": "process",
+      "layoutHints": {
+        "below": "of construct"
+      }
+    },
+    {
+      "id": "data",
+      "label": "Data Collection",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -171.51645
+      ],
+      "size": [
+        86.73374,
+        28.852720000000005
+      ],
+      "fill": "teal!20",
+      "stroke": "teal",
+      "class": "process",
+      "layoutHints": {
+        "right": "of commission"
+      }
+    },
+    {
+      "id": "analysis",
+      "label": "Data Analysis",
+      "shape": "rect",
+      "pos": [
+        143.63924,
+        -171.51645
+      ],
+      "size": [
+        86.73373000000001,
+        28.852720000000005
+      ],
+      "fill": "teal!20",
+      "stroke": "teal",
+      "class": "process",
+      "layoutHints": {
+        "right": "of data"
+      }
+    },
+    {
+      "id": "publish",
+      "label": "Publishing Results",
+      "shape": "rect",
+      "pos": [
+        143.63924,
+        -85.75822
+      ],
+      "size": [
+        86.73373000000001,
+        28.852729999999994
+      ],
+      "fill": "teal!20",
+      "stroke": "teal",
+      "class": "process",
+      "layoutHints": {
+        "above": "of analysis"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "concept",
+      "to": "funding",
+      "arrow": false
+    },
+    {
+      "from": "funding",
+      "to": "tech",
+      "arrow": false
+    },
+    {
+      "from": "tech",
+      "to": "proto",
+      "arrow": false
+    },
+    {
+      "from": "proto",
+      "to": "construct",
+      "arrow": false
+    },
+    {
+      "from": "construct",
+      "to": "commission",
+      "arrow": false
+    },
+    {
+      "from": "commission",
+      "to": "data",
+      "arrow": false
+    },
+    {
+      "from": "data",
+      "to": "analysis",
+      "arrow": false
+    },
+    {
+      "from": "analysis",
+      "to": "publish",
+      "arrow": false
+    }
+  ]
+}

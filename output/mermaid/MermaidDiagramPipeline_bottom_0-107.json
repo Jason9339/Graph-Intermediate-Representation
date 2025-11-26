@@ -1,0 +1,141 @@
+{
+  "title": "MermaidDiagramPipeline_bottom_0-107",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "LocalEvents",
+      "label": "Local Events Coordination",
+      "shape": "round",
+      "pos": [
+        123.0,
+        33.5
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "default"
+    },
+    {
+      "id": "Partnerships",
+      "label": "Business Partnerships",
+      "shape": "round",
+      "pos": [
+        123.0,
+        134.5
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "default"
+    },
+    {
+      "id": "CommunityFeedback",
+      "label": "Gather Community Feedback",
+      "shape": "round",
+      "pos": [
+        123.0,
+        235.5
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "default"
+    },
+    {
+      "id": "SocialMediaCampaigns",
+      "label": "Social Media Campaigns",
+      "shape": "round",
+      "pos": [
+        123.0,
+        336.5
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "default"
+    },
+    {
+      "id": "VolunteerPrograms",
+      "label": "Develop Volunteer Programs",
+      "shape": "round",
+      "pos": [
+        123.0,
+        437.5
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "default"
+    },
+    {
+      "id": "InformationSessions",
+      "label": "Host Information Sessions",
+      "shape": "round",
+      "pos": [
+        123.0,
+        538.5
+      ],
+      "fill": "#f9f9f9",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "default"
+    },
+    {
+      "id": "CommunityEngagement",
+      "label": "Community Engagement Strategies",
+      "shape": "round",
+      "pos": [
+        123.0,
+        669.5
+      ],
+      "fill": "#e6f3ff",
+      "stroke": "#0066cc",
+      "strokeWidth": 3.0,
+      "class": "top"
+    }
+  ],
+  "edges": [
+    {
+      "from": "LocalEvents",
+      "to": "Partnerships",
+      "arrow": true,
+      "stroke": "#0066cc",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "Partnerships",
+      "to": "CommunityFeedback",
+      "arrow": true,
+      "stroke": "#0066cc",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "CommunityFeedback",
+      "to": "SocialMediaCampaigns",
+      "arrow": true,
+      "stroke": "#0066cc",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "SocialMediaCampaigns",
+      "to": "VolunteerPrograms",
+      "arrow": true,
+      "stroke": "#0066cc",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "VolunteerPrograms",
+      "to": "InformationSessions",
+      "arrow": true,
+      "stroke": "#0066cc",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "InformationSessions",
+      "to": "CommunityEngagement",
+      "arrow": true,
+      "stroke": "#0066cc",
+      "strokeWidth": 2.0
+    }
+  ]
+}

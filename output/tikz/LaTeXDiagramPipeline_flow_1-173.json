@@ -1,0 +1,161 @@
+{
+  "title": "LaTeXDiagramPipeline_flow_1-173",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "site",
+      "label": "1. Site Selection",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "size": [
+        149.32972,
+        28.85272
+      ],
+      "fill": "teal!20",
+      "stroke": "teal!80",
+      "class": "process"
+    },
+    {
+      "id": "prep",
+      "label": "2. Preparation of Equipment",
+      "shape": "rect",
+      "pos": [
+        263.14073,
+        0.0
+      ],
+      "size": [
+        149.32971,
+        28.85272
+      ],
+      "fill": "teal!20",
+      "stroke": "teal!80",
+      "class": "process",
+      "layoutHints": {
+        "right": "of site"
+      }
+    },
+    {
+      "id": "collect",
+      "label": "3. Sample Collection",
+      "shape": "rect",
+      "pos": [
+        263.14073,
+        -85.75822
+      ],
+      "size": [
+        149.32971,
+        28.852729999999994
+      ],
+      "fill": "teal!20",
+      "stroke": "teal!80",
+      "class": "process",
+      "layoutHints": {
+        "below": "of prep"
+      }
+    },
+    {
+      "id": "label",
+      "label": "4. Labeling and Documentation",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -85.75822
+      ],
+      "size": [
+        149.32972,
+        28.852729999999994
+      ],
+      "fill": "teal!20",
+      "stroke": "teal!80",
+      "class": "process",
+      "layoutHints": {
+        "left": "of collect"
+      }
+    },
+    {
+      "id": "preserve",
+      "label": "7. Safe Storage",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -171.51645
+      ],
+      "size": [
+        149.32972,
+        28.852720000000005
+      ],
+      "fill": "teal!20",
+      "stroke": "teal!80",
+      "class": "process",
+      "layoutHints": {
+        "below": "of $(preserve)!0.5!(transport)$"
+      }
+    },
+    {
+      "id": "transport",
+      "label": "6. Transportation",
+      "shape": "rect",
+      "pos": [
+        263.14073,
+        -171.51645
+      ],
+      "size": [
+        149.32971,
+        28.852720000000005
+      ],
+      "fill": "teal!20",
+      "stroke": "teal!80",
+      "class": "process",
+      "layoutHints": {
+        "right": "of preserve"
+      }
+    },
+    {
+      "id": "storage",
+      "label": "storage",
+      "pos": [
+        131.57036,
+        -242.84831
+      ],
+      "size": [
+        149.32970999999998,
+        28.852720000000005
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "site",
+      "to": "prep",
+      "arrow": false
+    },
+    {
+      "from": "prep",
+      "to": "collect",
+      "arrow": false
+    },
+    {
+      "from": "collect",
+      "to": "label",
+      "arrow": false
+    },
+    {
+      "from": "label",
+      "to": "preserve",
+      "arrow": false
+    },
+    {
+      "from": "preserve",
+      "to": "transport",
+      "arrow": false
+    },
+    {
+      "from": "transport",
+      "to": "storage",
+      "arrow": false
+    }
+  ]
+}

@@ -1,0 +1,461 @@
+{
+  "title": "LaTeXDiagramPipeline_bio_1-54",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "aps",
+      "label": "Air Pollution Sources",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        0.0
+      ],
+      "size": [
+        78.1978,
+        28.85272
+      ],
+      "fill": "orange!30",
+      "stroke": "#000000",
+      "class": "source"
+    },
+    {
+      "id": "te",
+      "label": "Transport Emissions",
+      "shape": "rect",
+      "pos": [
+        -135.10332,
+        -71.53185
+      ],
+      "size": [
+        78.19781000000002,
+        28.852720000000005
+      ],
+      "fill": "orange!30",
+      "stroke": "#000000",
+      "class": "source",
+      "layoutHints": {
+        "below left": "of aps"
+      }
+    },
+    {
+      "id": "ie",
+      "label": "Industrial Emissions",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -71.53185
+      ],
+      "size": [
+        78.1978,
+        28.852720000000005
+      ],
+      "fill": "orange!30",
+      "stroke": "#000000",
+      "class": "source",
+      "layoutHints": {
+        "below": "of aps"
+      }
+    },
+    {
+      "id": "hs",
+      "label": "Heating Systems",
+      "shape": "rect",
+      "pos": [
+        135.10332,
+        -71.53185
+      ],
+      "size": [
+        78.19781000000002,
+        28.852720000000005
+      ],
+      "fill": "orange!30",
+      "stroke": "#000000",
+      "class": "source",
+      "layoutHints": {
+        "below right": "of aps"
+      }
+    },
+    {
+      "id": "ap",
+      "label": "Air Pollutants",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -111.36575
+      ],
+      "size": [
+        78.1978,
+        23.16225999999999
+      ],
+      "fill": "red!20",
+      "stroke": "#000000",
+      "class": "pollutant",
+      "layoutHints": {
+        "below": "3cm of aps"
+      }
+    },
+    {
+      "id": "pm",
+      "label": "PM2.5",
+      "shape": "rect",
+      "pos": [
+        -135.10332,
+        -177.20714
+      ],
+      "size": [
+        78.19781000000002,
+        23.162270000000007
+      ],
+      "fill": "red!20",
+      "stroke": "#000000",
+      "class": "pollutant",
+      "layoutHints": {
+        "below left": "of ap"
+      }
+    },
+    {
+      "id": "nox",
+      "label": "NOx",
+      "shape": "rect",
+      "pos": [
+        -270.20663,
+        -177.20714
+      ],
+      "size": [
+        78.19781,
+        23.162270000000007
+      ],
+      "fill": "red!20",
+      "stroke": "#000000",
+      "class": "pollutant",
+      "layoutHints": {
+        "left": "of pm"
+      }
+    },
+    {
+      "id": "so2",
+      "label": "SO2",
+      "shape": "rect",
+      "pos": [
+        135.10332,
+        -177.20714
+      ],
+      "size": [
+        78.19781000000002,
+        23.162270000000007
+      ],
+      "fill": "red!20",
+      "stroke": "#000000",
+      "class": "pollutant",
+      "layoutHints": {
+        "below right": "of ap"
+      }
+    },
+    {
+      "id": "o3",
+      "label": "O3",
+      "shape": "rect",
+      "pos": [
+        270.20663,
+        -177.20714
+      ],
+      "size": [
+        78.19781,
+        23.162270000000007
+      ],
+      "fill": "red!20",
+      "stroke": "#000000",
+      "class": "pollutant",
+      "layoutHints": {
+        "right": "of so2"
+      }
+    },
+    {
+      "id": "rhe",
+      "label": "Respiratory Health Effects",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -220.46312
+      ],
+      "size": [
+        78.1978,
+        24.315950000000015
+      ],
+      "fill": "blue!20",
+      "stroke": "#000000",
+      "class": "effect",
+      "layoutHints": {
+        "below": "3cm of ap"
+      }
+    },
+    {
+      "id": "asthma",
+      "label": "Asthma",
+      "shape": "rect",
+      "pos": [
+        -135.10332,
+        -286.88135
+      ],
+      "size": [
+        78.19781000000002,
+        23.162260000000003
+      ],
+      "fill": "blue!20",
+      "stroke": "#000000",
+      "class": "effect",
+      "layoutHints": {
+        "below left": "of rhe"
+      }
+    },
+    {
+      "id": "bronchitis",
+      "label": "Bronchitis",
+      "shape": "rect",
+      "pos": [
+        -270.20663,
+        -286.88135
+      ],
+      "size": [
+        78.19781,
+        23.162260000000003
+      ],
+      "fill": "blue!20",
+      "stroke": "#000000",
+      "class": "effect",
+      "layoutHints": {
+        "left": "of asthma"
+      }
+    },
+    {
+      "id": "li",
+      "label": "Lung Infections",
+      "shape": "rect",
+      "pos": [
+        135.10332,
+        -286.88135
+      ],
+      "size": [
+        78.19781000000002,
+        23.162260000000003
+      ],
+      "fill": "blue!20",
+      "stroke": "#000000",
+      "class": "effect",
+      "layoutHints": {
+        "below right": "of rhe"
+      }
+    },
+    {
+      "id": "copd",
+      "label": "Chronic Obstructive Pulmonary Disease",
+      "shape": "rect",
+      "pos": [
+        270.20663,
+        -286.88135
+      ],
+      "size": [
+        78.19781,
+        37.06594999999999
+      ],
+      "fill": "blue!20",
+      "stroke": "#000000",
+      "class": "effect",
+      "layoutHints": {
+        "right": "of li"
+      }
+    },
+    {
+      "id": "lfd",
+      "label": "Lung Function Deterioration",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -301.68457
+      ],
+      "size": [
+        78.1978,
+        24.315940000000012
+      ],
+      "fill": "green!20",
+      "stroke": "#000000",
+      "class": "factor",
+      "layoutHints": {
+        "below": "2cm of rhe"
+      }
+    },
+    {
+      "id": "fahi",
+      "label": "Factors Affecting Health Impact",
+      "shape": "rect",
+      "pos": [
+        -135.10332,
+        -369.55464
+      ],
+      "size": [
+        78.19781000000002,
+        26.065950000000043
+      ],
+      "fill": "green!20",
+      "stroke": "#000000",
+      "class": "factor",
+      "layoutHints": {
+        "below left": "of lfd"
+      }
+    },
+    {
+      "id": "doe",
+      "label": "Duration of Exposure",
+      "shape": "rect",
+      "pos": [
+        -135.10332,
+        -438.29971
+      ],
+      "size": [
+        78.19781000000002,
+        26.065949999999987
+      ],
+      "fill": "green!20",
+      "stroke": "#000000",
+      "class": "factor",
+      "layoutHints": {
+        "below": "of fahi"
+      }
+    },
+    {
+      "id": "ps",
+      "label": "Population Sensitivity",
+      "shape": "rect",
+      "pos": [
+        0.0,
+        -438.29971
+      ],
+      "size": [
+        78.1978,
+        26.065949999999987
+      ],
+      "fill": "green!20",
+      "stroke": "#000000",
+      "class": "factor",
+      "layoutHints": {
+        "right": "of doe"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "from": "aps",
+      "to": "te",
+      "arrow": false,
+      "label": "includes"
+    },
+    {
+      "from": "aps",
+      "to": "ie",
+      "arrow": false,
+      "label": "includes"
+    },
+    {
+      "from": "aps",
+      "to": "hs",
+      "arrow": false,
+      "label": "includes"
+    },
+    {
+      "from": "te",
+      "to": "ap",
+      "arrow": false,
+      "label": "releases"
+    },
+    {
+      "from": "ie",
+      "to": "ap",
+      "arrow": false,
+      "label": "releases"
+    },
+    {
+      "from": "hs",
+      "to": "ap",
+      "arrow": false,
+      "label": "releases"
+    },
+    {
+      "from": "ap",
+      "to": "pm",
+      "arrow": false,
+      "label": "includes"
+    },
+    {
+      "from": "ap",
+      "to": "nox",
+      "arrow": false,
+      "label": "includes"
+    },
+    {
+      "from": "ap",
+      "to": "so2",
+      "arrow": false,
+      "label": "includes"
+    },
+    {
+      "from": "ap",
+      "to": "o3",
+      "arrow": false,
+      "label": "includes"
+    },
+    {
+      "from": "ap",
+      "to": "rhe",
+      "arrow": false,
+      "label": "affects"
+    },
+    {
+      "from": "rhe",
+      "to": "asthma",
+      "arrow": false,
+      "label": "leads to"
+    },
+    {
+      "from": "rhe",
+      "to": "bronchitis",
+      "arrow": false,
+      "label": "leads to"
+    },
+    {
+      "from": "rhe",
+      "to": "li",
+      "arrow": false,
+      "label": "leads to"
+    },
+    {
+      "from": "rhe",
+      "to": "copd",
+      "arrow": false,
+      "label": "leads to"
+    },
+    {
+      "from": "rhe",
+      "to": "lfd",
+      "arrow": false,
+      "label": "causes"
+    },
+    {
+      "from": "fahi",
+      "to": "doe",
+      "arrow": false,
+      "label": "includes"
+    },
+    {
+      "from": "fahi",
+      "to": "ps",
+      "arrow": false,
+      "label": "includes"
+    },
+    {
+      "from": "lfd",
+      "to": "fahi",
+      "arrow": false,
+      "label": "depends on"
+    }
+  ]
+}

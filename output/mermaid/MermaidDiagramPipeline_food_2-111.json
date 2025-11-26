@@ -1,0 +1,160 @@
+{
+  "title": "MermaidDiagramPipeline_food_2-111",
+  "orientation": "TD",
+  "nodes": [
+    {
+      "id": "1",
+      "label": "Native Plants",
+      "shape": "rect",
+      "pos": [
+        725.328125,
+        35.0
+      ],
+      "size": [
+        154.265625,
+        54.0
+      ],
+      "fill": "#a3e635",
+      "stroke": "#4d7c0f",
+      "class": "plant"
+    },
+    {
+      "id": "2",
+      "label": "Milkweed",
+      "shape": "rect",
+      "pos": [
+        414.4296875,
+        163.0
+      ],
+      "size": [
+        126.6875,
+        54.0
+      ],
+      "fill": "#a3e635",
+      "stroke": "#4d7c0f",
+      "class": "plant"
+    },
+    {
+      "id": "3",
+      "label": "Herbivorous Reptiles",
+      "shape": "rect",
+      "pos": [
+        112.2578125,
+        291.0
+      ],
+      "size": [
+        208.515625,
+        54.0
+      ],
+      "fill": "#fde047",
+      "stroke": "#a16207",
+      "class": "reptile"
+    },
+    {
+      "id": "4",
+      "label": "Herbivorous Tortoises",
+      "shape": "rect",
+      "pos": [
+        373.734375,
+        291.0
+      ],
+      "size": [
+        214.4375,
+        54.0
+      ],
+      "fill": "#fde047",
+      "stroke": "#a16207",
+      "class": "reptile"
+    },
+    {
+      "id": "5",
+      "label": "Herbivorous Birds",
+      "shape": "rect",
+      "pos": [
+        624.53125,
+        291.0
+      ],
+      "size": [
+        187.15625,
+        54.0
+      ],
+      "fill": "#38bdf8",
+      "stroke": "#0369a1",
+      "class": "bird"
+    },
+    {
+      "id": "6",
+      "label": "Finches",
+      "shape": "rect",
+      "pos": [
+        826.125,
+        291.0
+      ],
+      "size": [
+        116.03125,
+        54.0
+      ],
+      "fill": "#38bdf8",
+      "stroke": "#0369a1",
+      "class": "bird"
+    }
+  ],
+  "edges": [
+    {
+      "from": "1",
+      "to": "2",
+      "arrow": true,
+      "label": "includes",
+      "stroke": "#64748b",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "2",
+      "to": "3",
+      "arrow": true,
+      "label": "provides food for",
+      "stroke": "#64748b",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "2",
+      "to": "4",
+      "arrow": true,
+      "label": "eaten by",
+      "stroke": "#64748b",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "2",
+      "to": "5",
+      "arrow": true,
+      "label": "eaten by",
+      "stroke": "#64748b",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "1",
+      "to": "5",
+      "arrow": true,
+      "label": "supports",
+      "stroke": "#64748b",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "1",
+      "to": "6",
+      "arrow": true,
+      "label": "supports",
+      "stroke": "#64748b",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "2",
+      "to": "6",
+      "arrow": true,
+      "label": "consumed by",
+      "stroke": "#64748b",
+      "strokeWidth": 2.0
+    }
+  ]
+}

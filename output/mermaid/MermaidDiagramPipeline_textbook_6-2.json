@@ -1,0 +1,174 @@
+{
+  "title": "MermaidDiagramPipeline_textbook_6-2",
+  "orientation": "LR",
+  "nodes": [
+    {
+      "id": "existing_structure",
+      "label": "Existing Structure",
+      "shape": "rect",
+      "pos": [
+        98.296875,
+        283.43359375
+      ],
+      "size": [
+        180.59375,
+        51.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "rect"
+    },
+    {
+      "id": "roof_anchoring",
+      "label": "Roof Anchoring",
+      "shape": "circle",
+      "pos": [
+        376.5078125,
+        56.53125
+      ],
+      "size": [
+        97.0625,
+        97.0625
+      ],
+      "fill": "#ccf",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "oval"
+    },
+    {
+      "id": "wall_reinforcement",
+      "label": "Wall Reinforcement",
+      "shape": "circle",
+      "pos": [
+        376.5078125,
+        214.6953125
+      ],
+      "size": [
+        119.265625,
+        119.265625
+      ],
+      "fill": "#ccf",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "oval"
+    },
+    {
+      "id": "bracing",
+      "label": "Bracing",
+      "shape": "circle",
+      "pos": [
+        376.5078125,
+        352.171875
+      ],
+      "size": [
+        55.6875,
+        55.6875
+      ],
+      "fill": "#ccf",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "oval"
+    },
+    {
+      "id": "material_upgrades",
+      "label": "Material Upgrades",
+      "shape": "circle",
+      "pos": [
+        376.5078125,
+        486.5390625
+      ],
+      "size": [
+        113.046875,
+        113.046875
+      ],
+      "fill": "#ccf",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "oval"
+    },
+    {
+      "id": "retrofitted_structure",
+      "label": "Retrofitted Structure",
+      "shape": "rect",
+      "pos": [
+        670.875,
+        283.43359375
+      ],
+      "size": [
+        196.90625,
+        51.0
+      ],
+      "fill": "#f9f",
+      "stroke": "#333",
+      "strokeWidth": 2.0,
+      "class": "rect"
+    }
+  ],
+  "edges": [
+    {
+      "from": "existing_structure",
+      "to": "roof_anchoring",
+      "arrow": true,
+      "label": "Add",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "existing_structure",
+      "to": "wall_reinforcement",
+      "arrow": true,
+      "label": "Strengthen",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "existing_structure",
+      "to": "bracing",
+      "arrow": true,
+      "label": "Install",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "existing_structure",
+      "to": "material_upgrades",
+      "arrow": true,
+      "label": "Upgrade",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "roof_anchoring",
+      "to": "retrofitted_structure",
+      "arrow": true,
+      "label": "Improves",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "wall_reinforcement",
+      "to": "retrofitted_structure",
+      "arrow": true,
+      "label": "Enhances",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "bracing",
+      "to": "retrofitted_structure",
+      "arrow": true,
+      "label": "Stabilizes",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    },
+    {
+      "from": "material_upgrades",
+      "to": "retrofitted_structure",
+      "arrow": true,
+      "label": "Strengthens",
+      "stroke": "#333",
+      "strokeWidth": 2.0
+    }
+  ]
+}

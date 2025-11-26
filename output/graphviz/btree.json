@@ -1,0 +1,165 @@
+{
+  "title": "g",
+  "orientation": "TB",
+  "nodes": [
+    {
+      "id": "node0",
+      "label": "<f0> |<f1> G|<f2>",
+      "shape": "record",
+      "pos": [
+        208.0,
+        192.0
+      ],
+      "size": [
+        69.99983999999999,
+        23.999760000000002
+      ]
+    },
+    {
+      "id": "node1",
+      "label": "<f0> |<f1> E|<f2>",
+      "shape": "record",
+      "pos": [
+        140.0,
+        132.0
+      ],
+      "size": [
+        68.99976,
+        23.999760000000002
+      ]
+    },
+    {
+      "id": "node2",
+      "label": "<f0> |<f1> B|<f2>",
+      "shape": "record",
+      "pos": [
+        77.0,
+        72.0
+      ],
+      "size": [
+        68.99976,
+        23.999760000000002
+      ]
+    },
+    {
+      "id": "node3",
+      "label": "<f0> |<f1> F|<f2>",
+      "shape": "record",
+      "pos": [
+        164.0,
+        72.0
+      ],
+      "size": [
+        67.99968,
+        23.999760000000002
+      ]
+    },
+    {
+      "id": "node4",
+      "label": "<f0> |<f1> R|<f2>",
+      "shape": "record",
+      "pos": [
+        276.0,
+        132.0
+      ],
+      "size": [
+        68.99976,
+        23.999760000000002
+      ]
+    },
+    {
+      "id": "node5",
+      "label": "<f0> |<f1> H|<f2>",
+      "shape": "record",
+      "pos": [
+        252.0,
+        72.0
+      ],
+      "size": [
+        70.99992,
+        23.999760000000002
+      ]
+    },
+    {
+      "id": "node6",
+      "label": "<f0> |<f1> Y|<f2>",
+      "shape": "record",
+      "pos": [
+        340.0,
+        72.0
+      ],
+      "size": [
+        67.99968,
+        23.999760000000002
+      ]
+    },
+    {
+      "id": "node7",
+      "label": "<f0> |<f1> A|<f2>",
+      "shape": "record",
+      "pos": [
+        34.0,
+        12.0
+      ],
+      "size": [
+        67.99968,
+        23.999760000000002
+      ]
+    },
+    {
+      "id": "node8",
+      "label": "<f0> |<f1> C|<f2>",
+      "shape": "record",
+      "pos": [
+        121.0,
+        12.0
+      ],
+      "size": [
+        68.99976,
+        23.999760000000002
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "from": "node0",
+      "to": "node1",
+      "arrow": true
+    },
+    {
+      "from": "node0",
+      "to": "node4",
+      "arrow": true
+    },
+    {
+      "from": "node1",
+      "to": "node2",
+      "arrow": true
+    },
+    {
+      "from": "node1",
+      "to": "node3",
+      "arrow": true
+    },
+    {
+      "from": "node2",
+      "to": "node7",
+      "arrow": true
+    },
+    {
+      "from": "node2",
+      "to": "node8",
+      "arrow": true
+    },
+    {
+      "from": "node4",
+      "to": "node5",
+      "arrow": true
+    },
+    {
+      "from": "node4",
+      "to": "node6",
+      "arrow": true
+    }
+  ]
+}
