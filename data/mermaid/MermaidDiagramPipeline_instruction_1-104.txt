@@ -1,0 +1,65 @@
+flowchart TB
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px
+    classDef entity fill:#e6f3ff,stroke:#4a86e8,stroke-width:2px
+    
+    A[Identify Objective] --> B[Intelligence Gathering]
+    B --> C[Strategic Planning]
+    C --> D[Operational Planning]
+    D --> E[Resource Allocation]
+    E --> F[Mission Briefing]
+    F --> G[Execution]
+    G --> H[Monitoring and Reporting]
+    H --> I[Post-Mission Analysis]
+    I --> J[Feedback Loop]
+    J -.-> A
+
+    A:::entity
+    B:::entity
+    C:::entity
+    D:::entity
+    E:::entity
+    F:::entity
+    G:::entity
+    H:::entity
+    I:::entity
+    J:::entity
+
+    subgraph Top Military Officials
+    A
+    J
+    end
+
+    subgraph Intelligence Division
+    B
+    end
+
+    subgraph Strategy and Planning Division
+    C
+    end
+
+    subgraph Operational Command
+    D
+    end
+
+    subgraph Logistics and Resource Management
+    E
+    end
+
+    subgraph Field Commanders
+    F
+    end
+
+    subgraph Deployed Military Units
+    G
+    end
+
+    subgraph Command and Control Centers
+    H
+    end
+
+    subgraph Evaluation and Assessment Division
+    I
+    end
+
+    linkStyle default stroke-width:2px,fill:none,stroke:#333
+    linkStyle 9 stroke-width:2px,fill:none,stroke:#333,stroke-dasharray: 5 5

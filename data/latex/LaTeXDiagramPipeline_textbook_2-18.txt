@@ -1,0 +1,39 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, positioning, shapes.geometric}
+
+\begin{document}
+
+\begin{tikzpicture}[
+    node distance = 2cm and 4cm,
+    event/.style = {draw, rounded corners, fill=blue!20, text width=4cm, align=center, font=\small\sffamily},
+    connection/.style = {-Stealth, thick, draw=orange!60!black},
+    every edge label/.style = {font=\tiny\sffamily, fill=yellow!20, inner sep=2pt}
+]
+
+\node[event] (2003) {Medicare Prescription Drug, Improvement, and Modernization Act\\(2003)};
+
+\node[event, below right=of 2003] (2010) {Affordable Care Act\\(2010)};
+\draw[connection] (2003) to[bend left] node[above, sloped] {Insurance Coverage Expansion} (2010);
+
+\node[event, below left=of 2010] (2014) {Medicaid Expansion\\(2014)};
+\draw[connection] (2010) to node[left] {State-Level Medicaid Changes} (2014);
+
+\node[event, below right=of 2010] (2015) {MACRA (Medicare Access and CHIP Reauthorization Act)\\(2015)};
+\draw[connection] (2010) to node[right] {Quality Payment Program} (2015);
+
+\node[event, below=of 2015] (2016) {21st Century Cures Act\\(2016)};
+\draw[connection] (2015) to node[right] {Biomedical Research Funding} (2016);
+
+\node[event, below left=of 2016] (2018) {Right to Try Act\\(2018)};
+\draw[connection] (2016) to node[left] {Experimental Drug Access} (2018);
+
+\node[event, below right=of 2018] (2020) {COVID-19 Health Care Policy Adjustments\\(2020)};
+\draw[connection] (2018) to[bend right] node[below, sloped] {Pandemic Response} (2020);
+
+\node[event, below=of 2020] (2022) {No Surprises Act\\(2022)};
+\draw[connection] (2020) to node[right] {Billing Transparency} (2022);
+
+\end{tikzpicture}
+
+\end{document}

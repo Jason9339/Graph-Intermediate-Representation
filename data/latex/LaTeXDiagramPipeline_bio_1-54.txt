@@ -1,0 +1,67 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, calc}
+
+\begin{document}
+
+\begin{tikzpicture}[
+    node distance = 1.5cm and 2cm,
+    every node/.style = {font=\sffamily\small, text width=2.5cm, align=center, rounded corners},
+    source/.style = {draw, fill=orange!30, minimum height=1cm},
+    pollutant/.style = {draw, fill=red!20, minimum height=0.8cm},
+    effect/.style = {draw, fill=blue!20, minimum height=0.8cm},
+    factor/.style = {draw, fill=green!20, minimum height=0.8cm},
+    arrow/.style = {-Stealth, thick, bend left=10},
+    label/.style = {font=\tiny\sffamily, fill=white, inner sep=1pt}
+]
+
+% Air Pollution Sources
+\node[source] (aps) {Air Pollution Sources};
+\node[source, below left=of aps] (te) {Transport Emissions};
+\node[source, below=of aps] (ie) {Industrial Emissions};
+\node[source, below right=of aps] (hs) {Heating Systems};
+
+% Air Pollutants
+\node[pollutant, below=3cm of aps] (ap) {Air Pollutants};
+\node[pollutant, below left=of ap] (pm) {PM2.5};
+\node[pollutant, left=of pm] (nox) {NOx};
+\node[pollutant, below right=of ap] (so2) {SO2};
+\node[pollutant, right=of so2] (o3) {O3};
+
+% Respiratory Health Effects
+\node[effect, below=3cm of ap] (rhe) {Respiratory Health Effects};
+\node[effect, below left=of rhe] (asthma) {Asthma};
+\node[effect, left=of asthma] (bronchitis) {Bronchitis};
+\node[effect, below right=of rhe] (li) {Lung Infections};
+\node[effect, right=of li] (copd) {Chronic Obstructive Pulmonary Disease};
+
+% Factors and Lung Function
+\node[factor, below=2cm of rhe] (lfd) {Lung Function Deterioration};
+\node[factor, below left=of lfd] (fahi) {Factors Affecting Health Impact};
+\node[factor, below=of fahi] (doe) {Duration of Exposure};
+\node[factor, right=of doe] (ps) {Population Sensitivity};
+
+% Connections
+\draw[arrow] (aps) to node[label] {includes} (te);
+\draw[arrow] (aps) to node[label] {includes} (ie);
+\draw[arrow] (aps) to node[label] {includes} (hs);
+\draw[arrow] (te) to node[label] {releases} (ap);
+\draw[arrow] (ie) to node[label] {releases} (ap);
+\draw[arrow] (hs) to node[label] {releases} (ap);
+\draw[arrow] (ap) to node[label] {includes} (pm);
+\draw[arrow] (ap) to node[label] {includes} (nox);
+\draw[arrow] (ap) to node[label] {includes} (so2);
+\draw[arrow] (ap) to node[label] {includes} (o3);
+\draw[arrow] (ap) to node[label] {affects} (rhe);
+\draw[arrow] (rhe) to node[label] {leads to} (asthma);
+\draw[arrow] (rhe) to node[label] {leads to} (bronchitis);
+\draw[arrow] (rhe) to node[label] {leads to} (li);
+\draw[arrow] (rhe) to node[label] {leads to} (copd);
+\draw[arrow] (rhe) to node[label] {causes} (lfd);
+\draw[arrow] (fahi) to node[label] {includes} (doe);
+\draw[arrow] (fahi) to node[label] {includes} (ps);
+\draw[arrow] (lfd) to node[label] {depends on} (fahi);
+
+\end{tikzpicture}
+
+\end{document}

@@ -1,0 +1,47 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, positioning, calc}
+
+\begin{document}
+
+\tikzset{
+    node_style/.style={
+        draw,
+        rectangle,
+        rounded corners,
+        minimum width=2.5cm,
+        minimum height=1cm,
+        align=center,
+        fill=brown!20,
+        font=\sffamily\small\bfseries
+    },
+    arrow_style/.style={
+        ->,
+        thick,
+        >=stealth,
+        shorten >=1pt,
+        shorten <=1pt,
+        draw=brown!60
+    }
+}
+
+\begin{tikzpicture}[node distance=2cm and 3cm]
+
+\node[node_style] (1) {Artifact\\Recovery};
+\node[node_style, right=of 1] (2) {Initial\\Cleaning};
+\node[node_style, right=of 2] (3) {Documentation};
+\node[node_style, below=of 2] (4) {Condition\\Assessment};
+\node[node_style, left=of 4] (5) {Stabilization\\Treatment};
+\node[node_style, below=of 4] (6) {Cataloging};
+\node[node_style, right=of 6] (7) {Long-term\\Storage};
+
+\draw[arrow_style] (1) -- (2);
+\draw[arrow_style] (2) -- (3);
+\draw[arrow_style] (3) -- (4);
+\draw[arrow_style] (4) -- (5);
+\draw[arrow_style] (5) -- (6);
+\draw[arrow_style] (6) -- (7);
+
+\end{tikzpicture}
+
+\end{document}

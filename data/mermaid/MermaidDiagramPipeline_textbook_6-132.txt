@@ -1,0 +1,23 @@
+flowchart TD
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px
+    classDef milestone fill:#e1f3e1,stroke:#4CAF50,stroke-width:2px
+    
+    1[("Start-Up Stage<br/>Initial network setup")]:::milestone
+    2[("First Growth<br/>Add additional servers")]
+    3[("Increased Traffic<br/>Upgrade bandwidth")]
+    4[("High Availability<br/>Implement redundancy")]
+    5[("Automation and Monitoring<br/>Deploy automated management tools")]
+    6[("Security Enhancements<br/>Advanced security measures")]
+    7[("Global Expansion<br/>Establish regional data centers")]:::milestone
+
+    1 -->|"Increase capacity"| 2
+    2 -->|"Boost connectivity"| 3
+    3 -->|"Add failover systems"| 4
+    4 -->|"Enhanced operations"| 5
+    5 -->|"Prioritize security"| 6
+    6 -->|"Expand globally"| 7
+
+    linkStyle default stroke-width:2px,fill:none,stroke:#666
+    
+    style 1 font-weight:bold
+    style 7 font-weight:bold

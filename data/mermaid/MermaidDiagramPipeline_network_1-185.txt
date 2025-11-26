@@ -1,0 +1,27 @@
+graph TB
+    classDef default fill:#f9f,stroke:#333,stroke-width:2px
+    classDef category fill:#ff9,stroke:#f66,stroke-width:4px
+    classDef highCite fill:#9f9,stroke:#6f6,stroke-width:3px
+
+    Papers["Influential Data Science Papers"]:::category
+    A["Random Forests<br/>Leo Breiman (2001)<br/>30k citations"]:::highCite
+    B["A Few Useful Things to Know<br/>About Machine Learning<br/>Pedro Domingos (2012)<br/>15k citations"]
+    C["Gradient Boosting Machines<br/>Jerome H. Friedman (2001)<br/>18k citations"]
+    D["The Elements of<br/>Statistical Learning<br/>Hastie, Tibshirani, Friedman (2009)<br/>35k citations"]:::highCite
+    E["Statistical Modeling:<br/>The Two Cultures<br/>Leo Breiman (2001)<br/>9k citations"]
+
+    Papers --> A
+    Papers --> B
+    Papers --> C
+    Papers --> D
+    Papers --> E
+
+    A -->|cites| D
+    B -->|cites| D
+    C -->|cites| D
+    D -->|cites| A
+    D -->|cites| E
+    E -->|cites| A
+
+    linkStyle default stroke-width:2px,fill:none,stroke:grey
+    linkStyle 0,1,2,3,4 stroke-width:3px,fill:none,stroke:#f66

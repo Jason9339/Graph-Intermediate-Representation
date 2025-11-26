@@ -1,0 +1,42 @@
+graph TB
+    classDef defaultStyle fill:#f9f,stroke:#333,stroke-width:2px
+    classDef approvalStyle fill:#9cf,stroke:#333,stroke-width:2px
+    classDef implementStyle fill:#bfb,stroke:#333,stroke-width:2px
+
+    A[Identify Maintenance Issues] -->|Report| B[Evaluate Issues]
+    B --> C[Prepare Budget Proposal]
+    C --> D{Budget Review}
+    D -->|Approved| E[Implement Maintenance Plan]
+    D -->|Revisions Needed| C
+
+    A:::defaultStyle
+    B:::defaultStyle
+    C:::defaultStyle
+    D:::approvalStyle
+    E:::implementStyle
+
+    subgraph Roles
+        GK[Groundskeeper]
+        PMS[Park Maintenance Supervisor]
+        CCM[City Council Member]
+    end
+
+    GK -.-> A
+    PMS -.-> B
+    PMS -.-> C
+    CCM -.-> D
+    PMS -.-> E
+
+    subgraph Schedule
+        WLM[Weekly Lawn Mowing]
+        MTP[Monthly Tree Pruning]
+        QPI[Quarterly Park Bench Inspections]
+        BSC[Bi-Annual Playground Equipment Safety Check]
+    end
+
+    GK -.-> WLM
+    GK -.-> MTP
+    PMS -.-> QPI
+    PWD[Public Works Department] -.-> BSC
+
+    MMR[Monthly Maintenance Report] --> CCM

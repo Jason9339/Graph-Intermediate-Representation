@@ -1,0 +1,46 @@
+graph TD
+    classDef stageClass fill:#f9d5e5,stroke:#333,stroke-width:2px
+    classDef actionClass fill:#eeeeee,stroke:#333,stroke-width:1px
+
+    A[Screening and Diagnosis]:::stageClass
+    B[Initial Response]:::stageClass
+    C[Chelation Therapy]:::stageClass
+    D[Supportive Care]:::stageClass
+    E[Long-term Monitoring]:::stageClass
+    F[Community and Environmental Interventions]:::stageClass
+
+    A --> B --> C --> D --> E --> F
+
+    A1[Community Health Screening]:::actionClass
+    A2[Blood and Urine Tests]:::actionClass
+    A3[Diagnostic Imaging]:::actionClass
+    A --> A1
+    A --> A2
+    A --> A3
+
+    B1[Emergency Treatment]:::actionClass
+    B --> B1
+
+    C1[Chelation Medication]:::actionClass
+    C2[Monitoring and Adjustment]:::actionClass
+    C --> C1
+    C --> C2
+
+    D1[Nutritional Support]:::actionClass
+    D2[Hydration Therapy]:::actionClass
+    D3[Symptom Management]:::actionClass
+    D --> D1
+    D --> D2
+    D --> D3
+
+    E1[Regular Follow-up Tests]:::actionClass
+    E2[Cognitive and Physical Therapy]:::actionClass
+    E --> E1
+    E --> E2
+
+    F1[Education and Awareness Campaigns]:::actionClass
+    F2[Advocacy for Regulations]:::actionClass
+    F --> F1
+    F --> F2
+
+    linkStyle default stroke-width:2px,fill:none,stroke:#ff9999

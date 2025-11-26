@@ -1,0 +1,27 @@
+%%{init: {'theme': 'base', 'themeVariables': { 'primaryColor': '#FFA07A', 'edgeLabelBackground':'#FFDAB9', 'tertiaryColor': '#FFE4B5'}}}%%
+graph TD
+    classDef defaultStyle fill:#FFA07A,stroke:#FF7F50,stroke-width:2px;
+    classDef actionStyle fill:#FFE4B5,stroke:#FF7F50,stroke-width:1px;
+    
+    A[Assessment] -->|Evaluate curricula| B[Collaboration]
+    B -->|Engage stakeholders| C[Curriculum Development]
+    C -->|Create inclusive content| D[Teacher Training]
+    D -->|Equip educators| E[Implementation]
+    E -->|Integrate new curriculum| F[Evaluation]
+    F -->|Measure impact| A
+
+    A -->|Review Textbooks| A1[Analyze content]
+    A -->|Conduct Surveys| A2[Gather opinions]
+    B -->|Form Committees| B1[Include stakeholders]
+    B -->|Partner with Organizations| B2[Work with experts]
+    C -->|Integrate Diverse Voices| C1[Ensure representation]
+    C -->|Use Primary Sources| C2[Incorporate documents]
+    D -->|Professional Development| D1[Offer workshops]
+    D -->|Provide Resources| D2[Distribute materials]
+    E -->|Pilot Programs| E1[Test new content]
+    E -->|Gather Feedback| E2[Collect and analyze]
+    F -->|Monitor Performance| F1[Assess changes]
+    F -->|Adjust Curriculum| F2[Make improvements]
+
+    class A,B,C,D,E,F defaultStyle;
+    class A1,A2,B1,B2,C1,C2,D1,D2,E1,E2,F1,F2 actionStyle;

@@ -1,0 +1,29 @@
+flowchart TB
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px
+    classDef top fill:#e6f3ff,stroke:#0066cc,stroke-width:3px
+    
+    LocalEvents("Local Events Coordination"):::default
+    Partnerships("Business Partnerships"):::default
+    CommunityFeedback("Gather Community Feedback"):::default
+    SocialMediaCampaigns("Social Media Campaigns"):::default
+    VolunteerPrograms("Develop Volunteer Programs"):::default
+    InformationSessions("Host Information Sessions"):::default
+    
+    CommunityEngagement("Community Engagement Strategies"):::top
+    
+    LocalEvents --> Partnerships
+    Partnerships --> CommunityFeedback
+    CommunityFeedback --> SocialMediaCampaigns
+    SocialMediaCampaigns --> VolunteerPrograms
+    VolunteerPrograms --> InformationSessions
+    InformationSessions --> CommunityEngagement
+    
+    linkStyle default stroke:#0066cc,stroke-width:2px
+    
+    style CommunityEngagement font-size:18px,font-weight:bold
+    style LocalEvents font-size:14px
+    style Partnerships font-size:14px
+    style CommunityFeedback font-size:14px
+    style SocialMediaCampaigns font-size:14px
+    style VolunteerPrograms font-size:14px
+    style InformationSessions font-size:14px

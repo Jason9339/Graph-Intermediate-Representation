@@ -1,0 +1,47 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{mindmap,trees,shadows}
+
+\begin{document}
+\begin{tikzpicture}[
+    mindmap,
+    grow cyclic,
+    every node/.style={concept, execute at begin node=\hskip0pt},
+    level 1/.append style={level distance=4.5cm,sibling angle=72},
+    level 2/.append style={level distance=3cm,sibling angle=45}
+]
+
+\node[concept color=blue!60, font=\Large\bfseries] {Basic Drill Bit Materials}
+    child[concept color=green!50] { node {High-Speed Steel (HSS)}
+        child { node {Durable} }
+        child { node {Affordable} }
+        child { node {Versatile} }
+        child { node {Wood} }
+        child { node {Metal} }
+    }
+    child[concept color=red!50] { node {Cobalt Steel Alloys}
+        child { node {Heat-resistant} }
+        child { node {Long-lasting} }
+        child { node {Stainless steel} }
+        child { node {Hard metals} }
+    }
+    child[concept color=orange!60] { node {Carbide}
+        child { node {Extremely hard} }
+        child { node {Brittle} }
+        child { node {Concrete} }
+        child { node {Tile} }
+    }
+    child[concept color=purple!50] { node {Diamond}
+        child { node {Very hard} }
+        child { node {Expensive} }
+        child { node {Glass} }
+        child { node {Ceramics} }
+    }
+    child[concept color=yellow!60] { node {Carbon Steel}
+        child { node {Inexpensive} }
+        child { node {Low durability} }
+        child { node {Wood} }
+        child { node {Soft plastics} }
+    };
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,33 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, positioning, calc}
+
+\begin{document}
+
+\tikzstyle{process} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=teal, fill=teal!20, text width=2.8cm]
+\tikzstyle{arrow} = [thick, ->, >=stealth]
+
+\begin{tikzpicture}[node distance=2cm]
+    \node (concept) [process] {Conceptual Design};
+    \node (funding) [process, right=of concept] {Funding and Collaboration};
+    \node (tech) [process, below=of funding] {Technical Design};
+    \node (proto) [process, left=of tech] {Prototyping};
+    \node (construct) [process, left=of proto] {Construction};
+    \node (commission) [process, below=of construct] {Commissioning};
+    \node (data) [process, right=of commission] {Data Collection};
+    \node (analysis) [process, right=of data] {Data Analysis};
+    \node (publish) [process, above=of analysis] {Publishing Results};
+    
+    \draw [arrow] (concept) -- (funding);
+    \draw [arrow] (funding) -- (tech);
+    \draw [arrow] (tech) -- (proto);
+    \draw [arrow] (proto) -- (construct);
+    \draw [arrow] (construct) -- (commission);
+    \draw [arrow] (commission) -- (data);
+    \draw [arrow] (data) -- (analysis);
+    \draw [arrow] (analysis) -- (publish);
+    
+    \node [text width=3cm, align=center, font=\small\itshape, below=0.5cm of proto] {Design of a Future\\Electron-Proton\\Collider Experiment};
+\end{tikzpicture}
+
+\end{document}

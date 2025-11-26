@@ -1,0 +1,35 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, shapes, positioning, quotes}
+
+\begin{document}
+
+\begin{tikzpicture}[
+    node distance = 1.5cm and 2cm,
+    mynode/.style = {draw, rounded corners, fill=orange!20, font=\sffamily\small, text width=2cm, align=center, minimum height=1cm},
+    myarrow/.style = {-Stealth, thick, draw=teal},
+    every edge quotes/.style = {auto, font=\scriptsize\sffamily, text=purple, sloped}
+]
+
+% Nodes
+\node[mynode] (rising_temperatures) {Rising Temperatures};
+\node[mynode, right=of rising_temperatures] (extreme_weather) {Extreme Weather Events};
+\node[mynode, below right=of extreme_weather] (resource_scarcity) {Resource Scarcity};
+\node[mynode, below left=of resource_scarcity] (economic_disparities) {Economic Disparities};
+\node[mynode, left=of economic_disparities] (health_issues) {Health Issues};
+\node[mynode, below right=of economic_disparities] (civil_unrest) {Civil Unrest};
+\node[mynode, below left=of civil_unrest] (police_misconduct) {Police Misconduct};
+\node[mynode, below right=of civil_unrest] (social_justice) {Social Justice};
+
+% Edges
+\draw[myarrow] (rising_temperatures) to["leads to"] (extreme_weather);
+\draw[myarrow] (extreme_weather) to["causes"] (resource_scarcity);
+\draw[myarrow] (resource_scarcity) to["exacerbates"] (economic_disparities);
+\draw[myarrow] (economic_disparities) to["triggers"] (civil_unrest);
+\draw[myarrow] (health_issues) to["intensifies"] (civil_unrest);
+\draw[myarrow] (civil_unrest) to["increases"] (police_misconduct);
+\draw[myarrow] (civil_unrest) to["demands"] (social_justice);
+
+\end{tikzpicture}
+
+\end{document}

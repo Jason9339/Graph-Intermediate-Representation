@@ -1,6 +1,0 @@
-// Minimal DOT example for parser bootstrap
-digraph "Example" {
-    A [label="Start"];
-    B [label="End"];
-    A -> B;
-}

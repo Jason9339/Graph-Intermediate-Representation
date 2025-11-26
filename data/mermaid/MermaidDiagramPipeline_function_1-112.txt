@@ -1,0 +1,23 @@
+flowchart TD
+    classDef default fill:#f9f,stroke:#333,stroke-width:2px
+    classDef process fill:#bbf,stroke:#f66,stroke-width:2px
+    classDef decision fill:#ff9,stroke:#f66,stroke-width:2px
+    classDef io fill:#9f9,stroke:#333,stroke-width:2px
+
+    A[Start] --> B[Check-In]
+    B --> C[Warm-Up]
+    C --> D{Health Status}
+    D -->|Yes| E[Consult Medical Staff]
+    D -->|No| F[Strength Training]
+    F --> G[Cardio Training]
+    G --> H[Cool Down]
+    H --> I{Daily Milestone Check}
+    I -->|Yes| J[Record Achievement]
+    I -->|No| K[Schedule Follow-Up Session]
+    J --> L[End of Training Session]
+    K --> L
+    L --> M[End]
+
+    class A,M io
+    class B,E,F,G,H,J,K,L process
+    class D,I decision

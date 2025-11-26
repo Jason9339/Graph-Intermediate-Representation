@@ -1,0 +1,48 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{automata,positioning,arrows.meta}
+
+\begin{document}
+
+\begin{tikzpicture}[
+    node distance=2.5cm and 3cm,
+    on grid,
+    auto,
+    every state/.style={
+        draw=teal!80!black,
+        fill=teal!20,
+        thick,
+        minimum size=6mm,
+        inner sep=2pt,
+        font=\sffamily\small
+    },
+    every edge/.style={
+        -{Stealth[length=6pt]},
+        draw=olive!60!black,
+        thick
+    }
+]
+
+\node[state,initial] (Start) {Start};
+\node[state, right=of Start] (CheckBloodSugar) {Check\\ Blood\\ Sugar};
+\node[state, right=of CheckBloodSugar] (ChooseMealType) {Choose\\ Meal\\ Type};
+\node[state, below=of ChooseMealType] (SelectFoodItems) {Select\\ Food\\ Items};
+\node[state, left=of SelectFoodItems] (PrepareMeal) {Prepare\\ Meal};
+\node[state, left=of PrepareMeal] (ServeMeal) {Serve\\ Meal};
+\node[state, below=of ServeMeal] (MonitorAfterMeal) {Monitor\\ After\\ Meal};
+\node[state, right=of MonitorAfterMeal] (AdjustNextMeal) {Adjust\\ Next\\ Meal};
+\node[state,accepting, right=of AdjustNextMeal] (End) {End};
+
+\path
+    (Start) edge (CheckBloodSugar)
+    (CheckBloodSugar) edge (ChooseMealType)
+    (ChooseMealType) edge (SelectFoodItems)
+    (SelectFoodItems) edge (PrepareMeal)
+    (PrepareMeal) edge (ServeMeal)
+    (ServeMeal) edge (MonitorAfterMeal)
+    (MonitorAfterMeal) edge (AdjustNextMeal)
+    (AdjustNextMeal) edge (End);
+
+\end{tikzpicture}
+
+\end{document}

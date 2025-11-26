@@ -1,0 +1,27 @@
+flowchart TD
+    classDef default fill:#f9f,stroke:#333,stroke-width:2px
+    classDef input fill:#bbf,stroke:#f66,stroke-width:2px
+    classDef output fill:#bfb,stroke:#f66,stroke-width:2px
+
+    A[schedule_and_manage_chores] --> B{InitializeSchedule}
+    B --> C{SortChoresByPriority}
+    C --> D{DistributeChores}
+    D --> E{CreateReminders}
+    E --> F{UpdateSchedule}
+    F --> G{CheckCompletionStatus}
+    G --> H{LogChoreCompletion}
+
+    I1[family_members] --> A
+    I2[chores_list] --> A
+    I3[availability] --> A
+    
+    A --> O1[chore_schedule]
+    A --> O2[reminders]
+    A --> O3[completion_status]
+
+    I1:::input
+    I2:::input
+    I3:::input
+    O1:::output
+    O2:::output
+    O3:::output

@@ -1,0 +1,29 @@
+flowchart BT
+    classDef default fill:#f9d5e5,stroke:#333,stroke-width:2px
+    classDef highlight fill:#eeac99,stroke:#333,stroke-width:3px
+
+    10["Publication and Distribution"] --> 9
+    9["Publishing Preparation"] --> 8
+    8["Final Review and Edits"] --> 7
+    7["Combining Text and Illustrations"] --> 6
+    6["Detailed Illustrations"] --> 5
+    5["Feedback Iteration"] --> 4
+    4["Creating Initial Sketches"] --> 3
+    3["Drafting the Story"] --> 2
+    2["Selecting Math Concepts"] --> 1
+    1["Brainstorming Story Ideas"]
+
+    class 1,5,10 highlight
+    
+    linkStyle default stroke:#ff9999,stroke-width:2px
+    
+    style 1 font-weight:bold
+    style 2 font-style:italic
+    style 3 font-weight:bold
+    style 4 font-style:italic
+    style 5 font-weight:bold
+    style 6 font-style:italic
+    style 7 font-weight:bold
+    style 8 font-style:italic
+    style 9 font-weight:bold
+    style 10 font-style:italic

@@ -1,0 +1,17 @@
+graph TD
+    classDef sudanese fill:#FFE5B4,stroke:#FF8C00,stroke-width:2px
+    classDef german fill:#E0F8E0,stroke:#228B22,stroke-width:2px
+    classDef relationship fill:#F0F8FF,stroke:#4682B4,stroke-width:1px
+
+    AO[Ali Osman Taha<br>1951<br>Former Vice President of Sudan]:::sudanese
+    HPK[Hans-Peter Kniess<br>1948<br>Former German Ambassador to Sudan]:::german
+    BA[Badr Eldin Abdullah<br>1960<br>Former Sudanese Ambassador to Germany]:::sudanese
+    MZ[Michael Zickerick<br>1954<br>Former German Ambassador to Sudan]:::german
+    NE[Nafisa El-Saddig<br>1965<br>Sudanese Diplomat]:::sudanese
+    MM[Miriam Müller<br>1967<br>German Diplomat]:::german
+
+    AO --- |Close family friend<br>and advisor| HPK:::relationship
+    BA --- |Family friendship| MZ:::relationship
+    NE --- |Distant cousins| MM:::relationship
+
+    linkStyle default stroke-width:2px,fill:none,stroke:#708090

@@ -1,57 +1,37 @@
 {
-  "graph": {
-    "title": "圖表標題",
-    "directed": true,
-    "orientation": "LR",
-    "layout": "hierarchical",
-    "metadata": {
-      "备注": "可擴充的額外資料"
-    }
-  },
+  "title": "圖表標題",
+  "orientation": "LR",
   "nodes": [
     {
       "id": "n1",
       "label": "節點1",
       "shape": "rect",
-      "color": "#FF0000",
-      "fillColor": "#FFFF00",
-      "style": "filled",
-      "width": 2.0,
-      "height": 1.0,
-      "position": {
-        "x": 100,
-        "y": 200
-      },
-      "metadata": {}
+      "pos": [100, 200],
+      "size": [120, 40],
+      "fill": "#FFFF00",
+      "stroke": "#FF0000",
+      "strokeWidth": 2,
+      "class": "highlight"
     }
   ],
   "edges": [
     {
-      "source": "n1",
-      "target": "n2",
-      "directed": true,
+      "from": "n1",
+      "to": "n2",
       "label": "邊上的文字",
-      "style": "dashed",
-      "color": "#0000FF",
-      "arrowHead": "diamond",
-      "weight": 1.0,
-      "metadata": {}
+      "arrow": true,
+      "stroke": "#0000FF",
+      "strokeWidth": 1.5,
+      "dash": [6, 4]
     }
   ],
   "groups": [
     {
       "id": "cluster_0",
       "label": "子圖 1",
-      "nodes": [
-        "n1",
-        "n3"
-      ],
-      "groups": [
-        "cluster_0_1"
-      ],
-      "style": "filled",
-      "color": "#CCCCCC",
-      "metadata": {}
+      "nodes": ["n1", "n3"],
+      "groups": ["cluster_0_1"],
+      "fill": "#CCCCCC"
     }
   ]
 }

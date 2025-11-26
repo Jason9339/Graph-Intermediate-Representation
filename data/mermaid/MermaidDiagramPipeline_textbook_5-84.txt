@@ -1,0 +1,19 @@
+flowchart TB
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px
+    classDef highlight fill:#e6f7ff,stroke:#0077be,stroke-width:3px
+    
+    preclinical["Preclinical Testing<br><small>Laboratory and animal studies</small>"]
+    phase1["Phase 1 Trials<br><small>Small group of healthy volunteers</small>"]
+    phase2["Phase 2 Trials<br><small>Larger group of patients</small>"]
+    phase3["Phase 3 Trials<br><small>Large-scale patient testing</small>"]
+    fda_approval["FDA Approval<br><small>Review and authorization</small>"]
+    phase4["Phase 4 Trials<br><small>Post-marketing surveillance</small>"]
+    
+    preclinical -->|"Approval for Human Testing"| phase1
+    phase1 -->|"Evaluating Therapeutic Effectiveness"| phase2
+    phase2 -->|"Confirmation of Efficacy"| phase3
+    phase3 -->|"Regulatory Review"| fda_approval
+    fda_approval -->|"Long-term Monitoring"| phase4
+    
+    class preclinical,phase1,phase2,phase3,phase4 default
+    class fda_approval highlight

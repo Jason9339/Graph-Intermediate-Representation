@@ -1,0 +1,37 @@
+flowchart TD
+    classDef mainBlock fill:#f9d5e5,stroke:#333,stroke-width:2px,color:#333,font-weight:bold
+    classDef subBlock fill:#eeac99,stroke:#333,stroke-width:1px,color:#333
+    classDef detailBlock fill:#e06377,stroke:#333,stroke-width:1px,color:#fff
+
+    title["The Profile of a Criminal Offender:<br/>Psychological and Behavioral Traits"]
+    style title fill:#c83349,stroke:#333,stroke-width:3px,color:#fff,font-weight:bold
+
+    PB[Personal Background]:::mainBlock
+    PT[Psychological Traits]:::mainBlock
+    BP[Behavioral Patterns]:::mainBlock
+
+    PB --> CE[Childhood Experiences]:::subBlock
+    PB --> FD[Family Dynamics]:::subBlock
+    PB --> EB[Educational Background]:::subBlock
+
+    PT --> PD[Personality Disorders]:::subBlock
+    PT --> CD[Cognitive Distortions]:::subBlock
+    PT --> ES[Emotional States]:::subBlock
+
+    BP --> CH[Criminal History]:::subBlock
+    BP --> IR[Interpersonal Relationships]:::subBlock
+    BP --> LS[Lifestyle]:::subBlock
+
+    CE --> |Abuse<br/>Neglect<br/>Trauma| CE1:::detailBlock
+    FD --> |Parental Criminality<br/>Domestic Violence<br/>Substance Abuse| FD1:::detailBlock
+    EB --> |Learning Disabilities<br/>School Failure<br/>Peer Rejection| EB1:::detailBlock
+
+    PD --> |Antisocial PD<br/>Narcissistic PD<br/>Borderline PD| PD1:::detailBlock
+    CD --> |Lack of Empathy<br/>Entitlement<br/>Rationalization| CD1:::detailBlock
+    ES --> |Anger<br/>Paranoia<br/>Depression| ES1:::detailBlock
+
+    CH --> |Juvenile Delinquency<br/>Violent Crimes<br/>Substance Abuse Crimes| CH1:::detailBlock
+    IR --> |Coercion<br/>Manipulation<br/>Isolation| IR1:::detailBlock
+    LS --> |Unstable Employment<br/>Transient Living<br/>Gang Affiliation| LS1:::detailBlock
+
+    title --> PB & PT & BP

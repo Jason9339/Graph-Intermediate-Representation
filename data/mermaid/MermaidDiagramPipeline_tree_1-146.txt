@@ -1,0 +1,53 @@
+flowchart TB
+    classDef question fill:#f9d5e5,stroke:#333,stroke-width:2px
+    classDef action fill:#eeac99,stroke:#333,stroke-width:2px
+    classDef activity fill:#e6d7b9,stroke:#333,stroke-width:2px
+
+    A[Identify Existing Interests]:::question
+    B{Do you have any shared interests from the past?}:::question
+    C[Revisit Past Hobbies]:::action
+    D[Explore New Hobbies Together]:::action
+    E{Are you both open to physical activities?}:::question
+    F{Do you prefer intellectual or creative pursuits?}:::question
+    G{Are you interested in learning new skills together?}:::question
+    
+    A --> B
+    B -->|Yes| C
+    B -->|No| D
+    D --> E
+    D --> G
+    E -->|No| F
+    
+    C --> C1[Bicycle rides]:::activity
+    C --> C2[Visit museums]:::activity
+    C --> C3[Cook favorite meals]:::activity
+    
+    E -->|Yes| E1[Couples yoga]:::activity
+    E -->|Yes| E2[Dance lessons]:::activity
+    E -->|Yes| E3[Hiking]:::activity
+    
+    F -->|Intellectual| F1[Book club]:::activity
+    F -->|Intellectual| F2[Community college class]:::activity
+    F -->|Intellectual| F3[Learn languages]:::activity
+    
+    F -->|Creative| F4[Pottery/painting]:::activity
+    F -->|Creative| F5[Photography]:::activity
+    F -->|Creative| F6[Home gardening]:::activity
+    
+    G -->|Yes| G1[Cooking class]:::activity
+    G -->|Yes| G2[DIY workshop]:::activity
+    G -->|Yes| G3[Learn instruments]:::activity
+    
+    G -->|No| G4[Game nights]:::activity
+    G -->|No| G5[Movie nights]:::activity
+    G -->|No| G6[Volunteer together]:::activity
+
+    linkStyle default stroke-width:2px,fill:none,stroke:#333
+    
+    style A font-size:18px,font-weight:bold
+    style B font-size:16px
+    style C font-size:16px
+    style D font-size:16px
+    style E font-size:14px
+    style F font-size:14px
+    style G font-size:14px

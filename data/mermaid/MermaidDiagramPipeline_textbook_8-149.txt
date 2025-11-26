@@ -1,0 +1,26 @@
+flowchart TD
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px
+    classDef highlight fill:#e6f3ff,stroke:#4a86e8,stroke-width:3px
+    
+    1["UN Convention on the Rights of the Child (1989)"]
+    2["Human Rights Watch Reports (2003)"]
+    3["Amnesty International Campaigns (2005)"]
+    4["Photograph Published (2012)"]
+    5["Social Media Outcry (2012)"]
+    6["UNICEF Intervention (2013)"]
+    7["Rescue Mission (2013)"]
+    8["Reintegration Programs (2014)"]
+
+    1 -->|Documents violations| 2
+    2 -->|Sparks campaigns| 3
+    3 -->|Increases public awareness| 4
+    4 -->|Leads to social media outcry| 5
+    5 -->|Pushes for intervention| 6
+    6 -->|Results in rescue| 7
+    7 -->|Followed by reintegration| 8
+
+    class 4,7 highlight
+    linkStyle default stroke:#666,stroke-width:2px,fill:none
+    
+    style 1 font-weight:bold
+    style 8 font-weight:bold

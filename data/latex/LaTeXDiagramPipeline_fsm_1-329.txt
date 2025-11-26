@@ -1,0 +1,44 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{automata,positioning,arrows.meta,shapes.geometric}
+
+\begin{document}
+
+\begin{tikzpicture}[
+    node distance=4cm,
+    on grid,
+    auto,
+    thick,
+    state/.style={
+        draw,
+        circle,
+        minimum size=2cm,
+        fill=blue!10,
+        font=\sffamily\small\bfseries
+    },
+    transition/.style={
+        -{Stealth[length=10pt]},
+        thick,
+        shorten >=1pt,
+        bend left,
+        font=\sffamily\scriptsize\itshape,
+        align=center
+    }
+]
+
+\node[state] (GA) {Game\\ Analysis};
+\node[state] (FS) [right=of GA] {Formulate\\ Strategy};
+\node[state] (TP) [below right=of FS] {Team\\ Preparation};
+\node[state] (IA) [below left=of TP] {In-game\\ Adaptation};
+\node[state] (PR) [left=of IA] {Post-game\\ Review};
+
+\path[transition]
+    (GA) edge node {Complete\\ SWOT Analysis} (FS)
+    (FS) edge node {Strategy\\ Approved} (TP)
+    (TP) edge node {Game Start} (IA)
+    (IA) edge node {Game End} (PR)
+    (PR) edge[bend right=45] node {Begin Next Cycle} (GA);
+
+\end{tikzpicture}
+
+\end{document}

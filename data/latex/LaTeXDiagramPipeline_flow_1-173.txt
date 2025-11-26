@@ -1,0 +1,47 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, positioning, calc}
+
+\begin{document}
+
+\tikzset{
+    process/.style={
+        rectangle,
+        rounded corners,
+        draw=teal!80,
+        fill=teal!20,
+        text width=5cm,
+        minimum height=1cm,
+        align=center,
+        font=\sffamily\small
+    },
+    arrow/.style={
+        ->,
+        thick,
+        >=stealth,
+        shorten >=1pt,
+        shorten <=1pt,
+        draw=orange!60
+    }
+}
+
+\begin{tikzpicture}[node distance=2cm and 4cm]
+
+\node[process] (site) {1. Site Selection};
+\node[process, right=of site] (prep) {2. Preparation of Equipment};
+\node[process, below=of prep] (collect) {3. Sample Collection};
+\node[process, left=of collect] (label) {4. Labeling and Documentation};
+\node[process, below=of label] (preserve) {5. Initial Sample Preservation};
+\node[process, right=of preserve] (transport) {6. Transportation};
+\node[process, below=of $(preserve)!0.5!(transport)$] (storage) {7. Safe Storage};
+
+\draw[arrow] (site) -- (prep);
+\draw[arrow] (prep) -- (collect);
+\draw[arrow] (collect) -- (label);
+\draw[arrow] (label) -- (preserve);
+\draw[arrow] (preserve) -- (transport);
+\draw[arrow] (transport) -- (storage);
+
+\end{tikzpicture}
+
+\end{document}

@@ -1,0 +1,29 @@
+# Generated output (comment out if you want to commit outputs)
+output/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.pdf
+*.dvi
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

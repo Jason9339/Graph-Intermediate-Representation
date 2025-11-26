@@ -1,0 +1,26 @@
+flowchart TB
+    classDef default fill:#f9f,stroke:#333,stroke-width:2px
+    classDef johnny fill:#ff9,stroke:#f66,stroke-width:3px
+    classDef modern fill:#9ff,stroke:#66f,stroke-width:2px
+
+    1920s["1920s: Simple and Functional<br/>Minimal, functional costumes"]
+    1950s["1950s: Glam and Elegance<br/>Sequins and velvet introduced"]
+    1980s["1980s: Bold and Colorful<br/>Bright colors, elaborate designs"]
+    1990s["1990s: Technical and Artistic<br/>Blend of tech fabrics and art"]
+    JohnnyWeir["Johnny Weir: Iconic and Unconventional<br/>Avant-garde and flamboyant"]:::johnny
+    2004["2004: Swan Costume<br/>White with feathers"]
+    2006["2006: King Arthur<br/>Medieval-inspired"]
+    2010["2010: Poker Face<br/>Black with red gloves"]
+    modern["Modern Era: Technological Integration<br/>Advanced fabrics, LED lights"]:::modern
+
+    1920s -->|Evolution of fabric| 1950s
+    1950s -->|Introduction of sequins| 1980s
+    1980s -->|Rise of elaborate designs| 1990s
+    1990s -->|Blend of art and function| JohnnyWeir
+    JohnnyWeir -->|Pushing boundaries| modern
+    JohnnyWeir --> 2004
+    JohnnyWeir --> 2006
+    JohnnyWeir --> 2010
+
+    linkStyle default stroke-width:2px,fill:none,stroke:#666
+    linkStyle 4 stroke-width:3px,fill:none,stroke:#f66

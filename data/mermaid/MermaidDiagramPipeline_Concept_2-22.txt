@@ -1,0 +1,47 @@
+mindmap
+  root((Managing<br>Parenting Time))
+    Weekday Schedule
+      Alternating Days
+        Monday, Wednesday, Friday with Dad
+        Tuesday, Thursday with Mom
+      Regular Childcare
+        After School Program
+        Babysitter on Thursdays
+    Weekend Schedule
+      Alternating Weekends
+        Weekend 1 with Mom
+        Weekend 2 with Dad
+      Special Activities
+        Sports Practice
+        Play Dates
+    Holidays
+      Even Year
+        Christmas with Dad
+        New Year's with Mom
+      Odd Year
+        Thanksgiving with Mom
+        Easter with Dad
+      Other Holidays
+        Mother's Day with Mom
+        Father's Day with Dad
+    Vacations
+      Summer Break
+        First Half: Two Weeks with Dad
+        Second Half: Two Weeks with Mom
+      Spring Break
+        Even Year: With Dad
+        Odd Year: With Mom
+    Communication
+      Regular Updates
+        Weekly Call with Other Parent
+        Monthly In-Person Meeting
+      Emergency Changes
+        Immediate Phone Call
+        Email Confirmation
+    Emotional Well-being
+      Counseling
+        Monthly Session with Therapist
+        School Counselor Availability
+      Quality Time
+        Daily Quality Time with Parent
+        Special One-on-One Outings

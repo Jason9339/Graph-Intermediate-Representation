@@ -1,0 +1,37 @@
+flowchart TB
+    classDef box fill:#f9f,stroke:#333,stroke-width:2px
+    classDef process fill:#bbf,stroke:#333,stroke-width:2px
+    classDef data fill:#bfb,stroke:#333,stroke-width:2px
+    classDef outcome fill:#fbb,stroke:#333,stroke-width:2px
+
+    1[Asteroid Characteristics]:::box
+    2[Sample Collection Methods]:::process
+    3[Transport to Earth]:::process
+    4[Ecological Impact Variables]:::box
+    5[Machine Learning Model]:::process
+    6[Collected Data]:::data
+    7[Sensitivity Analysis]:::process
+    8[Predicted Ecological Outcomes]:::outcome
+    9[Conservation Strategies]:::outcome
+
+    1 -->|informs| 2
+    2 -->|leads to| 3
+    3 -->|affects| 4
+    4 -->|input for| 5
+    6 -->|trains| 5
+    5 -->|used in| 7
+    7 -->|produces| 8
+    8 -->|informs| 9
+    4 -->|factors into| 9
+
+    linkStyle default stroke-width:2px,fill:none,stroke:#333
+    
+    style 1 font-size:14px
+    style 2 font-size:14px
+    style 3 font-size:14px
+    style 4 font-size:14px
+    style 5 font-size:14px
+    style 6 font-size:14px
+    style 7 font-size:14px
+    style 8 font-size:14px
+    style 9 font-size:14px

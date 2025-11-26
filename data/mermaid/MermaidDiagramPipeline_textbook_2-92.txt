@@ -1,0 +1,34 @@
+flowchart TB
+    classDef correct fill:#e6f7ff,stroke:#1890ff,stroke-width:2px
+    classDef incorrect fill:#fff1f0,stroke:#ff4d4f,stroke-width:2px
+    
+    subgraph Standing[Standing Posture]
+        CS[Correct:<br/>Stand tall and straight,<br/>keep shoulders back,<br/>distribute weight evenly]:::correct
+        IS[Incorrect:<br/>Slouching or leaning<br/>too far back,<br/>uneven weight distribution]:::incorrect
+        CS --> |Avoid| IS
+    end
+
+    subgraph Sitting[Sitting Posture]
+        CSI[Correct:<br/>Sit up with back straight,<br/>shoulders back, buttocks<br/>touching chair back]:::correct
+        ISI[Incorrect:<br/>Slouching forward or<br/>backward, sitting without<br/>back support]:::incorrect
+        CSI --> |Avoid| ISI
+    end
+
+    subgraph Lifting[Lifting Objects]
+        CL[Correct:<br/>Use legs to lift,<br/>keep back straight,<br/>hold objects close to body]:::correct
+        IL[Incorrect:<br/>Bending at the waist,<br/>lifting with your back]:::incorrect
+        CL --> |Avoid| IL
+    end
+
+    subgraph Sleeping[Sleeping Posture]
+        CSL[Correct:<br/>Sleep on side, preferably<br/>left, with bent knees and<br/>pillow between them]:::correct
+        ISL[Incorrect:<br/>Sleeping on your<br/>back or stomach]:::incorrect
+        CSL --> |Avoid| ISL
+    end
+
+    Standing --> Sitting --> Lifting --> Sleeping
+
+    style Standing fill:#f0f5ff,stroke:#1890ff,stroke-width:4px
+    style Sitting fill:#f0f5ff,stroke:#1890ff,stroke-width:4px
+    style Lifting fill:#f0f5ff,stroke:#1890ff,stroke-width:4px
+    style Sleeping fill:#f0f5ff,stroke:#1890ff,stroke-width:4px

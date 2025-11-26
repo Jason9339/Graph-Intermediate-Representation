@@ -1,0 +1,41 @@
+flowchart TB
+    classDef default fill:#f9f9f9,stroke:#333,stroke-width:2px
+    classDef cytokine fill:#ffcccc,stroke:#ff6666
+    classDef immune fill:#ccffcc,stroke:#66ff66
+    classDef process fill:#ccccff,stroke:#6666ff
+
+    1[("Injury/Infection")]
+    2["PAMPs"]
+    3["PRRs"]
+    4["Macrophages"]:::immune
+    5["Dendritic Cells"]:::immune
+    6["Neutrophils"]:::immune
+    7["T-helper Cells (Th1)"]:::immune
+    8{"Cytokines"}
+    9["TNF-α"]:::cytokine
+    10["IL-1"]:::cytokine
+    11["IL-6"]:::cytokine
+    12(("Inflammation")):::process
+    13["Recruitment of Immune Cells"]:::process
+    14["Phagocytosis"]:::process
+    15["Resolution"]:::process
+
+    1 -->|causes| 2
+    2 -->|recognize| 3
+    3 -->|activate| 4 & 5 & 6
+    4 -->|produce| 8
+    5 -->|present antigens to| 7
+    8 -->|release| 9 & 10 & 11
+    9 & 10 & 11 -->|leads to| 12
+    12 -->|triggers| 13
+    13 -->|perform| 14
+    14 -->|leads to| 15
+
+    linkStyle default stroke-width:2px,fill:none,stroke:#666
+    
+    style 1 fill:#ff9999,stroke:#ff0000
+    style 2 fill:#ffcc99,stroke:#ff9933
+    style 3 fill:#ffff99,stroke:#ffff00
+    style 8 fill:#99ccff,stroke:#3366ff
+    style 12 fill:#ff99cc,stroke:#ff3399
+    style 15 fill:#99ffcc,stroke:#00ff99

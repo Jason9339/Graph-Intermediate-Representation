@@ -1,0 +1,62 @@
+graph TB
+    classDef default fill:#f9f,stroke:#333,stroke-width:2px;
+    classDef muscle fill:#ffd,stroke:#333,stroke-width:2px;
+    classDef exercise fill:#dff,stroke:#333,stroke-width:2px;
+    classDef prevention fill:#dfd,stroke:#333,stroke-width:2px;
+
+    1[Muscular Symmetry]
+    2[Strength Training Specifics]
+    3[NFL Quarterbacks]
+    4[Upper Body]
+    5[Lower Body]
+    6[Core]
+    7[Chest]
+    8[Shoulders]
+    9[Arms]
+    10[Legs]
+    11[Glutes]
+    12[Abdomen]
+    13[Back]
+    14[Injury Prevention]
+    15[Strength Training Programs]
+    16[Incline Bench Press]
+    17[Lateral Raises]
+    18[Bicep Curls]
+    19[Squats]
+    20[Lunges]
+    21[Planks]
+    22[Deadlifts]
+    23[Physical Therapy]
+    24[Resistance Bands]
+    25[Dynamic Stretching]
+
+    3 --> 1
+    1 --> 2
+    1 --> 14
+    2 --> 4
+    2 --> 5
+    2 --> 6
+    4 --> 7
+    4 --> 8
+    4 --> 9
+    5 --> 10
+    5 --> 11
+    6 --> 12
+    6 --> 13
+    15 --> 16
+    15 --> 17
+    15 --> 18
+    15 --> 19
+    15 --> 20
+    15 --> 21
+    15 --> 22
+    14 --> 23
+    14 --> 24
+    14 --> 25
+
+    class 1,2,3,4,5,6,14,15 default;
+    class 7,8,9,10,11,12,13 muscle;
+    class 16,17,18,19,20,21,22 exercise;
+    class 23,24,25 prevention;
+
+    linkStyle default stroke-width:2px,fill:none,stroke:gray;

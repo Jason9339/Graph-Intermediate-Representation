@@ -1,0 +1,34 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, shapes, positioning, quotes}
+
+\begin{document}
+
+\begin{tikzpicture}[
+    node distance = 1.5cm and 3cm,
+    every node/.style = {draw, rounded corners, font=\sffamily\small, align=center, fill=lightgray!30},
+    arrow/.style = {-Stealth, thick, blue},
+    label/.style = {font=\tiny\itshape, fill=none, draw=none, text=purple}
+]
+
+% Nodes
+\node (CSO) {Civil Society\\ Organizations\\ (CSOs)};
+\node (SF) [below right=of CSO] {Smallholder\\ Farmers};
+\node (TP) [above right=of SF] {Training\\ Programs};
+\node (AM) [below right=of SF] {Access to\\ Market};
+\node (IAP) [below left=of SF] {Improved\\ Agricultural\\ Practices};
+\node (GP) [above left=of CSO] {Government\\ Policies};
+
+% Edges
+\draw[arrow] (CSO) to["Organize", label] (TP);
+\draw[arrow] (TP) to["Empower", label] (SF);
+\draw[arrow] (SF) to["Produce", label] (AM);
+\draw[arrow] (AM) to[bend left, "Sales Revenue", label] (SF);
+\draw[arrow] (CSO) to["Promote", label] (IAP);
+\draw[arrow] (IAP) to["Adopt", label] (SF);
+\draw[arrow] (GP) to["Support", label] (CSO);
+\draw[arrow] (GP) to[bend right, "Subsidies", label] (SF);
+
+\end{tikzpicture}
+
+\end{document}

@@ -1,0 +1,35 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, positioning, calc}
+
+\begin{document}
+
+\tikzstyle{process} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm, text centered, draw=blue!60, fill=blue!5, text width=3cm]
+\tikzstyle{arrow} = [thick, ->, >=stealth]
+
+\begin{tikzpicture}[node distance=2cm, scale=0.8, every node/.style={scale=0.8}]
+
+    \node (1) [process] {Analog Input Signal};
+    \node (9) [process, below=of 1] {Optional: Low-pass Filter};
+    \node (2) [process, right=of 1] {Sample and Hold Circuit};
+    \node (3) [process, right=of 2] {Analog Multiplexer};
+    \node (4) [process, below=of 3] {Analog-to-Digital Converter (ADC)};
+    \node (5) [process, left=of 4] {ADC Control Logic};
+    \node (6) [process, below=of 4] {Digital Output};
+    \node (7) [process, below=of 6] {Microcontroller Memory};
+    \node (8) [process, left=of 7] {Microcontroller Processing Unit};
+
+    \draw [arrow] (1) -- (2) node [midway, above] {\small Provide Analog Signal};
+    \draw [arrow] (2) -- (3) node [midway, above] {\small Hold Analog Value};
+    \draw [arrow] (3) -- (4) node [midway, right] {\small Select Channel};
+    \draw [arrow] (4) -- (5) node [midway, above] {\small Conversion Trigger};
+    \draw [arrow] (5) -- (6) node [midway, right] {\small Digital Data Ready};
+    \draw [arrow] (6) -- (7) node [midway, right] {\small Store Digital Data};
+    \draw [arrow] (7) -- (8) node [midway, above] {\small Microcontroller Read};
+    \draw [arrow] (1) -- (9) node [midway, left] {\small Optional Signal Conditioning};
+
+    \node [text width=12cm, align=center, below=1cm of 8] {\Large \textbf{Signal Processing in Microcontrollers:}\\ \large A Detailed Flowchart of an Analog-to-Digital Conversion};
+
+\end{tikzpicture}
+
+\end{document}

@@ -1,0 +1,28 @@
+flowchart TD
+    classDef plant fill:#a3e635,stroke:#4d7c0f,color:#365314
+    classDef reptile fill:#fde047,stroke:#a16207,color:#713f12
+    classDef bird fill:#38bdf8,stroke:#0369a1,color:#0c4a6e
+
+    1["Native Plants"]:::plant
+    2["Milkweed"]:::plant
+    3["Herbivorous Reptiles"]:::reptile
+    4["Herbivorous Tortoises"]:::reptile
+    5["Herbivorous Birds"]:::bird
+    6["Finches"]:::bird
+
+    1 -->|includes| 2
+    2 -->|provides food for| 3
+    2 -->|eaten by| 4
+    2 -->|eaten by| 5
+    1 -->|supports| 5
+    1 -->|supports| 6
+    2 -->|consumed by| 6
+
+    linkStyle default stroke-width:2px,fill:none,stroke:#64748b
+    
+    style 1 fontWeight:bold
+    style 2 fontWeight:bold
+    style 3 fontWeight:bold
+    style 4 fontWeight:bold
+    style 5 fontWeight:bold
+    style 6 fontWeight:bold

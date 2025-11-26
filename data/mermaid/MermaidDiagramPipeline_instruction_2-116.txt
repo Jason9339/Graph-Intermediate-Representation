@@ -1,0 +1,66 @@
+flowchart TB
+    classDef default fill:#f9d5e5,stroke:#333,stroke-width:2px,color:#333,font-size:14px
+    classDef stage fill:#efa8b0,stroke:#333,stroke-width:3px,color:#fff,font-size:16px,font-weight:bold
+
+    subgraph IP[Initial Planning]
+        direction TB
+        IP1[Select Cities]
+        IP2[Book Venues]
+        IP3[Set Tour Dates]
+    end
+    class IP stage
+
+    subgraph LF[Legal and Financial Planning]
+        direction TB
+        LF1[Obtain Permits]
+        LF2[Arrange Insurance]
+        LF3[Budget Allocation]
+    end
+    class LF stage
+
+    subgraph TS[Ticket Sales]
+        direction TB
+        TS1[Online Ticket Sales]
+        TS2[Physical Outlet Sales]
+    end
+    class TS stage
+
+    subgraph MP[Marketing and Promotion]
+        direction TB
+        MP1[Television Ads]
+        MP2[Social Media Campaigns]
+        MP3[Partnerships with Local Businesses]
+    end
+    class MP stage
+
+    subgraph VP[Venue Preparation]
+        direction TB
+        VP1[Stage Construction]
+        VP2[Lighting Setup]
+        VP3[Seating Arrangements]
+    end
+    class VP stage
+
+    subgraph DC[Day-of Concert Coordination]
+        direction TB
+        DC1[Backstage Arrangements]
+        DC2[Audience Engagement]
+    end
+    class DC stage
+
+    subgraph PN[Performance Night]
+        direction TB
+        PN1[Sound Check]
+        PN2[Opening Acts]
+        PN3[Final Performance]
+    end
+    class PN stage
+
+    IP --> LF
+    LF --> TS
+    TS --> MP
+    MP --> VP
+    VP --> DC
+    DC --> PN
+
+    linkStyle default stroke-width:2px,fill:none,stroke:#ff9ff3

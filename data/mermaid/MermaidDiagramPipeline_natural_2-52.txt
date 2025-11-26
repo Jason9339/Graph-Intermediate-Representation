@@ -1,0 +1,31 @@
+flowchart TB
+    classDef default fill:#f9f,stroke:#333,stroke-width:2px
+    classDef cosmic fill:#fcf,stroke:#633,stroke-width:3px
+    classDef human fill:#cff,stroke:#366,stroke-width:3px
+
+    stellar_nurseries["Stellar Nurseries"]:::cosmic
+    nebulae["Nebulae"]
+    protostar["Protostar"]
+    main_sequence_star["Main Sequence Star"]
+    red_giant["Red Giant"]
+    supernova["Supernova"]
+    neutron_star["Neutron Star"]
+    black_hole["Black Hole"]
+    human_connection["Human Connection"]:::human
+    cosmic_origins["Cosmic Origins"]:::cosmic
+
+    stellar_nurseries -->|form from| nebulae
+    nebulae -->|collapse and form| protostar
+    protostar -->|matures into| main_sequence_star
+    main_sequence_star -->|expands into| red_giant
+    red_giant -->|may explode into| supernova
+    supernova -->|can form| neutron_star
+    supernova -->|may collapse into| black_hole
+    stellar_nurseries -->|create elements for| human_connection
+    human_connection -->|explains| cosmic_origins
+    stellar_nurseries -->|start the cycle of| cosmic_origins
+
+    linkStyle default stroke-width:2px,fill:none,stroke:blue
+    linkStyle 7 stroke-width:3px,fill:none,stroke:#f66
+    linkStyle 8 stroke-width:3px,fill:none,stroke:#f66
+    linkStyle 9 stroke-width:3px,fill:none,stroke:#f66

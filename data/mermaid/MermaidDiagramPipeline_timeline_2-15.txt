@@ -1,0 +1,16 @@
+timeline
+    title Significant Accessibility Events Timeline
+    section 1990s
+        1990-07-26 : Americans with Disabilities Act (ADA) Enacted : Paved way for equal access legislation
+    section 2000s
+        2003-05-21 : Global Accessibility Awareness Day (GAAD) Inaugurated : Raised digital access awareness
+        2008-09-25 : ADA Amendments Act (ADAAA) : Broadened disability definition
+    section 2010s
+        2011-03-03 : International Cochlear Implant Awareness Day : Encouraged inclusive communication
+        2016-11-12 : National Sensory Awareness Month : Highlighted sensory processing issues
+        2017-12-03 : International Day of Persons with Disabilities : Promoted disability rights
+    section 2020s
+        2020-09-23 : International Day of Sign Languages : Emphasized sign language importance
+
+    %% Styling options
+    %%{init: { 'theme': 'forest', 'themeVariables': { 'fontSize': '16px', 'fontFamily': 'Arial', 'primaryColor': '#2E8B57', 'secondaryColor': '#87CEFA', 'tertiaryColor': '#FFD700' } } }%%

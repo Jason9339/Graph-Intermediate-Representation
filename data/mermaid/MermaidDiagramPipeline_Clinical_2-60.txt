@@ -1,0 +1,41 @@
+flowchart TD
+    classDef stageClass fill:#f9d5e5,stroke:#333,stroke-width:2px
+    classDef elementClass fill:#eeeeee,stroke:#333,stroke-width:1px
+
+    title["Transgender HRT Clinical Pathway"]
+    title:::stageClass
+
+    subgraph Initiation
+        I1[Initial Consultation]
+        I2[Baseline Assessments]
+        I3[Therapy Education]
+        I4[Initial Prescription]
+    end
+    classDef initiationClass fill:#e6f3ff,stroke:#333,stroke-width:1px
+    class Initiation,I1,I2,I3,I4 initiationClass
+
+    subgraph Maintenance
+        M1[Follow-up Appointments]
+        M2[Dose Adjustments]
+        M3[Supporting Services]
+    end
+    classDef maintenanceClass fill:#e6ffe6,stroke:#333,stroke-width:1px
+    class Maintenance,M1,M2,M3 maintenanceClass
+
+    subgraph Monitoring
+        MO1[Regular Monitoring]
+        MO2[Annual Evaluations]
+        MO3[Mental Health Support]
+    end
+    classDef monitoringClass fill:#fff0e6,stroke:#333,stroke-width:1px
+    class Monitoring,MO1,MO2,MO3 monitoringClass
+
+    title --> Initiation
+    Initiation --> Maintenance
+    Maintenance --> Monitoring
+
+    I1 --> I2 --> I3 --> I4
+    M1 --> M2 --> M3
+    MO1 --> MO2 --> MO3
+
+    linkStyle default stroke-width:2px,fill:none,stroke:#333

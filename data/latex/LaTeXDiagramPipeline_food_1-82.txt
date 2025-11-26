@@ -1,0 +1,43 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta, shapes, positioning, quotes}
+
+\begin{document}
+
+\begin{tikzpicture}[
+    node distance = 1.5cm and 3cm,
+    every node/.style = {draw, rounded corners, font=\sffamily, align=center},
+    process/.style = {rectangle, fill=orange!20, minimum width=2.5cm, minimum height=1cm},
+    certification/.style = {ellipse, fill=green!20, minimum width=2.5cm, minimum height=1cm},
+    edge/.style = {-Stealth, thick, draw=blue!50},
+    edge label/.style = {font=\tiny\sffamily, fill=white, inner sep=1pt}
+]
+
+% Nodes
+\node[process] (farmer) {Farmer Co-op\\{\tiny Local farming communities}};
+\node[certification, right=of farmer] (cert) {Organic\\Certification\\{\tiny Fair Trade, USDA Organic}};
+\node[process, below=of farmer] (harvest) {Harvesting\\{\tiny Hand-picking ripe beans}};
+\node[process, below=of harvest] (process) {Processing\\{\tiny Wet and dry methods}};
+\node[process, below=of process] (trade) {Direct Trade\\{\tiny Trader relationships}};
+\node[process, right=of trade] (roast) {Roasting Facility\\{\tiny Specialty roasters}};
+\node[process, right=of roast] (qc) {Quality Control\\{\tiny Cupping and grading}};
+\node[process, right=of qc] (pack) {Packaging\\{\tiny Eco-friendly materials}};
+\node[process, below=of roast] (dist) {Distribution\\{\tiny Logistics and transportation}};
+\node[process, below=of dist] (retail) {Retail\\{\tiny Coffee shops, online stores}};
+\node[process, below=of retail] (consumer) {Consumer\\{\tiny Ethically-conscious buyers}};
+
+% Edges
+\draw[edge] (farmer) to["Certification", edge label] (cert);
+\draw[edge] (farmer) to["Grow \& Harvest", edge label] (harvest);
+\draw[edge] (harvest) to["Process Beans", edge label] (process);
+\draw[edge] (process) to["Sell to Traders", edge label] (trade);
+\draw[edge] (trade) to["Deliver Beans", edge label] (roast);
+\draw[edge] (roast) to["Quality Check", edge label] (qc);
+\draw[edge] (qc) to["Pack Roasted Beans", edge label] (pack);
+\draw[edge] (pack) to["Send to Market", sloped, edge label] (dist);
+\draw[edge] (dist) to["Supply to Retail", edge label] (retail);
+\draw[edge] (retail) to["Sell to Consumers", edge label] (consumer);
+
+\end{tikzpicture}
+
+\end{document}

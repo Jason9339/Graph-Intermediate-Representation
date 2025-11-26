@@ -1,0 +1,37 @@
+\documentclass[border=10pt]{standalone}
+\usepackage{tikz}
+\usetikzlibrary{mindmap,trees,shadows}
+
+\begin{document}
+
+\begin{tikzpicture}[mindmap,
+    grow cyclic,
+    every node/.style={concept, execute at begin node=\hskip0pt},
+    level 1/.append style={level distance=4.5cm,sibling angle=90},
+    level 2/.append style={level distance=3cm,sibling angle=45},
+    level 3/.append style={level distance=2cm,sibling angle=45}]
+
+\node[concept color=olive!70,font=\Large\bfseries] {The Influence of Geography on Wine Taste}
+    child[concept color=red!60] { node {Climate}
+        child { node {Temperature} }
+        child { node {Sunlight} }
+        child { node {Rainfall} }
+    }
+    child[concept color=blue!60] { node {Soil}
+        child { node {Types} }
+        child { node {Mineral Content} }
+        child { node {Drainage} }
+    }
+    child[concept color=green!60] { node {Topography}
+        child { node {Altitude} }
+        child { node {Slope} }
+        child { node {Aspect} }
+    }
+    child[concept color=orange!60] { node {Regional Examples}
+        child { node {Italy} }
+        child { node {France} }
+        child { node {USA} }
+    };
+\end{tikzpicture}
+
+\end{document}

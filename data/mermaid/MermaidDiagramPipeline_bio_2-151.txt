@@ -1,0 +1,24 @@
+flowchart LR
+    classDef treatment fill:#ffd700,stroke:#000,stroke-width:2px,font-family:Arial,font-size:14px
+    classDef process fill:#87cefa,stroke:#000,stroke-width:2px,font-family:Arial,font-size:14px
+    classDef brain_region fill:#90ee90,stroke:#000,stroke-width:2px,font-family:Arial,font-size:14px
+    classDef patient_group fill:#ff6347,stroke:#000,stroke-width:2px,font-family:Arial,font-size:14px
+    classDef outcome fill:#dda0dd,stroke:#000,stroke-width:2px,font-family:Arial,font-size:14px
+
+    music_therapy(("Music Therapy")):::treatment
+    neural_plasticity(("Neural Plasticity")):::process
+    auditory_cortex["Auditory Cortex"]:::brain_region
+    motor_cortex["Motor Cortex"]:::brain_region
+    stroke_patients(("Stroke Patients")):::patient_group
+    improved_motor_skills(("Improved Motor Skills")):::outcome
+    broadmann_area_22["Broadmann Area 22"]:::brain_region
+
+    stroke_patients -->|Undergo| music_therapy
+    music_therapy -->|Promotes| neural_plasticity
+    neural_plasticity -->|Affects| auditory_cortex
+    neural_plasticity -->|Affects| motor_cortex
+    auditory_cortex -->|Contributes to| improved_motor_skills
+    motor_cortex -->|Contributes to| improved_motor_skills
+    auditory_cortex -->|Includes| broadmann_area_22
+
+    linkStyle default stroke-width:2px,fill:none,stroke:#333

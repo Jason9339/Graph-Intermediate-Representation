@@ -1,0 +1,38 @@
+graph TD
+    classDef stage fill:#f9d5e5,stroke:#333,stroke-width:2px,font-weight:bold
+    classDef qc fill:#eeac99,stroke:#333,stroke-width:1px
+    classDef sus fill:#e6d7b9,stroke:#333,stroke-width:1px
+
+    A[Farming] --> B[Harvesting]
+    B --> C[Processing]
+    C --> D[Drying]
+    D --> E[Milling]
+    E --> F[Exporting]
+    F --> G[Roasting]
+    G --> H[Brewing]
+
+    A1[Quality: Organic fertilizers]:::qc -.-> A
+    A2[Sustain: Fair Trade]:::sus -.-> A
+
+    B1[Quality: Sorting cherries]:::qc -.-> B
+    B2[Sustain: Fair wages]:::sus -.-> B
+
+    C1[Quality: Controlled fermentation]:::qc -.-> C
+    C2[Sustain: Water recycling]:::sus -.-> C
+
+    D1[Quality: Moisture monitoring]:::qc -.-> D
+    D2[Sustain: Solar drying]:::sus -.-> D
+
+    E1[Quality: Size & imperfection checks]:::qc -.-> E
+    E2[Sustain: Energy-efficient machinery]:::sus -.-> E
+
+    F1[Quality: Batch certification]:::qc -.-> F
+    F2[Sustain: Eco-friendly packaging]:::sus -.-> F
+
+    G1[Quality: Roast tests]:::qc -.-> G
+    G2[Sustain: Energy-efficient roasters]:::sus -.-> G
+
+    H1[Quality: Water checks]:::qc -.-> H
+    H2[Sustain: Composting grounds]:::sus -.-> H
+
+    class A,B,C,D,E,F,G,H stage
